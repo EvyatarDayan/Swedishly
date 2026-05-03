@@ -1,0 +1,1008 @@
+{
+  "topic": "Reflexiva pronomen",
+  "instruction": "Choose the correct reflexive pronoun",
+  "exercises": [
+
+      {
+        "id": 1,
+        "sentence": "Jag tvättar ____ varje morgon",
+        "baseAdjective": "jag",
+        "options": ["mig", "dig", "sig"],
+        "answer": "mig",
+        "rule": "Reflexive pronoun - jag",
+        "level": 1,
+        "translation": "I wash myself every morning"
+      },
+      {
+        "id": 2,
+        "sentence": "Du kammar ____ före skolan",
+        "baseAdjective": "du",
+        "options": ["mig", "dig", "sig"],
+        "answer": "dig",
+        "rule": "Reflexive pronoun - du",
+        "level": 1,
+        "translation": "You comb yourself before school"
+      },
+      {
+        "id": 3,
+        "sentence": "Han rakar ____ snabbt",
+        "baseAdjective": "han",
+        "options": ["honom", "sig", "mig"],
+        "answer": "sig",
+        "rule": "Reflexive pronoun - third person singular",
+        "level": 1,
+        "translation": "He shaves quickly"
+      },
+      {
+        "id": 4,
+        "sentence": "Hon sminkar ____ inför festen",
+        "baseAdjective": "hon",
+        "options": ["henne", "sig", "mig"],
+        "answer": "sig",
+        "rule": "Reflexive pronoun - third person singular",
+        "level": 1,
+        "translation": "She puts on makeup before the party"
+      },
+      {
+        "id": 5,
+        "sentence": "Vi sätter ____ ner",
+        "baseAdjective": "vi",
+        "options": ["oss", "er", "sig"],
+        "answer": "oss",
+        "rule": "Reflexive pronoun - vi",
+        "level": 1,
+        "translation": "We sit down"
+      },
+      {
+        "id": 6,
+        "sentence": "Ni skyndar ____ nu",
+        "baseAdjective": "ni",
+        "options": ["oss", "er", "sig"],
+        "answer": "er",
+        "rule": "Reflexive pronoun - ni",
+        "level": 1,
+        "translation": "You hurry now"
+      },
+      {
+        "id": 7,
+        "sentence": "De gömmer ____ bakom trädet",
+        "baseAdjective": "de",
+        "options": ["dem", "sig", "oss"],
+        "answer": "sig",
+        "rule": "Reflexive pronoun - de",
+        "level": 1,
+        "translation": "They hide behind the tree"
+      },
+      {
+        "id": 8,
+        "sentence": "Jag oroar ____ för provet",
+        "baseAdjective": "jag",
+        "options": ["mig", "sig", "dig"],
+        "answer": "mig",
+        "rule": "Reflexive verb (oroa sig)",
+        "level": 2,
+        "translation": "I worry about the test"
+      },
+      {
+        "id": 9,
+        "sentence": "Du bestämmer ____ idag",
+        "baseAdjective": "du",
+        "options": ["dig", "mig", "sig"],
+        "answer": "dig",
+        "rule": "Reflexive pronoun - du",
+        "level": 1,
+        "translation": "You decide today"
+      },
+      {
+        "id": 10,
+        "sentence": "Hon klär på ____ snabbt",
+        "baseAdjective": "hon",
+        "options": ["sig", "henne", "mig"],
+        "answer": "sig",
+        "rule": "Reflexive verb (klä på sig)",
+        "level": 2,
+        "translation": "She gets dressed quickly"
+      },
+      {
+        "id": 11,
+        "sentence": "Vi förbereder ____ inför mötet",
+        "baseAdjective": "vi",
+        "options": ["oss", "er", "sig"],
+        "answer": "oss",
+        "rule": "Reflexive verb (förbereda sig)",
+        "level": 2,
+        "translation": "We prepare ourselves for the meeting"
+      },
+      {
+        "id": 12,
+        "sentence": "Ni koncentrerar ____ på uppgiften",
+        "baseAdjective": "ni",
+        "options": ["er", "oss", "sig"],
+        "answer": "er",
+        "rule": "Reflexive verb (koncentrera sig)",
+        "level": 2,
+        "translation": "You concentrate on the task"
+      },
+      {
+        "id": 13,
+        "sentence": "De skäms för ____",
+        "baseAdjective": "de",
+        "options": ["dem", "sig", "oss"],
+        "answer": "sig",
+        "rule": "Reflexive verb (skämmas)",
+        "level": 2,
+        "translation": "They are ashamed"
+      },
+      {
+        "id": 14,
+        "sentence": "Han känner ____ trött",
+        "baseAdjective": "han",
+        "options": ["honom", "sig", "mig"],
+        "answer": "sig",
+        "rule": "Reflexive verb (känna sig)",
+        "level": 2,
+        "translation": "He feels tired"
+      },
+      {
+        "id": 15,
+        "sentence": "Jag sätter ____ på stolen",
+        "baseAdjective": "jag",
+        "options": ["mig", "dig", "sig"],
+        "answer": "mig",
+        "rule": "Reflexive verb (sätta sig)",
+        "level": 2,
+        "translation": "I sit down on the chair"
+      },
+      {
+        "id": 16,
+        "sentence": "Du lägger ____ tidigt",
+        "baseAdjective": "du",
+        "options": ["dig", "mig", "sig"],
+        "answer": "dig",
+        "rule": "Reflexive verb (lägga sig)",
+        "level": 2,
+        "translation": "You go to bed early"
+      },
+      {
+        "id": 17,
+        "sentence": "Hon anpassar ____ snabbt",
+        "baseAdjective": "hon",
+        "options": ["sig", "henne", "mig"],
+        "answer": "sig",
+        "rule": "Reflexive verb (anpassa sig)",
+        "level": 3,
+        "translation": "She adapts quickly"
+      },
+      {
+        "id": 18,
+        "sentence": "Vi tvättar ____ efter träningen",
+        "baseAdjective": "vi",
+        "options": ["oss", "er", "sig"],
+        "answer": "oss",
+        "rule": "Reflexive pronoun - vi",
+        "level": 1,
+        "translation": "We wash ourselves after training"
+      },
+      {
+        "id": 19,
+        "sentence": "Ni rakar ____ varje dag",
+        "baseAdjective": "ni",
+        "options": ["er", "oss", "sig"],
+        "answer": "er",
+        "rule": "Reflexive pronoun - ni",
+        "level": 1,
+        "translation": "You shave every day"
+      },
+      {
+        "id": 20,
+        "sentence": "De försvarar ____ mot kritiken",
+        "baseAdjective": "de",
+        "options": ["dem", "sig", "oss"],
+        "answer": "sig",
+        "rule": "Reflexive verb (försvara sig)",
+        "level": 3,
+        "translation": "They defend themselves against the criticism"
+      },
+      {
+          "id": 21,
+          "sentence": "Jag anmäler ____ till kursen",
+          "baseAdjective": "jag",
+          "options": ["mig", "sig", "dig"],
+          "answer": "mig",
+          "rule": "Reflexive verb (anmäla sig)",
+          "level": 3,
+          "translation": "I register for the course"
+        },
+        {
+          "id": 22,
+          "sentence": "Du ändrar ____ snabbt",
+          "baseAdjective": "du",
+          "options": ["dig", "mig", "sig"],
+          "answer": "dig",
+          "rule": "Reflexive pronoun - du",
+          "level": 1,
+          "translation": "You change quickly"
+        },
+        {
+          "id": 23,
+          "sentence": "Han tvättar ____ i badrummet",
+          "baseAdjective": "han",
+          "options": ["honom", "sig", "mig"],
+          "answer": "sig",
+          "rule": "Reflexive pronoun - third person singular",
+          "level": 1,
+          "translation": "He washes himself in the bathroom"
+        },
+        {
+          "id": 24,
+          "sentence": "Hon oroar ____ för barnen",
+          "baseAdjective": "hon",
+          "options": ["sig", "henne", "mig"],
+          "answer": "sig",
+          "rule": "Reflexive verb (oroa sig)",
+          "level": 2,
+          "translation": "She worries about the children"
+        },
+        {
+          "id": 25,
+          "sentence": "Vi bestämmer ____ imorgon",
+          "baseAdjective": "vi",
+          "options": ["oss", "er", "sig"],
+          "answer": "oss",
+          "rule": "Reflexive pronoun - vi",
+          "level": 1,
+          "translation": "We decide tomorrow"
+        },
+        {
+          "id": 26,
+          "sentence": "Ni lägger ____ sent",
+          "baseAdjective": "ni",
+          "options": ["er", "oss", "sig"],
+          "answer": "er",
+          "rule": "Reflexive verb (lägga sig)",
+          "level": 2,
+          "translation": "You go to bed late"
+        },
+        {
+          "id": 27,
+          "sentence": "De känner ____ redo",
+          "baseAdjective": "de",
+          "options": ["dem", "sig", "oss"],
+          "answer": "sig",
+          "rule": "Reflexive verb (känna sig)",
+          "level": 2,
+          "translation": "They feel ready"
+        },
+        {
+          "id": 28,
+          "sentence": "Jag skäms för ____",
+          "baseAdjective": "jag",
+          "options": ["mig", "sig", "dig"],
+          "answer": "mig",
+          "rule": "Reflexive verb (skämmas)",
+          "level": 2,
+          "translation": "I am ashamed"
+        },
+        {
+          "id": 29,
+          "sentence": "Du sätter ____ bredvid mig",
+          "baseAdjective": "du",
+          "options": ["dig", "mig", "sig"],
+          "answer": "dig",
+          "rule": "Reflexive verb (sätta sig)",
+          "level": 2,
+          "translation": "You sit next to me"
+        },
+        {
+          "id": 30,
+          "sentence": "Hon anpassar ____ snabbt",
+          "baseAdjective": "hon",
+          "options": ["sig", "henne", "mig"],
+          "answer": "sig",
+          "rule": "Reflexive verb (anpassa sig)",
+          "level": 3,
+          "translation": "She adapts quickly"
+        },
+        {
+          "id": 31,
+          "sentence": "Vi rakar ____ före jobbet",
+          "baseAdjective": "vi",
+          "options": ["oss", "er", "sig"],
+          "answer": "oss",
+          "rule": "Reflexive pronoun - vi",
+          "level": 1,
+          "translation": "We shave before work"
+        },
+        {
+          "id": 32,
+          "sentence": "Ni oroar ____ för resultatet",
+          "baseAdjective": "ni",
+          "options": ["er", "oss", "sig"],
+          "answer": "er",
+          "rule": "Reflexive verb (oroa sig)",
+          "level": 2,
+          "translation": "You worry about the result"
+        },
+        {
+          "id": 33,
+          "sentence": "De bestämmer ____ senare",
+          "baseAdjective": "de",
+          "options": ["dem", "sig", "oss"],
+          "answer": "sig",
+          "rule": "Reflexive pronoun - de",
+          "level": 1,
+          "translation": "They decide later"
+        },
+        {
+          "id": 34,
+          "sentence": "Han lägger ____ på soffan",
+          "baseAdjective": "han",
+          "options": ["honom", "sig", "mig"],
+          "answer": "sig",
+          "rule": "Reflexive verb (lägga sig)",
+          "level": 2,
+          "translation": "He lies down on the sofa"
+        },
+        {
+          "id": 35,
+          "sentence": "Hon sätter ____ längst fram",
+          "baseAdjective": "hon",
+          "options": ["sig", "henne", "mig"],
+          "answer": "sig",
+          "rule": "Reflexive verb (sätta sig)",
+          "level": 2,
+          "translation": "She sits at the front"
+        },
+        {
+          "id": 36,
+          "sentence": "Jag koncentrerar ____ bättre nu",
+          "baseAdjective": "jag",
+          "options": ["mig", "sig", "dig"],
+          "answer": "mig",
+          "rule": "Reflexive verb (koncentrera sig)",
+          "level": 2,
+          "translation": "I concentrate better now"
+        },
+        {
+          "id": 37,
+          "sentence": "Du känner ____ sjuk",
+          "baseAdjective": "du",
+          "options": ["dig", "mig", "sig"],
+          "answer": "dig",
+          "rule": "Reflexive verb (känna sig)",
+          "level": 2,
+          "translation": "You feel sick"
+        },
+        {
+          "id": 38,
+          "sentence": "Vi skäms för ____ ibland",
+          "baseAdjective": "vi",
+          "options": ["oss", "er", "sig"],
+          "answer": "oss",
+          "rule": "Reflexive verb (skämmas)",
+          "level": 2,
+          "translation": "We are ashamed sometimes"
+        },
+        {
+          "id": 39,
+          "sentence": "Ni försvarar ____ bra",
+          "baseAdjective": "ni",
+          "options": ["er", "oss", "sig"],
+          "answer": "er",
+          "rule": "Reflexive verb (försvara sig)",
+          "level": 3,
+          "translation": "You defend yourselves well"
+        },
+        {
+          "id": 40,
+          "sentence": "De lägger ____ tidigt",
+          "baseAdjective": "de",
+          "options": ["dem", "sig", "oss"],
+          "answer": "sig",
+          "rule": "Reflexive verb (lägga sig)",
+          "level": 2,
+          "translation": "They go to bed early"
+        },
+        {
+           "id": 41,
+           "sentence": "Jag rakar ____ före festen",
+           "baseAdjective": "jag",
+           "options": ["mig", "sig", "dig"],
+           "answer": "mig",
+           "rule": "Reflexive pronoun - jag",
+           "level": 1,
+           "translation": "I shave before the party"
+         },
+         {
+           "id": 42,
+           "sentence": "Du förbereder ____ noggrant",
+           "baseAdjective": "du",
+           "options": ["dig", "mig", "sig"],
+           "answer": "dig",
+           "rule": "Reflexive verb (förbereda sig)",
+           "level": 2,
+           "translation": "You prepare carefully"
+         },
+         {
+           "id": 43,
+           "sentence": "Han oroar ____ för framtiden",
+           "baseAdjective": "han",
+           "options": ["honom", "sig", "mig"],
+           "answer": "sig",
+           "rule": "Reflexive verb (oroa sig)",
+           "level": 2,
+           "translation": "He worries about the future"
+         },
+         {
+           "id": 44,
+           "sentence": "Hon tvättar ____ efter jobbet",
+           "baseAdjective": "hon",
+           "options": ["henne", "sig", "mig"],
+           "answer": "sig",
+           "rule": "Reflexive pronoun - third person singular",
+           "level": 1,
+           "translation": "She washes herself after work"
+         },
+         {
+           "id": 45,
+           "sentence": "Vi lägger ____ sent på helgen",
+           "baseAdjective": "vi",
+           "options": ["oss", "er", "sig"],
+           "answer": "oss",
+           "rule": "Reflexive verb (lägga sig)",
+           "level": 2,
+           "translation": "We go to bed late on weekends"
+         },
+         {
+           "id": 46,
+           "sentence": "Ni känner ____ stolta",
+           "baseAdjective": "ni",
+           "options": ["er", "oss", "sig"],
+           "answer": "er",
+           "rule": "Reflexive verb (känna sig)",
+           "level": 2,
+           "translation": "You feel proud"
+         },
+         {
+           "id": 47,
+           "sentence": "De anmäler ____ till tävlingen",
+           "baseAdjective": "de",
+           "options": ["dem", "sig", "oss"],
+           "answer": "sig",
+           "rule": "Reflexive verb (anmäla sig)",
+           "level": 3,
+           "translation": "They register for the competition"
+         },
+         {
+           "id": 48,
+           "sentence": "Jag sätter ____ här",
+           "baseAdjective": "jag",
+           "options": ["mig", "sig", "dig"],
+           "answer": "mig",
+           "rule": "Reflexive verb (sätta sig)",
+           "level": 2,
+           "translation": "I sit here"
+         },
+         {
+           "id": 49,
+           "sentence": "Du skäms för ____ ibland",
+           "baseAdjective": "du",
+           "options": ["dig", "mig", "sig"],
+           "answer": "dig",
+           "rule": "Reflexive verb (skämmas)",
+           "level": 2,
+           "translation": "You are ashamed sometimes"
+         },
+         {
+           "id": 50,
+           "sentence": "Hon försvarar ____ modigt",
+           "baseAdjective": "hon",
+           "options": ["sig", "henne", "mig"],
+           "answer": "sig",
+           "rule": "Reflexive verb (försvara sig)",
+           "level": 3,
+           "translation": "She defends herself bravely"
+         },
+         {
+           "id": 51,
+           "sentence": "Vi oroar ____ för vädret",
+           "baseAdjective": "vi",
+           "options": ["oss", "er", "sig"],
+           "answer": "oss",
+           "rule": "Reflexive verb (oroa sig)",
+           "level": 2,
+           "translation": "We worry about the weather"
+         },
+         {
+           "id": 52,
+           "sentence": "Ni sätter ____ längst bak",
+           "baseAdjective": "ni",
+           "options": ["er", "oss", "sig"],
+           "answer": "er",
+           "rule": "Reflexive verb (sätta sig)",
+           "level": 2,
+           "translation": "You sit at the back"
+         },
+         {
+           "id": 53,
+           "sentence": "De koncentrerar ____ bättre nu",
+           "baseAdjective": "de",
+           "options": ["dem", "sig", "oss"],
+           "answer": "sig",
+           "rule": "Reflexive verb (koncentrera sig)",
+           "level": 2,
+           "translation": "They concentrate better now"
+         },
+         {
+           "id": 54,
+           "sentence": "Han lägger ____ på sängen",
+           "baseAdjective": "han",
+           "options": ["honom", "sig", "mig"],
+           "answer": "sig",
+           "rule": "Reflexive verb (lägga sig)",
+           "level": 2,
+           "translation": "He lies down on the bed"
+         },
+         {
+           "id": 55,
+           "sentence": "Hon bestämmer ____ snabbt",
+           "baseAdjective": "hon",
+           "options": ["sig", "henne", "mig"],
+           "answer": "sig",
+           "rule": "Reflexive pronoun - third person singular",
+           "level": 1,
+           "translation": "She decides quickly"
+         },
+         {
+           "id": 56,
+           "sentence": "Jag känner ____ bättre idag",
+           "baseAdjective": "jag",
+           "options": ["mig", "sig", "dig"],
+           "answer": "mig",
+           "rule": "Reflexive verb (känna sig)",
+           "level": 2,
+           "translation": "I feel better today"
+         },
+         {
+           "id": 57,
+           "sentence": "Du anpassar ____ snabbt",
+           "baseAdjective": "du",
+           "options": ["dig", "mig", "sig"],
+           "answer": "dig",
+           "rule": "Reflexive verb (anpassa sig)",
+           "level": 3,
+           "translation": "You adapt quickly"
+         },
+         {
+           "id": 58,
+           "sentence": "Vi anmäler ____ idag",
+           "baseAdjective": "vi",
+           "options": ["oss", "er", "sig"],
+           "answer": "oss",
+           "rule": "Reflexive verb (anmäla sig)",
+           "level": 3,
+           "translation": "We register today"
+         },
+         {
+           "id": 59,
+           "sentence": "Ni skäms för ____ nu",
+           "baseAdjective": "ni",
+           "options": ["er", "oss", "sig"],
+           "answer": "er",
+           "rule": "Reflexive verb (skämmas)",
+           "level": 2,
+           "translation": "You are ashamed now"
+         },
+         {
+           "id": 60,
+           "sentence": "De tvättar ____ efter matchen",
+           "baseAdjective": "de",
+           "options": ["dem", "sig", "oss"],
+           "answer": "sig",
+           "rule": "Reflexive pronoun - de",
+           "level": 1,
+           "translation": "They wash themselves after the match"
+         },
+         {
+             "id": 61,
+             "sentence": "Jag försvarar ____ mot kritiken",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive verb (försvara sig)",
+             "level": 3,
+             "translation": "I defend myself against the criticism"
+           },
+           {
+             "id": 62,
+             "sentence": "Du oroar ____ för jobbet",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (oroa sig)",
+             "level": 2,
+             "translation": "You worry about the job"
+           },
+           {
+             "id": 63,
+             "sentence": "Han anmäler ____ sent",
+             "baseAdjective": "han",
+             "options": ["honom", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (anmäla sig)",
+             "level": 3,
+             "translation": "He registers late"
+           },
+           {
+             "id": 64,
+             "sentence": "Hon koncentrerar ____ bättre",
+             "baseAdjective": "hon",
+             "options": ["henne", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (koncentrera sig)",
+             "level": 2,
+             "translation": "She concentrates better"
+           },
+           {
+             "id": 65,
+             "sentence": "Vi känner ____ säkra",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "We feel safe"
+           },
+           {
+             "id": 66,
+             "sentence": "Ni bestämmer ____ snart",
+             "baseAdjective": "ni",
+             "options": ["er", "oss", "sig"],
+             "answer": "er",
+             "rule": "Reflexive pronoun - ni",
+             "level": 1,
+             "translation": "You decide soon"
+           },
+           {
+             "id": 67,
+             "sentence": "De lägger ____ på golvet",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "They lie down on the floor"
+           },
+           {
+             "id": 68,
+             "sentence": "Jag anpassar ____ snabbt",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive verb (anpassa sig)",
+             "level": 3,
+             "translation": "I adapt quickly"
+           },
+           {
+             "id": 69,
+             "sentence": "Du försvarar ____ bra",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (försvara sig)",
+             "level": 3,
+             "translation": "You defend yourself well"
+           },
+           {
+             "id": 70,
+             "sentence": "Hon lägger ____ tidigt",
+             "baseAdjective": "hon",
+             "options": ["sig", "henne", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "She goes to bed early"
+           },
+           {
+             "id": 71,
+             "sentence": "Vi sätter ____ i soffan",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (sätta sig)",
+             "level": 2,
+             "translation": "We sit on the sofa"
+           },
+           {
+             "id": 72,
+             "sentence": "Ni anmäler ____ nu",
+             "baseAdjective": "ni",
+             "options": ["er", "oss", "sig"],
+             "answer": "er",
+             "rule": "Reflexive verb (anmäla sig)",
+             "level": 3,
+             "translation": "You register now"
+           },
+           {
+             "id": 73,
+             "sentence": "De oroar ____ för framtiden",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (oroa sig)",
+             "level": 2,
+             "translation": "They worry about the future"
+           },
+           {
+             "id": 74,
+             "sentence": "Jag koncentrerar ____ bättre",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive verb (koncentrera sig)",
+             "level": 2,
+             "translation": "I concentrate better"
+           },
+           {
+             "id": 75,
+             "sentence": "Du känner ____ glad",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "You feel happy"
+           },
+           {
+             "id": 76,
+             "sentence": "Han skäms för ____ ibland",
+             "baseAdjective": "han",
+             "options": ["honom", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (skämmas)",
+             "level": 2,
+             "translation": "He is ashamed sometimes"
+           },
+           {
+             "id": 77,
+             "sentence": "Hon försvarar ____ starkt",
+             "baseAdjective": "hon",
+             "options": ["sig", "henne", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (försvara sig)",
+             "level": 3,
+             "translation": "She defends herself strongly"
+           },
+           {
+             "id": 78,
+             "sentence": "Vi lägger ____ på stranden",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "We lie down on the beach"
+           },
+           {
+             "id": 79,
+             "sentence": "Ni anpassar ____ snabbt",
+             "baseAdjective": "ni",
+             "options": ["er", "oss", "sig"],
+             "answer": "er",
+             "rule": "Reflexive verb (anpassa sig)",
+             "level": 3,
+             "translation": "You adapt quickly"
+           },
+           {
+             "id": 80,
+             "sentence": "De känner ____ trötta",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "They feel tired"
+           },
+           {
+             "id": 81,
+             "sentence": "Jag bestämmer ____ snart",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive pronoun - jag",
+             "level": 1,
+             "translation": "I decide soon"
+           },
+           {
+             "id": 82,
+             "sentence": "Du lägger ____ på sängen",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "You lie down on the bed"
+           },
+           {
+             "id": 83,
+             "sentence": "Han koncentrerar ____ bättre nu",
+             "baseAdjective": "han",
+             "options": ["honom", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (koncentrera sig)",
+             "level": 2,
+             "translation": "He concentrates better now"
+           },
+           {
+             "id": 84,
+             "sentence": "Hon anmäler ____ direkt",
+             "baseAdjective": "hon",
+             "options": ["sig", "henne", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (anmäla sig)",
+             "level": 3,
+             "translation": "She registers immediately"
+           },
+           {
+             "id": 85,
+             "sentence": "Vi försvarar ____ bra",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (försvara sig)",
+             "level": 3,
+             "translation": "We defend ourselves well"
+           },
+           {
+             "id": 86,
+             "sentence": "Ni oroar ____ ofta",
+             "baseAdjective": "ni",
+             "options": ["er", "oss", "sig"],
+             "answer": "er",
+             "rule": "Reflexive verb (oroa sig)",
+             "level": 2,
+             "translation": "You worry often"
+           },
+           {
+             "id": 87,
+             "sentence": "De skäms för ____ ibland",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (skämmas)",
+             "level": 2,
+             "translation": "They are ashamed sometimes"
+           },
+           {
+             "id": 88,
+             "sentence": "Jag känner ____ nervös",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "I feel nervous"
+           },
+           {
+             "id": 89,
+             "sentence": "Du sätter ____ vid bordet",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (sätta sig)",
+             "level": 2,
+             "translation": "You sit at the table"
+           },
+           {
+             "id": 90,
+             "sentence": "Han anpassar ____ snabbt",
+             "baseAdjective": "han",
+             "options": ["honom", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (anpassa sig)",
+             "level": 3,
+             "translation": "He adapts quickly"
+           },
+           {
+             "id": 91,
+             "sentence": "Hon känner ____ trygg",
+             "baseAdjective": "hon",
+             "options": ["sig", "henne", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "She feels safe"
+           },
+           {
+             "id": 92,
+             "sentence": "Vi lägger ____ tidigt idag",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "We go to bed early today"
+           },
+           {
+             "id": 93,
+             "sentence": "Ni försvarar ____ mot attacken",
+             "baseAdjective": "ni",
+             "options": ["er", "oss", "sig"],
+             "answer": "er",
+             "rule": "Reflexive verb (försvara sig)",
+             "level": 3,
+             "translation": "You defend yourselves against the attack"
+           },
+           {
+             "id": 94,
+             "sentence": "De anmäler ____ sent",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (anmäla sig)",
+             "level": 3,
+             "translation": "They register late"
+           },
+           {
+             "id": 95,
+             "sentence": "Jag oroar ____ ibland",
+             "baseAdjective": "jag",
+             "options": ["mig", "sig", "dig"],
+             "answer": "mig",
+             "rule": "Reflexive verb (oroa sig)",
+             "level": 2,
+             "translation": "I worry sometimes"
+           },
+           {
+             "id": 96,
+             "sentence": "Du koncentrerar ____ bättre",
+             "baseAdjective": "du",
+             "options": ["dig", "mig", "sig"],
+             "answer": "dig",
+             "rule": "Reflexive verb (koncentrera sig)",
+             "level": 2,
+             "translation": "You concentrate better"
+           },
+           {
+             "id": 97,
+             "sentence": "Han bestämmer ____ snabbt",
+             "baseAdjective": "han",
+             "options": ["honom", "sig", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive pronoun - third person singular",
+             "level": 1,
+             "translation": "He decides quickly"
+           },
+           {
+             "id": 98,
+             "sentence": "Hon lägger ____ på soffan",
+             "baseAdjective": "hon",
+             "options": ["sig", "henne", "mig"],
+             "answer": "sig",
+             "rule": "Reflexive verb (lägga sig)",
+             "level": 2,
+             "translation": "She lies down on the sofa"
+           },
+           {
+             "id": 99,
+             "sentence": "Vi skäms för ____ ibland",
+             "baseAdjective": "vi",
+             "options": ["oss", "er", "sig"],
+             "answer": "oss",
+             "rule": "Reflexive verb (skämmas)",
+             "level": 2,
+             "translation": "We are ashamed sometimes"
+           },
+           {
+             "id": 100,
+             "sentence": "De känner ____ redo",
+             "baseAdjective": "de",
+             "options": ["dem", "sig", "oss"],
+             "answer": "sig",
+             "rule": "Reflexive verb (känna sig)",
+             "level": 2,
+             "translation": "They feel ready"
+           }
+    
+  ]
+}

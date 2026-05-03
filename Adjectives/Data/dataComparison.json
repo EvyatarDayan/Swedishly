@@ -1,0 +1,1622 @@
+[
+    {
+        "id": 1,
+        "group": "billig",
+        "sentence": "Den här jackan är ______",
+        "answer": "billig",
+        "englishAnswer": "cheap",
+        "options": ["billig", "billigare", "billigast"],
+        "translation": "This jacket is cheap"
+      },
+      {
+        "id": 2,
+        "group": "billig",
+        "sentence": "Har ni någon ______ jacka",
+        "answer": "billigare",
+        "englishAnswer": "cheaper",
+        "options": ["billig", "billigare", "billigast"],
+        "translation": "Do you have a cheaper jacket"
+      },
+      {
+        "id": 3,
+        "group": "billig",
+        "sentence": "Denna jackan är ______ i butiken",
+        "answer": "billigast",
+        "englishAnswer": "cheapest",
+        "options": ["billig", "billigare", "billigast"],
+        "translation": "This jacket is cheapest in the store"
+      },
+      {
+        "id": 4,
+        "group": "varm",
+        "sentence": "Idag är solen ______",
+        "answer": "varm",
+        "englishAnswer": "warm",
+        "options": ["varm", "varmare", "varmast"],
+        "translation": "Today the sun is warm"
+      },
+      {
+        "id": 5,
+        "group": "varm",
+        "sentence": "Kaffet är ______ än teet",
+        "answer": "varmare",
+        "englishAnswer": "warmer",
+        "options": ["varm", "varmare", "varmast"],
+        "translation": "The coffee is warmer than the tea"
+      },
+      {
+        "id": 6,
+        "group": "varm",
+        "sentence": "Detta är årets ______ dag",
+        "answer": "varmast",
+        "englishAnswer": "warmest",
+        "options": ["varm", "varmare", "varmast"],
+        "translation": "This is the warmest day of the year"
+      },
+      {
+        "id": 7,
+        "group": "stark",
+        "sentence": "Min pappa är ______",
+        "answer": "stark",
+        "englishAnswer": "strong",
+        "options": ["stark", "starkare", "starkast"],
+        "translation": "My dad is strong"
+      },
+      {
+        "id": 8,
+        "group": "stark",
+        "sentence": "Björnen är ______ än vargen",
+        "answer": "starkare",
+        "englishAnswer": "stronger",
+        "options": ["stark", "starkare", "starkast"],
+        "translation": "The bear is stronger than the wolf"
+      },
+      {
+        "id": 9,
+        "group": "stark",
+        "sentence": "Vem är ______ i världen",
+        "answer": "starkast",
+        "englishAnswer": "strongest",
+        "options": ["stark", "starkare", "starkast"],
+        "translation": "Who is strongest in the world"
+      },
+      {
+        "id": 10,
+        "group": "snabb",
+        "sentence": "Hästen är ______",
+        "answer": "snabb",
+        "englishAnswer": "fast",
+        "options": ["snabb", "snabbare", "snabbast"],
+        "translation": "The horse is fast"
+      },
+      {
+        "id": 11,
+        "group": "snabb",
+        "sentence": "Bilen är ______ än cykeln",
+        "answer": "snabbare",
+        "englishAnswer": "faster",
+        "options": ["snabb", "snabbare", "snabbast"],
+        "translation": "The car is faster than the bike"
+      },
+      {
+        "id": 12,
+        "group": "snabb",
+        "sentence": "Leoparden är ______ på land",
+        "answer": "snabbast",
+        "englishAnswer": "fastest",
+        "options": ["snabb", "snabbare", "snabbast"],
+        "translation": "The leopard is fastest on land"
+      },
+      {
+        "id": 13,
+        "group": "lång",
+        "sentence": "Vägen till staden är ______",
+        "answer": "lång",
+        "englishAnswer": "long",
+        "options": ["lång", "längre", "längst"],
+        "translation": "The road to the city is long"
+      },
+      {
+        "id": 14,
+        "group": "lång",
+        "sentence": "Den här kön är ______ än den andra",
+        "answer": "längre",
+        "englishAnswer": "longer",
+        "options": ["lång", "längre", "längst"],
+        "translation": "This queue is longer than the other"
+      },
+      {
+        "id": 15,
+        "group": "lång",
+        "sentence": "Nilen är världens ______ flod",
+        "answer": "längst",
+        "englishAnswer": "longest",
+        "options": ["lång", "längre", "längst"],
+        "translation": "The Nile is the world's longest river"
+      },
+      {
+        "id": 16,
+        "group": "bra",
+        "sentence": "Filmen vi såg var ______",
+        "answer": "bra",
+        "englishAnswer": "good",
+        "options": ["bra", "bättre", "bäst"],
+        "translation": "The movie we saw was good"
+      },
+      {
+        "id": 17,
+        "group": "bra",
+        "sentence": "Du sjunger ______ än jag",
+        "answer": "bättre",
+        "englishAnswer": "better",
+        "options": ["bra", "bättre", "bäst"],
+        "translation": "You sing better than I"
+      },
+      {
+        "id": 18,
+        "group": "bra",
+        "sentence": "Chokladglass är ______",
+        "answer": "bäst",
+        "englishAnswer": "best",
+        "options": ["bra", "bättre", "bäst"],
+        "translation": "Chocolate ice cream is best"
+      },
+      {
+        "id": 19,
+        "group": "gammal",
+        "sentence": "Boken är ganska ______",
+        "answer": "gammal",
+        "englishAnswer": "old",
+        "options": ["gammal", "äldre", "äldst"],
+        "translation": "The book is quite old"
+      },
+      {
+        "id": 20,
+        "group": "gammal",
+        "sentence": "Min farfar är ______ än min farmor",
+        "answer": "äldre",
+        "englishAnswer": "older",
+        "options": ["gammal", "äldre", "äldst"],
+        "translation": "My grandfather is older than my grandmother"
+      },
+      {
+        "id": 21,
+        "group": "gammal",
+        "sentence": "Detta är stadens ______ kyrka",
+        "answer": "äldst",
+        "englishAnswer": "oldest",
+        "options": ["gammal", "äldre", "äldst"],
+        "translation": "This is the city's oldest church"
+      },
+      {
+        "id": 22,
+        "group": "liten",
+        "sentence": "Stugan är mycket ______",
+        "answer": "liten",
+        "englishAnswer": "small",
+        "options": ["liten", "mindre", "minst"],
+        "translation": "The cabin is very small"
+      },
+      {
+        "id": 23,
+        "group": "liten",
+        "sentence": "Min mobil är ______ än din",
+        "answer": "mindre",
+        "englishAnswer": "smaller",
+        "options": ["liten", "mindre", "minst"],
+        "translation": "My phone is smaller than yours"
+      },
+      {
+        "id": 24,
+        "group": "liten",
+        "sentence": "Musen är ______ i huset",
+        "answer": "minst",
+        "englishAnswer": "smallest",
+        "options": ["liten", "mindre", "minst"],
+        "translation": "The mouse is smallest in the house"
+      },
+      {
+        "id": 25,
+        "group": "vacker",
+        "sentence": "Utsikten är ______",
+        "answer": "vacker",
+        "englishAnswer": "beautiful",
+        "options": ["vacker", "vackrare", "vackrast"],
+        "translation": "The view is beautiful"
+      },
+      {
+        "id": 26,
+        "group": "vacker",
+        "sentence": "Solen är ______ ikväll",
+        "answer": "vackrare",
+        "englishAnswer": "more beautiful",
+        "options": ["vacker", "vackrare", "vackrast"],
+        "translation": "The sun is more beautiful tonight"
+      },
+      {
+        "id": 27,
+        "group": "vacker",
+        "sentence": "Detta är världens ______ blomma",
+        "answer": "vackrast",
+        "englishAnswer": "most beautiful",
+        "options": ["vacker", "vackrare", "vackrast"],
+        "translation": "This is the world's most beautiful flower"
+      },
+      {
+        "id": 28,
+        "group": "dyr",
+        "sentence": "Klockan är ganska ______",
+        "answer": "dyr",
+        "englishAnswer": "expensive",
+        "options": ["dyr", "dyrare", "dyrast"],
+        "translation": "The watch is quite expensive"
+      },
+      {
+        "id": 29,
+        "group": "dyr",
+        "sentence": "Guld är ______ än silver",
+        "answer": "dyrare",
+        "englishAnswer": "more expensive",
+        "options": ["dyr", "dyrare", "dyrast"],
+        "translation": "Gold is more expensive than silver"
+      },
+      {
+        "id": 30,
+        "group": "dyr",
+        "sentence": "Vilken ring är ______ i fönstret",
+        "answer": "dyrast",
+        "englishAnswer": "most expensive",
+        "options": ["dyr", "dyrare", "dyrast"],
+        "translation": "Which ring is most expensive in the window"
+      },
+      {
+        "id": 31,
+        "group": "tung",
+        "sentence": "Stenen är ______",
+        "answer": "tung",
+        "englishAnswer": "heavy",
+        "options": ["tung", "tyngre", "tyngst"],
+        "translation": "The stone is heavy"
+      },
+      {
+        "id": 32,
+        "group": "tung",
+        "sentence": "Den här väskan känns ______ än den förra",
+        "answer": "tyngre",
+        "englishAnswer": "heavier",
+        "options": ["tung", "tyngre", "tyngst"],
+        "translation": "This bag feels heavier than the last one"
+      },
+      {
+        "id": 33,
+        "group": "tung",
+        "sentence": "Bly är det ______ ämnet vi har",
+        "answer": "tyngst",
+        "englishAnswer": "heaviest",
+        "options": ["tung", "tyngre", "tyngst"],
+        "translation": "Lead is the heaviest substance we have"
+      },
+      {
+        "id": 34,
+        "group": "hög",
+        "sentence": "Byggnaden är ganska ______",
+        "answer": "hög",
+        "englishAnswer": "high",
+        "options": ["hög", "högre", "högst"],
+        "translation": "The building is quite high"
+      },
+      {
+        "id": 35,
+        "group": "hög",
+        "sentence": "Flygplanet flyger ______ än fågeln",
+        "answer": "högre",
+        "englishAnswer": "higher",
+        "options": ["hög", "högre", "högst"],
+        "translation": "The airplane flies higher than the bird"
+      },
+      {
+        "id": 36,
+        "group": "hög",
+        "sentence": "Kebnekaise är Sveriges ______ berg",
+        "answer": "högst",
+        "englishAnswer": "highest",
+        "options": ["hög", "högre", "högst"],
+        "translation": "Kebnekaise is Sweden's highest mountain"
+      },
+      {
+        "id": 37,
+        "group": "svår",
+        "sentence": "Frågan var ______",
+        "answer": "svår",
+        "englishAnswer": "difficult",
+        "options": ["svår", "svårare", "svårast"],
+        "translation": "The question was difficult"
+      },
+      {
+        "id": 38,
+        "group": "svår",
+        "sentence": "Läxan är ______ idag än igår",
+        "answer": "svårare",
+        "englishAnswer": "more difficult",
+        "options": ["svår", "svårare", "svårast"],
+        "translation": "The homework is more difficult today than yesterday"
+      },
+      {
+        "id": 39,
+        "group": "svår",
+        "sentence": "Detta är det ______ provet jag har gjort",
+        "answer": "svårast",
+        "englishAnswer": "most difficult",
+        "options": ["svår", "svårare", "svårast"],
+        "translation": "This is the most difficult test I have done"
+      },
+      {
+        "id": 40,
+        "group": "mörk",
+        "sentence": "Skogen är ______",
+        "answer": "mörk",
+        "englishAnswer": "dark",
+        "options": ["mörk", "mörkare", "mörkast"],
+        "translation": "The forest is dark"
+      },
+      {
+        "id": 41,
+        "group": "mörk",
+        "sentence": "Himlen blir ______ på kvällen",
+        "answer": "mörkare",
+        "englishAnswer": "darker",
+        "options": ["mörk", "mörkare", "mörkast"],
+        "translation": "The sky gets darker in the evening"
+      },
+      {
+        "id": 42,
+        "group": "mörk",
+        "sentence": "Det är ______ i källaren",
+        "answer": "mörkast",
+        "englishAnswer": "darkest",
+        "options": ["mörk", "mörkare", "mörkast"],
+        "translation": "It is darkest in the basement"
+      },
+      {
+        "id": 43,
+        "group": "ljus",
+        "sentence": "Dagen är ______",
+        "answer": "ljus",
+        "englishAnswer": "light",
+        "options": ["ljus", "ljusare", "ljusast"],
+        "translation": "The day is light"
+      },
+      {
+        "id": 44,
+        "group": "ljus",
+        "sentence": "Väggarna blev ______ efter målningen",
+        "answer": "ljusare",
+        "englishAnswer": "lighter",
+        "options": ["ljus", "ljusare", "ljusast"],
+        "translation": "The walls became lighter after the painting"
+      },
+      {
+        "id": 45,
+        "group": "ljus",
+        "sentence": "Det är ______ i rummet vid fönstret",
+        "answer": "ljusast",
+        "englishAnswer": "brightest",
+        "options": ["ljus", "ljusare", "ljusast"],
+        "translation": "It is brightest in the room by the window"
+      },
+      {
+        "id": 46,
+        "group": "glad",
+        "sentence": "Han ser ______ ut",
+        "answer": "glad",
+        "englishAnswer": "happy",
+        "options": ["glad", "gladare", "gladast"],
+        "translation": "He looks happy"
+      },
+      {
+        "id": 47,
+        "group": "glad",
+        "sentence": "Jag blev ______ när jag vann",
+        "answer": "gladare",
+        "englishAnswer": "happier",
+        "options": ["glad", "gladare", "gladast"],
+        "translation": "I became happier when I won"
+      },
+      {
+        "id": 48,
+        "group": "glad",
+        "sentence": "Vem är ______ på festen",
+        "answer": "gladast",
+        "englishAnswer": "happiest",
+        "options": ["glad", "gladare", "gladast"],
+        "translation": "Who is happiest at the party"
+      },
+      {
+        "id": 49,
+        "group": "intressant",
+        "sentence": "Historien var ______",
+        "answer": "intressant",
+        "englishAnswer": "interesting",
+        "options": ["intressant", "mer intressant", "mest intressant"],
+        "translation": "The story was interesting"
+      },
+      {
+        "id": 50,
+        "group": "intressant",
+        "sentence": "Forskning är ______ än sport",
+        "answer": "mer intressant",
+        "englishAnswer": "more interesting",
+        "options": ["intressant", "mer intressant", "mest intressant"],
+        "translation": "Research is more interesting than sports"
+      },
+      {
+        "id": 51,
+        "group": "intressant",
+        "sentence": "Det här är den ______ boken jag läst",
+        "answer": "mest intressant",
+        "englishAnswer": "most interesting",
+        "options": ["intressant", "mer intressant", "mest intressant"],
+        "translation": "This is the most interesting book I have read"
+      },
+      {
+        "id": 52,
+        "group": "dålig",
+        "sentence": "Fisken luktar ______",
+        "answer": "dålig",
+        "englishAnswer": "bad",
+        "options": ["dålig", "sämre", "sämst"],
+        "translation": "The fish smells bad"
+      },
+      {
+        "id": 53,
+        "group": "dålig",
+        "sentence": "Vädret är ______ idag än igår",
+        "answer": "sämre",
+        "englishAnswer": "worse",
+        "options": ["dålig", "sämre", "sämst"],
+        "translation": "The weather is worse today than yesterday"
+      },
+      {
+        "id": 54,
+        "group": "dålig",
+        "sentence": "Detta var hans ______ match någonsin",
+        "answer": "sämst",
+        "englishAnswer": "worst",
+        "options": ["dålig", "sämre", "sämst"],
+        "translation": "This was his worst match ever"
+      },
+      {
+        "id": 55,
+        "group": "lugn",
+        "sentence": "Sjön är ______",
+        "answer": "lugn",
+        "englishAnswer": "calm",
+        "options": ["lugn", "lugnare", "lugnast"],
+        "translation": "The lake is calm"
+      },
+      {
+        "id": 56,
+        "group": "lugn",
+        "sentence": "Kvällen är ______ än morgonen",
+        "answer": "lugnare",
+        "englishAnswer": "calmer",
+        "options": ["lugn", "lugnare", "lugnast"],
+        "translation": "The evening is calmer than the morning"
+      },
+      {
+        "id": 57,
+        "group": "lugn",
+        "sentence": "Här i skogen är det ______",
+        "answer": "lugnast",
+        "englishAnswer": "calmest",
+        "options": ["lugn", "lugnare", "lugnast"],
+        "translation": "Here in the forest it is calmest"
+      },
+      {
+        "id": 58,
+        "group": "kort",
+        "sentence": "Pojken är ______",
+        "answer": "kort",
+        "englishAnswer": "short",
+        "options": ["kort", "kortare", "kortast"],
+        "translation": "The boy is short"
+      },
+      {
+        "id": 59,
+        "group": "kort",
+        "sentence": "Vägen är ______ om man tar genvägen",
+        "answer": "kortare",
+        "englishAnswer": "shorter",
+        "options": ["kort", "kortare", "kortast"],
+        "translation": "The road is shorter if you take the shortcut"
+      },
+      {
+        "id": 60,
+        "group": "kort",
+        "sentence": "Februari är årets ______ månad",
+        "answer": "kortast",
+        "englishAnswer": "shortest",
+        "options": ["kort", "kortare", "kortast"],
+        "translation": "February is the shortest month of the year"
+      },
+      {
+          "id": 61,
+          "group": "tråkig",
+          "sentence": "Filmen var ganska ______",
+          "answer": "tråkig",
+          "englishAnswer": "boring",
+          "options": ["tråkig", "tråkigare", "tråkigast"],
+          "translation": "The movie was quite boring"
+        },
+        {
+          "id": 62,
+          "group": "tråkig",
+          "sentence": "Detta var ______ än jag trodde",
+          "answer": "tråkigare",
+          "englishAnswer": "more boring",
+          "options": ["tråkig", "tråkigare", "tråkigast"],
+          "translation": "This was more boring than I thought"
+        },
+        {
+          "id": 63,
+          "group": "tråkig",
+          "sentence": "Det är det ______ jag vet",
+          "answer": "tråkigast",
+          "englishAnswer": "most boring",
+          "options": ["tråkig", "tråkigare", "tråkigast"],
+          "translation": "It is the most boring thing I know"
+        },
+        {
+          "id": 64,
+          "group": "rik",
+          "sentence": "Mannen är mycket ______",
+          "answer": "rik",
+          "englishAnswer": "rich",
+          "options": ["rik", "rikare", "rikast"],
+          "translation": "The man is very rich"
+        },
+        {
+          "id": 65,
+          "group": "rik",
+          "sentence": "Han vill bli ______ än sin granne",
+          "answer": "rikare",
+          "englishAnswer": "richer",
+          "options": ["rik", "rikare", "rikast"],
+          "translation": "He wants to become richer than his neighbor"
+        },
+        {
+          "id": 66,
+          "group": "rik",
+          "sentence": "Vem är ______ i hela landet",
+          "answer": "rikast",
+          "englishAnswer": "richest",
+          "options": ["rik", "rikare", "rikast"],
+          "translation": "Who is richest in the whole country"
+        },
+        {
+          "id": 67,
+          "group": "djup",
+          "sentence": "Sjön är ______",
+          "answer": "djup",
+          "englishAnswer": "deep",
+          "options": ["djup", "djupare", "djupast"],
+          "translation": "The lake is deep"
+        },
+        {
+          "id": 68,
+          "group": "djup",
+          "sentence": "Hålet är ______ på denna sida",
+          "answer": "djupare",
+          "englishAnswer": "deeper",
+          "options": ["djup", "djupare", "djupast"],
+          "translation": "The hole is deeper on this side"
+        },
+        {
+          "id": 69,
+          "group": "djup",
+          "sentence": "Här är havet ______",
+          "answer": "djupast",
+          "englishAnswer": "deepest",
+          "options": ["djup", "djupare", "djupast"],
+          "translation": "Here the sea is deepest"
+        },
+        {
+          "id": 70,
+          "group": "viktig",
+          "sentence": "Mötet är ______",
+          "answer": "viktigt",
+          "englishAnswer": "important",
+          "options": ["viktigt", "viktigare", "viktigast"],
+          "translation": "The meeting is important"
+        },
+        {
+          "id": 71,
+          "group": "viktig",
+          "sentence": "Hälsan är ______ än pengar",
+          "answer": "viktigare",
+          "englishAnswer": "more important",
+          "options": ["viktigt", "viktigare", "viktigast"],
+          "translation": "Health is more important than money"
+        },
+        {
+          "id": 72,
+          "group": "viktig",
+          "sentence": "Detta är det ______ vi har att göra",
+          "answer": "viktigast",
+          "englishAnswer": "most important",
+          "options": ["viktigt", "viktigare", "viktigast"],
+          "translation": "This is the most important thing we have to do"
+        },
+        {
+          "id": 73,
+          "group": "bred",
+          "sentence": "Floden är ganska ______",
+          "answer": "bred",
+          "englishAnswer": "wide",
+          "options": ["bred", "bredare", "bredast"],
+          "translation": "The river is quite wide"
+        },
+        {
+          "id": 74,
+          "group": "bred",
+          "sentence": "Vägen blev ______ efter ombyggnaden",
+          "answer": "bredare",
+          "englishAnswer": "wider",
+          "options": ["bred", "bredare", "bredast"],
+          "translation": "The road became wider after the reconstruction"
+        },
+        {
+          "id": 75,
+          "group": "bred",
+          "sentence": "Här är sundet ______",
+          "answer": "bredast",
+          "englishAnswer": "widest",
+          "options": ["bred", "bredare", "bredast"],
+          "translation": "Here the strait is widest"
+        },
+        {
+          "id": 76,
+          "group": "ny",
+          "sentence": "Bilen ser ______ ut",
+          "answer": "ny",
+          "englishAnswer": "new",
+          "options": ["ny", "nyare", "nyast"],
+          "translation": "The car looks new"
+        },
+        {
+          "id": 77,
+          "group": "ny",
+          "sentence": "Jag vill ha en ______ modell",
+          "answer": "nyare",
+          "englishAnswer": "newer",
+          "options": ["ny", "nyare", "nyast"],
+          "translation": "I want a newer model"
+        },
+        {
+          "id": 78,
+          "group": "ny",
+          "sentence": "Detta är husets ______ del",
+          "answer": "nyast",
+          "englishAnswer": "newest",
+          "options": ["ny", "nyare", "nyast"],
+          "translation": "This is the newest part of the house"
+        },
+        {
+          "id": 79,
+          "group": "smal",
+          "sentence": "Stigen är ______",
+          "answer": "smal",
+          "englishAnswer": "narrow",
+          "options": ["smal", "smalare", "smalast"],
+          "translation": "The path is narrow"
+        },
+        {
+          "id": 80,
+          "group": "smal",
+          "sentence": "Gången är ______ här inne",
+          "answer": "smalare",
+          "englishAnswer": "narrower",
+          "options": ["smal", "smalare", "smalast"],
+          "translation": "The passage is narrower in here"
+        },
+        {
+          "id": 81,
+          "group": "smal",
+          "sentence": "Den här dörren är ______",
+          "answer": "smalast",
+          "englishAnswer": "narrowest",
+          "options": ["smal", "smalare", "smalast"],
+          "translation": "This door is narrowest"
+        },
+        {
+          "id": 82,
+          "group": "varm",
+          "sentence": "Vattnet känns ______",
+          "answer": "varmt",
+          "englishAnswer": "warm",
+          "options": ["varmt", "varmare", "varmast"],
+          "translation": "The water feels warm"
+        },
+        {
+          "id": 83,
+          "group": "varm",
+          "sentence": "Idag är det ______ än igår",
+          "answer": "varmare",
+          "englishAnswer": "warmer",
+          "options": ["varmt", "varmare", "varmast"],
+          "translation": "Today it is warmer than yesterday"
+        },
+        {
+          "id": 84,
+          "group": "varm",
+          "sentence": "Augusti var årets ______ månad",
+          "answer": "varmast",
+          "englishAnswer": "warmest",
+          "options": ["varmt", "varmare", "varmast"],
+          "translation": "August was the warmest month of the year"
+        },
+        {
+          "id": 85,
+          "group": "lätt",
+          "sentence": "Väskan är ______",
+          "answer": "lätt",
+          "englishAnswer": "light",
+          "options": ["lätt", "lättare", "lättast"],
+          "translation": "The bag is light"
+        },
+        {
+          "id": 86,
+          "group": "lätt",
+          "sentence": "Uppgiften var ______ än väntat",
+          "answer": "lättare",
+          "englishAnswer": "easier",
+          "options": ["lätt", "lättare", "lättast"],
+          "translation": "The task was easier than expected"
+        },
+        {
+          "id": 87,
+          "group": "lätt",
+          "sentence": "Detta är det ______ sättet",
+          "answer": "lättast",
+          "englishAnswer": "easiest",
+          "options": ["lätt", "lättare", "lättast"],
+          "translation": "This is the easiest way"
+        },
+        {
+          "id": 88,
+          "group": "mjuk",
+          "sentence": "Kudden är ______",
+          "answer": "mjuk",
+          "englishAnswer": "soft",
+          "options": ["mjuk", "mjukare", "mjukast"],
+          "translation": "The pillow is soft"
+        },
+        {
+          "id": 89,
+          "group": "mjuk",
+          "sentence": "Mattan är ______ än golvet",
+          "answer": "mjukare",
+          "englishAnswer": "softer",
+          "options": ["mjuk", "mjukare", "mjukast"],
+          "translation": "The rug is softer than the floor"
+        },
+        {
+          "id": 90,
+          "group": "mjuk",
+          "sentence": "Sängen är ______ i huset",
+          "answer": "mjukast",
+          "englishAnswer": "softest",
+          "options": ["mjuk", "mjukare", "mjukast"],
+          "translation": "The bed is softest in the house"
+        },
+        {
+            "id": 91,
+            "group": "hård",
+            "sentence": "Sängen är ganska ______",
+            "answer": "hård",
+            "englishAnswer": "hard",
+            "options": ["hård", "hårdare", "hårdast"],
+            "translation": "The bed is quite hard"
+          },
+          {
+            "id": 92,
+            "group": "hård",
+            "sentence": "Stenen är ______ än träet",
+            "answer": "hårdare",
+            "englishAnswer": "harder",
+            "options": ["hård", "hårdare", "hårdast"],
+            "translation": "The stone is harder than the wood"
+          },
+          {
+            "id": 93,
+            "group": "hård",
+            "sentence": "Diamanten är världens ______ material",
+            "answer": "hårdast",
+            "englishAnswer": "hardest",
+            "options": ["hård", "hårdare", "hårdast"],
+            "translation": "The diamond is the world's hardest material"
+          },
+          {
+            "id": 94,
+            "group": "pigg",
+            "sentence": "Jag känner mig ______ idag",
+            "answer": "pigg",
+            "englishAnswer": "alert",
+            "options": ["pigg", "piggare", "piggast"],
+            "translation": "I feel alert today"
+          },
+          {
+            "id": 95,
+            "group": "pigg",
+            "sentence": "Efter kaffet blev jag ______",
+            "answer": "piggare",
+            "englishAnswer": "more alert",
+            "options": ["pigg", "piggare", "piggast"],
+            "translation": "After the coffee I became more alert"
+          },
+          {
+            "id": 96,
+            "group": "pigg",
+            "sentence": "Vem är ______ på morgonen",
+            "answer": "piggast",
+            "englishAnswer": "most alert",
+            "options": ["pigg", "piggare", "piggast"],
+            "translation": "Who is most alert in the morning"
+          },
+          {
+            "id": 97,
+            "group": "arg",
+            "sentence": "Mannen blev ______",
+            "answer": "arg",
+            "englishAnswer": "angry",
+            "options": ["arg", "argare", "argast"],
+            "translation": "The man became angry"
+          },
+          {
+            "id": 98,
+            "group": "arg",
+            "sentence": "Kunden blev ______ än förväntat",
+            "answer": "argare",
+            "englishAnswer": "angrier",
+            "options": ["arg", "argare", "argast"],
+            "translation": "The customer became angrier than expected"
+          },
+          {
+            "id": 99,
+            "group": "arg",
+            "sentence": "Han är ______ när han är hungrig",
+            "answer": "argast",
+            "englishAnswer": "angriest",
+            "options": ["arg", "argare", "argast"],
+            "translation": "He is angriest when he is hungry"
+          },
+          {
+            "id": 100,
+            "group": "ljus",
+            "sentence": "Lampan är ______",
+            "answer": "ljus",
+            "englishAnswer": "bright",
+            "options": ["ljus", "ljusare", "ljusast"],
+            "translation": "The lamp is bright"
+          },
+          {
+            "id": 101,
+            "group": "ljus",
+            "sentence": "Solen lyser ______ idag",
+            "answer": "ljusare",
+            "englishAnswer": "brighter",
+            "options": ["ljus", "ljusare", "ljusast"],
+            "translation": "The sun shines brighter today"
+          },
+          {
+            "id": 102,
+            "group": "ljus",
+            "sentence": "Stjärnan lyser ______ på himlen",
+            "answer": "ljusast",
+            "englishAnswer": "brightest",
+            "options": ["ljus", "ljusare", "ljusast"],
+            "translation": "The star shines brightest in the sky"
+          },
+          {
+            "id": 103,
+            "group": "när",
+            "sentence": "Butiken ligger ______",
+            "answer": "nära",
+            "englishAnswer": "near",
+            "options": ["nära", "närmare", "närmast"],
+            "translation": "The shop is near"
+          },
+          {
+            "id": 104,
+            "group": "när",
+            "sentence": "Kan vi gå lite ______",
+            "answer": "närmare",
+            "englishAnswer": "closer",
+            "options": ["nära", "närmare", "närmast"],
+            "translation": "Can we go a little closer"
+          },
+          {
+            "id": 105,
+            "group": "när",
+            "sentence": "Vem bor ______ skolan",
+            "answer": "närmast",
+            "englishAnswer": "closest",
+            "options": ["nära", "närmare", "närmast"],
+            "translation": "Who lives closest to the school"
+          },
+          {
+            "id": 106,
+            "group": "viktig",
+            "sentence": "Det är ______ att sova",
+            "answer": "viktigt",
+            "englishAnswer": "important",
+            "options": ["viktigt", "viktigare", "viktigast"],
+            "translation": "It is important to sleep"
+          },
+          {
+            "id": 107,
+            "group": "viktig",
+            "sentence": "Familjen är ______ än jobbet",
+            "answer": "viktigare",
+            "englishAnswer": "more important",
+            "options": ["viktigt", "viktigare", "viktigast"],
+            "translation": "Family is more important than work"
+          },
+          {
+            "id": 108,
+            "group": "viktig",
+            "sentence": "Vatten är det ______ vi har",
+            "answer": "viktigast",
+            "englishAnswer": "most important",
+            "options": ["viktigt", "viktigare", "viktigast"],
+            "translation": "Water is the most important thing we have"
+          },
+          {
+            "id": 109,
+            "group": "fet",
+            "sentence": "Maten är ganska ______",
+            "answer": "fet",
+            "englishAnswer": "fatty",
+            "options": ["fet", "fetare", "fetast"],
+            "translation": "The food is quite fatty"
+          },
+          {
+            "id": 110,
+            "group": "fet",
+            "sentence": "Den här såsen är ______ än den andra",
+            "answer": "fetare",
+            "englishAnswer": "fattier",
+            "options": ["fet", "fetare", "fetast"],
+            "translation": "This sauce is fattier than the other one"
+          },
+          {
+            "id": 111,
+            "group": "fet",
+            "sentence": "Grädde är ______ av mejeriprodukterna",
+            "answer": "fetast",
+            "englishAnswer": "fattiest",
+            "options": ["fet", "fetare", "fetast"],
+            "translation": "Cream is the fattiest of the dairy products"
+          },
+          {
+            "id": 112,
+            "group": "trång",
+            "sentence": "Skon är för ______",
+            "answer": "trång",
+            "englishAnswer": "tight",
+            "options": ["trång", "trängre", "trängst"],
+            "translation": "The shoe is too tight"
+          },
+          {
+            "id": 113,
+            "group": "trång",
+            "sentence": "Kostymen känns ______ i år",
+            "answer": "trängre",
+            "englishAnswer": "tighter",
+            "options": ["trång", "trängre", "trängst"],
+            "translation": "The suit feels tighter this year"
+          },
+          {
+            "id": 114,
+            "group": "trång",
+            "sentence": "Här i gränden är det ______",
+            "answer": "trängst",
+            "englishAnswer": "tightest",
+            "options": ["trång", "trängre", "trängst"],
+            "translation": "Here in the alley it is tightest"
+          },
+          {
+            "id": 115,
+            "group": "sällsynt",
+            "sentence": "Fågeln är ganska ______",
+            "answer": "sällsynt",
+            "englishAnswer": "rare",
+            "options": ["sällsynt", "mer sällsynt", "mest sällsynt"],
+            "translation": "The bird is quite rare"
+          },
+          {
+            "id": 116,
+            "group": "sällsynt",
+            "sentence": "Denna metall är ______ än guld",
+            "answer": "mer sällsynt",
+            "englishAnswer": "rarer",
+            "options": ["sällsynt", "mer sällsynt", "mest sällsynt"],
+            "translation": "This metal is rarer than gold"
+          },
+          {
+            "id": 117,
+            "group": "sällsynt",
+            "sentence": "Detta är det ______ frimärket i världen",
+            "answer": "mest sällsynt",
+            "englishAnswer": "rarest",
+            "options": ["sällsynt", "mer sällsynt", "mest sällsynt"],
+            "translation": "This is the rarest stamp in the world"
+          },
+          {
+            "id": 118,
+            "group": "stolt",
+            "sentence": "Jag är ______ över dig",
+            "answer": "stolt",
+            "englishAnswer": "proud",
+            "options": ["stolt", "stoltare", "stoltast"],
+            "translation": "I am proud of you"
+          },
+          {
+            "id": 119,
+            "group": "stolt",
+            "sentence": "Han blev ______ för varje dag",
+            "answer": "stoltare",
+            "englishAnswer": "prouder",
+            "options": ["stolt", "stoltare", "stoltast"],
+            "translation": "He became prouder for every day"
+          },
+          {
+            "id": 120,
+            "group": "stolt",
+            "sentence": "Mamman var ______ på examen",
+            "answer": "stoltast",
+            "englishAnswer": "proudest",
+            "options": ["stolt", "stoltare", "stoltast"],
+            "translation": "The mother was proudest at graduation"
+          },
+          {
+              "id": 121,
+              "group": "skön",
+              "sentence": "Soffan är väldigt ______",
+              "answer": "skön",
+              "englishAnswer": "comfortable",
+              "options": ["skön", "skönare", "skönast"],
+              "translation": "The sofa is very comfortable"
+            },
+            {
+              "id": 122,
+              "group": "skön",
+              "sentence": "Sängen är ______ än fåtöljen",
+              "answer": "skönare",
+              "englishAnswer": "more comfortable",
+              "options": ["skön", "skönare", "skönast"],
+              "translation": "The bed is more comfortable than the armchair"
+            },
+            {
+              "id": 123,
+              "group": "skön",
+              "sentence": "Detta är den ______ platsen i huset",
+              "answer": "skönast",
+              "englishAnswer": "most comfortable",
+              "options": ["skön", "skönare", "skönast"],
+              "translation": "This is the most comfortable place in the house"
+            },
+            {
+              "id": 124,
+              "group": "bred",
+              "sentence": "Gatan är ______",
+              "answer": "bred",
+              "englishAnswer": "wide",
+              "options": ["bred", "bredare", "bredast"],
+              "translation": "The street is wide"
+            },
+            {
+              "id": 125,
+              "group": "bred",
+              "sentence": "Motorvägen är ______ än landsvägen",
+              "answer": "bredare",
+              "englishAnswer": "wider",
+              "options": ["bred", "bredare", "bredast"],
+              "translation": "The highway is wider than the country road"
+            },
+            {
+              "id": 126,
+              "group": "bred",
+              "sentence": "Här är floden som ______",
+              "answer": "bredast",
+              "englishAnswer": "widest",
+              "options": ["bred", "bredare", "bredast"],
+              "translation": "Here is where the river is widest"
+            },
+            {
+              "id": 127,
+              "group": "ren",
+              "sentence": "Tröjan är ______",
+              "answer": "ren",
+              "englishAnswer": "clean",
+              "options": ["ren", "renare", "renast"],
+              "translation": "The shirt is clean"
+            },
+            {
+              "id": 128,
+              "group": "ren",
+              "sentence": "Luften är ______ på landet",
+              "answer": "renare",
+              "englishAnswer": "cleaner",
+              "options": ["ren", "renare", "renast"],
+              "translation": "The air is cleaner in the countryside"
+            },
+            {
+              "id": 129,
+              "group": "ren",
+              "sentence": "Detta är det ______ vattnet i sjön",
+              "answer": "renast",
+              "englishAnswer": "cleanest",
+              "options": ["ren", "renare", "renast"],
+              "translation": "This is the cleanest water in the lake"
+            },
+            {
+              "id": 130,
+              "group": "smutsig",
+              "sentence": "Bilen är ______",
+              "answer": "smutsig",
+              "englishAnswer": "dirty",
+              "options": ["smutsig", "smutsigare", "smutsigast"],
+              "translation": "The car is dirty"
+            },
+            {
+              "id": 131,
+              "group": "smutsig",
+              "sentence": "Golvet blev ______ efter regnet",
+              "answer": "smutsigare",
+              "englishAnswer": "dirtier",
+              "options": ["smutsig", "smutsigare", "smutsigast"],
+              "translation": "The floor became dirtier after the rain"
+            },
+            {
+              "id": 132,
+              "group": "smutsig",
+              "sentence": "Vilka skor är ______",
+              "answer": "smutsigast",
+              "englishAnswer": "dirtiest",
+              "options": ["smutsig", "smutsigare", "smutsigast"],
+              "translation": "Which shoes are dirtiest"
+            },
+            {
+              "id": 133,
+              "group": "nyttig",
+              "sentence": "Frukt är ______",
+              "answer": "nyttigt",
+              "englishAnswer": "healthy",
+              "options": ["nyttigt", "nyttigare", "nyttigast"],
+              "translation": "Fruit is healthy"
+            },
+            {
+              "id": 134,
+              "group": "nyttig",
+              "sentence": "Grönsaker är ______ än godis",
+              "answer": "nyttigare",
+              "englishAnswer": "healthier",
+              "options": ["nyttigt", "nyttigare", "nyttigast"],
+              "translation": "Vegetables are healthier than candy"
+            },
+            {
+              "id": 135,
+              "group": "nyttig",
+              "sentence": "Spenat är det ______ jag vet",
+              "answer": "nyttigast",
+              "englishAnswer": "healthiest",
+              "options": ["nyttigt", "nyttigare", "nyttigast"],
+              "translation": "Spinach is the healthiest thing I know"
+            },
+            {
+              "id": 136,
+              "group": "trygg",
+              "sentence": "Här känner jag mig ______",
+              "answer": "trygg",
+              "englishAnswer": "safe",
+              "options": ["trygg", "tryggare", "tryggast"],
+              "translation": "I feel safe here"
+            },
+            {
+              "id": 137,
+              "group": "trygg",
+              "sentence": "Bilen är ______ än cykeln",
+              "answer": "tryggare",
+              "englishAnswer": "safer",
+              "options": ["trygg", "tryggare", "tryggast"],
+              "translation": "The car is safer than the bike"
+            },
+            {
+              "id": 138,
+              "group": "trygg",
+              "sentence": "Hemmet är den ______ platsen",
+              "answer": "tryggast",
+              "englishAnswer": "safest",
+              "options": ["trygg", "tryggare", "tryggast"],
+              "translation": "Home is the safest place"
+            },
+            {
+              "id": 139,
+              "group": "farlig",
+              "sentence": "Vägen är ______",
+              "answer": "farlig",
+              "englishAnswer": "dangerous",
+              "options": ["farlig", "farligare", "farligast"],
+              "translation": "The road is dangerous"
+            },
+            {
+              "id": 140,
+              "group": "farlig",
+              "sentence": "Isen är ______ idag än igår",
+              "answer": "farligare",
+              "englishAnswer": "more dangerous",
+              "options": ["farlig", "farligare", "farligast"],
+              "translation": "The ice is more dangerous today than yesterday"
+            },
+            {
+              "id": 141,
+              "group": "farlig",
+              "sentence": "Detta är världens ______ orm",
+              "answer": "farligast",
+              "englishAnswer": "most dangerous",
+              "options": ["farlig", "farligare", "farligast"],
+              "translation": "This is the world's most dangerous snake"
+            },
+            {
+              "id": 142,
+              "group": "stilla",
+              "sentence": "Kvällen är ______",
+              "answer": "stilla",
+              "englishAnswer": "still",
+              "options": ["stilla", "mer stilla", "mest stilla"],
+              "translation": "The evening is still"
+            },
+            {
+              "id": 143,
+              "group": "stilla",
+              "sentence": "Vattnet blev ______ efter stormen",
+              "answer": "mer stilla",
+              "englishAnswer": "stiller",
+              "options": ["stilla", "mer stilla", "mest stilla"],
+              "translation": "The water became stiller after the storm"
+            },
+            {
+              "id": 144,
+              "group": "stilla",
+              "sentence": "Här i dalen är det ______",
+              "answer": "mest stilla",
+              "englishAnswer": "stillest",
+              "options": ["stilla", "mer stilla", "mest stilla"],
+              "translation": "Here in the valley it is stillest"
+            },
+            {
+              "id": 145,
+              "group": "hungrig",
+              "sentence": "Vargen är ______",
+              "answer": "hungrig",
+              "englishAnswer": "hungry",
+              "options": ["hungrig", "hungrigare", "hungrigast"],
+              "translation": "The wolf is hungry"
+            },
+            {
+              "id": 146,
+              "group": "hungrig",
+              "sentence": "Jag blev ______ efter promenaden",
+              "answer": "hungrigare",
+              "englishAnswer": "hungrier",
+              "options": ["hungrig", "hungrigare", "hungrigast"],
+              "translation": "I became hungrier after the walk"
+            },
+            {
+              "id": 147,
+              "group": "hungrig",
+              "sentence": "Vem är ______ vid bordet",
+              "answer": "hungrigast",
+              "englishAnswer": "hungriest",
+              "options": ["hungrig", "hungrigare", "hungrigast"],
+              "translation": "Who is hungriest at the table"
+            },
+            {
+              "id": 148,
+              "group": "törstig",
+              "sentence": "Hästen är ______",
+              "answer": "törstig",
+              "englishAnswer": "thirsty",
+              "options": ["törstig", "törstigare", "törstigast"],
+              "translation": "The horse is thirsty"
+            },
+            {
+              "id": 149,
+              "group": "törstig",
+              "sentence": "Jag blev ______ i värmen",
+              "answer": "törstigare",
+              "englishAnswer": "thirstier",
+              "options": ["törstig", "törstigare", "törstigast"],
+              "translation": "I became thirstier in the heat"
+            },
+            {
+              "id": 150,
+              "group": "törstig",
+              "sentence": "Löparen är ______ efter loppet",
+              "answer": "törstigast",
+              "englishAnswer": "thirstiest",
+              "options": ["törstig", "törstigare", "törstigast"],
+              "translation": "The runner is thirstiest after the race"
+            },
+            {
+              "id": 151,
+              "group": "snygg",
+              "sentence": "Jackan är ______",
+              "answer": "snygg",
+              "englishAnswer": "stylish",
+              "options": ["snygg", "snyggare", "snyggast"],
+              "translation": "The jacket is stylish"
+            },
+            {
+              "id": 152,
+              "group": "snygg",
+              "sentence": "Den här färgen är ______ än den gröna",
+              "answer": "snyggare",
+              "englishAnswer": "more stylish",
+              "options": ["snygg", "snyggare", "snyggast"],
+              "translation": "This color is more stylish than the green one"
+            },
+            {
+              "id": 153,
+              "group": "snygg",
+              "sentence": "Vilka skor är ______",
+              "answer": "snyggast",
+              "englishAnswer": "most stylish",
+              "options": ["snygg", "snyggare", "snyggast"],
+              "translation": "Which shoes are most stylish"
+            },
+            {
+              "id": 154,
+              "group": "vänlig",
+              "sentence": "Han är en ______ person",
+              "answer": "vänlig",
+              "englishAnswer": "friendly",
+              "options": ["vänlig", "vänligare", "vänligast"],
+              "translation": "He is a friendly person"
+            },
+            {
+              "id": 155,
+              "group": "vänlig",
+              "sentence": "Svaret var ______ än väntat",
+              "answer": "vänligare",
+              "englishAnswer": "friendlier",
+              "options": ["vänlig", "vänligare", "vänligast"],
+              "translation": "The answer was friendlier than expected"
+            },
+            {
+              "id": 156,
+              "group": "vänlig",
+              "sentence": "Hon är ______ i hela gruppen",
+              "answer": "vänligast",
+              "englishAnswer": "friendliest",
+              "options": ["vänlig", "vänligare", "vänligast"],
+              "translation": "She is the friendliest in the whole group"
+            },
+            {
+              "id": 157,
+              "group": "nyfiken",
+              "sentence": "Katten är ______",
+              "answer": "nyfiken",
+              "englishAnswer": "curious",
+              "options": ["nyfiken", "mer nyfiken", "mest nyfiken"],
+              "translation": "The cat is curious"
+            },
+            {
+              "id": 158,
+              "group": "nyfiken",
+              "sentence": "Journalisten blev ______ efter svaret",
+              "answer": "mer nyfiken",
+              "englishAnswer": "more curious",
+              "options": ["nyfiken", "mer nyfiken", "mest nyfiken"],
+              "translation": "The journalist became more curious after the answer"
+            },
+            {
+              "id": 159,
+              "group": "nyfiken",
+              "sentence": "Barnet var ______ på presenten",
+              "answer": "mest nyfiken",
+              "englishAnswer": "most curious",
+              "options": ["nyfiken", "mer nyfiken", "mest nyfiken"],
+              "translation": "The child was most curious about the gift"
+            },
+            {
+              "id": 160,
+              "group": "kraftig",
+              "sentence": "Vinden är ______",
+              "answer": "kraftig",
+              "englishAnswer": "strong",
+              "options": ["kraftig", "kraftigare", "kraftigast"],
+              "translation": "The wind is strong"
+            },
+            {
+              "id": 161,
+              "group": "kraftig",
+              "sentence": "Regnet blev ______ under natten",
+              "answer": "kraftigare",
+              "englishAnswer": "stronger",
+              "options": ["kraftig", "kraftigare", "kraftigast"],
+              "translation": "The rain became stronger during the night"
+            },
+            {
+              "id": 162,
+              "group": "kraftig",
+              "sentence": "Detta var den ______ smällen",
+              "answer": "kraftigast",
+              "englishAnswer": "strongest",
+              "options": ["kraftig", "kraftigare", "kraftigast"],
+              "translation": "This was the strongest bang"
+            },
+            {
+              "id": 163,
+              "group": "enkel",
+              "sentence": "Lösningen är ______",
+              "answer": "enkel",
+              "englishAnswer": "simple",
+              "options": ["enkel", "enklare", "enklast"],
+              "translation": "The solution is simple"
+            },
+            {
+              "id": 164,
+              "group": "enkel",
+              "sentence": "Receptet är ______ än det andra",
+              "answer": "enklare",
+              "englishAnswer": "simpler",
+              "options": ["enkel", "enklare", "enklast"],
+              "translation": "The recipe is simpler than the other one"
+            },
+            {
+              "id": 165,
+              "group": "enkel",
+              "sentence": "Detta är det ______ sättet att resa",
+              "answer": "enklast",
+              "englishAnswer": "simplest",
+              "options": ["enkel", "enklare", "enklast"],
+              "translation": "This is the simplest way to travel"
+            },
+            {
+              "id": 166,
+              "group": "glad",
+              "sentence": "Flickan känner sig ______",
+              "answer": "glad",
+              "englishAnswer": "happy",
+              "options": ["glad", "gladare", "gladast"],
+              "translation": "The girl feels happy"
+            },
+            {
+              "id": 167,
+              "group": "glad",
+              "sentence": "Jag blev ______ när jag fick brevet",
+              "answer": "gladare",
+              "englishAnswer": "happier",
+              "options": ["glad", "gladare", "gladast"],
+              "translation": "I became happier when I received the letter"
+            },
+            {
+              "id": 168,
+              "group": "glad",
+              "sentence": "Han är ______ av alla vännerna",
+              "answer": "gladast",
+              "englishAnswer": "happiest",
+              "options": ["glad", "gladare", "gladast"],
+              "translation": "He is the happiest of all the friends"
+            },
+            {
+              "id": 169,
+              "group": "grov",
+              "sentence": "Ytan känns ______",
+              "answer": "grov",
+              "englishAnswer": "coarse",
+              "options": ["grov", "grövre", "grövst"],
+              "translation": "The surface feels coarse"
+            },
+            {
+              "id": 170,
+              "group": "grov",
+              "sentence": "Sandpappret är ______ än tyget",
+              "answer": "grövre",
+              "englishAnswer": "coarser",
+              "options": ["grov", "grövre", "grövst"],
+              "translation": "The sandpaper is coarser than the cloth"
+            },
+            {
+              "id": 171,
+              "group": "grov",
+              "sentence": "Detta är det ______ saltet vi har",
+              "answer": "grövst",
+              "englishAnswer": "coarsest",
+              "options": ["grov", "grövre", "grövst"],
+              "translation": "This is the coarsest salt we have"
+            },
+            {
+              "id": 172,
+              "group": "noggrann",
+              "sentence": "Arbetet kräver att du är ______",
+              "answer": "noggrann",
+              "englishAnswer": "careful",
+              "options": ["noggrann", "noggrannare", "noggrannast"],
+              "translation": "The work requires you to be careful"
+            },
+            {
+              "id": 173,
+              "group": "noggrann",
+              "sentence": "Min kollega är ______ än jag",
+              "answer": "noggrannare",
+              "englishAnswer": "more careful",
+              "options": ["noggrann", "noggrannare", "noggrannast"],
+              "translation": "My colleague is more careful than I"
+            },
+            {
+              "id": 174,
+              "group": "noggrann",
+              "sentence": "Han är ______ i hela teamet",
+              "answer": "noggrannast",
+              "englishAnswer": "most careful",
+              "options": ["noggrann", "noggrannare", "noggrannast"],
+              "translation": "He is the most careful in the whole team"
+            },
+            {
+              "id": 175,
+              "group": "rik",
+              "sentence": "Sverige är ett ______ land",
+              "answer": "rikt",
+              "englishAnswer": "rich",
+              "options": ["rikt", "rikare", "rikast"],
+              "translation": "Sweden is a rich country"
+            },
+            {
+              "id": 176,
+              "group": "rik",
+              "sentence": "Norge är ______ än Danmark",
+              "answer": "rikare",
+              "englishAnswer": "richer",
+              "options": ["rikt", "rikare", "rikast"],
+              "translation": "Norway is richer than Denmark"
+            },
+            {
+              "id": 177,
+              "group": "rik",
+              "sentence": "Vilken familj är ______ i byn",
+              "answer": "rikast",
+              "englishAnswer": "richest",
+              "options": ["rikt", "rikare", "rikast"],
+              "translation": "Which family is richest in the village"
+            },
+            {
+              "id": 178,
+              "group": "tjock",
+              "sentence": "Boken är ______",
+              "answer": "tjock",
+              "englishAnswer": "thick",
+              "options": ["tjock", "tjockare", "tjockast"],
+              "translation": "The book is thick"
+            },
+            {
+              "id": 179,
+              "group": "tjock",
+              "sentence": "Vinterjackan är ______ än höstjackan",
+              "answer": "tjockare",
+              "englishAnswer": "thicker",
+              "options": ["tjock", "tjockare", "tjockast"],
+              "translation": "The winter jacket is thicker than the autumn jacket"
+            },
+            {
+              "id": 180,
+              "group": "tjock",
+              "sentence": "Isen är ______ vid stranden",
+              "answer": "tjockast",
+              "englishAnswer": "thickest",
+              "options": ["tjock", "tjockare", "tjockast"],
+              "translation": "The ice is thickest by the shore"
+            }
+]

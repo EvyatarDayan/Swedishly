@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "group": "motsatser",
+    "sentence": "Motsatsen till 'stor' är ______",
+    "answer": "liten",
+    "englishAnswer": "small",
+    "options": ["kort", "liten", "smal"],
+    "translation": "The opposite of 'big' is small"
+  },
+  {
+    "id": 2,
+    "group": "motsatser",
+    "sentence": "Isen är kall, men elden är ______",
+    "answer": "varm",
+    "englishAnswer": "warm",
+    "options": ["varm", "het", "ljus"],
+    "translation": "The ice is cold, but the fire is warm"
+  },
+  {
+    "id": 3,
+    "group": "motsatser",
+    "sentence": "Boken är inte billig, den är ______",
+    "answer": "dyr",
+    "englishAnswer": "expensive",
+    "options": ["tung", "ny", "dyr"],
+    "translation": "The book is not cheap, it is expensive"
+  },
+  {
+    "id": 4,
+    "group": "motsatser",
+    "sentence": "Min väska är tung, men din är ______",
+    "answer": "lätt",
+    "englishAnswer": "light",
+    "options": ["mjuk", "lätt", "liten"],
+    "translation": "My bag is heavy, but yours is light"
+  },
+  {
+    "id": 5,
+    "group": "motsatser",
+    "sentence": "Han är inte glad, han är ______",
+    "answer": "ledsen",
+    "englishAnswer": "sad",
+    "options": ["arg", "pigg", "ledsen"],
+    "translation": "He is not happy, he is sad"
+  },
+  {
+    "id": 6,
+    "group": "motsatser",
+    "sentence": "Gatan är inte bred, den är ______",
+    "answer": "smal",
+    "englishAnswer": "narrow",
+    "options": ["kort", "smal", "liten"],
+    "translation": "The street is not wide, it is narrow"
+  },
+  {
+    "id": 7,
+    "group": "motsatser",
+    "sentence": "Kaffet är inte sött, det är ______",
+    "answer": "surt",
+    "englishAnswer": "sour",
+    "options": ["salt", "surt", "starkt"],
+    "translation": "The coffee is not sweet, it is sour"
+  },
+  {
+    "id": 8,
+    "group": "motsatser",
+    "sentence": "Sängen är inte mjuk, den är ______",
+    "answer": "hård",
+    "englishAnswer": "hard",
+    "options": ["tung", "hård", "fast"],
+    "translation": "The bed is not soft, it is hard"
+  },
+  {
+    "id": 9,
+    "group": "motsatser",
+    "sentence": "Det är inte ljust ute, det är ______",
+    "answer": "mörkt",
+    "englishAnswer": "dark",
+    "options": ["svart", "mörkt", "kallt"],
+    "translation": "It is not light outside, it is dark"
+  },
+  {
+    "id": 10,
+    "group": "motsatser",
+    "sentence": "Vägen är inte rak, den är ______",
+    "answer": "krokig",
+    "englishAnswer": "crooked",
+    "options": ["lång", "krokig", "svår"],
+    "translation": "The road is not straight, it is crooked"
+  },
+  {
+    "id": 11,
+    "group": "motsatser",
+    "sentence": "Han är inte ung, han är ______",
+    "answer": "gammal",
+    "englishAnswer": "old",
+    "options": ["trött", "gammal", "svag"],
+    "translation": "He is not young, he is old"
+  },
+  {
+    "id": 12,
+    "group": "motsatser",
+    "sentence": "Rummet är inte smutsigt, det är ______",
+    "answer": "rent",
+    "englishAnswer": "clean",
+    "options": ["vitt", "rent", "nytt"],
+    "translation": "The room is not dirty, it is clean"
+  },
+  {
+    "id": 13,
+    "group": "motsatser",
+    "sentence": "Kniven är inte slö, den är ______",
+    "answer": "vass",
+    "englishAnswer": "sharp",
+    "options": ["farlig", "vass", "snabb"],
+    "translation": "The knife is not dull, it is sharp"
+  },
+  {
+    "id": 14,
+    "group": "motsatser",
+    "sentence": "Frågan är inte svår, den är ______",
+    "answer": "lätt",
+    "englishAnswer": "easy",
+    "options": ["snabb", "enkel", "lätt"],
+    "translation": "The question is not difficult, it is easy"
+  },
+  {
+    "id": 15,
+    "group": "motsatser",
+    "sentence": "Handduken är inte blöt, den är ______",
+    "answer": "torr",
+    "englishAnswer": "dry",
+    "options": ["ren", "torr", "mjuk"],
+    "translation": "The towel is not wet, it is dry"
+  },
+  {
+    "id": 16,
+    "group": "motsatser",
+    "sentence": "Han är inte svag, han är ______",
+    "answer": "stark",
+    "englishAnswer": "strong",
+    "options": ["stor", "stark", "pigg"],
+    "translation": "He is not weak, he is strong"
+  },
+  {
+    "id": 17,
+    "group": "motsatser",
+    "sentence": "Bilen kör inte snabbt, den kör ______",
+    "answer": "långsamt",
+    "englishAnswer": "slowly",
+    "options": ["stilla", "långsamt", "farligt"],
+    "translation": "The car does not drive fast, it drives slowly"
+  },
+  {
+    "id": 18,
+    "group": "motsatser",
+    "sentence": "Jag är inte trött, jag är ______",
+    "answer": "pigg",
+    "englishAnswer": "awake",
+    "options": ["glad", "pigg", "stark"],
+    "translation": "I am not tired, I am awake"
+  },
+  {
+    "id": 19,
+    "group": "motsatser",
+    "sentence": "Dörren är inte stängd, den är ______",
+    "answer": "öppen",
+    "englishAnswer": "open",
+    "options": ["fri", "öppen", "bred"],
+    "translation": "The door is not closed, it is open"
+  },
+  {
+    "id": 20,
+    "group": "motsatser",
+    "sentence": "Filmen är inte bra, den är ______",
+    "answer": "dålig",
+    "englishAnswer": "bad",
+    "options": ["tråkig", "dålig", "lång"],
+    "translation": "The movie is not good, it is bad"
+  },
+  {
+    "id": 21,
+    "group": "motsatser",
+    "sentence": "Svaret är inte fel, det är ______",
+    "answer": "rätt",
+    "englishAnswer": "right",
+    "options": ["bra", "rätt", "sant"],
+    "translation": "The answer is not wrong, it is right"
+  },
+  {
+    "id": 22,
+    "group": "motsatser",
+    "sentence": "Mannen är inte fattig, han är ______",
+    "answer": "rik",
+    "englishAnswer": "rich",
+    "options": ["stolt", "rik", "glad"],
+    "translation": "The man is not poor, he is rich"
+  },
+  {
+    "id": 23,
+    "group": "motsatser",
+    "sentence": "Vattnet är inte djupt, det är ______",
+    "answer": "grunt",
+    "englishAnswer": "shallow",
+    "options": ["litet", "grunt", "smalt"],
+    "translation": "The water is not deep, it is shallow"
+  },
+  {
+    "id": 24,
+    "group": "motsatser",
+    "sentence": "Glaset är inte tomt, det är ______",
+    "answer": "fullt",
+    "englishAnswer": "full",
+    "options": ["nytt", "fullt", "varmt"],
+    "translation": "The glass is not empty, it is full"
+  },
+  {
+    "id": 25,
+    "group": "motsatser",
+    "sentence": "Det är inte tyst, det är ______",
+    "answer": "högljutt",
+    "englishAnswer": "loud",
+    "options": ["roligt", "högljutt", "svårt"],
+    "translation": "It is not quiet, it is loud"
+  },
+  {
+    "id": 26,
+    "group": "motsatser",
+    "sentence": "Han är inte elak, han är ______",
+    "answer": "snäll",
+    "englishAnswer": "kind",
+    "options": ["vänlig", "snäll", "glad"],
+    "translation": "He is not mean, he is kind"
+  },
+  {
+    "id": 27,
+    "group": "motsatser",
+    "sentence": "Jackan är inte gammal, den är ______",
+    "answer": "ny",
+    "englishAnswer": "new",
+    "options": ["fin", "ny", "ren"],
+    "translation": "The jacket is not old, it is new"
+  },
+  {
+    "id": 28,
+    "group": "motsatser",
+    "sentence": "Han är inte kort, han är ______",
+    "answer": "lång",
+    "englishAnswer": "tall",
+    "options": ["stor", "lång", "stark"],
+    "translation": "He is not short, he is tall"
+  },
+  {
+    "id": 29,
+    "group": "motsatser",
+    "sentence": "Soffan är inte hård, den är ______",
+    "answer": "mjuk",
+    "englishAnswer": "soft",
+    "options": ["skön", "mjuk", "lätt"],
+    "translation": "The sofa is not hard, it is soft"
+  },
+  {
+    "id": 30,
+    "group": "motsatser",
+    "sentence": "Det är inte farligt, det är ______",
+    "answer": "ofarligt",
+    "englishAnswer": "harmless",
+    "options": ["tryggt", "ofarligt", "bra"],
+    "translation": "It is not dangerous, it is harmless"
+  },
+  {
+      "id": 31,
+      "group": "motsatser",
+      "sentence": "Rummet är inte tyst, det är ______",
+      "answer": "bullrigt",
+      "englishAnswer": "noisy",
+      "options": ["högt", "bullrigt", "roligt"],
+      "translation": "The room is not quiet, it is noisy"
+    },
+    {
+      "id": 32,
+      "group": "motsatser",
+      "sentence": "Väggen är inte slät, den är ______",
+      "answer": "skrovlig",
+      "englishAnswer": "rough",
+      "options": ["mjuk", "skrovlig", "hård"],
+      "translation": "The wall is not smooth, it is rough"
+    },
+    {
+      "id": 33,
+      "group": "motsatser",
+      "sentence": "Han är inte feg, han är ______",
+      "answer": "modig",
+      "englishAnswer": "brave",
+      "options": ["stark", "modig", "glad"],
+      "translation": "He is not cowardly, he is brave"
+    },
+    {
+      "id": 34,
+      "group": "motsatser",
+      "sentence": "Teet är inte beskt, det är ______",
+      "answer": "sött",
+      "englishAnswer": "sweet",
+      "options": ["gott", "sött", "varmt"],
+      "translation": "The tea is not bitter, it is sweet"
+    },
+    {
+      "id": 35,
+      "group": "motsatser",
+      "sentence": "Håret är inte lockigt, det är ______",
+      "answer": "rakt",
+      "englishAnswer": "straight",
+      "options": ["kort", "rakt", "långt"],
+      "translation": "The hair is not curly, it is straight"
+    },
+    {
+      "id": 36,
+      "group": "motsatser",
+      "sentence": "Han är inte dum, han är ______",
+      "answer": "smart",
+      "englishAnswer": "smart",
+      "options": ["pigg", "smart", "snäll"],
+      "translation": "He is not stupid, he is smart"
+    },
+    {
+      "id": 37,
+      "group": "motsatser",
+      "sentence": "Glaset är inte helt, det är ______",
+      "answer": "trasigt",
+      "englishAnswer": "broken",
+      "options": ["tomt", "trasigt", "smutsigt"],
+      "translation": "The glass is not whole, it is broken"
+    },
+    {
+      "id": 38,
+      "group": "motsatser",
+      "sentence": "Han är inte smal, han är ______",
+      "answer": "tjock",
+      "englishAnswer": "fat",
+      "options": ["stor", "tjock", "tung"],
+      "translation": "He is not thin, he is fat"
+    },
+    {
+      "id": 39,
+      "group": "motsatser",
+      "sentence": "Det är inte billigt, det är ______",
+      "answer": "kostsamt",
+      "englishAnswer": "costly",
+      "options": ["dyrt", "kostsamt", "viktigt"],
+      "translation": "It is not cheap, it is costly"
+    },
+    {
+      "id": 40,
+      "group": "motsatser",
+      "sentence": "Solen är inte nere, den är ______",
+      "answer": "uppe",
+      "englishAnswer": "up",
+      "options": ["ljus", "uppe", "varm"],
+      "translation": "The sun is not down, it is up"
+    },
+    {
+      "id": 41,
+      "group": "motsatser",
+      "sentence": "Min penna är inte vass, den är ______",
+      "answer": "trubbig",
+      "englishAnswer": "blunt",
+      "options": ["slö", "trubbig", "mjuk"],
+      "translation": "My pencil is not sharp, it is blunt"
+    },
+    {
+      "id": 42,
+      "group": "motsatser",
+      "sentence": "Han är inte vaken, han ______",
+      "answer": "sover",
+      "englishAnswer": "is sleeping",
+      "options": ["drömmer", "sover", "vilar"],
+      "translation": "He is not awake, he is sleeping"
+    },
+    {
+      "id": 43,
+      "group": "motsatser",
+      "sentence": "Vattnet är inte lugnt, det är ______",
+      "answer": "vilt",
+      "englishAnswer": "wild",
+      "options": ["djupt", "vilt", "kallt"],
+      "translation": "The water is not calm, it is wild"
+    },
+    {
+      "id": 44,
+      "group": "motsatser",
+      "sentence": "Han är inte lat, han är ______",
+      "answer": "flitig",
+      "englishAnswer": "hardworking",
+      "options": ["snabb", "flitig", "stark"],
+      "translation": "He is not lazy, he is hardworking"
+    },
+    {
+      "id": 45,
+      "group": "motsatser",
+      "sentence": "Bordet är inte runt, det är ______",
+      "answer": "fyrkantigt",
+      "englishAnswer": "square",
+      "options": ["långt", "fyrkantigt", "brett"],
+      "translation": "The table is not round, it is square"
+    },
+    {
+      "id": 46,
+      "group": "motsatser",
+      "sentence": "Han är inte seriös, han är ______",
+      "answer": "skojig",
+      "englishAnswer": "funny",
+      "options": ["glad", "skojig", "pigg"],
+      "translation": "He is not serious, he is funny"
+    },
+    {
+      "id": 47,
+      "group": "motsatser",
+      "sentence": "Det är inte sant, det är ______",
+      "answer": "falskt",
+      "englishAnswer": "false",
+      "options": ["fel", "falskt", "dåligt"],
+      "translation": "It is not true, it is false"
+    },
+    {
+      "id": 48,
+      "group": "motsatser",
+      "sentence": "Huset är inte bebott, det är ______",
+      "answer": "tomt",
+      "englishAnswer": "empty",
+      "options": ["öppet", "tomt", "gammalt"],
+      "translation": "The house is not inhabited, it is empty"
+    },
+    {
+      "id": 49,
+      "group": "motsatser",
+      "sentence": "Köttet är inte segt, det är ______",
+      "answer": "mört",
+      "englishAnswer": "tender",
+      "options": ["mjukt", "mört", "gott"],
+      "translation": "The meat is not tough, it is tender"
+    },
+    {
+      "id": 50,
+      "group": "motsatser",
+      "sentence": "Han är inte känd, han är ______",
+      "answer": "okänd",
+      "englishAnswer": "unknown",
+      "options": ["ny", "okänd", "hemlig"],
+      "translation": "He is not famous, he is unknown"
+    },
+    {
+      "id": 51,
+      "group": "motsatser",
+      "sentence": "Han är inte lugn, han är ______",
+      "answer": "stressad",
+      "englishAnswer": "stressed",
+      "options": ["arg", "stressad", "pigg"],
+      "translation": "He is not calm, he is stressed"
+    },
+    {
+      "id": 52,
+      "group": "motsatser",
+      "sentence": "Kvinnan är inte vacker, hon är ______",
+      "answer": "ful",
+      "englishAnswer": "ugly",
+      "options": ["elak", "ful", "tråkig"],
+      "translation": "The woman is not beautiful, she is ugly"
+    },
+    {
+      "id": 53,
+      "group": "motsatser",
+      "sentence": "Maten är inte salt, den är ______",
+      "answer": "osaltad",
+      "englishAnswer": "unsalted",
+      "options": ["färsk", "osaltad", "mild"],
+      "translation": "The food is not salty, it is unsalted"
+    },
+    {
+      "id": 54,
+      "group": "motsatser",
+      "sentence": "Han är inte artig, han är ______",
+      "answer": "oartig",
+      "englishAnswer": "impolite",
+      "options": ["elak", "oartig", "tyst"],
+      "translation": "He is not polite, he is impolite"
+    },
+    {
+      "id": 55,
+      "group": "motsatser",
+      "sentence": "Vägen är inte torr, den är ______",
+      "answer": "halkig",
+      "englishAnswer": "slippery",
+      "options": ["blöt", "halkig", "farlig"],
+      "translation": "The road is not dry, it is slippery"
+    },
+    {
+      "id": 56,
+      "group": "motsatser",
+      "sentence": "Barnet är inte tyst, det är ______",
+      "answer": "skrikigt",
+      "englishAnswer": "screamy",
+      "options": ["glatt", "skrikigt", "piggt"],
+      "translation": "The child is not quiet, it is screamy"
+    },
+    {
+      "id": 57,
+      "group": "motsatser",
+      "sentence": "Kläderna är inte torra, de är ______",
+      "answer": "fuktiga",
+      "englishAnswer": "damp",
+      "options": ["blöta", "fuktiga", "kalla"],
+      "translation": "The clothes are not dry, they are damp"
+    },
+    {
+      "id": 58,
+      "group": "motsatser",
+      "sentence": "Han är inte ödmjuk, han är ______",
+      "answer": "stolt",
+      "englishAnswer": "proud",
+      "options": ["rik", "stolt", "arg"],
+      "translation": "He is not humble, he is proud"
+    },
+    {
+      "id": 59,
+      "group": "motsatser",
+      "sentence": "Resultatet är inte säkert, det är ______",
+      "answer": "osäkert",
+      "englishAnswer": "uncertain",
+      "options": ["fel", "osäkert", "dåligt"],
+      "translation": "The result is not certain, it is uncertain"
+    },
+    {
+      "id": 60,
+      "group": "motsatser",
+      "sentence": "Huset är inte modernt, det är ______",
+      "answer": "ointeressant",
+      "englishAnswer": "uninteresting",
+      "options": ["gammalt", "ointeressant", "fult"],
+      "translation": "The house is not modern, it is uninteresting"
+    },
+    {
+      "id": 61,
+      "group": "motsatser",
+      "sentence": "Han är inte närvarande, han är ______",
+      "answer": "frånvarande",
+      "englishAnswer": "absent",
+      "options": ["borta", "frånvarande", "tyst"],
+      "translation": "He is not present, he is absent"
+    },
+    {
+      "id": 62,
+      "group": "motsatser",
+      "sentence": "Uppgiften är inte möjlig, den är ______",
+      "answer": "omöjlig",
+      "englishAnswer": "impossible",
+      "options": ["svår", "omöjlig", "fel"],
+      "translation": "The task is not possible, it is impossible"
+    },
+    {
+      "id": 63,
+      "group": "motsatser",
+      "sentence": "Han är inte frisk, han är ______",
+      "answer": "sjuk",
+      "englishAnswer": "sick",
+      "options": ["trött", "sjuk", "svag"],
+      "translation": "He is not healthy, he is sick"
+    },
+    {
+      "id": 64,
+      "group": "motsatser",
+      "sentence": "Ljuset är inte tänt, det är ______",
+      "answer": "släckt",
+      "englishAnswer": "extinguished",
+      "options": ["mörkt", "släckt", "borta"],
+      "translation": "The light is not on, it is extinguished"
+    },
+    {
+      "id": 65,
+      "group": "motsatser",
+      "sentence": "Svaret är inte tydligt, det är ______",
+      "answer": "otydligt",
+      "englishAnswer": "unclear",
+      "options": ["fel", "otydligt", "svårt"],
+      "translation": "The answer is not clear, it is unclear"
+    },
+    {
+      "id": 66,
+      "group": "motsatser",
+      "sentence": "Han är inte rik, han är ______",
+      "answer": "fattig",
+      "englishAnswer": "poor",
+      "options": ["svag", "fattig", "ledsen"],
+      "translation": "He is not rich, he is poor"
+    },
+    {
+      "id": 67,
+      "group": "motsatser",
+      "sentence": "Det är inte tyst, det är ______",
+      "answer": "bullrigt",
+      "englishAnswer": "noisy",
+      "options": ["roligt", "bullrigt", "högt"],
+      "translation": "It is not quiet, it is noisy"
+    },
+    {
+      "id": 68,
+      "group": "motsatser",
+      "sentence": "Han är inte lugn, han är ______",
+      "answer": "orolig",
+      "englishAnswer": "worried",
+      "options": ["arg", "orolig", "rädd"],
+      "translation": "He is not calm, he is worried"
+    },
+    {
+      "id": 69,
+      "group": "motsatser",
+      "sentence": "Skon är inte trång, den är ______",
+      "answer": "rymlig",
+      "englishAnswer": "spacious",
+      "options": ["stor", "rymlig", "mjuk"],
+      "translation": "The shoe is not tight, it is spacious"
+    },
+    {
+      "id": 70,
+      "group": "motsatser",
+      "sentence": "Han är inte vaken, han är ______",
+      "answer": "sömning",
+      "englishAnswer": "sleepy",
+      "options": ["trött", "sömning", "stilla"],
+      "translation": "He is not awake, he is sleepy"
+    },
+    {
+      "id": 71,
+      "group": "motsatser",
+      "sentence": "Maten är inte god, den är ______",
+      "answer": "äcklig",
+      "englishAnswer": "disgusting",
+      "options": ["dålig", "äcklig", "kall"],
+      "translation": "The food is not good, it is disgusting"
+    },
+    {
+      "id": 72,
+      "group": "motsatser",
+      "sentence": "Han är inte snäll, han är ______",
+      "answer": "elak",
+      "englishAnswer": "mean",
+      "options": ["arg", "elak", "farlig"],
+      "translation": "He is not kind, he is mean"
+    },
+    {
+      "id": 73,
+      "group": "motsatser",
+      "sentence": "Det är inte varmt, det är ______",
+      "answer": "kyligt",
+      "englishAnswer": "chilly",
+      "options": ["kallt", "kyligt", "blåsigt"],
+      "translation": "It is not warm, it is chilly"
+    },
+    {
+      "id": 74,
+      "group": "motsatser",
+      "sentence": "Arbetet är inte lätt, det är ______",
+      "answer": "tungt",
+      "englishAnswer": "heavy",
+      "options": ["svårt", "tungt", "långt"],
+      "translation": "The work is not easy, it is heavy"
+    },
+    {
+      "id": 75,
+      "group": "motsatser",
+      "sentence": "Han är inte tystlåten, han är ______",
+      "answer": "pratsam",
+      "englishAnswer": "talkative",
+      "options": ["glad", "pratsam", "snäll"],
+      "translation": "He is not quiet, he is talkative"
+    },
+    {
+      "id": 76,
+      "group": "motsatser",
+      "sentence": "Flaskan är inte full, den är ______",
+      "answer": "halvtom",
+      "englishAnswer": "half empty",
+      "options": ["tom", "halvtom", "ny"],
+      "translation": "The bottle is not full, it is half empty"
+    },
+    {
+      "id": 77,
+      "group": "motsatser",
+      "sentence": "Han är inte försiktig, han är ______",
+      "answer": "vårdslös",
+      "englishAnswer": "careless",
+      "options": ["farlig", "vårdslös", "snabb"],
+      "translation": "He is not careful, he is careless"
+    },
+    {
+      "id": 78,
+      "group": "motsatser",
+      "sentence": "Det är inte mörkt, det är ______",
+      "answer": "skymning",
+      "englishAnswer": "twilight",
+      "options": ["ljust", "skymning", "dimmigt"],
+      "translation": "It is not dark, it is twilight"
+    },
+    {
+      "id": 79,
+      "group": "motsatser",
+      "sentence": "Huden är inte mjuk, den är ______",
+      "answer": "sträv",
+      "englishAnswer": "rough",
+      "options": ["hård", "sträv", "torr"],
+      "translation": "The skin is not soft, it is rough"
+    },
+    {
+      "id": 80,
+      "group": "motsatser",
+      "sentence": "Han är inte generös, han är ______",
+      "answer": "snål",
+      "englishAnswer": "stingy",
+      "options": ["elak", "snål", "fattig"],
+      "translation": "He is not generous, he is stingy"
+    },
+    {
+      "id": 81,
+      "group": "motsatser",
+      "sentence": "Det är inte vackert, det är ______",
+      "answer": "anskrämligt",
+      "englishAnswer": "hideous",
+      "options": ["fult", "anskrämligt", "dåligt"],
+      "translation": "It is not beautiful, it is hideous"
+    },
+    {
+      "id": 82,
+      "group": "motsatser",
+      "sentence": "Han är inte nykter, han är ______",
+      "answer": "full",
+      "englishAnswer": "drunk",
+      "options": ["glad", "full", "trött"],
+      "translation": "He is not sober, he is drunk"
+    },
+    {
+      "id": 83,
+      "group": "motsatser",
+      "sentence": "Det är inte tillåtet, det är ______",
+      "answer": "förbjudet",
+      "englishAnswer": "forbidden",
+      "options": ["fel", "förbjudet", "farligt"],
+      "translation": "It is not allowed, it is forbidden"
+    },
+    {
+      "id": 84,
+      "group": "motsatser",
+      "sentence": "Han är inte ensam, han är ______",
+      "answer": "tillsammans",
+      "englishAnswer": "together",
+      "options": ["social", "tillsammans", "glad"],
+      "translation": "He is not alone, he is together"
+    },
+    {
+      "id": 85,
+      "group": "motsatser",
+      "sentence": "Maten är inte färsk, den är ______",
+      "answer": "gammal",
+      "englishAnswer": "old",
+      "options": ["dålig", "gammal", "torr"],
+      "translation": "The food is not fresh, it is old"
+    },
+    {
+      "id": 86,
+      "group": "motsatser",
+      "sentence": "Han är inte tålmodig, han är ______",
+      "answer": "otålig",
+      "englishAnswer": "impatient",
+      "options": ["arg", "otålig", "snabb"],
+      "translation": "He is not patient, he is impatient"
+    },
+    {
+      "id": 87,
+      "group": "motsatser",
+      "sentence": "Det är inte ordnat, det är ______",
+      "answer": "stökigt",
+      "englishAnswer": "messy",
+      "options": ["smutsigt", "stökigt", "fult"],
+      "translation": "It is not orderly, it is messy"
+    },
+    {
+      "id": 88,
+      "group": "motsatser",
+      "sentence": "Han är inte rättvis, han är ______",
+      "answer": "orättvis",
+      "englishAnswer": "unfair",
+      "options": ["elak", "orättvis", "dålig"],
+      "translation": "He is not fair, he is unfair"
+    },
+    {
+      "id": 89,
+      "group": "motsatser",
+      "sentence": "Det är inte djupt, det är ______",
+      "answer": "ytligt",
+      "englishAnswer": "shallow",
+      "options": ["litet", "ytligt", "kort"],
+      "translation": "It is not deep, it is shallow"
+    },
+    {
+      "id": 90,
+      "group": "motsatser",
+      "sentence": "Han är inte stark, han är ______",
+      "answer": "kraftlös",
+      "englishAnswer": "powerless",
+      "options": ["svag", "kraftlös", "trött"],
+      "translation": "He is not strong, he is powerless"
+    }
+]

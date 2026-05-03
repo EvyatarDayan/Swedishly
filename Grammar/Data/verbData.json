@@ -1,0 +1,4186 @@
+{
+  "topic": "Adjective agreement (en / ett / plural / definite)",
+  "instruction": "Choose the correct adjective form.",
+  "exercises": [
+    {
+      "id": 1,
+      "sentence": "Jag har en ____ hund",
+      "baseAdjective": "snäll",
+      "options": [
+        "snäll",
+        "snällt",
+        "snälla"
+      ],
+      "answer": "snäll",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "I have a kind dog"
+    },
+    {
+      "id": 2,
+      "sentence": "Det är ett ____ hus",
+      "baseAdjective": "röd",
+      "options": [
+        "röd",
+        "rött",
+        "röda"
+      ],
+      "answer": "rött",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It is a red house"
+    },
+    {
+      "id": 3,
+      "sentence": "Hon äter ett ____ äpple",
+      "baseAdjective": "grön",
+      "options": [
+        "grön",
+        "grönt",
+        "gröna"
+      ],
+      "answer": "grönt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "She eats a green apple"
+    },
+    {
+      "id": 4,
+      "sentence": "En ____ bil kör förbi",
+      "baseAdjective": "snabb",
+      "options": [
+        "snabb",
+        "snabbt",
+        "snabba"
+      ],
+      "answer": "snabb",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "A fast car drives by"
+    },
+    {
+      "id": 5,
+      "sentence": "Han bär en ____ jacka",
+      "baseAdjective": "blå",
+      "options": [
+        "blå",
+        "blått",
+        "blåa"
+      ],
+      "answer": "blå",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "He wears a blue jacket"
+    },
+    {
+      "id": 6,
+      "sentence": "Ett ____ barn leker i parken",
+      "baseAdjective": "glad",
+      "options": [
+        "glad",
+        "glatt",
+        "glada"
+      ],
+      "answer": "glatt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "A happy child is playing in the park"
+    },
+    {
+      "id": 7,
+      "sentence": "Vi dricker ____ kaffe",
+      "baseAdjective": "varm",
+      "options": [
+        "varm",
+        "varmt",
+        "varma"
+      ],
+      "answer": "varmt",
+      "rule": "Predicative use with ett-word (kaffe)",
+      "level": 2,
+      "translation": "We drink warm coffee"
+    },
+    {
+      "id": 8,
+      "sentence": "Det är en ____ dag",
+      "baseAdjective": "vacker",
+      "options": [
+        "vacker",
+        "vackert",
+        "vackra"
+      ],
+      "answer": "vacker",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a beautiful day"
+    },
+    {
+      "id": 9,
+      "sentence": "Jag bor i ett ____ rum",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "litet",
+      "rule": "Singular ett-word (irregular)",
+      "level": 1,
+      "translation": "I live in a small room"
+    },
+    {
+      "id": 10,
+      "sentence": "Solen är ____ idag",
+      "baseAdjective": "varm",
+      "options": [
+        "varm",
+        "varmt",
+        "varma"
+      ],
+      "answer": "varm",
+      "rule": "Predicative use with en-word (solen)",
+      "level": 2,
+      "translation": "The sun is warm today"
+    },
+    {
+      "id": 11,
+      "sentence": "Jag ser två ____ katter",
+      "baseAdjective": "svart",
+      "options": [
+        "svart",
+        "svartt",
+        "svarta"
+      ],
+      "answer": "svarta",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "I see two black cats"
+    },
+    {
+      "id": 12,
+      "sentence": "Vi har ____ vänner",
+      "baseAdjective": "många",
+      "options": [
+        "mångt",
+        "många",
+        "mång"
+      ],
+      "answer": "många",
+      "rule": "Plural (invariable)",
+      "level": 1,
+      "translation": "We have many friends"
+    },
+    {
+      "id": 13,
+      "sentence": "Här finns ____ blommor",
+      "baseAdjective": "fin",
+      "options": [
+        "fin",
+        "fint",
+        "fina"
+      ],
+      "answer": "fina",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "There are nice flowers here"
+    },
+    {
+      "id": 14,
+      "sentence": "De läser ____ böcker",
+      "baseAdjective": "bra",
+      "options": [
+        "bra",
+        "brat",
+        "brana"
+      ],
+      "answer": "bra",
+      "rule": "Invariable adjective",
+      "level": 2,
+      "translation": "They read good books"
+    },
+    {
+      "id": 15,
+      "sentence": "Barnen bär ____ skor",
+      "baseAdjective": "ny",
+      "options": [
+        "ny",
+        "nytt",
+        "nya"
+      ],
+      "answer": "nya",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "The children wear new shoes"
+    },
+    {
+      "id": 16,
+      "sentence": "Vi köpte ____ päron",
+      "baseAdjective": "god",
+      "options": [
+        "god",
+        "gott",
+        "goda"
+      ],
+      "answer": "goda",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "We bought tasty pears"
+    },
+    {
+      "id": 17,
+      "sentence": "Tre ____ män väntar",
+      "baseAdjective": "ung",
+      "options": [
+        "ung",
+        "ungt",
+        "unga"
+      ],
+      "answer": "unga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "Three young men are waiting"
+    },
+    {
+      "id": 18,
+      "sentence": "Det är ____ tider nu",
+      "baseAdjective": "svår",
+      "options": [
+        "svår",
+        "svårt",
+        "svåra"
+      ],
+      "answer": "svåra",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "These are difficult times now"
+    },
+    {
+      "id": 19,
+      "sentence": "Hon säljer ____ kläder",
+      "baseAdjective": "gammal",
+      "options": [
+        "gammal",
+        "gammalt",
+        "gamla"
+      ],
+      "answer": "gamla",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "She sells old clothes"
+    },
+    {
+      "id": 20,
+      "sentence": "De äter ____ frukter",
+      "baseAdjective": "söt",
+      "options": [
+        "söt",
+        "sött",
+        "söta"
+      ],
+      "answer": "söta",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "They eat sweet fruits"
+    },
+    {
+      "id": 21,
+      "sentence": "Den ____ boken är min",
+      "baseAdjective": "blå",
+      "options": [
+        "blå",
+        "blått",
+        "blåa"
+      ],
+      "answer": "blåa",
+      "rule": "Definite en-word",
+      "level": 2,
+      "translation": "The blue book is mine"
+    },
+    {
+      "id": 22,
+      "sentence": "Det ____ huset är stort",
+      "baseAdjective": "vit",
+      "options": [
+        "vit",
+        "vitt",
+        "vita"
+      ],
+      "answer": "vita",
+      "rule": "Definite ett-word",
+      "level": 2,
+      "translation": "The white house is big"
+    },
+    {
+      "id": 23,
+      "sentence": "De ____ barnen skrattar",
+      "baseAdjective": "glad",
+      "options": [
+        "glad",
+        "glatt",
+        "glada"
+      ],
+      "answer": "glada",
+      "rule": "Definite plural",
+      "level": 2,
+      "translation": "The happy children laugh"
+    },
+    {
+      "id": 24,
+      "sentence": "Den ____ hunden sover",
+      "baseAdjective": "gammal",
+      "options": [
+        "gammal",
+        "gammalt",
+        "gamla"
+      ],
+      "answer": "gamla",
+      "rule": "Definite en-word",
+      "level": 2,
+      "translation": "The old dog is sleeping"
+    },
+    {
+      "id": 25,
+      "sentence": "Det ____ bordet är dyrt",
+      "baseAdjective": "rund",
+      "options": [
+        "rund",
+        "runt",
+        "runda"
+      ],
+      "answer": "runda",
+      "rule": "Definite ett-word",
+      "level": 2,
+      "translation": "The round table is expensive"
+    },
+    {
+      "id": 26,
+      "sentence": "Min ____ bror är snäll",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stora",
+      "rule": "Possessive + Adjective (-a form)",
+      "level": 2,
+      "translation": "My big brother is kind"
+    },
+    {
+      "id": 27,
+      "sentence": "Jag vill ha ett ____ glas vatten",
+      "baseAdjective": "kall",
+      "options": [
+        "kall",
+        "kallt",
+        "kalla"
+      ],
+      "answer": "kallt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "I want a cold glass of water"
+    },
+    {
+      "id": 28,
+      "sentence": "Det här är en ____ fråga",
+      "baseAdjective": "viktig",
+      "options": [
+        "viktig",
+        "viktigt",
+        "viktiga"
+      ],
+      "answer": "viktig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "This is an important question"
+    },
+    {
+      "id": 29,
+      "sentence": "Är maten ____?",
+      "baseAdjective": "färdig",
+      "options": [
+        "färdig",
+        "färdigt",
+        "färdiga"
+      ],
+      "answer": "färdig",
+      "rule": "Predicative en-word (mat)",
+      "level": 2,
+      "translation": "Is the food ready?"
+    },
+    {
+      "id": 30,
+      "sentence": "Vi bor i en ____ stad",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "liten",
+      "rule": "Singular en-word (irregular)",
+      "level": 2,
+      "translation": "We live in a small city"
+    },
+    {
+      "id": 31,
+      "sentence": "Kan du ge mig den ____ pennan?",
+      "baseAdjective": "gul",
+      "options": [
+        "gul",
+        "gult",
+        "gula"
+      ],
+      "answer": "gula",
+      "rule": "Definite en-word",
+      "level": 2,
+      "translation": "Can you give me the yellow pen?"
+    },
+    {
+      "id": 32,
+      "sentence": "Han har ____ ögon",
+      "baseAdjective": "blå",
+      "options": [
+        "blå",
+        "blått",
+        "blåa"
+      ],
+      "answer": "blåa",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "He has blue eyes"
+    },
+    {
+      "id": 33,
+      "sentence": "Det är ett ____ svar",
+      "baseAdjective": "fel",
+      "options": [
+        "fel",
+        "felt",
+        "fela"
+      ],
+      "answer": "fel",
+      "rule": "Invariable adjective",
+      "level": 2,
+      "translation": "That is a wrong answer"
+    },
+    {
+      "id": 34,
+      "sentence": "Vädret är ____ idag",
+      "baseAdjective": "dålig",
+      "options": [
+        "dålig",
+        "dåligt",
+        "dåliga"
+      ],
+      "answer": "dåligt",
+      "rule": "Predicative ett-word (väder)",
+      "level": 2,
+      "translation": "The weather is bad today"
+    },
+    {
+      "id": 35,
+      "sentence": "Jag gillar ____ bilar",
+      "baseAdjective": "snabb",
+      "options": [
+        "snabb",
+        "snabbt",
+        "snabba"
+      ],
+      "answer": "snabba",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "I like fast cars"
+    },
+    {
+      "id": 36,
+      "sentence": "De bor i ett ____ område",
+      "baseAdjective": "lugn",
+      "options": [
+        "lugn",
+        "lugnt",
+        "lugna"
+      ],
+      "answer": "lugnt",
+      "rule": "Singular ett-word (område)",
+      "level": 1,
+      "translation": "They live in a quiet area"
+    },
+    {
+      "id": 37,
+      "sentence": "Har du en ____ fråga?",
+      "baseAdjective": "kort",
+      "options": [
+        "kort",
+        "kortt",
+        "korta"
+      ],
+      "answer": "kort",
+      "rule": "Singular en-word (fråga)",
+      "level": 1,
+      "translation": "Do you have a short question?"
+    },
+    {
+      "id": 38,
+      "sentence": "Vi dricker alltid ____ te",
+      "baseAdjective": "svart",
+      "options": [
+        "svart",
+        "svartt",
+        "svarta"
+      ],
+      "answer": "svart",
+      "rule": "Singular en-word (te)",
+      "level": 1,
+      "translation": "We always drink black tea"
+    },
+    {
+      "id": 39,
+      "sentence": "Det var ett ____ beslut",
+      "baseAdjective": "svår",
+      "options": [
+        "svår",
+        "svårt",
+        "svåra"
+      ],
+      "answer": "svårt",
+      "rule": "Singular ett-word (beslut)",
+      "level": 2,
+      "translation": "It was a difficult decision"
+    },
+    {
+      "id": 40,
+      "sentence": "Jag behöver ____ skor",
+      "baseAdjective": "ny",
+      "options": [
+        "ny",
+        "nytt",
+        "nya"
+      ],
+      "answer": "nya",
+      "rule": "Plural (skor)",
+      "level": 1,
+      "translation": "I need new shoes"
+    },
+    {
+      "id": 41,
+      "sentence": "Hon har en ____ röst",
+      "baseAdjective": "vacker",
+      "options": [
+        "vacker",
+        "vackert",
+        "vackra"
+      ],
+      "answer": "vacker",
+      "rule": "Singular en-word (röst)",
+      "level": 2,
+      "translation": "She has a beautiful voice"
+    },
+    {
+      "id": 42,
+      "sentence": "Är fönstret ____?",
+      "baseAdjective": "öppen",
+      "options": [
+        "öppen",
+        "öppet",
+        "öppna"
+      ],
+      "answer": "öppet",
+      "rule": "Predicative ett-word (fönster)",
+      "level": 2,
+      "translation": "Is the window open?"
+    },
+    {
+      "id": 43,
+      "sentence": "De äger en ____ båt",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stor",
+      "rule": "Singular en-word (båt)",
+      "level": 1,
+      "translation": "They own a big boat"
+    },
+    {
+      "id": 44,
+      "sentence": "Barnet har ____ hår",
+      "baseAdjective": "ljus",
+      "options": [
+        "ljus",
+        "ljust",
+        "ljusa"
+      ],
+      "answer": "ljust",
+      "rule": "Singular ett-word (hår)",
+      "level": 2,
+      "translation": "The child has light hair"
+    },
+    {
+      "id": 45,
+      "sentence": "Sängen är mycket ____",
+      "baseAdjective": "mjuk",
+      "options": [
+        "mjuk",
+        "mjukt",
+        "mjuka"
+      ],
+      "answer": "mjuk",
+      "rule": "Predicative en-word (säng)",
+      "level": 2,
+      "translation": "The bed is very soft"
+    },
+    {
+      "id": 46,
+      "sentence": "Det här är ____ nyheter",
+      "baseAdjective": "dålig",
+      "options": [
+        "dålig",
+        "dåligt",
+        "dåliga"
+      ],
+      "answer": "dåliga",
+      "rule": "Plural (nyheter)",
+      "level": 2,
+      "translation": "This is bad news"
+    },
+    {
+      "id": 47,
+      "sentence": "Vi äter en ____ lunch",
+      "baseAdjective": "tidig",
+      "options": [
+        "tidig",
+        "tidigt",
+        "tidiga"
+      ],
+      "answer": "tidig",
+      "rule": "Singular en-word (lunch)",
+      "level": 2,
+      "translation": "We are eating an early lunch"
+    },
+    {
+      "id": 48,
+      "sentence": "Huset har ____ fönster",
+      "baseAdjective": "mången",
+      "options": [
+        "mången",
+        "mångt",
+        "många"
+      ],
+      "answer": "många",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "The house has many windows"
+    },
+    {
+      "id": 49,
+      "sentence": "Han bär en ____ tröja",
+      "baseAdjective": "grå",
+      "options": [
+        "grå",
+        "grått",
+        "gråa"
+      ],
+      "answer": "grå",
+      "rule": "Singular en-word (tröja)",
+      "level": 1,
+      "translation": "He is wearing a grey sweater"
+    },
+    {
+      "id": 50,
+      "sentence": "Ett ____ leende betyder mycket",
+      "baseAdjective": "varm",
+      "options": [
+        "varm",
+        "varmt",
+        "varma"
+      ],
+      "answer": "varmt",
+      "rule": "Singular ett-word (leende)",
+      "level": 2,
+      "translation": "A warm smile means a lot"
+    },
+    {
+      "id": 51,
+      "sentence": "De säljer ____ grönsaker",
+      "baseAdjective": "färsk",
+      "options": [
+        "färsk",
+        "färskt",
+        "färska"
+      ],
+      "answer": "färska",
+      "rule": "Plural (grönsaker)",
+      "level": 2,
+      "translation": "They sell fresh vegetables"
+    },
+    {
+      "id": 52,
+      "sentence": "Är du ____?",
+      "baseAdjective": "trött",
+      "options": [
+        "trött",
+        "tröttt",
+        "trötta"
+      ],
+      "answer": "trött",
+      "rule": "Predicative (subject: du)",
+      "level": 1,
+      "translation": "Are you tired?"
+    },
+    {
+      "id": 53,
+      "sentence": "Vi bor i den ____ lägenheten",
+      "baseAdjective": "övre",
+      "options": [
+        "övre",
+        "övret",
+        "övra"
+      ],
+      "answer": "övre",
+      "rule": "Definite form (invariable)",
+      "level": 3,
+      "translation": "We live in the upper apartment"
+    },
+    {
+      "id": 54,
+      "sentence": "Hon läser en ____ tidning",
+      "baseAdjective": "svensk",
+      "options": [
+        "svensk",
+        "svenskt",
+        "svenska"
+      ],
+      "answer": "svensk",
+      "rule": "Singular en-word (tidning)",
+      "level": 1,
+      "translation": "She is reading a Swedish newspaper"
+    },
+    {
+      "id": 55,
+      "sentence": "Det är ett ____ språk",
+      "baseAdjective": "konstig",
+      "options": [
+        "konstig",
+        "konstigt",
+        "konstiga"
+      ],
+      "answer": "konstigt",
+      "rule": "Singular ett-word (språk)",
+      "level": 2,
+      "translation": "It is a strange language"
+    },
+    {
+      "id": 56,
+      "sentence": "Hunden är ____",
+      "baseAdjective": "hungrig",
+      "options": [
+        "hungrig",
+        "hungrigt",
+        "hungriga"
+      ],
+      "answer": "hungrig",
+      "rule": "Predicative en-word (hund)",
+      "level": 1,
+      "translation": "The dog is hungry"
+    },
+    {
+      "id": 57,
+      "sentence": "Jag ser ____ fåglar",
+      "baseAdjective": "vild",
+      "options": [
+        "vild",
+        "vildt",
+        "vilda"
+      ],
+      "answer": "vilda",
+      "rule": "Plural (fåglar)",
+      "level": 2,
+      "translation": "I see wild birds"
+    },
+    {
+      "id": 58,
+      "sentence": "Han köpte ett ____ bord",
+      "baseAdjective": "billig",
+      "options": [
+        "billig",
+        "billigt",
+        "billiga"
+      ],
+      "answer": "billigt",
+      "rule": "Singular ett-word (bord)",
+      "level": 1,
+      "translation": "He bought a cheap table"
+    },
+    {
+      "id": 59,
+      "sentence": "Det är en ____ film",
+      "baseAdjective": "lång",
+      "options": [
+        "lång",
+        "långt",
+        "långa"
+      ],
+      "answer": "lång",
+      "rule": "Singular en-word (film)",
+      "level": 1,
+      "translation": "It is a long movie"
+    },
+    {
+      "id": 60,
+      "sentence": "Mina ____ vänner kommer ikväll",
+      "baseAdjective": "bästa",
+      "options": [
+        "bäst",
+        "bästa",
+        "bättre"
+      ],
+      "answer": "bästa",
+      "rule": "Possessive + Superlative (-a form)",
+      "level": 2,
+      "translation": "My best friends are coming tonight"
+    },
+    {
+      "id": 61,
+      "sentence": "Det är ett ____ land",
+      "baseAdjective": "varm",
+      "options": [
+        "varm",
+        "varmt",
+        "varma"
+      ],
+      "answer": "varmt",
+      "rule": "Singular ett-word (land)",
+      "level": 1,
+      "translation": "It is a warm country"
+    },
+    {
+      "id": 62,
+      "sentence": "De har en ____ trädgård",
+      "baseAdjective": "egen",
+      "options": [
+        "egen",
+        "eget",
+        "egna"
+      ],
+      "answer": "egen",
+      "rule": "Singular en-word (egen)",
+      "level": 2,
+      "translation": "They have their own garden"
+    },
+    {
+      "id": 63,
+      "sentence": "Vi har ett ____ kök",
+      "baseAdjective": "gemensam",
+      "options": [
+        "gemensam",
+        "gemensamt",
+        "gemensamma"
+      ],
+      "answer": "gemensamt",
+      "rule": "Singular ett-word (kök)",
+      "level": 2,
+      "translation": "We have a shared kitchen"
+    },
+    {
+      "id": 64,
+      "sentence": "Tåget är ____",
+      "baseAdjective": "sen",
+      "options": [
+        "sen",
+        "sent",
+        "sena"
+      ],
+      "answer": "sent",
+      "rule": "Predicative ett-word (tåg)",
+      "level": 1,
+      "translation": "The train is late"
+    },
+    {
+      "id": 65,
+      "sentence": "Hon bär på ____ väskor",
+      "baseAdjective": "tung",
+      "options": [
+        "tung",
+        "tungt",
+        "tunga"
+      ],
+      "answer": "tunga",
+      "rule": "Plural (väskor)",
+      "level": 1,
+      "translation": "She is carrying heavy bags"
+    },
+    {
+      "id": 66,
+      "sentence": "Är du ____?",
+      "baseAdjective": "säker",
+      "options": [
+        "säker",
+        "säkert",
+        "säkra"
+      ],
+      "answer": "säker",
+      "rule": "Predicative (subject: du)",
+      "level": 2,
+      "translation": "Are you sure?"
+    },
+    {
+      "id": 67,
+      "sentence": "Vi äter ____ bröd",
+      "baseAdjective": "mörk",
+      "options": [
+        "mörk",
+        "mörkt",
+        "mörka"
+      ],
+      "answer": "mörkt",
+      "rule": "Singular ett-word (bröd)",
+      "level": 1,
+      "translation": "We eat dark bread"
+    },
+    {
+      "id": 68,
+      "sentence": "En ____ pojke sprang förbi",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "liten",
+      "rule": "Singular en-word (irregular)",
+      "level": 1,
+      "translation": "A little boy ran by"
+    },
+    {
+      "id": 69,
+      "sentence": "Det är en ____ uppgift",
+      "baseAdjective": "enkel",
+      "options": [
+        "enkel",
+        "enkelt",
+        "enkla"
+      ],
+      "answer": "enkel",
+      "rule": "Singular en-word (uppgift)",
+      "level": 2,
+      "translation": "It is a simple task"
+    },
+    {
+      "id": 70,
+      "sentence": "Har du ____ pengar?",
+      "baseAdjective": "mången",
+      "options": [
+        "mången",
+        "mångt",
+        "många"
+      ],
+      "answer": "många",
+      "rule": "Plural (pengar)",
+      "level": 1,
+      "translation": "Do you have much money?"
+    },
+    {
+      "id": 71,
+      "sentence": "Vi ser den ____ stjärnan",
+      "baseAdjective": "klar",
+      "options": [
+        "klar",
+        "klart",
+        "klara"
+      ],
+      "answer": "klara",
+      "rule": "Definite en-word (stjärna)",
+      "level": 2,
+      "translation": "We see the clear star"
+    },
+    {
+      "id": 72,
+      "sentence": "Bilen är ____",
+      "baseAdjective": "trasig",
+      "options": [
+        "trasig",
+        "trasigt",
+        "trasiga"
+      ],
+      "answer": "trasig",
+      "rule": "Predicative en-word (bil)",
+      "level": 2,
+      "translation": "The car is broken"
+    },
+    {
+      "id": 73,
+      "sentence": "Det var en ____ natt",
+      "baseAdjective": "mörk",
+      "options": [
+        "mörk",
+        "mörkt",
+        "mörka"
+      ],
+      "answer": "mörk",
+      "rule": "Singular en-word (natt)",
+      "level": 1,
+      "translation": "It was a dark night"
+    },
+    {
+      "id": 74,
+      "sentence": "Vi letar efter ett ____ kontor",
+      "baseAdjective": "ledig",
+      "options": [
+        "ledig",
+        "ledigt",
+        "lediga"
+      ],
+      "answer": "ledigt",
+      "rule": "Singular ett-word (kontor)",
+      "level": 2,
+      "translation": "We are looking for a vacant office"
+    },
+    {
+      "id": 75,
+      "sentence": "De är ____ tillsammans",
+      "baseAdjective": "lycklig",
+      "options": [
+        "lycklig",
+        "lyckligt",
+        "lyckliga"
+      ],
+      "answer": "lyckliga",
+      "rule": "Predicative plural (subject: de)",
+      "level": 1,
+      "translation": "They are happy together"
+    },
+    {
+      "id": 76,
+      "sentence": "Det här är min ____ tröja",
+      "baseAdjective": "mjuk",
+      "options": [
+        "mjuk",
+        "mjukt",
+        "mjuka"
+      ],
+      "answer": "mjuka",
+      "rule": "Possessive + Adjective (-a form)",
+      "level": 2,
+      "translation": "This is my soft sweater"
+    },
+    {
+      "id": 77,
+      "sentence": "De bor i en ____ lägenhet",
+      "baseAdjective": "modern",
+      "options": [
+        "modern",
+        "modernt",
+        "moderna"
+      ],
+      "answer": "modern",
+      "rule": "Singular en-word (lägenhet)",
+      "level": 2,
+      "translation": "They live in a modern apartment"
+    },
+    {
+      "id": 78,
+      "sentence": "Vattnet i sjön är ____",
+      "baseAdjective": "kall",
+      "options": [
+        "kall",
+        "kallt",
+        "kalla"
+      ],
+      "answer": "kallt",
+      "rule": "Predicative ett-word (vatten)",
+      "level": 1,
+      "translation": "The water in the lake is cold"
+    },
+    {
+      "id": 79,
+      "sentence": "Hon har ____ kläder på sig",
+      "baseAdjective": "fin",
+      "options": [
+        "fin",
+        "fint",
+        "fina"
+      ],
+      "answer": "fina",
+      "rule": "Plural (kläder)",
+      "level": 1,
+      "translation": "She is wearing nice clothes"
+    },
+    {
+      "id": 80,
+      "sentence": "Ett ____ tack till er alla",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stort",
+      "rule": "Singular ett-word (tack)",
+      "level": 2,
+      "translation": "A big thank you to you all"
+    },
+    {
+      "id": 81,
+      "sentence": "Kan du öppna den ____ dörren?",
+      "baseAdjective": "tung",
+      "options": [
+        "tung",
+        "tungt",
+        "tunga"
+      ],
+      "answer": "tunga",
+      "rule": "Definite en-word (dörr)",
+      "level": 2,
+      "translation": "Can you open the heavy door?"
+    },
+    {
+      "id": 82,
+      "sentence": "Det är en ____ berättelse",
+      "baseAdjective": "sann",
+      "options": [
+        "sann",
+        "sant",
+        "sanna"
+      ],
+      "answer": "sann",
+      "rule": "Singular en-word (berättelse)",
+      "level": 3,
+      "translation": "It is a true story"
+    },
+    {
+      "id": 83,
+      "sentence": "Är det ____ att det ska regna?",
+      "baseAdjective": "sann",
+      "options": [
+        "sann",
+        "sant",
+        "sanna"
+      ],
+      "answer": "sant",
+      "rule": "Predicative (impersonal 'det')",
+      "level": 2,
+      "translation": "Is it true that it will rain?"
+    },
+    {
+      "id": 84,
+      "sentence": "Vi behöver en ____ lösning",
+      "baseAdjective": "snabb",
+      "options": [
+        "snabb",
+        "snabbt",
+        "snabba"
+      ],
+      "answer": "snabb",
+      "rule": "Singular en-word (lösning)",
+      "level": 2,
+      "translation": "We need a quick solution"
+    },
+    {
+      "id": 85,
+      "sentence": "Han är en ____ person",
+      "baseAdjective": "trevlig",
+      "options": [
+        "trevlig",
+        "trevligt",
+        "trevliga"
+      ],
+      "answer": "trevlig",
+      "rule": "Singular en-word (person)",
+      "level": 1,
+      "translation": "He is a pleasant person"
+    },
+    {
+      "id": 86,
+      "sentence": "De köpte ett ____ bord",
+      "baseAdjective": "runt",
+      "options": [
+        "rund",
+        "runt",
+        "runda"
+      ],
+      "answer": "runt",
+      "rule": "Singular ett-word (bord)",
+      "level": 2,
+      "translation": "They bought a round table"
+    },
+    {
+      "id": 87,
+      "sentence": "Vi har ____ problem just nu",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "små",
+      "rule": "Plural (problem)",
+      "level": 2,
+      "translation": "We have small problems right now"
+    },
+    {
+      "id": 88,
+      "sentence": "Det är ett ____ område",
+      "baseAdjective": "trygg",
+      "options": [
+        "trygg",
+        "tryggt",
+        "trygga"
+      ],
+      "answer": "tryggt",
+      "rule": "Singular ett-word (område)",
+      "level": 2,
+      "translation": "It is a safe area"
+    },
+    {
+      "id": 89,
+      "sentence": "Filmen var faktiskt ____",
+      "baseAdjective": "bra",
+      "options": [
+        "bra",
+        "brat",
+        "brara"
+      ],
+      "answer": "bra",
+      "rule": "Invariable adjective",
+      "level": 1,
+      "translation": "The movie was actually good"
+    },
+    {
+      "id": 90,
+      "sentence": "Hon bär en ____ klänning",
+      "baseAdjective": "gul",
+      "options": [
+        "gul",
+        "gult",
+        "gula"
+      ],
+      "answer": "gul",
+      "rule": "Singular en-word (klänning)",
+      "level": 1,
+      "translation": "She is wearing a yellow dress"
+    },
+    {
+      "id": 91,
+      "sentence": "Det är ett ____ resultat",
+      "baseAdjective": "viktig",
+      "options": [
+        "viktig",
+        "viktigt",
+        "viktiga"
+      ],
+      "answer": "viktigt",
+      "rule": "Singular ett-word (resultat)",
+      "level": 2,
+      "translation": "It is an important result"
+    },
+    {
+      "id": 92,
+      "sentence": "Mina föräldrar är ____",
+      "baseAdjective": "gammal",
+      "options": [
+        "gammal",
+        "gammalt",
+        "gamla"
+      ],
+      "answer": "gamla",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "My parents are old"
+    },
+    {
+      "id": 93,
+      "sentence": "Huset har en ____ dörr",
+      "baseAdjective": "grön",
+      "options": [
+        "grön",
+        "grönt",
+        "gröna"
+      ],
+      "answer": "grön",
+      "rule": "Singular en-word (dörr)",
+      "level": 1,
+      "translation": "The house has a green door"
+    },
+    {
+      "id": 94,
+      "sentence": "Kan vi få en ____ meny?",
+      "baseAdjective": "engelsk",
+      "options": [
+        "engelsk",
+        "engelskt",
+        "engelska"
+      ],
+      "answer": "engelsk",
+      "rule": "Singular en-word (meny)",
+      "level": 2,
+      "translation": "Can we have an English menu?"
+    },
+    {
+      "id": 95,
+      "sentence": "Det är en ____ gata",
+      "baseAdjective": "bred",
+      "options": [
+        "bred",
+        "brett",
+        "breda"
+      ],
+      "answer": "bred",
+      "rule": "Singular en-word (gata)",
+      "level": 2,
+      "translation": "It is a wide street"
+    },
+    {
+      "id": 96,
+      "sentence": "Vi letar efter ett ____ hotell",
+      "baseAdjective": "billig",
+      "options": [
+        "billig",
+        "billigt",
+        "billiga"
+      ],
+      "answer": "billigt",
+      "rule": "Singular ett-word (hotell)",
+      "level": 1,
+      "translation": "We are looking for a cheap hotel"
+    },
+    {
+      "id": 97,
+      "sentence": "Det finns ____ möjligheter",
+      "baseAdjective": "mången",
+      "options": [
+        "mången",
+        "mångt",
+        "många"
+      ],
+      "answer": "många",
+      "rule": "Plural (möjligheter)",
+      "level": 2,
+      "translation": "There are many possibilities"
+    },
+    {
+      "id": 98,
+      "sentence": "Boken är mycket ____",
+      "baseAdjective": "intressant",
+      "options": [
+        "intressant",
+        "intressantt",
+        "intressanta"
+      ],
+      "answer": "intressant",
+      "rule": "Predicative en-word (bok)",
+      "level": 2,
+      "translation": "The book is very interesting"
+    },
+    {
+      "id": 99,
+      "sentence": "De har ett ____ barn",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "litet",
+      "rule": "Singular ett-word (irregular)",
+      "level": 1,
+      "translation": "They have a small child"
+    },
+    {   
+        "id": 100,
+          "sentence": "Det här är den ____ dagen",
+          "baseAdjective": "lycklig",
+          "options": ["lyckligaste", "lyckligast", "lyckligare"],
+          "answer": "lyckligaste",
+          "rule": "Definite Superlative",
+          "level": 3,
+          "translation": "This is the happiest day"
+    },
+    {
+        "id": 101,
+          "sentence": "Det ____ dokumentet",
+          "baseAdjective": "viktig",
+          "options": ["viktig", "viktigt", "viktiga"],
+          "answer": "viktiga",
+          "rule": "Definite ett-word",
+          "level": 2,
+          "translation": "The important document"
+    },
+    {
+      "id": 102,
+      "sentence": "Det är en ____ arbetsplats",
+      "baseAdjective": "trevlig",
+      "options": [
+        "trevlig",
+        "trevligt",
+        "trevliga"
+      ],
+      "answer": "trevlig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a pleasant workplace"
+    },
+    {
+      "id": 103,
+      "sentence": "Vi behöver köpa ____ mjölk",
+      "baseAdjective": "mer",
+      "options": [
+        "mer",
+        "merat",
+        "mera"
+      ],
+      "answer": "mer",
+      "rule": "Invariable/Comparative",
+      "level": 1,
+      "translation": "We need to buy more milk"
+    },
+    {
+      "id": 104,
+      "sentence": "Är du ____ på att gå ut?",
+      "baseAdjective": "sugen",
+      "options": [
+        "sugen",
+        "sugent",
+        "sugna"
+      ],
+      "answer": "sugen",
+      "rule": "Predicative en-word (subject: du)",
+      "level": 2,
+      "translation": "Are you in the mood to go out?"
+    },
+    {
+      "id": 105,
+      "sentence": "Huset har ett ____ tak",
+      "baseAdjective": "ny",
+      "options": [
+        "ny",
+        "nytt",
+        "nya"
+      ],
+      "answer": "nytt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "The house has a new roof"
+    },
+    {
+      "id": 106,
+      "sentence": "Det här är ____ nyheter",
+      "baseAdjective": "fantastisk",
+      "options": [
+        "fantastisk",
+        "fantastiskt",
+        "fantastiska"
+      ],
+      "answer": "fantastiska",
+      "rule": "Plural (nyheter)",
+      "level": 2,
+      "translation": "This is fantastic news"
+    },
+    {
+      "id": 107,
+      "sentence": "Vägen är väldigt ____",
+      "baseAdjective": "smal",
+      "options": [
+        "smal",
+        "smalt",
+        "smala"
+      ],
+      "answer": "smal",
+      "rule": "Predicative en-word (väg)",
+      "level": 2,
+      "translation": "The road is very narrow"
+    },
+    {
+      "id": 108,
+      "sentence": "De har en ____ trädgård",
+      "baseAdjective": "underbar",
+      "options": [
+        "underbar",
+        "underbart",
+        "underbara"
+      ],
+      "answer": "underbar",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "They have a wonderful garden"
+    },
+    {
+      "id": 109,
+      "sentence": "Det var ett ____ möte",
+      "baseAdjective": "lång",
+      "options": [
+        "lång",
+        "långt",
+        "långa"
+      ],
+      "answer": "långt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It was a long meeting"
+    },
+    {
+      "id": 110,
+      "sentence": "Vi äter ____ mat",
+      "baseAdjective": "stark",
+      "options": [
+        "stark",
+        "starkt",
+        "starka"
+      ],
+      "answer": "stark",
+      "rule": "Singular en-word (mat)",
+      "level": 2,
+      "translation": "We eat spicy food"
+    },
+    {
+      "id": 111,
+      "sentence": "Barnen är ____",
+      "baseAdjective": "trött",
+      "options": [
+        "trött",
+        "tröttt",
+        "trötta"
+      ],
+      "answer": "trötta",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "The children are tired"
+    },
+    {
+      "id": 112,
+      "sentence": "Har du ett ____ pass?",
+      "baseAdjective": "giltig",
+      "options": [
+        "giltig",
+        "giltigt",
+        "giltiga"
+      ],
+      "answer": "giltigt",
+      "rule": "Singular ett-word",
+      "level": 3,
+      "translation": "Do you have a valid passport?"
+    },
+    {
+      "id": 113,
+      "sentence": "Det är en ____ möjlighet",
+      "baseAdjective": "unik",
+      "options": [
+        "unik",
+        "unikt",
+        "unika"
+      ],
+      "answer": "unik",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is a unique opportunity"
+    },
+    {
+      "id": 114,
+      "sentence": "Soffan känns ____",
+      "baseAdjective": "skön",
+      "options": [
+        "skön",
+        "skönt",
+        "sköna"
+      ],
+      "answer": "skön",
+      "rule": "Predicative en-word (soffa)",
+      "level": 1,
+      "translation": "The sofa feels comfortable"
+    },
+    {
+      "id": 115,
+      "sentence": "De bor i de ____ husen",
+      "baseAdjective": "gul",
+      "options": [
+        "gul",
+        "gult",
+        "gula"
+      ],
+      "answer": "gula",
+      "rule": "Definite plural",
+      "level": 2,
+      "translation": "They live in the yellow houses"
+    },
+    {
+      "id": 116,
+      "sentence": "Vi köpte ett ____ bord",
+      "baseAdjective": "fyrkantig",
+      "options": [
+        "fyrkantig",
+        "fyrkantigt",
+        "fyrkantiga"
+      ],
+      "answer": "fyrkantigt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "We bought a square table"
+    },
+    {
+      "id": 117,
+      "sentence": "Hon har ____ planer för helgen",
+      "baseAdjective": "rolig",
+      "options": [
+        "rolig",
+        "roligt",
+        "roliga"
+      ],
+      "answer": "roliga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "She has fun plans for the weekend"
+    },
+    {
+      "id": 118,
+      "sentence": "Det är en ____ bok",
+      "baseAdjective": "tjock",
+      "options": [
+        "tjock",
+        "tjockt",
+        "tjocka"
+      ],
+      "answer": "tjock",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is a thick book"
+    },
+    {
+      "id": 119,
+      "sentence": "Jag gillar ____ kaffe",
+      "baseAdjective": "nybryggd",
+      "options": [
+        "nybryggd",
+        "nybryggt",
+        "nybryggda"
+      ],
+      "answer": "nybryggt",
+      "rule": "Singular ett-word (kaffe)",
+      "level": 3,
+      "translation": "I like freshly brewed coffee"
+    },
+    {
+      "id": 120,
+      "sentence": "De är ____ på svenska",
+      "baseAdjective": "duktig",
+      "options": [
+        "duktig",
+        "duktigt",
+        "duktiga"
+      ],
+      "answer": "duktiga",
+      "rule": "Predicative plural",
+      "level": 2,
+      "translation": "They are good at Swedish"
+    },
+    {
+      "id": 121,
+      "sentence": "Det var ett ____ misstag",
+      "baseAdjective": "dum",
+      "options": [
+        "dum",
+        "dumt",
+        "dumma"
+      ],
+      "answer": "dumt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It was a stupid mistake"
+    },
+    {
+      "id": 122,
+      "sentence": "Hunden ser ____ ut",
+      "baseAdjective": "arg",
+      "options": [
+        "arg",
+        "argt",
+        "arga"
+      ],
+      "answer": "arg",
+      "rule": "Predicative en-word (hund)",
+      "level": 1,
+      "translation": "The dog looks angry"
+    },
+    {
+      "id": 123,
+      "sentence": "Har du ____ tid?",
+      "baseAdjective": "egen",
+      "options": [
+        "egen",
+        "eget",
+        "egna"
+      ],
+      "answer": "egen",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "Do you have your own time?"
+    },
+    {
+      "id": 124,
+      "sentence": "Det är ett ____ väder idag",
+      "baseAdjective": "härlig",
+      "options": [
+        "härlig",
+        "härligt",
+        "härliga"
+      ],
+      "answer": "härligt",
+      "rule": "Singular ett-word (väder)",
+      "level": 1,
+      "translation": "It is lovely weather today"
+    },
+    {
+      "id": 125,
+      "sentence": "Jag ser den ____ pojken",
+      "baseAdjective": "liten",
+      "options": [
+        "lilla",
+        "litet",
+        "små"
+      ],
+      "answer": "lilla",
+      "rule": "Definite en-word (irregular)",
+      "level": 2,
+      "translation": "I see the little boy"
+    },
+    {
+      "id": 126,
+      "sentence": "Väskan är för ____",
+      "baseAdjective": "tung",
+      "options": [
+        "tung",
+        "tungt",
+        "tunga"
+      ],
+      "answer": "tung",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "The bag is too heavy"
+    },
+    {
+      "id": 127,
+      "sentence": "Vi har ____ lektioner",
+      "baseAdjective": "daglig",
+      "options": [
+        "daglig",
+        "dagligt",
+        "dagliga"
+      ],
+      "answer": "dagliga",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "We have daily lessons"
+    },
+    {
+      "id": 128,
+      "sentence": "Det är ett ____ svar",
+      "baseAdjective": "tydlig",
+      "options": [
+        "tydlig",
+        "tydligt",
+        "tydliga"
+      ],
+      "answer": "tydligt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It is a clear answer"
+    },
+    {
+      "id": 129,
+      "sentence": "Hon har en ____ personlighet",
+      "baseAdjective": "stark",
+      "options": [
+        "stark",
+        "starkt",
+        "starka"
+      ],
+      "answer": "stark",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "She has a strong personality"
+    },
+    {
+      "id": 130,
+      "sentence": "De bor i ett ____ område",
+      "baseAdjective": "dyr",
+      "options": [
+        "dyr",
+        "dyrt",
+        "dyra"
+      ],
+      "answer": "dyrt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "They live in an expensive area"
+    },
+    {
+      "id": 131,
+      "sentence": "Är du ____?",
+      "baseAdjective": "törstig",
+      "options": [
+        "törstig",
+        "törstigt",
+        "törstiga"
+      ],
+      "answer": "törstig",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "Are you thirsty?"
+    },
+    {
+      "id": 132,
+      "sentence": "Vi behöver ____ papper",
+      "baseAdjective": "vit",
+      "options": [
+        "vit",
+        "vitt",
+        "vita"
+      ],
+      "answer": "vitt",
+      "rule": "Singular ett-word (papper)",
+      "level": 1,
+      "translation": "We need white paper"
+    },
+    {
+      "id": 133,
+      "sentence": "Huset är ____",
+      "baseAdjective": "tom",
+      "options": [
+        "tom",
+        "tomt",
+        "tomma"
+      ],
+      "answer": "tomt",
+      "rule": "Predicative ett-word (hus)",
+      "level": 2,
+      "translation": "The house is empty"
+    },
+    {
+      "id": 134,
+      "sentence": "Jag gillar ____ äpplen",
+      "baseAdjective": "sur",
+      "options": [
+        "sur",
+        "surt",
+        "sura"
+      ],
+      "answer": "sura",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "I like sour apples"
+    },
+    {
+      "id": 135,
+      "sentence": "Det är en ____ gata",
+      "baseAdjective": "lugn",
+      "options": [
+        "lugn",
+        "lugnt",
+        "lugna"
+      ],
+      "answer": "lugn",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a quiet street"
+    },
+    {
+      "id": 136,
+      "sentence": "Vi dricker ____ vatten",
+      "baseAdjective": "frisk",
+      "options": [
+        "frisk",
+        "friskt",
+        "friska"
+      ],
+      "answer": "friskt",
+      "rule": "Singular ett-word (vatten)",
+      "level": 2,
+      "translation": "We drink fresh water"
+    },
+    {
+      "id": 137,
+      "sentence": "Hon är en ____ kvinna",
+      "baseAdjective": "smart",
+      "options": [
+        "smart",
+        "smartt",
+        "smarta"
+      ],
+      "answer": "smart",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "She is a smart woman"
+    },
+    {
+      "id": 138,
+      "sentence": "Det var ett ____ slut",
+      "baseAdjective": "lycklig",
+      "options": [
+        "lycklig",
+        "lyckligt",
+        "lyckliga"
+      ],
+      "answer": "lyckligt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It was a happy ending"
+    },
+    {
+      "id": 139,
+      "sentence": "Har du några ____ frågor?",
+      "baseAdjective": "annan",
+      "options": [
+        "annan",
+        "annat",
+        "andra"
+      ],
+      "answer": "andra",
+      "rule": "Plural (irregular)",
+      "level": 2,
+      "translation": "Do you have any other questions?"
+    },
+    {
+      "id": 140,
+      "sentence": "Det är en ____ vinter i år",
+      "baseAdjective": "kall",
+      "options": [
+        "kall",
+        "kallt",
+        "kalla"
+      ],
+      "answer": "kall",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a cold winter this year"
+    },
+    {
+      "id": 141,
+      "sentence": "De bär ____ kläder",
+      "baseAdjective": "praktisk",
+      "options": [
+        "praktisk",
+        "praktiskt",
+        "praktiska"
+      ],
+      "answer": "praktiska",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "They wear practical clothes"
+    },
+    {
+      "id": 142,
+      "sentence": "Sängen är för ____",
+      "baseAdjective": "hård",
+      "options": [
+        "hård",
+        "hårt",
+        "hårda"
+      ],
+      "answer": "hård",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "The bed is too hard"
+    },
+    {
+      "id": 143,
+      "sentence": "Vi har ett ____ schema",
+      "baseAdjective": "flexibel",
+      "options": [
+        "flexibel",
+        "flexibelt",
+        "flexibla"
+      ],
+      "answer": "flexibelt",
+      "rule": "Singular ett-word (schema)",
+      "level": 3,
+      "translation": "We have a flexible schedule"
+    },
+    {
+      "id": 144,
+      "sentence": "Han är en ____ vän",
+      "baseAdjective": "trogen",
+      "options": [
+        "trogen",
+        "troget",
+        "trogna"
+      ],
+      "answer": "trogen",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "He is a loyal friend"
+    },
+    {
+      "id": 145,
+      "sentence": "Det är ett ____ pris",
+      "baseAdjective": "rimlig",
+      "options": [
+        "rimlig",
+        "rimligt",
+        "rimliga"
+      ],
+      "answer": "rimligt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It is a reasonable price"
+    },
+    {
+      "id": 146,
+      "sentence": "Jag känner mig ____ idag",
+      "baseAdjective": "pigg",
+      "options": [
+        "pigg",
+        "piggt",
+        "pigga"
+      ],
+      "answer": "pigg",
+      "rule": "Predicative en-word",
+      "level": 2,
+      "translation": "I feel alert/refreshed today"
+    },
+    {
+      "id": 147,
+      "sentence": "Barnet har ____ händer",
+      "baseAdjective": "smutsig",
+      "options": [
+        "smutsig",
+        "smutsigt",
+        "smutsiga"
+      ],
+      "answer": "smutsiga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "The child has dirty hands"
+    },
+    {
+      "id": 148,
+      "sentence": "Det är en ____ restaurang",
+      "baseAdjective": "populär",
+      "options": [
+        "populär",
+        "populärt",
+        "populära"
+      ],
+      "answer": "populär",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a popular restaurant"
+    },
+    {
+      "id": 149,
+      "sentence": "Vi behöver ett ____ svar nu",
+      "baseAdjective": "snabb",
+      "options": [
+        "snabb",
+        "snabbt",
+        "snabba"
+      ],
+      "answer": "snabbt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "We need a quick answer now"
+    },
+    {
+      "id": 150,
+      "sentence": "De är ____ på semester",
+      "baseAdjective": "glad",
+      "options": [
+        "glad",
+        "glatt",
+        "glada"
+      ],
+      "answer": "glada",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "They are happy on vacation"
+    },
+    {
+      "id": 151,
+      "sentence": "Jag har en ____ fråga till dig",
+      "baseAdjective": "annan",
+      "options": [
+        "annan",
+        "annat",
+        "andra"
+      ],
+      "answer": "annan",
+      "rule": "Singular en-word (irregular)",
+      "level": 2,
+      "translation": "I have another question for you"
+    },
+    {
+      "id": 152,
+      "sentence": "Det är ett ____ beslut att ta",
+      "baseAdjective": "viktig",
+      "options": [
+        "viktig",
+        "viktigt",
+        "viktiga"
+      ],
+      "answer": "viktigt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It is an important decision to make"
+    },
+    {
+      "id": 153,
+      "sentence": "Är du ____ med läxan?",
+      "baseAdjective": "klar",
+      "options": [
+        "klar",
+        "klart",
+        "klara"
+      ],
+      "answer": "klar",
+      "rule": "Predicative en-word (subject: du)",
+      "level": 1,
+      "translation": "Are you finished with the homework?"
+    },
+    {
+      "id": 154,
+      "sentence": "Vi bor i det ____ huset på gatan",
+      "baseAdjective": "sista",
+      "options": [
+        "sist",
+        "sista",
+        "siste"
+      ],
+      "answer": "sista",
+      "rule": "Definite form (invariable)",
+      "level": 2,
+      "translation": "We live in the last house on the street"
+    },
+    {
+      "id": 155,
+      "sentence": "Hunden har ____ öron",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "små",
+      "rule": "Plural (irregular)",
+      "level": 2,
+      "translation": "The dog has small ears"
+    },
+    {
+      "id": 156,
+      "sentence": "Det är en ____ butik",
+      "baseAdjective": "öppen",
+      "options": [
+        "öppen",
+        "öppet",
+        "öppna"
+      ],
+      "answer": "öppen",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is an open shop"
+    },
+    {
+      "id": 157,
+      "sentence": "Kan vi få ett ____ bord?",
+      "baseAdjective": "annat",
+      "options": [
+        "annan",
+        "annat",
+        "andra"
+      ],
+      "answer": "annat",
+      "rule": "Singular ett-word (irregular)",
+      "level": 2,
+      "translation": "Can we have another table?"
+    },
+    {
+      "id": 158,
+      "sentence": "Det här är ____ information",
+      "baseAdjective": "hemlig",
+      "options": [
+        "hemlig",
+        "hemligt",
+        "hemliga"
+      ],
+      "answer": "hemlig",
+      "rule": "Singular en-word (information)",
+      "level": 3,
+      "translation": "This is secret information"
+    },
+    {
+        "id": 159,
+          "sentence": "Vi äter en ____ middag",
+          "baseAdjective": "god",
+          "options": ["god", "gott", "goda"],
+          "answer": "god",
+          "rule": "Singular en-word",
+          "level": 1,
+          "translation": "We are eating a good dinner"
+    },
+    {
+      "id": 160,
+      "sentence": "Barnet ser ____ ut idag",
+      "baseAdjective": "pigg",
+      "options": [
+        "pigg",
+        "piggt",
+        "pigga"
+      ],
+      "answer": "piggt",
+      "rule": "Predicative ett-word (barnet)",
+      "level": 2,
+      "translation": "The child looks alert/energetic today"
+    },
+    {
+      "id": 161,
+      "sentence": "Hon har ____ kläder på sig",
+      "baseAdjective": "modern",
+      "options": [
+        "modern",
+        "modernt",
+        "moderna"
+      ],
+      "answer": "moderna",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "She is wearing modern clothes"
+    },
+    {
+      "id": 162,
+      "sentence": "Det är ett ____ landskap",
+      "baseAdjective": "vacker",
+      "options": [
+        "vacker",
+        "vackert",
+        "vackra"
+      ],
+      "answer": "vackert",
+      "rule": "Singular ett-word (landskap)",
+      "level": 2,
+      "translation": "It is a beautiful landscape"
+    },
+    {
+      "id": 163,
+      "sentence": "Maten smakar ____",
+      "baseAdjective": "underbar",
+      "options": [
+        "underbar",
+        "underbart",
+        "underbara"
+      ],
+      "answer": "underbart",
+      "rule": "Adverbial use (describing 'smakar')",
+      "level": 2,
+      "translation": "The food tastes wonderful"
+    },
+    {
+      "id": 164,
+      "sentence": "De har en ____ dotter",
+      "baseAdjective": "vuxen",
+      "options": [
+        "vuxen",
+        "vuxet",
+        "vuxna"
+      ],
+      "answer": "vuxen",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "They have a grown-up daughter"
+    },
+    {
+      "id": 165,
+      "sentence": "Sjöns vatten är ____",
+      "baseAdjective": "klar",
+      "options": [
+        "klar",
+        "klart",
+        "klara"
+      ],
+      "answer": "klart",
+      "rule": "Predicative ett-word (vatten)",
+      "level": 2,
+      "translation": "The lake water is clear"
+    },
+    {
+      "id": 166,
+      "sentence": "Det är en ____ upplevelse",
+      "baseAdjective": "häftig",
+      "options": [
+        "häftig",
+        "häftigt",
+        "häftiga"
+      ],
+      "answer": "häftig",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "It is a cool/awesome experience"
+    },
+    {
+      "id": 167,
+      "sentence": "Vi behöver ____ hjälp",
+      "baseAdjective": "snabb",
+      "options": [
+        "snabb",
+        "snabbt",
+        "snabba"
+      ],
+      "answer": "snabb",
+      "rule": "Singular en-word (hjälp)",
+      "level": 1,
+      "translation": "We need quick help"
+    },
+    {
+      "id": 168,
+      "sentence": "Det är ett ____ museum",
+      "baseAdjective": "intressant",
+      "options": [
+        "intressant",
+        "intressantt",
+        "intressanta"
+      ],
+      "answer": "intressant",
+      "rule": "Singular ett-word (invariable ending in -t)",
+      "level": 2,
+      "translation": "It is an interesting museum"
+    },
+    {
+      "id": 169,
+      "sentence": "Väggarna är ____",
+      "baseAdjective": "vit",
+      "options": [
+        "vit",
+        "vitt",
+        "vita"
+      ],
+      "answer": "vita",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "The walls are white"
+    },
+    {
+      "id": 170,
+      "sentence": "Han gav mig ett ____ svar",
+      "baseAdjective": "ärlig",
+      "options": [
+        "ärlig",
+        "ärligt",
+        "ärliga"
+      ],
+      "answer": "ärligt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "He gave me an honest answer"
+    },
+    {
+      "id": 171,
+      "sentence": "Det är en ____ vinterdag",
+      "baseAdjective": "solig",
+      "options": [
+        "solig",
+        "soligt",
+        "soliga"
+      ],
+      "answer": "solig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a sunny winter day"
+    },
+    {
+      "id": 172,
+      "sentence": "Vi har ____ grannar",
+      "baseAdjective": "vänlig",
+      "options": [
+        "vänlig",
+        "vänligt",
+        "vänliga"
+      ],
+      "answer": "vänliga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "We have friendly neighbors"
+    },
+    {
+      "id": 173,
+      "sentence": "Huset ser ____ ut på håll",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "litet",
+      "rule": "Predicative ett-word (hus)",
+      "level": 1,
+      "translation": "The house looks small from a distance"
+    },
+    {
+      "id": 174,
+      "sentence": "Har du ____ nycklar?",
+      "baseAdjective": "egen",
+      "options": [
+        "egen",
+        "eget",
+        "egna"
+      ],
+      "answer": "egna",
+      "rule": "Plural (egen)",
+      "level": 2,
+      "translation": "Do you have your own keys?"
+    },
+    {
+      "id": 175,
+      "sentence": "Det här är ett ____ recept",
+      "baseAdjective": "enkel",
+      "options": [
+        "enkel",
+        "enkelt",
+        "enkla"
+      ],
+      "answer": "enkelt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "This is a simple recipe"
+    },
+    {
+      "id": 176,
+      "sentence": "Filmen var ganska ____",
+      "baseAdjective": "tråkig",
+      "options": [
+        "tråkig",
+        "tråkigt",
+        "tråkiga"
+      ],
+      "answer": "tråkig",
+      "rule": "Predicative en-word (film)",
+      "level": 1,
+      "translation": "The movie was quite boring"
+    },
+    {
+      "id": 177,
+      "sentence": "Hon bor i en ____ del av stan",
+      "baseAdjective": "annan",
+      "options": [
+        "annan",
+        "annat",
+        "andra"
+      ],
+      "answer": "annan",
+      "rule": "Singular en-word (irregular)",
+      "level": 2,
+      "translation": "She lives in another part of town"
+    },
+    {
+      "id": 178,
+      "sentence": "Det är ett ____ pris på tröjan",
+      "baseAdjective": "bra",
+      "options": [
+        "bra",
+        "brat",
+        "brara"
+      ],
+      "answer": "bra",
+      "rule": "Invariable adjective",
+      "level": 1,
+      "translation": "It is a good price on the sweater"
+    },
+    {
+      "id": 179,
+      "sentence": "De har ____ fönster",
+      "baseAdjective": "smutsig",
+      "options": [
+        "smutsig",
+        "smutsigt",
+        "smutsiga"
+      ],
+      "answer": "smutsiga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "They have dirty windows"
+    },
+    {
+      "id": 180,
+      "sentence": "Är du ____?",
+      "baseAdjective": "rädd",
+      "options": [
+        "rädd",
+        "rätt",
+        "rädda"
+      ],
+      "answer": "rädd",
+      "rule": "Predicative en-word",
+      "level": 2,
+      "translation": "Are you afraid?"
+    },
+    {
+      "id": 181,
+      "sentence": "Vi köpte ____ bröd",
+      "baseAdjective": "färsk",
+      "options": [
+        "färsk",
+        "färskt",
+        "färska"
+      ],
+      "answer": "färskt",
+      "rule": "Singular ett-word (bröd)",
+      "level": 1,
+      "translation": "We bought fresh bread"
+    },
+    {
+      "id": 182,
+      "sentence": "Det var en ____ match",
+      "baseAdjective": "spännande",
+      "options": [
+        "spännande",
+        "spännandet",
+        "spännandena"
+      ],
+      "answer": "spännande",
+      "rule": "Invariable (-ende ending)",
+      "level": 2,
+      "translation": "It was an exciting match"
+    },
+    {
+      "id": 183,
+      "sentence": "Vädret är ____ i Sverige",
+      "baseAdjective": "ombytlig",
+      "options": [
+        "ombytlig",
+        "ombytligt",
+        "ombytliga"
+      ],
+      "answer": "ombytligt",
+      "rule": "Predicative ett-word (väder)",
+      "level": 3,
+      "translation": "The weather is changeable in Sweden"
+    },
+    {
+      "id": 184,
+      "sentence": "Han bär en ____ kostym",
+      "baseAdjective": "mörk",
+      "options": [
+        "mörk",
+        "mörkt",
+        "mörka"
+      ],
+      "answer": "mörk",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "He is wearing a dark suit"
+    },
+    {
+      "id": 185,
+      "sentence": "De äger ett ____ företag",
+      "baseAdjective": "lokal",
+      "options": [
+        "lokal",
+        "lokalt",
+        "lokala"
+      ],
+      "answer": "lokalt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "They own a local company"
+    },
+    {
+      "id": 186,
+      "sentence": "Min bil är ____",
+      "baseAdjective": "gammal",
+      "options": [
+        "gammal",
+        "gammalt",
+        "gamla"
+      ],
+      "answer": "gammal",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "My car is old"
+    },
+    {
+      "id": 187,
+      "sentence": "Vi har en ____ plan",
+      "baseAdjective": "gemensam",
+      "options": [
+        "gemensam",
+        "gemensamt",
+        "gemensamma"
+      ],
+      "answer": "gemensam",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "We have a common/joint plan"
+    },
+    {
+      "id": 188,
+      "sentence": "Det är ett ____ system",
+      "baseAdjective": "komplex",
+      "options": [
+        "komplex",
+        "komplext",
+        "komplexa"
+      ],
+      "answer": "komplext",
+      "rule": "Singular ett-word",
+      "level": 3,
+      "translation": "It is a complex system"
+    },
+    {
+      "id": 189,
+      "sentence": "Hon läser ____ tidningar",
+      "baseAdjective": "utländsk",
+      "options": [
+        "utländsk",
+        "utländskt",
+        "utländska"
+      ],
+      "answer": "utländska",
+      "rule": "Plural",
+      "level": 3,
+      "translation": "She reads foreign newspapers"
+    },
+    {
+      "id": 190,
+      "sentence": "Kaffet är för ____",
+      "baseAdjective": "stark",
+      "options": [
+        "stark",
+        "starkt",
+        "starka"
+      ],
+      "answer": "starkt",
+      "rule": "Predicative ett-word (kaffe)",
+      "level": 2,
+      "translation": "The coffee is too strong"
+    },
+    {
+      "id": 191,
+      "sentence": "Vi bor i en ____ stad",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stor",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "We live in a big city"
+    },
+    {
+      "id": 192,
+      "sentence": "Har du ett ____ namn?",
+      "baseAdjective": "ovanlig",
+      "options": [
+        "ovanlig",
+        "ovanligt",
+        "ovanliga"
+      ],
+      "answer": "ovanligt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "Do you have an unusual name?"
+    },
+    {
+      "id": 193,
+      "sentence": "Det är en ____ känsla",
+      "baseAdjective": "härlig",
+      "options": [
+        "härlig",
+        "härligt",
+        "härliga"
+      ],
+      "answer": "härlig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a lovely feeling"
+    },
+    {
+      "id": 194,
+      "sentence": "Jag behöver ett ____ glas",
+      "baseAdjective": "ren",
+      "options": [
+        "ren",
+        "rent",
+        "rena"
+      ],
+      "answer": "rent",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "I need a clean glass"
+    },
+    {
+      "id": 195,
+      "sentence": "De är ____ på att sjunga",
+      "baseAdjective": "dålig",
+      "options": [
+        "dålig",
+        "dåligt",
+        "dåliga"
+      ],
+      "answer": "dåliga",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "They are bad at singing"
+    },
+    {
+      "id": 196,
+      "sentence": "Vägen känns ____",
+      "baseAdjective": "lång",
+      "options": [
+        "lång",
+        "långt",
+        "långa"
+      ],
+      "answer": "lång",
+      "rule": "Predicative en-word (väg)",
+      "level": 1,
+      "translation": "The road feels long"
+    },
+    {
+      "id": 197,
+      "sentence": "Det här är ett ____ ämne",
+      "baseAdjective": "känslig",
+      "options": [
+        "känslig",
+        "känsligt",
+        "känsliga"
+      ],
+      "answer": "känsligt",
+      "rule": "Singular ett-word (ämne)",
+      "level": 3,
+      "translation": "This is a sensitive subject"
+    },
+    {
+      "id": 198,
+      "sentence": "Vi har en ____ budget",
+      "baseAdjective": "låg",
+      "options": [
+        "låg",
+        "lågt",
+        "låga"
+      ],
+      "answer": "låg",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "We have a low budget"
+    },
+    {
+      "id": 199,
+      "sentence": "Det finns ____ lösningar",
+      "baseAdjective": "många",
+      "options": [
+        "mången",
+        "många",
+        "mångt"
+      ],
+      "answer": "många",
+      "rule": "Plural (invariable)",
+      "level": 1,
+      "translation": "There are many solutions"
+    },
+    {
+      "id": 200,
+      "sentence": "Är du ____ nu?",
+      "baseAdjective": "redo",
+      "options": [
+        "redo",
+        "redot",
+        "redona"
+      ],
+      "answer": "redo",
+      "rule": "Invariable adjective",
+      "level": 1,
+      "translation": "Are you ready now?"
+    },
+    {
+      "id": 201,
+      "sentence": "Sverige är ett ____ land",
+      "baseAdjective": "vacker",
+      "options": [
+        "vacker",
+        "vackert",
+        "vackra"
+      ],
+      "answer": "vackert",
+      "rule": "Singular ett-word (land)",
+      "level": 1,
+      "translation": "Sweden is a beautiful country"
+    },
+    {
+      "id": 202,
+      "sentence": "Hon har en ____ röst",
+      "baseAdjective": "ljus",
+      "options": [
+        "ljus",
+        "ljust",
+        "ljusa"
+      ],
+      "answer": "ljus",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "She has a light/high-pitched voice"
+    },
+    {
+      "id": 203,
+      "sentence": "De bär på ____ paket",
+      "baseAdjective": "tung",
+      "options": [
+        "tung",
+        "tungt",
+        "tunga"
+      ],
+      "answer": "tunga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "They are carrying heavy packages"
+    },
+    {
+      "id": 204,
+      "sentence": "Det här är ett ____ vin",
+      "baseAdjective": "söt",
+      "options": [
+        "söt",
+        "sött",
+        "söta"
+      ],
+      "answer": "sött",
+      "rule": "Singular ett-word (vin)",
+      "level": 1,
+      "translation": "This is a sweet wine"
+    },
+    {
+      "id": 205,
+      "sentence": "Jag gillar att bo i en ____ stad",
+      "baseAdjective": "levande",
+      "options": [
+        "levande",
+        "levandet",
+        "levandena"
+      ],
+      "answer": "levande",
+      "rule": "Invariable (-ande participle)",
+      "level": 3,
+      "translation": "I like living in a vibrant city"
+    },
+    {
+      "id": 206,
+      "sentence": "Vi har en ____ utsikt",
+      "baseAdjective": "fin",
+      "options": [
+        "fin",
+        "fint",
+        "fina"
+      ],
+      "answer": "fin",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "We have a nice view"
+    },
+    {
+      "id": 207,
+      "sentence": "Huset har ett ____ kök",
+      "baseAdjective": "rymlig",
+      "options": [
+        "rymlig",
+        "rymligt",
+        "rymliga"
+      ],
+      "answer": "rymligt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "The house has a spacious kitchen"
+    },
+    {
+      "id": 208,
+      "sentence": "Mina barn är ____",
+      "baseAdjective": "snäll",
+      "options": [
+        "snäll",
+        "snällt",
+        "snälla"
+      ],
+      "answer": "snälla",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "My children are kind"
+    },
+    {
+      "id": 209,
+      "sentence": "Har du ett ____ nummer?",
+      "baseAdjective": "svensk",
+      "options": [
+        "svensk",
+        "svenskt",
+        "svenska"
+      ],
+      "answer": "svenskt",
+      "rule": "Singular ett-word (nummer)",
+      "level": 1,
+      "translation": "Do you have a Swedish number?"
+    },
+    {
+      "id": 210,
+      "sentence": "Han är en ____ person",
+      "baseAdjective": "ärlig",
+      "options": [
+        "ärlig",
+        "ärligt",
+        "ärliga"
+      ],
+      "answer": "ärlig",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "He is an honest person"
+    },
+    {
+      "id": 211,
+      "sentence": "Det var ett ____ skämt",
+      "baseAdjective": "rolig",
+      "options": [
+        "rolig",
+        "roligt",
+        "roliga"
+      ],
+      "answer": "roligt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It was a funny joke"
+    },
+    {
+      "id": 212,
+      "sentence": "Väggen är ____",
+      "baseAdjective": "blå",
+      "options": [
+        "blå",
+        "blått",
+        "blåa"
+      ],
+      "answer": "blå",
+      "rule": "Predicative en-word (vägg)",
+      "level": 1,
+      "translation": "The wall is blue"
+    },
+    {
+      "id": 213,
+      "sentence": "De säljer ____ fisk",
+      "baseAdjective": "färsk",
+      "options": [
+        "färsk",
+        "färskt",
+        "färska"
+      ],
+      "answer": "färsk",
+      "rule": "Singular en-word (fisk)",
+      "level": 1,
+      "translation": "They sell fresh fish"
+    },
+    {
+      "id": 214,
+      "sentence": "Vi letar efter en ____ lägenhet",
+      "baseAdjective": "billig",
+      "options": [
+        "billig",
+        "billigt",
+        "billiga"
+      ],
+      "answer": "billig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "We are looking for a cheap apartment"
+    },
+    {
+      "id": 215,
+      "sentence": "Det är ett ____ problem",
+      "baseAdjective": "global",
+      "options": [
+        "global",
+        "globalt",
+        "globala"
+      ],
+      "answer": "globalt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It is a global problem"
+    },
+    {
+      "id": 216,
+      "sentence": "Hennes föräldrar är ____",
+      "baseAdjective": "rik",
+      "options": [
+        "rik",
+        "rikt",
+        "rika"
+      ],
+      "answer": "rika",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "Her parents are rich"
+    },
+    {
+      "id": 217,
+      "sentence": "Det här är en ____ gata",
+      "baseAdjective": "farlig",
+      "options": [
+        "farlig",
+        "farligt",
+        "farliga"
+      ],
+      "answer": "farlig",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "This is a dangerous street"
+    },
+    {
+      "id": 218,
+      "sentence": "Vädret i morgon blir ____",
+      "baseAdjective": "mulen",
+      "options": [
+        "mulen",
+        "mulet",
+        "mulna"
+      ],
+      "answer": "mulet",
+      "rule": "Predicative ett-word (väder)",
+      "level": 3,
+      "translation": "The weather tomorrow will be cloudy"
+    },
+    {
+        "id": 219,
+          "sentence": "Vi har ____ lektioner",
+          "baseAdjective": "lång",
+          "options": ["lång", "långt", "långa"],
+          "answer": "långa",
+          "rule": "Plural",
+          "level": 1,
+          "translation": "We have long lessons"
+    },
+    {
+      "id": 220,
+      "sentence": "Det är en ____ maskin",
+      "baseAdjective": "effektiv",
+      "options": [
+        "effektiv",
+        "effektivt",
+        "effektiva"
+      ],
+      "answer": "effektiv",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is an efficient machine"
+    },
+    {
+      "id": 221,
+      "sentence": "Katten har ____ tassar",
+      "baseAdjective": "vit",
+      "options": [
+        "vit",
+        "vitt",
+        "vita"
+      ],
+      "answer": "vita",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "The cat has white paws"
+    },
+    {
+      "id": 222,
+      "sentence": "Det var ett ____ svar",
+      "baseAdjective": "konstig",
+      "options": [
+        "konstig",
+        "konstigt",
+        "konstiga"
+      ],
+      "answer": "konstigt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It was a strange answer"
+    },
+    {
+      "id": 223,
+      "sentence": "Han bär en ____ hatt",
+      "baseAdjective": "brun",
+      "options": [
+        "brun",
+        "brunt",
+        "bruna"
+      ],
+      "answer": "brun",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "He is wearing a brown hat"
+    },
+    {
+      "id": 224,
+      "sentence": "Jag läser en ____ artikel",
+      "baseAdjective": "intressant",
+      "options": [
+        "intressant",
+        "intressantt",
+        "intressanta"
+      ],
+      "answer": "intressant",
+      "rule": "Singular en-word (invariable ending in -t)",
+      "level": 2,
+      "translation": "I am reading an interesting article"
+    },
+    {
+      "id": 225,
+      "sentence": "Det här brödet är ____",
+      "baseAdjective": "grov",
+      "options": [
+        "grov",
+        "grovt",
+        "grova"
+      ],
+      "answer": "grovt",
+      "rule": "Predicative ett-word (bröd)",
+      "level": 2,
+      "translation": "This bread is coarse/wholegrain"
+    },
+    {
+      "id": 226,
+      "sentence": "Vi dricker ____ vin",
+      "baseAdjective": "röd",
+      "options": [
+        "röd",
+        "rött",
+        "röda"
+      ],
+      "answer": "rött",
+      "rule": "Singular ett-word (vin)",
+      "level": 1,
+      "translation": "We are drinking red wine"
+    },
+    {
+      "id": 227,
+      "sentence": "Hon har en ____ mobiltelefon",
+      "baseAdjective": "ny",
+      "options": [
+        "ny",
+        "nytt",
+        "nya"
+      ],
+      "answer": "ny",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "She has a new mobile phone"
+    },
+    {
+      "id": 228,
+      "sentence": "Huset är väldigt ____",
+      "baseAdjective": "gammal",
+      "options": [
+        "gammal",
+        "gammalt",
+        "gamla"
+      ],
+      "answer": "gammalt",
+      "rule": "Predicative ett-word (hus)",
+      "level": 1,
+      "translation": "The house is very old"
+    },
+    {
+      "id": 229,
+      "sentence": "Vi har ____ möjligheter nu",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stora",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "We have great possibilities now"
+    },
+    {
+      "id": 230,
+      "sentence": "Det är en ____ känsla att vinna",
+      "baseAdjective": "underbar",
+      "options": [
+        "underbar",
+        "underbart",
+        "underbara"
+      ],
+      "answer": "underbar",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a wonderful feeling to win"
+    },
+    {
+      "id": 231,
+      "sentence": "Kan du köpa ett ____ bröd?",
+      "baseAdjective": "mjuk",
+      "options": [
+        "mjuk",
+        "mjukt",
+        "mjuka"
+      ],
+      "answer": "mjukt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "Can you buy a soft bread?"
+    },
+    {
+      "id": 232,
+      "sentence": "De bor i en ____ förort",
+      "baseAdjective": "lugn",
+      "options": [
+        "lugn",
+        "lugnt",
+        "lugna"
+      ],
+      "answer": "lugn",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "They live in a quiet suburb"
+    },
+    {
+      "id": 233,
+      "sentence": "Soffan är ____",
+      "baseAdjective": "mjuk",
+      "options": [
+        "mjuk",
+        "mjukt",
+        "mjuka"
+      ],
+      "answer": "mjuk",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "The sofa is soft"
+    },
+    {
+      "id": 234,
+      "sentence": "Det var ett ____ försök",
+      "baseAdjective": "bra",
+      "options": [
+        "bra",
+        "brat",
+        "brara"
+      ],
+      "answer": "bra",
+      "rule": "Invariable",
+      "level": 1,
+      "translation": "It was a good attempt"
+    },
+    {
+      "id": 235,
+      "sentence": "Vi ser ____ moln på himlen",
+      "baseAdjective": "mörk",
+      "options": [
+        "mörk",
+        "mörkt",
+        "mörka"
+      ],
+      "answer": "mörka",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "We see dark clouds in the sky"
+    },
+    {
+      "id": 236,
+      "sentence": "Är du ____?",
+      "baseAdjective": "redo",
+      "options": [
+        "redo",
+        "redot",
+        "redona"
+      ],
+      "answer": "redo",
+      "rule": "Invariable",
+      "level": 2,
+      "translation": "Are you ready?"
+    },
+    {
+      "id": 237,
+      "sentence": "Det är en ____ uppgift",
+      "baseAdjective": "viktig",
+      "options": [
+        "viktig",
+        "viktigt",
+        "viktiga"
+      ],
+      "answer": "viktig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is an important task"
+    },
+    {
+      "id": 238,
+      "sentence": "Hunden bär ett ____ halsband",
+      "baseAdjective": "gul",
+      "options": [
+        "gul",
+        "gult",
+        "gula"
+      ],
+      "answer": "gult",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "The dog wears a yellow collar"
+    },
+    {
+      "id": 239,
+      "sentence": "Vi behöver en ____ lösning",
+      "baseAdjective": "hållbar",
+      "options": [
+        "hållbar",
+        "hållbart",
+        "hållbara"
+      ],
+      "answer": "hållbar",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "We need a sustainable solution"
+    },
+    {
+      "id": 240,
+      "sentence": "Hon är en ____ student",
+      "baseAdjective": "flitig",
+      "options": [
+        "flitig",
+        "flitigt",
+        "flitiga"
+      ],
+      "answer": "flitig",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "She is a diligent student"
+    },
+    {
+      "id": 241,
+      "sentence": "Det här är ett ____ äpple",
+      "baseAdjective": "sur",
+      "options": [
+        "sur",
+        "surt",
+        "sura"
+      ],
+      "answer": "surt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "This is a sour apple"
+    },
+    {
+      "id": 242,
+      "sentence": "Vägen var mycket ____",
+      "baseAdjective": "hal",
+      "options": [
+        "hal",
+        "halt",
+        "hala"
+      ],
+      "answer": "hal",
+      "rule": "Predicative en-word (väg)",
+      "level": 2,
+      "translation": "The road was very slippery"
+    },
+    {
+      "id": 243,
+      "sentence": "De har ____ vänner i Stockholm",
+      "baseAdjective": "många",
+      "options": [
+        "mången",
+        "många",
+        "mångt"
+      ],
+      "answer": "många",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "They have many friends in Stockholm"
+    },
+    {
+      "id": 244,
+      "sentence": "Det var en ____ natt",
+      "baseAdjective": "stilla",
+      "options": [
+        "stilla",
+        "stillat",
+        "stillana"
+      ],
+      "answer": "stilla",
+      "rule": "Invariable",
+      "level": 3,
+      "translation": "It was a still/quiet night"
+    },
+    {
+      "id": 245,
+      "sentence": "Vi köpte ett ____ skåp",
+      "baseAdjective": "vit",
+      "options": [
+        "vit",
+        "vitt",
+        "vita"
+      ],
+      "answer": "vitt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "We bought a white cabinet"
+    },
+    {
+      "id": 246,
+      "sentence": "Filmen är ____",
+      "baseAdjective": "sevärd",
+      "options": [
+        "sevärd",
+        "sevärt",
+        "sevärda"
+      ],
+      "answer": "sevärd",
+      "rule": "Predicative en-word",
+      "level": 3,
+      "translation": "The film is worth seeing"
+    },
+    {
+      "id": 247,
+      "sentence": "Han har ____ skor",
+      "baseAdjective": "blå",
+      "options": [
+        "blå",
+        "blått",
+        "blåa"
+      ],
+      "answer": "blåa",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "He has blue shoes"
+    },
+    {
+      "id": 248,
+      "sentence": "Det är en ____ dag idag",
+      "baseAdjective": "varm",
+      "options": [
+        "varm",
+        "varmt",
+        "varma"
+      ],
+      "answer": "varm",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "It is a warm day today"
+    },
+    {
+        "id": 249,
+          "sentence": "Jag har ett ____ intresse",
+          "baseAdjective": "stor",
+          "options": ["stor", "stort", "stora"],
+          "answer": "stort",
+          "rule": "Singular ett-word (intresse)",
+          "level": 1,
+          "translation": "I have a big interest"
+    },
+    {
+      "id": 250,
+      "sentence": "De är ____ på att laga mat",
+      "baseAdjective": "bra",
+      "options": [
+        "bra",
+        "brat",
+        "brara"
+      ],
+      "answer": "bra",
+      "rule": "Invariable",
+      "level": 1,
+      "translation": "They are good at cooking"
+    },
+    {
+      "id": 251,
+      "sentence": "Det här är en ____ gata",
+      "baseAdjective": "bred",
+      "options": [
+        "bred",
+        "brett",
+        "breda"
+      ],
+      "answer": "bred",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "This is a wide street"
+    },
+    {
+      "id": 252,
+      "sentence": "Vi bor i ett ____ hus",
+      "baseAdjective": "grå",
+      "options": [
+        "grå",
+        "grått",
+        "gråa"
+      ],
+      "answer": "grått",
+      "rule": "Singular ett-word (vowel stem)",
+      "level": 2,
+      "translation": "We live in a grey house"
+    },
+    {
+      "id": 253,
+      "sentence": "Hon har ____ barn",
+      "baseAdjective": "vuxen",
+      "options": [
+        "vuxen",
+        "vuxet",
+        "vuxna"
+      ],
+      "answer": "vuxna",
+      "rule": "Plural (syncopated vowel)",
+      "level": 3,
+      "translation": "She has grown-up children"
+    },
+    {
+      "id": 254,
+      "sentence": "Svaret var helt ____",
+      "baseAdjective": "fel",
+      "options": [
+        "fel",
+        "felt",
+        "fela"
+      ],
+      "answer": "fel",
+      "rule": "Invariable adjective",
+      "level": 1,
+      "translation": "The answer was completely wrong"
+    },
+    {
+      "id": 255,
+      "sentence": "Det är en ____ sommar i år",
+      "baseAdjective": "torr",
+      "options": [
+        "torr",
+        "torrt",
+        "torra"
+      ],
+      "answer": "torr",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is a dry summer this year"
+    },
+    {
+      "id": 256,
+      "sentence": "Har du ett ____ visitkort?",
+      "baseAdjective": "ny",
+      "options": [
+        "ny",
+        "nytt",
+        "nya"
+      ],
+      "answer": "nytt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "Do you have a new business card?"
+    },
+    {
+      "id": 257,
+      "sentence": "Fönstret är ____",
+      "baseAdjective": "smutsig",
+      "options": [
+        "smutsig",
+        "smutsigt",
+        "smutsiga"
+      ],
+      "answer": "smutsigt",
+      "rule": "Predicative ett-word (fönster)",
+      "level": 1,
+      "translation": "The window is dirty"
+    },
+    {
+      "id": 258,
+      "sentence": "De bjuder på ____ bullar",
+      "baseAdjective": "hembakt",
+      "options": [
+        "hembakt",
+        "hembaktt",
+        "hembakta"
+      ],
+      "answer": "hembakta",
+      "rule": "Plural",
+      "level": 2,
+      "translation": "They are offering home-baked buns"
+    },
+    {
+      "id": 259,
+      "sentence": "Det är ett ____ beslut",
+      "baseAdjective": "klok",
+      "options": [
+        "klok",
+        "klokt",
+        "kloka"
+      ],
+      "answer": "klokt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "It is a wise decision"
+    },
+    {
+      "id": 260,
+      "sentence": "Är du ____ på att åka?",
+      "baseAdjective": "klar",
+      "options": [
+        "klar",
+        "klart",
+        "klara"
+      ],
+      "answer": "klar",
+      "rule": "Predicative en-word (subject: du)",
+      "level": 1,
+      "translation": "Are you ready to go?"
+    },
+    {
+      "id": 261,
+      "sentence": "Vi äger en ____ tomt",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stor",
+      "rule": "Singular en-word (tomt)",
+      "level": 2,
+      "translation": "We own a large plot of land"
+    },
+    {
+      "id": 262,
+      "sentence": "Kaffet smakar ____",
+      "baseAdjective": "besk",
+      "options": [
+        "besk",
+        "beskt",
+        "beska"
+      ],
+      "answer": "beskt",
+      "rule": "Adverbial/Predicative ett-word (kaffe)",
+      "level": 3,
+      "translation": "The coffee tastes bitter"
+    },
+    {
+      "id": 263,
+      "sentence": "Hon bär en ____ kappa",
+      "baseAdjective": "lång",
+      "options": [
+        "lång",
+        "långt",
+        "långa"
+      ],
+      "answer": "lång",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "She is wearing a long coat"
+    },
+    {
+      "id": 264,
+      "sentence": "Det är ett ____ projekt",
+      "baseAdjective": "spännande",
+      "options": [
+        "spännande",
+        "spännandet",
+        "spännandena"
+      ],
+      "answer": "spännande",
+      "rule": "Invariable (-ende participle)",
+      "level": 2,
+      "translation": "It is an exciting project"
+    },
+    {
+      "id": 265,
+      "sentence": "Huset har ____ dörrar",
+      "baseAdjective": "tjock",
+      "options": [
+        "tjock",
+        "tjockt",
+        "tjocka"
+      ],
+      "answer": "tjocka",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "The house has thick doors"
+    },
+    {
+      "id": 266,
+      "sentence": "Är du ____ i nacken?",
+      "baseAdjective": "stel",
+      "options": [
+        "stel",
+        "stelt",
+        "stela"
+      ],
+      "answer": "stel",
+      "rule": "Predicative en-word",
+      "level": 3,
+      "translation": "Are you stiff in the neck?"
+    },
+    {
+      "id": 267,
+      "sentence": "Det är en ____ förklaring",
+      "baseAdjective": "logisk",
+      "options": [
+        "logisk",
+        "logiskt",
+        "logiska"
+      ],
+      "answer": "logisk",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is a logical explanation"
+    },
+    {
+      "id": 268,
+      "sentence": "Vi behöver ett ____ bord",
+      "baseAdjective": "stabil",
+      "options": [
+        "stabil",
+        "stabilt",
+        "stabila"
+      ],
+      "answer": "stabilt",
+      "rule": "Singular ett-word",
+      "level": 2,
+      "translation": "We need a stable table"
+    },
+    {
+      "id": 269,
+      "sentence": "De äter ____ fisk",
+      "baseAdjective": "rå",
+      "options": [
+        "rå",
+        "rått",
+        "råa"
+      ],
+      "answer": "rå",
+      "rule": "Singular en-word (vowel stem)",
+      "level": 3,
+      "translation": "They eat raw fish"
+    },
+    {
+      "id": 270,
+      "sentence": "Barnen ser ____ ut",
+      "baseAdjective": "glad",
+      "options": [
+        "glad",
+        "glatt",
+        "glada"
+      ],
+      "answer": "glada",
+      "rule": "Predicative plural",
+      "level": 1,
+      "translation": "The children look happy"
+    },
+    {
+      "id": 271,
+      "sentence": "Det här är en ____ nyhet",
+      "baseAdjective": "viktig",
+      "options": [
+        "viktig",
+        "viktigt",
+        "viktiga"
+      ],
+      "answer": "viktig",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "This is an important news item"
+    },
+    {
+      "id": 272,
+      "sentence": "Bordet är ____",
+      "baseAdjective": "rund",
+      "options": [
+        "rund",
+        "runt",
+        "runda"
+      ],
+      "answer": "runt",
+      "rule": "Predicative ett-word (bord)",
+      "level": 1,
+      "translation": "The table is round"
+    },
+    {
+      "id": 273,
+      "sentence": "Vi har en ____ budget",
+      "baseAdjective": "stram",
+      "options": [
+        "stram",
+        "stramt",
+        "stramma"
+      ],
+      "answer": "stram",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "We have a tight budget"
+    },
+    {
+      "id": 274,
+      "sentence": "Det var ett ____ väder",
+      "baseAdjective": "tråkig",
+      "options": [
+        "tråkig",
+        "tråkigt",
+        "tråkiga"
+      ],
+      "answer": "tråkigt",
+      "rule": "Singular ett-word (väder)",
+      "level": 1,
+      "translation": "It was boring weather"
+    },
+    {
+      "id": 275,
+      "sentence": "Kan jag få den ____ boken?",
+      "baseAdjective": "liten",
+      "options": [
+        "lilla",
+        "litet",
+        "små"
+      ],
+      "answer": "lilla",
+      "rule": "Definite en-word (irregular)",
+      "level": 2,
+      "translation": "Can I have the little book?"
+    },
+    {
+      "id": 276,
+      "sentence": "De säljer ____ kläder",
+      "baseAdjective": "billig",
+      "options": [
+        "billig",
+        "billigt",
+        "billiga"
+      ],
+      "answer": "billiga",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "They sell cheap clothes"
+    },
+    {
+      "id": 277,
+      "sentence": "Är vinet ____?",
+      "baseAdjective": "kall",
+      "options": [
+        "kall",
+        "kallt",
+        "kalla"
+      ],
+      "answer": "kallt",
+      "rule": "Predicative ett-word (vin)",
+      "level": 1,
+      "translation": "Is the wine cold?"
+    },
+    {
+      "id": 278,
+      "sentence": "Hon har en ____ attityd",
+      "baseAdjective": "positiv",
+      "options": [
+        "positiv",
+        "positivt",
+        "positiva"
+      ],
+      "answer": "positiv",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "She has a positive attitude"
+    },
+    {
+      "id": 279,
+      "sentence": "Vi behöver ____ papper",
+      "baseAdjective": "gul",
+      "options": [
+        "gul",
+        "gult",
+        "gula"
+      ],
+      "answer": "gult",
+      "rule": "Singular ett-word (papper)",
+      "level": 1,
+      "translation": "We need yellow paper"
+    },
+    {
+      "id": 280,
+      "sentence": "Det är en ____ känsla",
+      "baseAdjective": "fri",
+      "options": [
+        "fri",
+        "fritt",
+        "fria"
+      ],
+      "answer": "fri",
+      "rule": "Singular en-word (vowel stem)",
+      "level": 2,
+      "translation": "It is a free feeling"
+    },
+    {
+      "id": 281,
+      "sentence": "Tåget var ____",
+      "baseAdjective": "full",
+      "options": [
+        "full",
+        "fullt",
+        "fulla"
+      ],
+      "answer": "fullt",
+      "rule": "Predicative ett-word (tåg)",
+      "level": 1,
+      "translation": "The train was full"
+    },
+    {
+      "id": 282,
+      "sentence": "Vi ser ____ fåglar",
+      "baseAdjective": "vacker",
+      "options": [
+        "vacker",
+        "vackert",
+        "vackra"
+      ],
+      "answer": "vackra",
+      "rule": "Plural (dropped 'e')",
+      "level": 2,
+      "translation": "We see beautiful birds"
+    },
+    {
+      "id": 283,
+      "sentence": "Det är ett ____ språk",
+      "baseAdjective": "svår",
+      "options": [
+        "svår",
+        "svårt",
+        "svåra"
+      ],
+      "answer": "svårt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It is a difficult language"
+    },
+    {
+      "id": 284,
+      "sentence": "Han är en ____ talare",
+      "baseAdjective": "skicklig",
+      "options": [
+        "skicklig",
+        "skickligt",
+        "skickliga"
+      ],
+      "answer": "skicklig",
+      "rule": "Singular en-word",
+      "level": 3,
+      "translation": "He is a skilled speaker"
+    },
+    {
+      "id": 285,
+      "sentence": "Bussen är ____",
+      "baseAdjective": "sen",
+      "options": [
+        "sen",
+        "sent",
+        "sena"
+      ],
+      "answer": "sen",
+      "rule": "Predicative en-word (buss)",
+      "level": 1,
+      "translation": "The bus is late"
+    },
+    {
+      "id": 286,
+      "sentence": "Det finns ____ möjligheter här",
+      "baseAdjective": "oändlig",
+      "options": [
+        "oändlig",
+        "oändligt",
+        "oändliga"
+      ],
+      "answer": "oändliga",
+      "rule": "Plural",
+      "level": 3,
+      "translation": "There are infinite possibilities here"
+    },
+    {
+      "id": 287,
+      "sentence": "Har du en ____ mobil?",
+      "baseAdjective": "trasig",
+      "options": [
+        "trasig",
+        "trasigt",
+        "trasiga"
+      ],
+      "answer": "trasig",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "Do you have a broken mobile phone?"
+    },
+    {
+      "id": 288,
+      "sentence": "Det var ett ____ slut",
+      "baseAdjective": "plötslig",
+      "options": [
+        "plötslig",
+        "plötsligt",
+        "plötsliga"
+      ],
+      "answer": "plötsligt",
+      "rule": "Singular ett-word",
+      "level": 3,
+      "translation": "It was a sudden end"
+    },
+    {
+      "id": 289,
+      "sentence": "Maten luktar ____",
+      "baseAdjective": "god",
+      "options": [
+        "god",
+        "gott",
+        "goda"
+      ],
+      "answer": "gott",
+      "rule": "Adverbial use (luktar)",
+      "level": 1,
+      "translation": "The food smells good"
+    },
+    {
+      "id": 290,
+      "sentence": "Han har ____ händer",
+      "baseAdjective": "stor",
+      "options": [
+        "stor",
+        "stort",
+        "stora"
+      ],
+      "answer": "stora",
+      "rule": "Plural",
+      "level": 1,
+      "translation": "He has big hands"
+    },
+    {
+      "id": 291,
+      "sentence": "Det är en ____ upplevelse",
+      "baseAdjective": "häftig",
+      "options": [
+        "häftig",
+        "häftigt",
+        "häftiga"
+      ],
+      "answer": "häftig",
+      "rule": "Singular en-word",
+      "level": 2,
+      "translation": "It is a cool/powerful experience"
+    },
+    {
+      "id": 292,
+      "sentence": "Vi dricker ____ juice",
+      "baseAdjective": "färsk",
+      "options": [
+        "färsk",
+        "färskt",
+        "färska"
+      ],
+      "answer": "färsk",
+      "rule": "Singular en-word (juice)",
+      "level": 2,
+      "translation": "We are drinking fresh juice"
+    },
+    {
+      "id": 293,
+      "sentence": "Huset är ____",
+      "baseAdjective": "tom",
+      "options": [
+        "tom",
+        "tomt",
+        "tomma"
+      ],
+      "answer": "tomt",
+      "rule": "Predicative ett-word (hus)",
+      "level": 2,
+      "translation": "The house is empty"
+    },
+    {
+      "id": 294,
+      "sentence": "Det är ett ____ projekt",
+      "baseAdjective": "dyr",
+      "options": [
+        "dyr",
+        "dyrt",
+        "dyra"
+      ],
+      "answer": "dyrt",
+      "rule": "Singular ett-word",
+      "level": 1,
+      "translation": "It is an expensive project"
+    },
+    {
+      "id": 295,
+      "sentence": "Hon är ____ på sitt jobb",
+      "baseAdjective": "stolt",
+      "options": [
+        "stolt",
+        "stolta",
+        "stoltare"
+      ],
+      "answer": "stolt",
+      "rule": "Predicative en-word",
+      "level": 2,
+      "translation": "She is proud of her job"
+    },
+    {
+      "id": 296,
+      "sentence": "Det finns ____ platser kvar",
+      "baseAdjective": "få",
+      "options": [
+        "få",
+        "fåt",
+        "fåa"
+      ],
+      "answer": "få",
+      "rule": "Invariable (plural only)",
+      "level": 2,
+      "translation": "There are few seats left"
+    },
+    {
+      "id": 297,
+      "sentence": "Vi har ett ____ problem",
+      "baseAdjective": "liten",
+      "options": [
+        "liten",
+        "litet",
+        "små"
+      ],
+      "answer": "litet",
+      "rule": "Singular ett-word (irregular)",
+      "level": 1,
+      "translation": "We have a small problem"
+    },
+    {
+      "id": 298,
+      "sentence": "Det här är en ____ färg",
+      "baseAdjective": "mörk",
+      "options": [
+        "mörk",
+        "mörkt",
+        "mörka"
+      ],
+      "answer": "mörk",
+      "rule": "Singular en-word",
+      "level": 1,
+      "translation": "This is a dark color"
+    },
+    {
+      "id": 299,
+      "sentence": "Väggarna är ____",
+      "baseAdjective": "grå",
+      "options": [
+        "grå",
+        "grått",
+        "gråa"
+      ],
+      "answer": "gråa",
+      "rule": "Predicative plural",
+      "level": 2,
+      "translation": "The walls are grey"
+    },
+    {
+      "id": 300,
+      "sentence": "Är du ____ nu?",
+      "baseAdjective": "färdig",
+      "options": [
+        "färdig",
+        "färdigt",
+        "färdiga"
+      ],
+      "answer": "färdig",
+      "rule": "Predicative en-word",
+      "level": 1,
+      "translation": "Are you finished now?"
+    }
+  ]
+}

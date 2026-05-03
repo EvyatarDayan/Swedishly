@@ -1,0 +1,4118 @@
+{
+  "topic": "Swedish personal and possessive pronouns",
+  "instruction": "Choose the correct word.",
+  "exercises": [
+    {
+      "id": 1,
+      "sentence": "Kan du hjälpa ____?",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form (1st person singular)",
+      "level": 1,
+      "translation": "Can you help me?"
+    },
+    {
+      "id": 2,
+      "sentence": "Var är ____ väska?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "din",
+        "ditt"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word (väska)",
+      "level": 1,
+      "translation": "Where is your bag?"
+    },
+    {
+      "id": 3,
+      "sentence": "____ älskar att simma",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hon",
+      "rule": "Nominative form (subject)",
+      "level": 1,
+      "translation": "She loves to swim"
+    },
+    {
+      "id": 4,
+      "sentence": "Jag ser ____ i spegeln",
+      "basePronoun": "reflexive",
+      "options": [
+        "mig",
+        "sig",
+        "dig"
+      ],
+      "answer": "mig",
+      "rule": "Reflexive pronoun (matching 'jag')",
+      "level": 2,
+      "translation": "I see myself in the mirror"
+    },
+    {
+      "id": 5,
+      "sentence": "Här är ____ nya hus",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vårt",
+      "rule": "Possessive ett-word (hus)",
+      "level": 2,
+      "translation": "Here is our new house"
+    },
+    {
+      "id": 6,
+      "sentence": "Har du träffat ____?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form (3rd person plural)",
+      "level": 1,
+      "translation": "Have you met them?"
+    },
+    {
+      "id": 7,
+      "sentence": "Han tvättar ____ bil",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive (his own car)",
+      "level": 3,
+      "translation": "He is washing his (own) car"
+    },
+    {
+      "id": 8,
+      "sentence": "____ barn leker ofta tillsammans",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "ert",
+        "era"
+      ],
+      "answer": "era",
+      "rule": "Possessive plural (barn)",
+      "level": 2,
+      "translation": "Your children often play together"
+    },
+    {
+      "id": 9,
+      "sentence": "Det är inte ____ fel",
+      "basePronoun": "jag",
+      "options": [
+        "mig",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word (fel)",
+      "level": 1,
+      "translation": "It is not my fault"
+    },
+    {
+      "id": 10,
+      "sentence": "Vi känner ____ väl",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "varandra",
+        "sig"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 3,
+      "translation": "We know each other well"
+    },
+    {
+      "id": 11,
+      "sentence": "Titta på hunden! ____ är så söt",
+      "basePronoun": "it (en-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "den",
+      "rule": "Nominative en-word (hund)",
+      "level": 1,
+      "translation": "Look at the dog! It is so cute"
+    },
+    {
+      "id": 12,
+      "sentence": "Vems är boken? Den är ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive (hers)",
+      "level": 2,
+      "translation": "Whose book is it? It is hers"
+    },
+    {
+      "id": 13,
+      "sentence": "____ måste vila nu",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic (Nominative)",
+      "level": 2,
+      "translation": "One must rest now"
+    },
+    {
+      "id": 14,
+      "sentence": "Kan du ge pennan till ____?",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form (3rd person singular masculine)",
+      "level": 1,
+      "translation": "Can you give the pen to him?"
+    },
+    {
+      "id": 15,
+      "sentence": "De gillar ____ nya lärare",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "sin"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "They like their (own) new teacher"
+    },
+    {
+      "id": 16,
+      "sentence": "Är det här ____ plats?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Possessive en-word (plats)",
+      "level": 2,
+      "translation": "Is this your place?"
+    },
+    {
+        "id": 17,
+          "sentence": "Barnet söker ____ föräldrar",
+          "basePronoun": "reflexive possessive",
+          "options": ["dess", "sin", "sina"],
+          "answer": "sina",
+          "rule": "Reflexive possessive plural",
+          "level": 3,
+          "translation": "The child seeks its parents"
+    },
+    {
+      "id": 18,
+      "sentence": "Vad heter ____ bror?",
+      "basePronoun": "du",
+      "options": [
+        "dig",
+        "din",
+        "dina"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word (bror)",
+      "level": 1,
+      "translation": "What is your brother's name?"
+    },
+    {
+      "id": 19,
+      "sentence": "Vi tar med ____ hundar",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural (hundar)",
+      "level": 2,
+      "translation": "We are bringing our dogs"
+    },
+    {
+      "id": 20,
+      "sentence": "Det gör ____ ont i foten",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "en",
+      "rule": "Indefinite generic (Object form)",
+      "level": 3,
+      "translation": "One's foot hurts (It hurts one in the foot)"
+    },
+    {
+      "id": 21,
+      "sentence": "Här är ____ pass",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word (pass)",
+      "level": 1,
+      "translation": "Here is my passport"
+    },
+    {
+      "id": 22,
+      "sentence": "Hon kammar ____ hår",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (hår)",
+      "level": 3,
+      "translation": "She is combing her (own) hair"
+    },
+    {
+      "id": 23,
+      "sentence": "Jag köpte blommor till ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I bought flowers for her"
+    },
+    {
+      "id": 24,
+      "sentence": "Är det här ____ paraply?",
+      "basePronoun": "han",
+      "options": [
+        "honom",
+        "hans",
+        "sin"
+      ],
+      "answer": "hans",
+      "rule": "Possessive (his - non-reflexive)",
+      "level": 2,
+      "translation": "Is this his umbrella?"
+    },
+    {
+      "id": 25,
+      "sentence": "De kramade ____",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "varandra",
+        "sig"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive",
+      "level": 2,
+      "translation": "They hugged each other"
+    },
+    {
+      "id": 26,
+      "sentence": "Företaget ökade ____ vinst",
+      "basePronoun": "it (den-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "dess",
+      "rule": "Possessive (its)",
+      "level": 3,
+      "translation": "The company increased its profit"
+    },
+    {
+      "id": 27,
+      "sentence": "Varför gråter ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative form",
+      "level": 1,
+      "translation": "Why are you crying?"
+    },
+    {
+      "id": 28,
+      "sentence": "Vi tvättar ____ händerna",
+      "basePronoun": "reflexive",
+      "options": [
+        "oss",
+        "sig",
+        "våra"
+      ],
+      "answer": "oss",
+      "rule": "Reflexive pronoun (matching 'vi')",
+      "level": 2,
+      "translation": "We wash our hands"
+    },
+    {
+      "id": 29,
+      "sentence": "Gillar du ____ nya jobb?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word (jobb)",
+      "level": 2,
+      "translation": "Do you like my new job?"
+    },
+    {
+      "id": 30,
+      "sentence": "Han glömde ____ nycklar",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural",
+      "level": 3,
+      "translation": "He forgot his (own) keys"
+    },
+    {
+      "id": 31,
+      "sentence": "Kan ____ svara på frågan?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative form",
+      "level": 1,
+      "translation": "Can you (plural) answer the question?"
+    },
+    {
+      "id": 32,
+      "sentence": "Jag ser ____ vid stationen",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form",
+      "level": 2,
+      "translation": "I will see you (plural) at the station"
+    },
+    {
+      "id": 33,
+      "sentence": "____ barnvagn står där borta",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive (their)",
+      "level": 1,
+      "translation": "Their stroller is standing over there"
+    },
+    {
+      "id": 34,
+      "sentence": "Huset är gammalt, ____ fönster",
+        "basePronoun": "it (ett-word)",
+        "options": ["det", "dess", "sina"],
+        "answer": "dess",
+        "rule": "Possessive (its)",
+        "level": 3,
+        "translation": "The house is old, its windows"
+    },
+    {
+      "id": 35,
+      "sentence": "Måste man göra ____ läxor?",
+      "basePronoun": "man",
+      "options": [
+        "ens",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive with 'man'",
+      "level": 3,
+      "translation": "Does one have to do one's homework?"
+    },
+    {
+      "id": 36,
+      "sentence": "Kommer ____ imorgon?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative form",
+      "level": 1,
+      "translation": "Are they coming tomorrow?"
+    },
+    {
+      "id": 37,
+      "sentence": "De skyndar ____ till bussen",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "oss"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive pronoun (3rd person plural)",
+      "level": 2,
+      "translation": "They hurry to the bus"
+    },
+    {
+        "id": 38,
+          "sentence": "Har du ____ legitimation?",
+          "basePronoun": "du",
+          "options": ["din", "ditt", "dina"],
+          "answer": "din",
+          "rule": "Possessive en-word (legitimation)",
+          "level": 2,
+          "translation": "Do you have your ID?"
+    },
+    {
+      "id": 39,
+      "sentence": "Vi bjuder ____ på middag",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form",
+      "level": 2,
+      "translation": "We are inviting you (plural) to dinner"
+    },
+    {
+      "id": 40,
+      "sentence": "Jag gillar ____ skor",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "dina",
+      "rule": "Possessive plural (skor)",
+      "level": 1,
+      "translation": "I like your shoes"
+    },
+    {
+      "id": 41,
+      "sentence": "Hon satte ____ på stolen",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "sin"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive pronoun (3rd person singular)",
+      "level": 2,
+      "translation": "She sat down on the chair"
+    },
+    {
+      "id": 42,
+      "sentence": "Är det här ____ bord?",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vårt",
+      "rule": "Possessive ett-word (bord)",
+      "level": 1,
+      "translation": "Is this our table?"
+    },
+    {
+      "id": 43,
+      "sentence": "De hjälper ____ med maten",
+      "basePronoun": "mutual",
+      "options": [
+        "sig",
+        "varandra",
+        "dem"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive",
+      "level": 2,
+      "translation": "They help each other with the food"
+    },
+    {
+      "id": 44,
+      "sentence": "Berätta för ____ om resan",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Tell us about the trip"
+    },
+    {
+      "id": 45,
+      "sentence": "Bilen är ____",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive (ours - matching 'bil')",
+      "level": 2,
+      "translation": "The car is ours"
+    },
+    {
+      "id": 46,
+      "sentence": "Har du glömt ____ bok?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word (bok)",
+      "level": 1,
+      "translation": "Have you forgotten your book?"
+    },
+    {
+      "id": 47,
+      "sentence": "De bor i ____ lägenhet",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word (lägenhet)",
+      "level": 1,
+      "translation": "They live in my apartment"
+    },
+    {
+      "id": 48,
+      "sentence": "Han läser ____ tidning",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He is reading his (own) newspaper"
+    },
+    {
+      "id": 49,
+      "sentence": "Vi måste hjälpa ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We must help him"
+    },
+    {
+      "id": 50,
+      "sentence": "Vad är ____ adress?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Possessive en-word (adress)",
+      "level": 2,
+      "translation": "What is your (plural) address?"
+    },
+    {
+      "id": 51,
+      "sentence": "Anna ringer ____ mamma varje dag",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive (her own mamma)",
+      "level": 3,
+      "translation": "Anna calls her (own) mom every day"
+    },
+    {
+      "id": 52,
+      "sentence": "Jag känner inte ____ mamma.",
+      "basePronoun": "possessive",
+      "options": ["hennes", "sin", "sitt"],
+      "answer": "hennes",
+      "rule": "Possessive (her - non-reflexive)",
+      "level": 3,
+      "translation": "I don't know her mom."
+    },
+    {
+      "id": 53,
+      "sentence": "Var är ____ barn?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "era"
+      ],
+      "answer": "era",
+      "rule": "Possessive plural (plural 'you')",
+      "level": 1,
+      "translation": "Where are your children?"
+    },
+    {
+        "id": 54,
+          "sentence": "____ ben är trasiga",
+          "basePronoun": "it (ett-word)",
+          "options": ["det", "dess", "sina"],
+          "answer": "dess",
+          "rule": "Possessive for 'det' (its)",
+          "level": 2,
+          "translation": "Its legs are broken"
+    },
+    {
+      "id": 55,
+      "sentence": "Vi lär ____ svenska",
+      "basePronoun": "reflexive",
+      "options": [
+        "oss",
+        "sig",
+        "våra"
+      ],
+      "answer": "oss",
+      "rule": "Reflexive (we teach ourselves / we learn)",
+      "level": 2,
+      "translation": "We are learning (teaching ourselves) Swedish"
+    },
+    {
+      "id": 56,
+      "sentence": "Erik älskar ____ fru",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive (his own wife)",
+      "level": 3,
+      "translation": "Erik loves his wife"
+    },
+    {
+      "id": 57,
+      "sentence": "De pratar med ____",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "varandra",
+        "deras"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "They are talking to each other"
+    },
+    {
+      "id": 58,
+      "sentence": "____ får inte röka här",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic (Subject form)",
+      "level": 1,
+      "translation": "One (you) may not smoke here"
+    },
+    {
+      "id": 59,
+      "sentence": "Hunden viftar på ____ svans",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "dess",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive (its own svans)",
+      "level": 3,
+      "translation": "The dog wags its tail"
+    },
+    {
+      "id": 60,
+      "sentence": "Kan du ge ____ ett glas vatten?",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form (me)",
+      "level": 1,
+      "translation": "Can you give me a glass of water?"
+    },
+    {
+      "id": 61,
+      "sentence": "De säljer ____ hus",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (house)",
+      "level": 3,
+      "translation": "They are selling their (own) house"
+    },
+    {
+        "id": 62,
+          "sentence": "____ är sköna",
+          "basePronoun": "they",
+          "options": ["de", "dem", "deras"],
+          "answer": "de",
+          "rule": "Nominative plural (subject)",
+          "level": 1,
+          "translation": "They are comfortable"
+    },
+    {
+      "id": 63,
+      "sentence": "Är det här ____ tröja?",
+      "basePronoun": "hon",
+      "options": [
+        "henne",
+        "hennes",
+        "sin"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive (hers)",
+      "level": 2,
+      "translation": "Is this her sweater?"
+    },
+    {
+      "id": 64,
+      "sentence": "Vi måste skynda ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "oss",
+        "vår",
+        "sig"
+      ],
+      "answer": "oss",
+      "rule": "Reflexive (matching 'vi')",
+      "level": 2,
+      "translation": "We must hurry"
+    },
+    {
+      "id": 65,
+      "sentence": "Kan du se ____?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form (her)",
+      "level": 1,
+      "translation": "Can you see her?"
+    },
+    {
+      "id": 66,
+      "sentence": "Barnen bor med ____ pappa",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sina"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "The children live with their (own) dad"
+    },
+    {
+        "id": 67,
+          "sentence": "Den var svår, men ____ var bra",
+          "basePronoun": "it (en-word)",
+          "options": ["den", "det", "dess"],
+          "answer": "den",
+          "rule": "Nominative en-word (it)",
+          "level": 1,
+          "translation": "It was difficult, but it was good"
+    },
+    {
+      "id": 68,
+      "sentence": "Det gör ____ arg när folk ljuger",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "en",
+      "rule": "Indefinite generic (Object form)",
+      "level": 3,
+      "translation": "It makes one (you) angry when people lie"
+    },
+    {
+      "id": 69,
+      "sentence": "Här är ____ bok",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word (bok)",
+      "level": 1,
+      "translation": "Here is my book"
+    },
+    {
+      "id": 70,
+      "sentence": "Pojken tvättar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive pronoun (himself)",
+      "level": 2,
+      "translation": "The boy is washing himself"
+    },
+    {
+      "id": 71,
+      "sentence": "Var är ____ pass?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "ditt",
+      "rule": "Possessive ett-word (pass)",
+      "level": 1,
+      "translation": "Where is your passport?"
+    },
+    {
+      "id": 72,
+      "sentence": "De känner inte ____",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "varandra",
+        "dem"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "They don't know each other"
+    },
+    {
+      "id": 73,
+      "sentence": "Det är ____ nya bil",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Possessive en-word (bil)",
+      "level": 1,
+      "translation": "It is your (plural) new car"
+    },
+    {
+        "id": 74,
+          "sentence": "Han tog ____ cykel",
+          "basePronoun": "possessive",
+          "options": ["sin", "hans", "honom"],
+          "answer": "sin",
+          "rule": "Reflexive possessive (his own cykel)",
+          "level": 3,
+          "translation": "He took his (own) bike"
+    },
+    {
+      "id": 75,
+      "sentence": "Jag litar på ____",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form (you)",
+      "level": 1,
+      "translation": "I trust you"
+    },
+    {
+      "id": 76,
+      "sentence": "Det är viktigt för ____ hälsa",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "ens",
+      "rule": "Indefinite generic (Possessive form)",
+      "level": 3,
+      "translation": "It is important for one's health"
+    },
+    {
+      "id": 77,
+      "sentence": "Kan ni hämta ____ väskor?",
+      "basePronoun": "ni",
+      "options": [
+        "er",
+        "ert",
+        "era"
+      ],
+      "answer": "era",
+      "rule": "Possessive plural (väskor)",
+      "level": 2,
+      "translation": "Can you (plural) fetch your bags?"
+    },
+    {
+      "id": 78,
+      "sentence": "Hon ser ____ i fönstret",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She sees herself in the window"
+    },
+    {
+      "id": 79,
+      "sentence": "____ barnbarn bor i Malmö",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive (their)",
+      "level": 1,
+      "translation": "Their grandchildren live in Malmö"
+    },
+    {
+        "id": 80,
+          "sentence": "Huset är rött, ____ tak är svart",
+          "basePronoun": "it (ett-word)",
+          "options": ["det", "dess", "sina"],
+          "answer": "dess",
+          "rule": "Possessive for 'det' (its)",
+          "level": 2,
+          "translation": "The house is red, its roof is black"
+    },
+    {
+        "id": 81,
+          "sentence": "Jag hittade ____ glasögon",
+          "basePronoun": "du",
+          "options": ["din", "ditt", "dina"],
+          "answer": "dina",
+          "rule": "Possessive plural (glasögon)",
+          "level": 2,
+          "translation": "I found your glasses"
+    },
+    {
+      "id": 82,
+      "sentence": "De gillar ____",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form (us)",
+      "level": 1,
+      "translation": "They like us"
+    },
+    {
+      "id": 83,
+      "sentence": "Bebisen sover i ____ säng",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "dess",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word (säng)",
+      "level": 3,
+      "translation": "The baby is sleeping in its (own) bed"
+    },
+    {
+        "id": 84,
+          "sentence": "Måste ____ ha legitimation",
+          "basePronoun": "man",
+          "options": ["man", "en", "ens"],
+          "answer": "man",
+          "rule": "Indefinite generic (Subject form)",
+          "level": 2,
+          "translation": "Does one need to have ID"
+    },
+    {
+      "id": 85,
+      "sentence": "Vi tar ____ bil",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word (bil)",
+      "level": 1,
+      "translation": "We are taking our car"
+    },
+    {
+      "id": 86,
+      "sentence": "Vems är pennan? Den är ____",
+      "basePronoun": "han",
+      "options": [
+        "honom",
+        "hans",
+        "sin"
+      ],
+      "answer": "hans",
+      "rule": "Possessive (his)",
+      "level": 1,
+      "translation": "Whose pen is it? It's his"
+    },
+    {
+      "id": 87,
+      "sentence": "Jag ser ____ imorgon",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form (them)",
+      "level": 1,
+      "translation": "I will see them tomorrow"
+    },
+    {
+      "id": 88,
+      "sentence": "Vi sätter ____ i soffan",
+      "basePronoun": "reflexive",
+      "options": [
+        "oss",
+        "sig",
+        "våra"
+      ],
+      "answer": "oss",
+      "rule": "Reflexive (matching 'vi')",
+      "level": 2,
+      "translation": "We are sitting (ourselves) on the sofa"
+    },
+    {
+      "id": 89,
+      "sentence": "Han berättade om ____ resa",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He told (about) his (own) trip"
+    },
+    {
+      "id": 90,
+      "sentence": "Är det här ____ plats?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word (plats)",
+      "level": 1,
+      "translation": "Is this my place?"
+    },
+    {
+      "id": 91,
+      "sentence": "Vi kan hjälpa ____",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "varandra",
+        "våra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "We can help each other"
+    },
+    {
+      "id": 92,
+      "sentence": "Vart ska ____?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative form (subject)",
+      "level": 1,
+      "translation": "Where are you (plural) going?"
+    },
+    {
+      "id": 93,
+      "sentence": "Hon tappade ____ vantar",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural",
+      "level": 3,
+      "translation": "She lost her (own) mittens"
+    },
+    {
+      "id": 94,
+      "sentence": "Jag vill träffa ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form (him)",
+      "level": 1,
+      "translation": "I want to meet him"
+    },
+    {
+      "id": 95,
+      "sentence": "Är det här ____ barn?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive (their)",
+      "level": 1,
+      "translation": "Are these their children?"
+    },
+    {
+      "id": 96,
+      "sentence": "Man måste tänka på ____ hälsa",
+      "basePronoun": "man",
+      "options": [
+        "ens",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive with 'man' (en-word)",
+      "level": 3,
+      "translation": "One must think about one's (own) health"
+    },
+    {
+      "id": 97,
+      "sentence": "Vi köpte ____ bord på IKEA",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vårt",
+      "rule": "Possessive ett-word (bord)",
+      "level": 1,
+      "translation": "We bought our table at IKEA"
+    },
+    {
+        "id": 98,
+          "sentence": "Tåget var sent, ____ dörrar",
+          "basePronoun": "it (ett-word)",
+          "options": ["det", "dess", "sina"],
+          "answer": "dess",
+          "rule": "Possessive (its)",
+          "level": 2,
+          "translation": "The train was late, its doors"
+    },
+    {
+      "id": 99,
+      "sentence": "Jag älskar ____",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form (you)",
+      "level": 1,
+      "translation": "I love you"
+    },
+    {
+      "id": 100,
+      "sentence": "De tvättar ____ i sjön",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive pronoun (themselves)",
+      "level": 2,
+      "translation": "They are washing themselves in the lake"
+    },
+    {
+      "id": 101,
+      "sentence": "Har ni sett ____ nya bil?",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word (bil)",
+      "level": 1,
+      "translation": "Have you seen our new car?"
+    },
+    {
+        "id": 102,
+          "sentence": "Erik presenterade ____",
+          "basePronoun": "reflexive",
+          "options": ["honom", "sig", "hans"],
+          "answer": "sig",
+          "rule": "Reflexive (himself)",
+          "level": 2,
+          "translation": "Erik introduced himself"
+    },
+    {
+      "id": 103,
+      "sentence": "Jag ser ____ inte",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form (plural you)",
+      "level": 1,
+      "translation": "I don't see you (plural)"
+    },
+    {
+        "id": 104,
+          "sentence": "Bilen är trasig, ____ motor",
+          "basePronoun": "it (en-word)",
+          "options": ["den", "dess", "det"],
+          "answer": "dess",
+          "rule": "Possessive (its)",
+          "level": 2,
+          "translation": "The car is broken, its motor"
+    },
+    {
+      "id": 105,
+      "sentence": "Barnen bor hos ____ mormor",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "The children are staying at their (own) grandma's"
+    },
+    {
+      "id": 106,
+      "sentence": "Kan ____ räcka mig saltet?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Can you pass me the salt?"
+    },
+    {
+      "id": 107,
+      "sentence": "De tittar på ____ i spegeln",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They are looking at themselves in the mirror"
+    },
+    {
+      "id": 108,
+      "sentence": "Man bör borsta ____ tänder ofta",
+      "basePronoun": "man",
+      "options": [
+        "ens",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural with 'man'",
+      "level": 3,
+      "translation": "One should brush one's teeth often"
+    },
+    {
+        "id": 109,
+          "sentence": "Är det här ____ plats",
+          "basePronoun": "ni (formal)",
+          "options": ["er", "ert", "era"],
+          "answer": "er",
+          "rule": "Formal singular possessive en-word",
+          "level": 3,
+          "translation": "Is this your seat"
+    },
+    {
+      "id": 110,
+      "sentence": "Vi köpte ____ på loppis",
+      "basePronoun": "it (den-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "den",
+      "rule": "Object form (it - referring to an en-word object)",
+      "level": 2,
+      "translation": "We bought it at a flea market"
+    },
+    {
+      "id": 111,
+      "sentence": "Här är ____ nya kontor",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word (kontor)",
+      "level": 1,
+      "translation": "Here is my new office"
+    },
+    {
+      "id": 112,
+      "sentence": "Vem gav ____ den där boken?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form (you)",
+      "level": 1,
+      "translation": "Who gave you that book?"
+    },
+    {
+      "id": 113,
+      "sentence": "Paret håller ____ i handen",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "The couple is holding each other's hand"
+    },
+    {
+      "id": 114,
+      "sentence": "Katten slickar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "den",
+        "sig",
+        "dess"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (itself)",
+      "level": 2,
+      "translation": "The cat is licking itself"
+    },
+    {
+      "id": 115,
+      "sentence": "Hon träffade ____ bror igår",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "She met her (own) brother yesterday"
+    },
+    {
+      "id": 116,
+      "sentence": "Jag träffade ____ bror igår",
+      "basePronoun": "hon",
+      "options": [
+        "henne",
+        "hennes",
+        "sin"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive (her - non-reflexive)",
+      "level": 2,
+      "translation": "I met her brother yesterday"
+    },
+    {
+      "id": 117,
+      "sentence": "Är det ____ som ska med?",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "vi",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Is it us who are coming along?"
+    },
+    {
+      "id": 118,
+      "sentence": "Vart la du ____ glasögon?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mina",
+      "rule": "Possessive plural (glasögon)",
+      "level": 1,
+      "translation": "Where did you put my glasses?"
+    },
+    {
+      "id": 119,
+      "sentence": "Han skyddar ____ mot regnet",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (himself)",
+      "level": 2,
+      "translation": "He protects himself against the rain"
+    },
+    {
+      "id": 120,
+      "sentence": "Huset är stort, ____ färg är vit",
+      "basePronoun": "it (ett-word)",
+      "options": [
+        "det",
+        "dess",
+        "sina"
+      ],
+      "answer": "dess",
+      "rule": "Possessive for 'det' (its)",
+      "level": 2,
+      "translation": "The house is big, Its color is white"
+    },
+    {
+      "id": 121,
+      "sentence": "Kan du köra ____ till tåget?",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "mitt"
+      ],
+      "answer": "mig",
+      "rule": "Object form (me)",
+      "level": 1,
+      "translation": "Can you drive me to the train?"
+    },
+    {
+      "id": 122,
+      "sentence": "Barnet klädde på ____ själv",
+      "basePronoun": "reflexive",
+      "options": [
+        "det",
+        "sig",
+        "dess"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (itself/himself/herself)",
+      "level": 2,
+      "translation": "The child dressed itself"
+    },
+    {
+        "id": 123,
+          "sentence": "De hämtade ____ barn",
+          "basePronoun": "reflexive possessive",
+          "options": ["deras", "sin", "sina"],
+          "answer": "sina",
+          "rule": "Reflexive possessive plural (barn)",
+          "level": 3,
+          "translation": "They picked up their children"
+    },
+    {
+        "id": 124,
+          "sentence": "Jag gillar inte ____ hund",
+          "basePronoun": "de",
+          "options": ["de", "dem", "deras"],
+          "answer": "deras",
+          "rule": "Possessive (their)",
+          "level": 2,
+          "translation": "I don't like their dog"
+    },
+    {
+      "id": 125,
+      "sentence": "Vi ses hos ____!",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "era"
+      ],
+      "answer": "er",
+      "rule": "Object form (you plural - after preposition)",
+      "level": 2,
+      "translation": "See you at your place!"
+    },
+    {
+      "id": 126,
+      "sentence": "Hon skrev ett brev till ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form (him)",
+      "level": 1,
+      "translation": "She wrote a letter to him"
+    },
+    {
+      "id": 127,
+      "sentence": "De hjälper ____ med läxan",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vårt"
+      ],
+      "answer": "oss",
+      "rule": "Object form (us)",
+      "level": 1,
+      "translation": "They help us with the homework"
+    },
+    {
+      "id": 128,
+      "sentence": "____ bör vara försiktig",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic (Nominative)",
+      "level": 2,
+      "translation": "One should be careful"
+    },
+    {
+      "id": 129,
+      "sentence": "Vad är ____ efternamn?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "din",
+        "ditt"
+      ],
+      "answer": "ditt",
+      "rule": "Possessive ett-word (efternamn)",
+      "level": 1,
+      "translation": "What is your last name?"
+    },
+    {
+      "id": 130,
+      "sentence": "Vi gillar ____ skola",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word (skola)",
+      "level": 1,
+      "translation": "We like our school"
+    },
+    {
+      "id": 131,
+      "sentence": "De pratar bara om ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They only talk about themselves"
+    },
+    {
+      "id": 132,
+      "sentence": "Här är ____ skor",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mina",
+      "rule": "Possessive plural (skor)",
+      "level": 1,
+      "translation": "Here are my shoes"
+    },
+    {
+      "id": 133,
+      "sentence": "Han glömde ____ paraply",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (paraply)",
+      "level": 3,
+      "translation": "He forgot his (own) umbrella"
+    },
+    {
+      "id": 134,
+      "sentence": "Ska vi gå hem till ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form (you - after preposition)",
+      "level": 1,
+      "translation": "Shall we go home to you?"
+    },
+    {
+      "id": 135,
+      "sentence": "Det gör ____ ledsen",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form (me)",
+      "level": 1,
+      "translation": "It makes me sad"
+    },
+    {
+      "id": 136,
+      "sentence": "Varför tittar ni på ____?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form (her)",
+      "level": 1,
+      "translation": "Why are you (plural) looking at her?"
+    },
+    {
+      "id": 137,
+      "sentence": "De älskar ____ barn",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural (barn)",
+      "level": 3,
+      "translation": "They love their (own) children"
+    },
+    {
+      "id": 138,
+      "sentence": "Vad tycker ____ om maten?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "What do you (plural) think of the food?"
+    },
+    {
+      "id": 139,
+      "sentence": "____ ser en film",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "vi",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "We are watching a movie"
+    },
+    {
+      "id": 140,
+      "sentence": "Har du träffat ____?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form (them)",
+      "level": 1,
+      "translation": "Have you met them?"
+    },
+    {
+      "id": 141,
+      "sentence": "Man måste lyssna på ____ hjärta",
+      "basePronoun": "man",
+      "options": [
+        "ens",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word with 'man'",
+      "level": 3,
+      "translation": "One must listen to one's (own) heart"
+    },
+    {
+      "id": 142,
+      "sentence": "Är boken ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "din",
+      "rule": "Possessive (yours - en-word)",
+      "level": 2,
+      "translation": "Is the book yours?"
+    },
+    {
+      "id": 143,
+      "sentence": "Hon kände ____ trött",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She felt (herself) tired"
+    },
+    {
+      "id": 144,
+      "sentence": "Vi tar ____ cyklar till skolan",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural (cyklar)",
+      "level": 2,
+      "translation": "We take our bikes to school"
+    },
+    {
+      "id": 145,
+      "sentence": "Kan du ge ____ ett svar?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form (you plural)",
+      "level": 2,
+      "translation": "Can you give you (plural) an answer?"
+    },
+    {
+      "id": 146,
+      "sentence": "De bor i ____ hus",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (hus)",
+      "level": 3,
+      "translation": "They live in their (own) house"
+    },
+    {
+      "id": 147,
+      "sentence": "Han vill inte prata med ____",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form (me)",
+      "level": 1,
+      "translation": "He doesn't want to talk to me"
+    },
+    {
+      "id": 148,
+      "sentence": "____ kramade varandra",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "They hugged each other"
+    },
+    {
+      "id": 149,
+      "sentence": "Vems är väskan? Den är ____",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "min",
+      "rule": "Possessive (mine - en-word)",
+      "level": 1,
+      "translation": "Whose is the bag? It is mine"
+    },
+    {
+      "id": 150,
+      "sentence": "Vi glömde ____ bilnycklar",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural (bilnycklar)",
+      "level": 2,
+      "translation": "We forgot our car keys"
+    },
+    {
+        "id": 151,
+          "sentence": "Kan du hämta ____ barn",
+          "basePronoun": "du",
+          "options": ["din", "ditt", "dina"],
+          "answer": "dina",
+          "rule": "Possessive plural (barn)",
+          "level": 2,
+          "translation": "Can you fetch your children"
+    },
+    {
+      "id": 152,
+      "sentence": "Han sålde ____ gamla dator",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word (dator)",
+      "level": 3,
+      "translation": "He sold his (own) old computer"
+    },
+    {
+      "id": 153,
+      "sentence": "Vi måste hjälpa ____",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "varandra",
+        "våra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "We must help each other"
+    },
+    {
+      "id": 154,
+      "sentence": "Hon klipper ____ själv",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She cuts (her hair) herself"
+    },
+    {
+      "id": 155,
+      "sentence": "Det gör ____ förvånad",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "en",
+      "rule": "Indefinite generic (Object form)",
+      "level": 3,
+      "translation": "It makes one (you) surprised"
+    },
+    {
+      "id": 156,
+      "sentence": "Är det här ____ glass?",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word (glass)",
+      "level": 2,
+      "translation": "Is this our ice cream?"
+    },
+    {
+      "id": 157,
+      "sentence": "Han ringer ____ flickvän",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He calls his (own) girlfriend"
+    },
+    {
+      "id": 158,
+      "sentence": "De bjuder ____ på fest",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form (us)",
+      "level": 1,
+      "translation": "They are inviting us to a party"
+    },
+    {
+      "id": 159,
+      "sentence": "Det är ____ ansvar",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "ditt",
+      "rule": "Possessive ett-word (ansvar)",
+      "level": 2,
+      "translation": "It is your responsibility"
+    },
+    {
+      "id": 160,
+      "sentence": "Staden är känd för ____ parker",
+      "basePronoun": "it (en-word)",
+      "options": [
+        "den",
+        "dess",
+        "det"
+      ],
+      "answer": "dess",
+      "rule": "Possessive for 'den' (its)",
+      "level": 3,
+      "translation": "The city is famous for its parks"
+    },
+    {
+      "id": 161,
+      "sentence": "Barnen tvättar ____ händerna",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "The children are washing their hands"
+    },
+    {
+      "id": 162,
+      "sentence": "Vi tar med ____ hund",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word (hund)",
+      "level": 1,
+      "translation": "We are bringing our dog"
+    },
+    {
+      "id": 163,
+      "sentence": "Jag gillar ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form (her)",
+      "level": 1,
+      "translation": "I like her"
+    },
+    {
+      "id": 164,
+      "sentence": "De pratar med ____ lärare",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sina"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word (lärare)",
+      "level": 3,
+      "translation": "They are talking to their (own) teacher"
+    },
+    {
+      "id": 165,
+      "sentence": "Vad gör ____ på fritiden?",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic (Nominative)",
+      "level": 1,
+      "translation": "What does one (you) do in one's free time?"
+    },
+    {
+      "id": 166,
+      "sentence": "Är det här ____ paraply?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ert",
+      "rule": "Possessive ett-word (paraply)",
+      "level": 2,
+      "translation": "Is this your (plural) umbrella?"
+    },
+    {
+      "id": 167,
+      "sentence": "Vi saknar ____",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form (them)",
+      "level": 1,
+      "translation": "We miss them"
+    },
+    {
+      "id": 168,
+      "sentence": "Han rakar ____ varje morgon",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (himself)",
+      "level": 2,
+      "translation": "He shaves (himself) every morning"
+    },
+    {
+      "id": 169,
+      "sentence": "____ barn leker i trädgården",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural (barn)",
+      "level": 2,
+      "translation": "Our children are playing in the garden"
+    },
+    {
+        "id": 170,
+          "sentence": "Boken är bra, ____ kapitel korta",
+          "basePronoun": "it (en-word)",
+          "options": ["den", "dess", "det"],
+          "answer": "dess",
+          "rule": "Possessive for 'den' (its)",
+          "level": 3,
+          "translation": "The book is good, its chapters short"
+    },
+    {
+      "id": 171,
+      "sentence": "Har du ____ nycklar?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "dina",
+      "rule": "Possessive plural (nycklar)",
+      "level": 1,
+      "translation": "Do you have your keys?"
+    },
+    {
+      "id": 172,
+      "sentence": "Hon ser ____ i glaset",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She sees herself in the glass"
+    },
+    {
+      "id": 173,
+      "sentence": "Vi känner ____ väl",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form (you plural)",
+      "level": 2,
+      "translation": "We know you (plural) well"
+    },
+    {
+      "id": 174,
+      "sentence": "De glömde ____ väskor på bussen",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural (väskor)",
+      "level": 3,
+      "translation": "They forgot their (own) bags on the bus"
+    },
+    {
+        "id": 175,
+          "sentence": "Man kan inte lita på ____ minne",
+          "basePronoun": "man",
+          "options": ["ens", "sin", "sitt"],
+          "answer": "sitt",
+          "rule": "Reflexive possessive ett-word with 'man' (minne)",
+          "level": 3,
+          "translation": "One cannot trust one's memory"
+    },
+    {
+      "id": 176,
+      "sentence": "Var är ____ mamma?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word (mamma)",
+      "level": 1,
+      "translation": "Where is your mom?"
+    },
+    {
+      "id": 177,
+      "sentence": "Vi litar på ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form (him)",
+      "level": 1,
+      "translation": "We trust him"
+    },
+    {
+      "id": 178,
+      "sentence": "De hjälper ____",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "They help each other"
+    },
+    {
+      "id": 179,
+      "sentence": "Är det här ____ suddgummi?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word (suddgummi)",
+      "level": 2,
+      "translation": "Is this my eraser?"
+    },
+    {
+      "id": 180,
+      "sentence": "Hon bor i ____ lägenhet",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word (lägenhet)",
+      "level": 3,
+      "translation": "She lives in her (own) apartment"
+    },
+    {
+      "id": 181,
+      "sentence": "Kan ____ svara på min fråga?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Can they answer my question?"
+    },
+    {
+      "id": 182,
+      "sentence": "Jag hittade ____ plånbok",
+      "basePronoun": "hon",
+      "options": [
+        "henne",
+        "hennes",
+        "sin"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive (her - non-reflexive)",
+      "level": 2,
+      "translation": "I found her wallet"
+    },
+    {
+      "id": 183,
+      "sentence": "Vi sätter ____ här",
+      "basePronoun": "reflexive",
+      "options": [
+        "oss",
+        "sig",
+        "våra"
+      ],
+      "answer": "oss",
+      "rule": "Reflexive (ourselves)",
+      "level": 2,
+      "translation": "We'll sit (ourselves) here"
+    },
+    {
+      "id": 184,
+      "sentence": "De tar ____ tid",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word (tid)",
+      "level": 3,
+      "translation": "They take their (own) time"
+    },
+    {
+      "id": 185,
+      "sentence": "Vart ska ____ resa?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Where are you (plural) going to travel?"
+    },
+    {
+      "id": 186,
+      "sentence": "Hunden letar efter ____ ben",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "dess",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (ben)",
+      "level": 3,
+      "translation": "The dog is looking for its (own) bone"
+    },
+    {
+      "id": 187,
+      "sentence": "Kan du visa ____ vägen?",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form (us)",
+      "level": 1,
+      "translation": "Can you show us the way?"
+    },
+    {
+      "id": 188,
+      "sentence": "Man bör tänka på ____ framtid",
+      "basePronoun": "man",
+      "options": [
+        "ens",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word with 'man' (framtid)",
+      "level": 3,
+      "translation": "One should think about one's (own) future"
+    },
+    {
+      "id": 189,
+      "sentence": "Är det ____ som har ringt?",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "han",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Is it him who has called?"
+    },
+    {
+      "id": 190,
+      "sentence": "Vi älskar ____ barnbarn",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural (barnbarn)",
+      "level": 2,
+      "translation": "We love our grandchildren"
+    },
+    {
+      "id": 191,
+      "sentence": "Huset har ____ charm",
+      "basePronoun": "it (ett-word)",
+      "options": [
+        "det",
+        "dess",
+        "sina"
+      ],
+      "answer": "dess",
+      "rule": "Possessive for 'det' (its)",
+      "level": 3,
+      "translation": "The house has its charm"
+    },
+    {
+      "id": 192,
+      "sentence": "De kramade ____",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "They hugged each other"
+    },
+    {
+      "id": 193,
+      "sentence": "Jag ser ____ i spegeln",
+      "basePronoun": "reflexive",
+      "options": [
+        "mig",
+        "sig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Reflexive (myself)",
+      "level": 2,
+      "translation": "I see myself in the mirror"
+    },
+    {
+      "id": 194,
+      "sentence": "Vems är skorna? De är ____",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive (theirs)",
+      "level": 2,
+      "translation": "Whose are the shoes? They are theirs"
+    },
+    {
+      "id": 195,
+      "sentence": "Kan ni hämta ____ kaffe själv?",
+      "basePronoun": "ni",
+      "options": [
+        "er",
+        "ert",
+        "era"
+      ],
+      "answer": "ert",
+      "rule": "Possessive ett-word (kaffe)",
+      "level": 2,
+      "translation": "Can you (plural) fetch your coffee yourselves?"
+    },
+    {
+      "id": 196,
+      "sentence": "Han gillar ____ arbete",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sitt",
+      "rule": "Reflexive possessive ett-word (arbete)",
+      "level": 3,
+      "translation": "He likes his (own) work"
+    },
+    {
+      "id": 197,
+      "sentence": "Vi saknade ____",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form (you)",
+      "level": 1,
+      "translation": "We missed you"
+    },
+    {
+        "id": 198,
+          "sentence": "Tåget stannade, ____ dörrar",
+          "basePronoun": "it (ett-word)",
+          "options": ["det", "dess", "sina"],
+          "answer": "dess",
+          "rule": "Possessive (its)",
+          "level": 2,
+          "translation": "The train stopped, its doors"
+    },
+    {
+      "id": 199,
+      "sentence": "Vad heter ____ bröder?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "dina",
+      "rule": "Possessive plural (bröder)",
+      "level": 1,
+      "translation": "What are your brothers' names?"
+    },
+    {
+      "id": 200,
+      "sentence": "Hon lär ____ att simma",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She is teaching herself to swim"
+    },
+    {
+      "id": 201,
+      "sentence": "Ser ____ mig?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative (subject)",
+      "level": 1,
+      "translation": "Do you (plural) see me?"
+    },
+    {
+      "id": 202,
+      "sentence": "Här är ____ hund",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "Here is my dog"
+    },
+    {
+      "id": 203,
+      "sentence": "Hon ser ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She sees herself"
+    },
+    {
+      "id": 204,
+      "sentence": "Vi gillar ____",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We like them"
+    },
+    {
+      "id": 205,
+      "sentence": "Är det ____ hus?",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vårt",
+      "rule": "Possessive ett-word",
+      "level": 1,
+      "translation": "Is it our house?"
+    },
+    {
+      "id": 206,
+      "sentence": "Han tar ____ bok",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He takes his (own) book"
+    },
+    {
+      "id": 207,
+      "sentence": "Hjälp ____!",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Help me!"
+    },
+    {
+      "id": 208,
+      "sentence": "De kramar ____",
+      "basePronoun": "mutual",
+      "options": [
+        "dem",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "They hug each other"
+    },
+    {
+      "id": 209,
+      "sentence": "Var är ____?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hon",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Where is she?"
+    },
+    {
+      "id": 210,
+      "sentence": "____ ringer imorgon",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "vi",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "We will call tomorrow"
+    },
+    {
+      "id": 211,
+      "sentence": "Det är ____ fel",
+      "basePronoun": "jag",
+      "options": [
+        "mig",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word",
+      "level": 2,
+      "translation": "It is my fault"
+    },
+    {
+      "id": 212,
+      "sentence": "Kan ____ komma?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Can you come?"
+    },
+    {
+      "id": 213,
+      "sentence": "Vems är ____?",
+      "basePronoun": "it (den-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "den",
+      "rule": "Nominative en-word (it)",
+      "level": 2,
+      "translation": "Whose is it?"
+    },
+    {
+      "id": 214,
+      "sentence": "Här är ____ skor",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "dina",
+      "rule": "Possessive plural",
+      "level": 1,
+      "translation": "Here are your shoes"
+    },
+    {
+      "id": 215,
+      "sentence": "Han tvättar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (himself)",
+      "level": 2,
+      "translation": "He washes himself"
+    },
+    {
+      "id": 216,
+      "sentence": "Ge boken till ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Give the book to him"
+    },
+    {
+      "id": 217,
+      "sentence": "Det är ____ sak",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Possessive en-word",
+      "level": 2,
+      "translation": "It is your (plural) business"
+    },
+    {
+      "id": 218,
+      "sentence": "Vi ser ____",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We see you"
+    },
+    {
+      "id": 219,
+      "sentence": "De säljer ____ bil",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "They are selling their (own) car"
+    },
+    {
+      "id": 220,
+      "sentence": "____ går nu",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic (one/you)",
+      "level": 1,
+      "translation": "One is going now"
+    },
+    {
+      "id": 221,
+      "sentence": "Är boken ____?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive",
+      "level": 2,
+      "translation": "Is the book hers?"
+    },
+    {
+      "id": 222,
+      "sentence": "Hon litar på ____",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "mitt"
+      ],
+      "answer": "mig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "She trusts me"
+    },
+    {
+      "id": 223,
+      "sentence": "Vi tar ____ barn",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural",
+      "level": 2,
+      "translation": "We are taking our children"
+    },
+    {
+      "id": 224,
+      "sentence": "De skyndar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They hurry up"
+    },
+    {
+      "id": 225,
+      "sentence": "Var är ____ pass?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word",
+      "level": 1,
+      "translation": "Where is my passport?"
+    },
+    {
+      "id": 226,
+      "sentence": "Jag känner ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I know him"
+    },
+    {
+      "id": 227,
+      "sentence": "____ älskar dig",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "jag",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "I love you"
+    },
+    {
+      "id": 228,
+      "sentence": "Tåget stannar, ____ är här",
+      "basePronoun": "it (ett-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "det",
+      "rule": "Nominative ett-word (it)",
+      "level": 1,
+      "translation": "The train stops, It is here"
+    },
+    {
+      "id": 229,
+      "sentence": "Här är ____ kaffe",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ert",
+      "rule": "Possessive ett-word",
+      "level": 2,
+      "translation": "Here is your (plural) coffee"
+    },
+    {
+      "id": 230,
+      "sentence": "De bor med ____ mamma",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "deras",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "They live with their (own) mom"
+    },
+    {
+      "id": 231,
+      "sentence": "Kan du se ____?",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Can you see us?"
+    },
+    {
+      "id": 232,
+      "sentence": "Hon kammar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "henne",
+        "sig",
+        "hennes"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (herself)",
+      "level": 2,
+      "translation": "She combs her hair"
+    },
+    {
+      "id": 233,
+      "sentence": "Vad heter ____?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "What are they called?"
+    },
+    {
+      "id": 234,
+      "sentence": "Det är ____ bil",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive",
+      "level": 1,
+      "translation": "It is their car"
+    },
+    {
+      "id": 235,
+      "sentence": "Jag saknar ____",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I miss you (plural)"
+    },
+    {
+      "id": 236,
+      "sentence": "Det är viktigt för ____",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "en",
+      "rule": "Indefinite object form",
+      "level": 3,
+      "translation": "It is important for one"
+    },
+    {
+      "id": 237,
+      "sentence": "Vart la du ____ nyckel?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "Where did you put my key?"
+    },
+    {
+      "id": 238,
+      "sentence": "Vi hjälper ____",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "We help each other"
+    },
+    {
+      "id": 239,
+      "sentence": "Hon ringer ____",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "She calls him"
+    },
+    {
+      "id": 240,
+      "sentence": "Är det ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Is it you?"
+    },
+    {
+      "id": 241,
+      "sentence": "Han glömde ____ väska",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He forgot his (own) bag"
+    },
+    {
+      "id": 242,
+      "sentence": "Jag gillar ____",
+      "basePronoun": "it (den-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "den",
+      "rule": "Object form en-word (it)",
+      "level": 2,
+      "translation": "I like it"
+    },
+    {
+      "id": 243,
+      "sentence": "Vi äter ____ lunch",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "We are eating our lunch"
+    },
+    {
+      "id": 244,
+      "sentence": "De ser ____ på TV",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "They see us on TV"
+    },
+    {
+      "id": 245,
+      "sentence": "Hon tvättar ____ bil",
+      "basePronoun": "hon (non-reflexive)",
+      "options": [
+        "sin",
+        "hennes",
+        "henne"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive (her - someone else's)",
+      "level": 3,
+      "translation": "She is washing her (someone else's) car"
+    },
+    {
+      "id": 246,
+      "sentence": "____ bor i Sverige",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "They live in Sweden"
+    },
+    {
+      "id": 247,
+      "sentence": "Var är ____ cyklar?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "era"
+      ],
+      "answer": "era",
+      "rule": "Possessive plural",
+      "level": 2,
+      "translation": "Where are your (plural) bikes?"
+    },
+    {
+      "id": 248,
+      "sentence": "Jag hittade ____!",
+      "basePronoun": "it (ett-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "det",
+      "rule": "Object form ett-word (it)",
+      "level": 2,
+      "translation": "I found it!"
+    },
+    {
+      "id": 249,
+      "sentence": "Vi ses hos ____",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form after preposition",
+      "level": 1,
+      "translation": "See you at my place"
+    },
+    {
+      "id": 250,
+      "sentence": "Man måste tro på ____",
+      "basePronoun": "reflexive intensive",
+      "options": [
+        "man",
+        "en",
+        "sig själv"
+      ],
+      "answer": "sig själv",
+      "rule": "Reflexive intensive (oneself)",
+      "level": 3,
+      "translation": "One must believe in oneself"
+    },
+    {
+      "id": 251,
+      "sentence": "Kan ____ hjälpa mig?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hon",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Can she help me?"
+    },
+    {
+      "id": 252,
+      "sentence": "Här är ____ brev",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "ditt",
+      "rule": "Possessive ett-word",
+      "level": 1,
+      "translation": "Here is your letter"
+    },
+    {
+      "id": 253,
+      "sentence": "De lär ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They learn (teach themselves)"
+    },
+    {
+      "id": 254,
+      "sentence": "Vi ringer ____",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We call them"
+    },
+    {
+      "id": 255,
+      "sentence": "Är det ____ barn?",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "hans",
+      "rule": "Possessive",
+      "level": 1,
+      "translation": "Is it his child?"
+    },
+    {
+      "id": 256,
+      "sentence": "Hon tar ____ jacka",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "She takes her (own) jacket"
+    },
+    {
+      "id": 257,
+      "sentence": "Lyssna på ____!",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Listen to me!"
+    },
+    {
+      "id": 258,
+      "sentence": "Vi pratar med ____",
+      "basePronoun": "mutual",
+      "options": [
+        "oss",
+        "sig",
+        "varandra"
+      ],
+      "answer": "varandra",
+      "rule": "Mutual reflexive (each other)",
+      "level": 2,
+      "translation": "We talk to each other"
+    },
+    {
+      "id": 259,
+      "sentence": "Var bor ____?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ni",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Where do you (plural) live?"
+    },
+    {
+      "id": 260,
+      "sentence": "____ är trött",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hon",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "She is tired"
+    },
+    {
+      "id": 261,
+      "sentence": "Det är ____ ansvar",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vårt",
+      "rule": "Possessive ett-word",
+      "level": 2,
+      "translation": "It is our responsibility"
+    },
+    {
+      "id": 262,
+      "sentence": "Kan ____ se oss?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "Can you see us?"
+    },
+    {
+      "id": 263,
+      "sentence": "Huset är ____",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "mitt",
+      "rule": "Possessive ett-word",
+      "level": 2,
+      "translation": "The house is mine"
+    },
+    {
+      "id": 264,
+      "sentence": "Vad gör ____?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "de",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "What are they doing?"
+    },
+    {
+      "id": 265,
+      "sentence": "Han rakar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (himself)",
+      "level": 2,
+      "translation": "He shaves himself"
+    },
+    {
+      "id": 266,
+      "sentence": "Vi gav ____ mat",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "honom",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We gave him food"
+    },
+    {
+      "id": 267,
+      "sentence": "Det är ____ tur",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "din",
+        "ditt"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "It is your turn"
+    },
+    {
+      "id": 268,
+      "sentence": "De ser ____",
+      "basePronoun": "jag",
+      "options": [
+        "jag",
+        "mig",
+        "min"
+      ],
+      "answer": "mig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "They see me"
+    },
+    {
+      "id": 269,
+      "sentence": "Hon glömde ____ barn",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural",
+      "level": 3,
+      "translation": "She forgot her (own) children"
+    },
+    {
+      "id": 270,
+      "sentence": "____ måste sova",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "man",
+      "rule": "Indefinite generic",
+      "level": 1,
+      "translation": "One must sleep"
+    },
+    {
+      "id": 271,
+      "sentence": "Är glassen ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word",
+      "level": 2,
+      "translation": "Is the ice cream yours?"
+    },
+    {
+      "id": 272,
+      "sentence": "Vi känner ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We know her"
+    },
+    {
+      "id": 273,
+      "sentence": "Här är ____ platser",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "våra",
+      "rule": "Possessive plural",
+      "level": 2,
+      "translation": "Here are our seats"
+    },
+    {
+      "id": 274,
+      "sentence": "De skyddar ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They protect themselves"
+    },
+    {
+      "id": 275,
+      "sentence": "Var är ____ mamma?",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hennes",
+      "rule": "Possessive",
+      "level": 1,
+      "translation": "Where is her mom?"
+    },
+    {
+      "id": 276,
+      "sentence": "Jag väntar på ____",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "dig",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I am waiting for you"
+    },
+    {
+      "id": 277,
+      "sentence": "____ kommer snart",
+      "basePronoun": "han",
+      "options": [
+        "han",
+        "honom",
+        "hans"
+      ],
+      "answer": "han",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "He is coming soon"
+    },
+    {
+        "id": 278,
+          "sentence": "Bordet är tungt, ____ väger",
+          "basePronoun": "it (ett-word)",
+          "options": ["den", "det", "dess"],
+          "answer": "det",
+          "rule": "Nominative ett-word (it)",
+          "level": 1,
+          "translation": "The table is heavy, it weighs"
+    },
+    {
+      "id": 279,
+      "sentence": "Är det här ____ fika?",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "ert",
+      "rule": "Possessive ett-word",
+      "level": 2,
+      "translation": "Is this your (plural) coffee break?"
+    },
+    {
+      "id": 280,
+      "sentence": "Han bor med ____ fru",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He lives with his (own) wife"
+    },
+    {
+      "id": 281,
+      "sentence": "Kan ni höra ____?",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "Can you (plural) hear us?"
+    },
+    {
+      "id": 282,
+      "sentence": "De sätter ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "dem",
+        "sig",
+        "deras"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (themselves)",
+      "level": 2,
+      "translation": "They sit down"
+    },
+    {
+      "id": 283,
+      "sentence": "Hur mår ____?",
+      "basePronoun": "du",
+      "options": [
+        "du",
+        "dig",
+        "din"
+      ],
+      "answer": "du",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "How are you?"
+    },
+    {
+      "id": 284,
+      "sentence": "Vems är ____ barn?",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "deras",
+      "rule": "Possessive",
+      "level": 1,
+      "translation": "Whose children are they?"
+    },
+    {
+      "id": 285,
+      "sentence": "Vi saknar ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "We miss her"
+    },
+    {
+      "id": 286,
+      "sentence": "Det är bra för ____ hälsa",
+      "basePronoun": "man",
+      "options": [
+        "man",
+        "en",
+        "ens"
+      ],
+      "answer": "ens",
+      "rule": "Indefinite possessive",
+      "level": 3,
+      "translation": "It is good for one's health"
+    },
+    {
+      "id": 287,
+      "sentence": "Var är ____ jacka?",
+      "basePronoun": "jag",
+      "options": [
+        "min",
+        "mitt",
+        "mina"
+      ],
+      "answer": "min",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "Where is my jacket?"
+    },
+    {
+      "id": 288,
+      "sentence": "De hjälper ____",
+      "basePronoun": "vi",
+      "options": [
+        "vi",
+        "oss",
+        "vår"
+      ],
+      "answer": "oss",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "They help us"
+    },
+    {
+      "id": 289,
+      "sentence": "Jag ringer ____",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "henne",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I call her"
+    },
+    {
+      "id": 290,
+      "sentence": "Vems är ____ väska?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "din",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "Whose bag is it?"
+    },
+    {
+      "id": 291,
+      "sentence": "Han säljer ____ cykel",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hans",
+        "sin",
+        "sitt"
+      ],
+      "answer": "sin",
+      "rule": "Reflexive possessive en-word",
+      "level": 3,
+      "translation": "He sells his (own) bike"
+    },
+    {
+      "id": 292,
+      "sentence": "Jag ser ____",
+      "basePronoun": "it (ett-word)",
+      "options": [
+        "den",
+        "det",
+        "dess"
+      ],
+      "answer": "det",
+      "rule": "Object form ett-word (it)",
+      "level": 2,
+      "translation": "I see it"
+    },
+    {
+      "id": 293,
+      "sentence": "Vi äger ____ bil",
+      "basePronoun": "vi",
+      "options": [
+        "vår",
+        "vårt",
+        "våra"
+      ],
+      "answer": "vår",
+      "rule": "Possessive en-word",
+      "level": 1,
+      "translation": "We own our car"
+    },
+    {
+      "id": 294,
+      "sentence": "De bjuder ____",
+      "basePronoun": "ni",
+      "options": [
+        "ni",
+        "er",
+        "ert"
+      ],
+      "answer": "er",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "They invite you (plural)"
+    },
+    {
+      "id": 295,
+      "sentence": "Hon gillar ____ vänner",
+      "basePronoun": "reflexive possessive",
+      "options": [
+        "hennes",
+        "sin",
+        "sina"
+      ],
+      "answer": "sina",
+      "rule": "Reflexive possessive plural",
+      "level": 3,
+      "translation": "She likes her (own) friends"
+    },
+    {
+      "id": 296,
+      "sentence": "____ sover i sängen",
+      "basePronoun": "hon",
+      "options": [
+        "hon",
+        "henne",
+        "hennes"
+      ],
+      "answer": "hon",
+      "rule": "Nominative",
+      "level": 1,
+      "translation": "She is sleeping in the bed"
+    },
+    {
+      "id": 297,
+      "sentence": "Var är ____ tidningar?",
+      "basePronoun": "du",
+      "options": [
+        "din",
+        "ditt",
+        "dina"
+      ],
+      "answer": "dina",
+      "rule": "Possessive plural",
+      "level": 2,
+      "translation": "Where are your newspapers?"
+    },
+    {
+      "id": 298,
+      "sentence": "Jag känner ____!",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form",
+      "level": 1,
+      "translation": "I know them!"
+    },
+    {
+      "id": 299,
+      "sentence": "Vi träffas hos ____",
+      "basePronoun": "de",
+      "options": [
+        "de",
+        "dem",
+        "deras"
+      ],
+      "answer": "dem",
+      "rule": "Object form after preposition",
+      "level": 2,
+      "translation": "We are meeting at their place"
+    },
+    {
+      "id": 300,
+      "sentence": "Han klär ____",
+      "basePronoun": "reflexive",
+      "options": [
+        "honom",
+        "sig",
+        "hans"
+      ],
+      "answer": "sig",
+      "rule": "Reflexive (himself)",
+      "level": 2,
+      "translation": "He gets dressed (himself)"
+    }
+  ]
+}

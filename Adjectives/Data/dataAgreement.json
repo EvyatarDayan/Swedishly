@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 11,
+    "group": "varm",
+    "sentence": "En ______ dag (varm)",
+    "answer": "varm",
+    "englishAnswer": "warm",
+    "options": ["varm", "varmt", "varma"],
+    "translation": "A warm day"
+  },
+  {
+    "id": 12,
+    "group": "varm",
+    "sentence": "Ett ______ bad (varm)",
+    "answer": "varmt",
+    "englishAnswer": "warm",
+    "options": ["varm", "varmt", "varma"],
+    "translation": "A warm bath"
+  },
+  {
+    "id": 13,
+    "group": "varm",
+    "sentence": "Mina fötter är ______ (varm)",
+    "answer": "varma",
+    "englishAnswer": "warm",
+    "options": ["varm", "varmt", "varma"],
+    "translation": "My feet are warm"
+  },
+  {
+    "id": 14,
+    "group": "kall",
+    "sentence": "En ______ vinter (kall)",
+    "answer": "kall",
+    "englishAnswer": "cold",
+    "options": ["kall", "kallt", "kalla"],
+    "translation": "A cold winter"
+  },
+  {
+    "id": 15,
+    "group": "kall",
+    "sentence": "Ett ______ glas vatten (kall)",
+    "answer": "kallt",
+    "englishAnswer": "cold",
+    "options": ["kall", "kallt", "kalla"],
+    "translation": "A cold glass of water"
+  },
+  {
+    "id": 16,
+    "group": "kall",
+    "sentence": "Händerna är ______ (kall)",
+    "answer": "kalla",
+    "englishAnswer": "cold",
+    "options": ["kall", "kallt", "kalla"],
+    "translation": "The hands are cold"
+  },
+  {
+    "id": 17,
+    "group": "ny",
+    "sentence": "En ______ bil (ny)",
+    "answer": "ny",
+    "englishAnswer": "new",
+    "options": ["ny", "nytt", "nya"],
+    "translation": "A new car"
+  },
+  {
+    "id": 18,
+    "group": "ny",
+    "sentence": "Ett ______ hus (ny)",
+    "answer": "nytt",
+    "englishAnswer": "new",
+    "options": ["ny", "nytt", "nya"],
+    "translation": "A new house"
+  },
+  {
+    "id": 19,
+    "group": "ny",
+    "sentence": "Mina ______ skor (ny)",
+    "answer": "nya",
+    "englishAnswer": "new",
+    "options": ["ny", "nytt", "nya"],
+    "translation": "My new shoes"
+  },
+  {
+    "id": 20,
+    "group": "grön",
+    "sentence": "En ______ jacka (grön)",
+    "answer": "grön",
+    "englishAnswer": "green",
+    "options": ["grön", "grönt", "gröna"],
+    "translation": "A green jacket"
+  },
+  {
+    "id": 21,
+    "group": "grön",
+    "sentence": "Ett ______ äpple (grön)",
+    "answer": "grönt",
+    "englishAnswer": "green",
+    "options": ["grön", "grönt", "gröna"],
+    "translation": "A green apple"
+  },
+  {
+    "id": 22,
+    "group": "grön",
+    "sentence": "Träden är ______ (grön)",
+    "answer": "gröna",
+    "englishAnswer": "green",
+    "options": ["grön", "grönt", "gröna"],
+    "translation": "The trees are green"
+  },
+  {
+    "id": 23,
+    "group": "fin",
+    "sentence": "En ______ tavla (fin)",
+    "answer": "fin",
+    "englishAnswer": "nice",
+    "options": ["fin", "fint", "fina"],
+    "translation": "A nice painting"
+  },
+  {
+    "id": 24,
+    "group": "fin",
+    "sentence": "Ett ______ leende (fin)",
+    "answer": "fint",
+    "englishAnswer": "nice",
+    "options": ["fin", "fint", "fina"],
+    "translation": "A nice smile"
+  },
+  {
+    "id": 25,
+    "group": "fin",
+    "sentence": "Blommorna är ______ (fin)",
+    "answer": "fina",
+    "englishAnswer": "nice",
+    "options": ["fin", "fint", "fina"],
+    "translation": "The flowers are nice"
+  },
+  {
+    "id": 26,
+    "group": "svår",
+    "sentence": "En ______ läxa (svår)",
+    "answer": "svår",
+    "englishAnswer": "difficult",
+    "options": ["svår", "svårt", "svåra"],
+    "translation": "A difficult homework"
+  },
+  {
+    "id": 27,
+    "group": "svår",
+    "sentence": "Ett ______ prov (svår)",
+    "answer": "svårt",
+    "englishAnswer": "difficult",
+    "options": ["svår", "svårt", "svåra"],
+    "translation": "A difficult test"
+  },
+  {
+    "id": 28,
+    "group": "svår",
+    "sentence": "Frågorna är ______ (svår)",
+    "answer": "svåra",
+    "englishAnswer": "difficult",
+    "options": ["svår", "svårt", "svåra"],
+    "translation": "The questions are difficult"
+  },
+  {
+    "id": 29,
+    "group": "billig",
+    "sentence": "En ______ lök (billig)",
+    "answer": "billig",
+    "englishAnswer": "cheap",
+    "options": ["billig", "billigt", "billiga"],
+    "translation": "A cheap onion"
+  },
+  {
+    "id": 30,
+    "group": "billig",
+    "sentence": "Ett ______ flyg (billig)",
+    "answer": "billigt",
+    "englishAnswer": "cheap",
+    "options": ["billig", "billigt", "billiga"],
+    "translation": "A cheap flight"
+  },
+  {
+    "id": 31,
+    "group": "billig",
+    "sentence": "Äpplena är ______ (billig)",
+    "answer": "billiga",
+    "englishAnswer": "cheap",
+    "options": ["billig", "billigt", "billiga"],
+    "translation": "The apples are cheap"
+  },
+  {
+    "id": 32,
+    "group": "lugn",
+    "sentence": "En ______ plats (lugn)",
+    "answer": "lugn",
+    "englishAnswer": "calm",
+    "options": ["lugn", "lugnt", "lugna"],
+    "translation": "A calm place"
+  },
+  {
+    "id": 33,
+    "group": "lugn",
+    "sentence": "Ett ______ hav (lugn)",
+    "answer": "lugnt",
+    "englishAnswer": "calm",
+    "options": ["lugn", "lugnt", "lugna"],
+    "translation": "A calm sea"
+  },
+  {
+    "id": 34,
+    "group": "lugn",
+    "sentence": "Barnen är ______ (lugn)",
+    "answer": "lugna",
+    "englishAnswer": "calm",
+    "options": ["lugn", "lugnt", "lugna"],
+    "translation": "The children are calm"
+  },
+  {
+    "id": 35,
+    "group": "viktig",
+    "sentence": "En ______ regel (viktig)",
+    "answer": "viktig",
+    "englishAnswer": "important",
+    "options": ["viktig", "viktigt", "viktiga"],
+    "translation": "An important rule"
+  },
+  {
+    "id": 36,
+    "group": "viktig",
+    "sentence": "Ett ______ möte (viktig)",
+    "answer": "viktigt",
+    "englishAnswer": "important",
+    "options": ["viktig", "viktigt", "viktiga"],
+    "translation": "An important meeting"
+  },
+  {
+    "id": 37,
+    "group": "viktig",
+    "sentence": "Pappren är ______ (viktig)",
+    "answer": "viktiga",
+    "englishAnswer": "important",
+    "options": ["viktig", "viktigt", "viktiga"],
+    "translation": "The papers are important"
+  },
+  {
+    "id": 38,
+    "group": "intressant",
+    "sentence": "En ______ bok (intressant)",
+    "answer": "intressant",
+    "englishAnswer": "interesting",
+    "options": ["intressant", "intressanto", "intressanta"],
+    "translation": "An interesting book"
+  },
+  {
+    "id": 39,
+    "group": "intressant",
+    "sentence": "Ett ______ samtal (intressant)",
+    "answer": "intressant",
+    "englishAnswer": "interesting",
+    "options": ["intressant", "intressanto", "intressanta"],
+    "translation": "An interesting conversation"
+  },
+  {
+    "id": 40,
+    "group": "intressant",
+    "sentence": "Föreläsningarna är ______ (intressant)",
+    "answer": "intressanta",
+    "englishAnswer": "interesting",
+    "options": ["intressant", "intressantt", "intressanta"],
+    "translation": "The lectures are interesting"
+  },
+  {
+    "id": 41,
+    "group": "lång",
+    "sentence": "En ______ resa (lång)",
+    "answer": "lång",
+    "englishAnswer": "long",
+    "options": ["lång", "långt", "långa"],
+    "translation": "A long journey"
+  },
+  {
+    "id": 42,
+    "group": "lång",
+    "sentence": "Ett ______ skärp (lång)",
+    "answer": "långt",
+    "englishAnswer": "long",
+    "options": ["lång", "långt", "långa"],
+    "translation": "A long belt"
+  },
+  {
+    "id": 43,
+    "group": "lång",
+    "sentence": "Byxorna är ______ (lång)",
+    "answer": "långa",
+    "englishAnswer": "long",
+    "options": ["lång", "långt", "långa"],
+    "translation": "The pants are long"
+  },
+  {
+    "id": 44,
+    "group": "vacker",
+    "sentence": "En ______ kvinna (vacker)",
+    "answer": "vacker",
+    "englishAnswer": "beautiful",
+    "options": ["vacker", "vackert", "vackra"],
+    "translation": "A beautiful woman"
+  },
+  {
+    "id": 45,
+    "group": "vacker",
+    "sentence": "Ett ______ slott (vacker)",
+    "answer": "vackert",
+    "englishAnswer": "beautiful",
+    "options": ["vacker", "vackert", "vackra"],
+    "translation": "A beautiful castle"
+  },
+  {
+    "id": 46,
+    "group": "vacker",
+    "sentence": "Landskapen är ______ (vacker)",
+    "answer": "vackra",
+    "englishAnswer": "beautiful",
+    "options": ["vacker", "vackert", "vackra"],
+    "translation": "The landscapes are beautiful"
+  },
+  {
+    "id": 47,
+    "group": "blå",
+    "sentence": "En ______ himmel (blå)",
+    "answer": "blå",
+    "englishAnswer": "blue",
+    "options": ["blå", "blått", "blåa"],
+    "translation": "A blue sky"
+  },
+  {
+    "id": 48,
+    "group": "blå",
+    "sentence": "Ett ______ hav (blå)",
+    "answer": "blått",
+    "englishAnswer": "blue",
+    "options": ["blå", "blått", "blåa"],
+    "translation": "A blue sea"
+  },
+  {
+    "id": 49,
+    "group": "blå",
+    "sentence": "Husen är ______ (blå)",
+    "answer": "blåa",
+    "englishAnswer": "blue",
+    "options": ["blå", "blått", "blåa"],
+    "translation": "The houses are blue"
+  },
+  {
+    "id": 50,
+    "group": "snabb",
+    "sentence": "Ett ______ svar (snabb)",
+    "answer": "snabbt",
+    "englishAnswer": "fast",
+    "options": ["snabb", "snabbt", "snabba"],
+    "translation": "A fast answer"
+  },
+  {
+      "id": 51,
+      "group": "snabb",
+      "sentence": "En ______ häst (snabb)",
+      "answer": "snabb",
+      "englishAnswer": "fast",
+      "options": ["snabb", "snabbt", "snabba"],
+      "translation": "A fast horse"
+    },
+    {
+      "id": 52,
+      "group": "snabb",
+      "sentence": "Bilarna är ______ (snabb)",
+      "answer": "snabba",
+      "englishAnswer": "fast",
+      "options": ["snabb", "snabbt", "snabba"],
+      "translation": "The cars are fast"
+    },
+    {
+      "id": 53,
+      "group": "tung",
+      "sentence": "En ______ sten (tung)",
+      "answer": "tung",
+      "englishAnswer": "heavy",
+      "options": ["tung", "tungt", "tunga"],
+      "translation": "A heavy stone"
+    },
+    {
+      "id": 54,
+      "group": "tung",
+      "sentence": "Ett ______ paket (tung)",
+      "answer": "tungt",
+      "englishAnswer": "heavy",
+      "options": ["tung", "tungt", "tunga"],
+      "translation": "A heavy package"
+    },
+    {
+      "id": 55,
+      "group": "tung",
+      "sentence": "Väskorna är ______ (tung)",
+      "answer": "tunga",
+      "englishAnswer": "heavy",
+      "options": ["tung", "tungt", "tunga"],
+      "translation": "The bags are heavy"
+    },
+    {
+      "id": 56,
+      "group": "rolig",
+      "sentence": "En ______ film (rolig)",
+      "answer": "rolig",
+      "englishAnswer": "funny",
+      "options": ["rolig", "roligt", "roliga"],
+      "translation": "A funny movie"
+    },
+    {
+      "id": 57,
+      "group": "rolig",
+      "sentence": "Ett ______ skämt (rolig)",
+      "answer": "roligt",
+      "englishAnswer": "funny",
+      "options": ["rolig", "roligt", "roliga"],
+      "translation": "A funny joke"
+    },
+    {
+      "id": 58,
+      "group": "rolig",
+      "sentence": "Historierna var ______ (rolig)",
+      "answer": "roliga",
+      "englishAnswer": "funny",
+      "options": ["rolig", "roligt", "roliga"],
+      "translation": "The stories were funny"
+    },
+    {
+      "id": 59,
+      "group": "dyr",
+      "sentence": "En ______ klocka (dyr)",
+      "answer": "dyr",
+      "englishAnswer": "expensive",
+      "options": ["dyr", "dyrt", "dyra"],
+      "translation": "An expensive watch"
+    },
+    {
+      "id": 60,
+      "group": "dyr",
+      "sentence": "Ett ______ smycke (dyr)",
+      "answer": "dyrt",
+      "englishAnswer": "expensive",
+      "options": ["dyr", "dyrt", "dyra"],
+      "translation": "An expensive piece of jewelry"
+    },
+    {
+      "id": 61,
+      "group": "dyr",
+      "sentence": "Husen är ______ (dyr)",
+      "answer": "dyra",
+      "englishAnswer": "expensive",
+      "options": ["dyr", "dyrt", "dyra"],
+      "translation": "The houses are expensive"
+    },
+    {
+      "id": 62,
+      "group": "ljus",
+      "sentence": "En ______ natt (ljus)",
+      "answer": "ljus",
+      "englishAnswer": "light",
+      "options": ["ljus", "ljust", "ljusa"],
+      "translation": "A light night"
+    },
+    {
+      "id": 63,
+      "group": "ljus",
+      "sentence": "Ett ______ rum (ljus)",
+      "answer": "ljust",
+      "englishAnswer": "bright",
+      "options": ["ljus", "ljust", "ljusa"],
+      "translation": "A bright room"
+    },
+    {
+      "id": 64,
+      "group": "ljus",
+      "sentence": "Färgerna är ______ (ljus)",
+      "answer": "ljusa",
+      "englishAnswer": "light",
+      "options": ["ljus", "ljust", "ljusa"],
+      "translation": "The colors are light"
+    },
+    {
+      "id": 65,
+      "group": "mörk",
+      "sentence": "En ______ skog (mörk)",
+      "answer": "mörk",
+      "englishAnswer": "dark",
+      "options": ["mörk", "mörkt", "mörka"],
+      "translation": "A dark forest"
+    },
+    {
+      "id": 66,
+      "group": "mörk",
+      "sentence": "Ett ______ hörn (mörk)",
+      "answer": "mörkt",
+      "englishAnswer": "dark",
+      "options": ["mörk", "mörkt", "mörka"],
+      "translation": "A dark corner"
+    },
+    {
+      "id": 67,
+      "group": "mörk",
+      "sentence": "Molnen är ______ (mörk)",
+      "answer": "mörka",
+      "englishAnswer": "dark",
+      "options": ["mörk", "mörkt", "mörka"],
+      "translation": "The clouds are dark"
+    },
+    {
+      "id": 68,
+      "group": "vänlig",
+      "sentence": "En ______ röst (vänlig)",
+      "answer": "vänlig",
+      "englishAnswer": "friendly",
+      "options": ["vänlig", "vänligt", "vänliga"],
+      "translation": "A friendly voice"
+    },
+    {
+      "id": 69,
+      "group": "vänlig",
+      "sentence": "Ett ______ ansikte (vänlig)",
+      "answer": "vänligt",
+      "englishAnswer": "friendly",
+      "options": ["vänlig", "vänligt", "vänliga"],
+      "translation": "A friendly face"
+    },
+    {
+      "id": 70,
+      "group": "vänlig",
+      "sentence": "De är ______ (vänlig)",
+      "answer": "vänliga",
+      "englishAnswer": "friendly",
+      "options": ["vänlig", "vänligt", "vänliga"],
+      "translation": "They are friendly"
+    },
+    {
+      "id": 71,
+      "group": "tråkig",
+      "sentence": "En ______ bok (tråkig)",
+      "answer": "tråkig",
+      "englishAnswer": "boring",
+      "options": ["tråkig", "tråkigt", "tråkiga"],
+      "translation": "A boring book"
+    },
+    {
+      "id": 72,
+      "group": "tråkig",
+      "sentence": "Ett ______ svar (tråkig)",
+      "answer": "tråkigt",
+      "englishAnswer": "boring",
+      "options": ["tråkig", "tråkigt", "tråkiga"],
+      "translation": "A boring answer"
+    },
+    {
+      "id": 73,
+      "group": "tråkig",
+      "sentence": "Dina kläder är ______ (tråkig)",
+      "answer": "tråkiga",
+      "englishAnswer": "boring",
+      "options": ["tråkig", "tråkigt", "tråkiga"],
+      "translation": "Your clothes are boring"
+    },
+    {
+      "id": 74,
+      "group": "mjuk",
+      "sentence": "En ______ kudde (mjuk)",
+      "answer": "mjuk",
+      "englishAnswer": "soft",
+      "options": ["mjuk", "mjukt", "mjuka"],
+      "translation": "A soft pillow"
+    },
+    {
+      "id": 75,
+      "group": "mjuk",
+      "sentence": "Ett ______ paket (mjuk)",
+      "answer": "mjukt",
+      "englishAnswer": "soft",
+      "options": ["mjuk", "mjukt", "mjuka"],
+      "translation": "A soft package"
+    },
+    {
+      "id": 76,
+      "group": "mjuk",
+      "sentence": "Sofforna är ______ (mjuk)",
+      "answer": "mjuka",
+      "englishAnswer": "soft",
+      "options": ["mjuk", "mjukt", "mjuka"],
+      "translation": "The sofas are soft"
+    },
+    {
+      "id": 77,
+      "group": "hård",
+      "sentence": "En ______ säng (hård)",
+      "answer": "hård",
+      "englishAnswer": "hard",
+      "options": ["hård", "hårt", "hårda"],
+      "translation": "A hard bed"
+    },
+    {
+      "id": 78,
+      "group": "hård",
+      "sentence": "Ett ______ skal (hård)",
+      "answer": "hårt",
+      "englishAnswer": "hard",
+      "options": ["hård", "hårt", "hårda"],
+      "translation": "A hard shell"
+    },
+    {
+      "id": 79,
+      "group": "hård",
+      "sentence": "Stolarna är ______ (hård)",
+      "answer": "hårda",
+      "englishAnswer": "hard",
+      "options": ["hård", "hårt", "hårda"],
+      "translation": "The chairs are hard"
+    },
+    {
+      "id": 80,
+      "group": "svag",
+      "sentence": "En ______ signal (svag)",
+      "answer": "svag",
+      "englishAnswer": "weak",
+      "options": ["svag", "svagt", "svaga"],
+      "translation": "A weak signal"
+    },
+    {
+      "id": 81,
+      "group": "svag",
+      "sentence": "Ett ______ ljus (svag)",
+      "answer": "svagt",
+      "englishAnswer": "weak",
+      "options": ["svag", "svagt", "svaga"],
+      "translation": "A weak light"
+    },
+    {
+      "id": 82,
+      "group": "svag",
+      "sentence": "Mina ben är ______ (svag)",
+      "answer": "svaga",
+      "englishAnswer": "weak",
+      "options": ["svag", "svagt", "svaga"],
+      "translation": "My legs are weak"
+    },
+    {
+      "id": 83,
+      "group": "stark",
+      "sentence": "En ______ kvinna (stark)",
+      "answer": "stark",
+      "englishAnswer": "strong",
+      "options": ["stark", "starkt", "starka"],
+      "translation": "A strong woman"
+    },
+    {
+      "id": 84,
+      "group": "stark",
+      "sentence": "Ett ______ kaffe (stark)",
+      "answer": "starkt",
+      "englishAnswer": "strong",
+      "options": ["stark", "starkt", "starka"],
+      "translation": "A strong coffee"
+    },
+    {
+      "id": 85,
+      "group": "stark",
+      "sentence": "Hästarna är ______ (stark)",
+      "answer": "starka",
+      "englishAnswer": "strong",
+      "options": ["stark", "starkt", "starka"],
+      "translation": "The horses are strong"
+    },
+    {
+      "id": 86,
+      "group": "bred",
+      "sentence": "En ______ väg (bred)",
+      "answer": "bred",
+      "englishAnswer": "wide",
+      "options": ["bred", "brett", "breda"],
+      "translation": "A wide road"
+    },
+    {
+      "id": 87,
+      "group": "bred",
+      "sentence": "Ett ______ leende (bred)",
+      "answer": "brett",
+      "englishAnswer": "wide",
+      "options": ["bred", "brett", "breda"],
+      "translation": "A wide smile"
+    },
+    {
+      "id": 88,
+      "group": "bred",
+      "sentence": "Gatorna är ______ (bred)",
+      "answer": "breda",
+      "englishAnswer": "wide",
+      "options": ["bred", "brett", "breda"],
+      "translation": "The streets are wide"
+    },
+    {
+      "id": 89,
+      "group": "smal",
+      "sentence": "En ______ stig (smal)",
+      "answer": "smal",
+      "englishAnswer": "narrow",
+      "options": ["smal", "smalt", "smala"],
+      "translation": "A narrow path"
+    },
+    {
+      "id": 90,
+      "group": "smal",
+      "sentence": "Ett ______ bälte (smal)",
+      "answer": "smalt",
+      "englishAnswer": "thin",
+      "options": ["smal", "smalt", "smala"],
+      "translation": "A thin belt"
+    },
+    {
+      "id": 91,
+      "group": "smal",
+      "sentence": "Gångarna är ______ (smal)",
+      "answer": "smala",
+      "englishAnswer": "narrow",
+      "options": ["smal", "smalt", "smala"],
+      "translation": "The aisles are narrow"
+    },
+    {
+      "id": 92,
+      "group": "djup",
+      "sentence": "En ______ sjö (djup)",
+      "answer": "djup",
+      "englishAnswer": "deep",
+      "options": ["djup", "djupt", "djupa"],
+      "translation": "A deep lake"
+    },
+    {
+      "id": 93,
+      "group": "djup",
+      "sentence": "Ett ______ hål (djup)",
+      "answer": "djupt",
+      "englishAnswer": "deep",
+      "options": ["djup", "djupt", "djupa"],
+      "translation": "A deep hole"
+    },
+    {
+      "id": 94,
+      "group": "djup",
+      "sentence": "Dalarne är ______ (djup)",
+      "answer": "djupa",
+      "englishAnswer": "deep",
+      "options": ["djup", "djupt", "djupa"],
+      "translation": "The valleys are deep"
+    },
+    {
+      "id": 95,
+      "group": "snäll",
+      "sentence": "En ______ pojke (snäll)",
+      "answer": "snäll",
+      "englishAnswer": "kind",
+      "options": ["snäll", "snällt", "snälla"],
+      "translation": "A kind boy"
+    },
+    {
+      "id": 96,
+      "group": "snäll",
+      "sentence": "Ett ______ barn (snäll)",
+      "answer": "snällt",
+      "englishAnswer": "kind",
+      "options": ["snäll", "snällt", "snälla"],
+      "translation": "A kind child"
+    },
+    {
+      "id": 97,
+      "group": "arg",
+      "sentence": "En ______ kund (arg)",
+      "answer": "arg",
+      "englishAnswer": "angry",
+      "options": ["arg", "argt", "arga"],
+      "translation": "An angry customer"
+    },
+    {
+      "id": 98,
+      "group": "arg",
+      "sentence": "Ett ______ bi (arg)",
+      "answer": "argt",
+      "englishAnswer": "angry",
+      "options": ["arg", "argt", "arga"],
+      "translation": "An angry bee"
+    },
+    {
+      "id": 99,
+      "group": "arg",
+      "sentence": "Männen är ______ (arg)",
+      "answer": "arga",
+      "englishAnswer": "angry",
+      "options": ["arg", "argt", "arga"],
+      "translation": "The men are angry"
+    },
+    {
+      "id": 100,
+      "group": "hungrig",
+      "sentence": "Barnet är ______ (hungrig)",
+      "answer": "hungrigt",
+      "englishAnswer": "hungry",
+      "options": ["hungrig", "hungrigt", "hungriga"],
+      "translation": "The child is hungry"
+    },
+    {
+        "id": 101,
+        "group": "hungrig",
+        "sentence": "En ______ varg (hungrig)",
+        "answer": "hungrig",
+        "englishAnswer": "hungry",
+        "options": ["hungrig", "hungrigt", "hungriga"],
+        "translation": "A hungry wolf"
+      },
+      {
+        "id": 102,
+        "group": "hungrig",
+        "sentence": "Vargarna är ______ (hungrig)",
+        "answer": "hungriga",
+        "englishAnswer": "hungry",
+        "options": ["hungrig", "hungrigt", "hungriga"],
+        "translation": "The wolves are hungry"
+      },
+      {
+        "id": 103,
+        "group": "törstig",
+        "sentence": "En ______ vandrare (törstig)",
+        "answer": "törstig",
+        "englishAnswer": "thirsty",
+        "options": ["törstig", "törstigt", "törstiga"],
+        "translation": "A thirsty hiker"
+      },
+      {
+        "id": 104,
+        "group": "törstig",
+        "sentence": "Ett ______ djur (törstig)",
+        "answer": "törstigt",
+        "englishAnswer": "thirsty",
+        "options": ["törstig", "törstigt", "törstiga"],
+        "translation": "A thirsty animal"
+      },
+      {
+        "id": 105,
+        "group": "törstig",
+        "sentence": "Vi är ______ (törstig)",
+        "answer": "törstiga",
+        "englishAnswer": "thirsty",
+        "options": ["törstig", "törstigt", "törstiga"],
+        "translation": "We are thirsty"
+      },
+      {
+        "id": 106,
+        "group": "pigg",
+        "sentence": "En ______ tjej (pigg)",
+        "answer": "pigg",
+        "englishAnswer": "alert",
+        "options": ["pigg", "piggt", "pigga"],
+        "translation": "An alert girl"
+      },
+      {
+        "id": 107,
+        "group": "pigg",
+        "sentence": "Ett ______ barn (pigg)",
+        "answer": "piggt",
+        "englishAnswer": "lively",
+        "options": ["pigg", "piggt", "pigga"],
+        "translation": "A lively child"
+      },
+      {
+        "id": 108,
+        "group": "pigg",
+        "sentence": "De är ______ (pigg)",
+        "answer": "pigga",
+        "englishAnswer": "alert/energetic",
+        "options": ["pigg", "piggt", "pigga"],
+        "translation": "They are energetic"
+      },
+      {
+        "id": 109,
+        "group": "trött",
+        "sentence": "En ______ lärare (trött)",
+        "answer": "trött",
+        "englishAnswer": "tired",
+        "options": ["trött", "trött", "trötta"],
+        "translation": "A tired teacher"
+      },
+      {
+        "id": 110,
+        "group": "trött",
+        "sentence": "Ett ______ öga (trött)",
+        "answer": "trött",
+        "englishAnswer": "tired",
+        "options": ["trött", "trött", "trötta"],
+        "translation": "A tired eye"
+      },
+      {
+        "id": 111,
+        "group": "trött",
+        "sentence": "Hästarna är ______ (trött)",
+        "answer": "trötta",
+        "englishAnswer": "tired",
+        "options": ["trött", "trött", "trötta"],
+        "translation": "The horses are tired"
+      },
+      {
+        "id": 112,
+        "group": "torr",
+        "sentence": "En ______ öken (torr)",
+        "answer": "torr",
+        "englishAnswer": "dry",
+        "options": ["torr", "torrt", "torra"],
+        "translation": "A dry desert"
+      },
+      {
+        "id": 113,
+        "group": "torr",
+        "sentence": "Ett ______ löv (torr)",
+        "answer": "torrt",
+        "englishAnswer": "dry",
+        "options": ["torr", "torrt", "torra"],
+        "translation": "A dry leaf"
+      },
+      {
+        "id": 114,
+        "group": "torr",
+        "sentence": "Händerna är ______ (torr)",
+        "answer": "torra",
+        "englishAnswer": "dry",
+        "options": ["torr", "torrt", "torra"],
+        "translation": "The hands are dry"
+      },
+      {
+        "id": 115,
+        "group": "våt",
+        "sentence": "En ______ fläck (våt)",
+        "answer": "våt",
+        "englishAnswer": "wet",
+        "options": ["våt", "vått", "våta"],
+        "translation": "A wet spot"
+      },
+      {
+        "id": 116,
+        "group": "våt",
+        "sentence": "Ett ______ golv (våt)",
+        "answer": "vått",
+        "englishAnswer": "wet",
+        "options": ["våt", "vått", "våta"],
+        "translation": "A wet floor"
+      },
+      {
+        "id": 117,
+        "group": "våt",
+        "sentence": "Kläderna är ______ (våt)",
+        "answer": "våta",
+        "englishAnswer": "wet",
+        "options": ["våt", "vått", "våta"],
+        "translation": "The clothes are wet"
+      },
+      {
+        "id": 118,
+        "group": "ren",
+        "sentence": "En ______ tröja (ren)",
+        "answer": "ren",
+        "englishAnswer": "clean",
+        "options": ["ren", "rent", "rena"],
+        "translation": "A clean sweater"
+      },
+      {
+        "id": 119,
+        "group": "ren",
+        "sentence": "Ett ______ kök (ren)",
+        "answer": "rent",
+        "englishAnswer": "clean",
+        "options": ["ren", "rent", "rena"],
+        "translation": "A clean kitchen"
+      },
+      {
+        "id": 120,
+        "group": "ren",
+        "sentence": "Fönstren är ______ (ren)",
+        "answer": "rena",
+        "englishAnswer": "clean",
+        "options": ["ren", "rent", "rena"],
+        "translation": "The windows are clean"
+      },
+      {
+        "id": 121,
+        "group": "smutsig",
+        "sentence": "En ______ tallrik (smutsig)",
+        "answer": "smutsig",
+        "englishAnswer": "dirty",
+        "options": ["smutsig", "smutsigt", "smutsiga"],
+        "translation": "A dirty plate"
+      },
+      {
+        "id": 122,
+        "group": "smutsig",
+        "sentence": "Ett ______ ansikte (smutsig)",
+        "answer": "smutsigt",
+        "englishAnswer": "dirty",
+        "options": ["smutsig", "smutsigt", "smutsiga"],
+        "translation": "A dirty face"
+      },
+      {
+        "id": 123,
+        "group": "smutsig",
+        "sentence": "Bilarna är ______ (smutsig)",
+        "answer": "smutsiga",
+        "englishAnswer": "dirty",
+        "options": ["smutsig", "smutsigt", "smutsiga"],
+        "translation": "The cars are dirty"
+      },
+      {
+        "id": 124,
+        "group": "ljummen",
+        "sentence": "En ______ vind (ljummen)",
+        "answer": "ljummen",
+        "englishAnswer": "lukewarm",
+        "options": ["ljummen", "ljummet", "ljumna"],
+        "translation": "A lukewarm wind"
+      },
+      {
+        "id": 125,
+        "group": "ljummen",
+        "sentence": "Ett ______ bad (ljummen)",
+        "answer": "ljummet",
+        "englishAnswer": "lukewarm",
+        "options": ["ljummen", "ljummet", "ljumna"],
+        "translation": "A lukewarm bath"
+      },
+      {
+        "id": 126,
+        "group": "ljummen",
+        "sentence": "Kvällarna är ______ (ljummen)",
+        "answer": "ljumna",
+        "englishAnswer": "lukewarm",
+        "options": ["ljummen", "ljummet", "ljumna"],
+        "translation": "The evenings are lukewarm"
+      },
+      {
+        "id": 127,
+        "group": "färsk",
+        "sentence": "En ______ fisk (färsk)",
+        "answer": "färsk",
+        "englishAnswer": "fresh",
+        "options": ["färsk", "färskt", "färska"],
+        "translation": "A fresh fish"
+      },
+      {
+        "id": 128,
+        "group": "färsk",
+        "sentence": "Ett ______ bröd (färsk)",
+        "answer": "färskt",
+        "englishAnswer": "fresh",
+        "options": ["färsk", "färskt", "färska"],
+        "translation": "A fresh bread"
+      },
+      {
+        "id": 129,
+        "group": "färsk",
+        "sentence": "Hallen är ______ (färsk)",
+        "answer": "färska",
+        "englishAnswer": "fresh",
+        "options": ["färsk", "färskt", "färska"],
+        "translation": "The raspberries are fresh"
+      },
+      {
+        "id": 130,
+        "group": "vass",
+        "sentence": "En ______ kniv (vass)",
+        "answer": "vass",
+        "englishAnswer": "sharp",
+        "options": ["vass", "vasst", "vassa"],
+        "translation": "A sharp knife"
+      },
+      {
+        "id": 131,
+        "group": "vass",
+        "sentence": "Ett ______ föremål (vass)",
+        "answer": "vasst",
+        "englishAnswer": "sharp",
+        "options": ["vass", "vasst", "vassa"],
+        "translation": "A sharp object"
+      },
+      {
+        "id": 132,
+        "group": "vass",
+        "sentence": "Tänderna är ______ (vass)",
+        "answer": "vassa",
+        "englishAnswer": "sharp",
+        "options": ["vass", "vasst", "vassa"],
+        "translation": "The teeth are sharp"
+      },
+      {
+        "id": 133,
+        "group": "slö",
+        "sentence": "En ______ sax (slö)",
+        "answer": "slö",
+        "englishAnswer": "blunt",
+        "options": ["slö", "slött", "slöa"],
+        "translation": "A blunt pair of scissors"
+      },
+      {
+        "id": 134,
+        "group": "slö",
+        "sentence": "Ett ______ verktyg (slö)",
+        "answer": "slött",
+        "englishAnswer": "dull",
+        "options": ["slö", "slött", "slöa"],
+        "translation": "A dull tool"
+      },
+      {
+        "id": 135,
+        "group": "slö",
+        "sentence": "Knivarna är ______ (slö)",
+        "answer": "slöa",
+        "englishAnswer": "dull",
+        "options": ["slö", "slött", "slöa"],
+        "translation": "The knives are dull"
+      },
+      {
+        "id": 136,
+        "group": "glad",
+        "sentence": "En ______ hund (glad)",
+        "answer": "glad",
+        "englishAnswer": "happy",
+        "options": ["glad", "glatt", "glada"],
+        "translation": "A happy dog"
+      },
+      {
+        "id": 137,
+        "group": "glad",
+        "sentence": "Ett ______ ansikte (glad)",
+        "answer": "glatt",
+        "englishAnswer": "happy",
+        "options": ["glad", "glatt", "glada"],
+        "translation": "A happy face"
+      },
+      {
+        "id": 138,
+        "group": "glad",
+        "sentence": "Barnen är ______ (glad)",
+        "answer": "glada",
+        "englishAnswer": "happy",
+        "options": ["glad", "glatt", "glada"],
+        "translation": "The children are happy"
+      },
+      {
+        "id": 139,
+        "group": "ledsen",
+        "sentence": "En ______ kille (ledsen)",
+        "answer": "ledsen",
+        "englishAnswer": "sad",
+        "options": ["ledsen", "ledset", "ledsna"],
+        "translation": "A sad guy"
+      },
+      {
+        "id": 140,
+        "group": "ledsen",
+        "sentence": "Ett ______ öga (ledsen)",
+        "answer": "ledset",
+        "englishAnswer": "sad",
+        "options": ["ledsen", "ledset", "ledsna"],
+        "translation": "A sad eye"
+      },
+      {
+        "id": 141,
+        "group": "ledsen",
+        "sentence": "De är ______ (ledsen)",
+        "answer": "ledsna",
+        "englishAnswer": "sad",
+        "options": ["ledsen", "ledset", "ledsna"],
+        "translation": "They are sad"
+      },
+      {
+        "id": 142,
+        "group": "lugn",
+        "sentence": "En ______ gata (lugn)",
+        "answer": "lugn",
+        "englishAnswer": "quiet",
+        "options": ["lugn", "lugnt", "lugna"],
+        "translation": "A quiet street"
+      },
+      {
+        "id": 143,
+        "group": "lugn",
+        "sentence": "Dagarna är ______ (lugn)",
+        "answer": "lugna",
+        "englishAnswer": "calm",
+        "options": ["lugn", "lugnt", "lugna"],
+        "translation": "The days are calm"
+      },
+      {
+        "id": 144,
+        "group": "farlig",
+        "sentence": "En ______ väg (farlig)",
+        "answer": "farlig",
+        "englishAnswer": "dangerous",
+        "options": ["farlig", "farligt", "farliga"],
+        "translation": "A dangerous road"
+      },
+      {
+        "id": 145,
+        "group": "farlig",
+        "sentence": "Ett ______ djur (farlig)",
+        "answer": "farligt",
+        "englishAnswer": "dangerous",
+        "options": ["farlig", "farligt", "farliga"],
+        "translation": "A dangerous animal"
+      },
+      {
+        "id": 146,
+        "group": "farlig",
+        "sentence": "Lekarna är ______ (farlig)",
+        "answer": "farliga",
+        "englishAnswer": "dangerous",
+        "options": ["farlig", "farligt", "farliga"],
+        "translation": "The games are dangerous"
+      },
+      {
+        "id": 147,
+        "group": "trygg",
+        "sentence": "En ______ hamn (trygg)",
+        "answer": "trygg",
+        "englishAnswer": "safe",
+        "options": ["trygg", "tryggt", "trygga"],
+        "translation": "A safe harbor"
+      },
+      {
+        "id": 148,
+        "group": "trygg",
+        "sentence": "Ett ______ hem (trygg)",
+        "answer": "tryggt",
+        "englishAnswer": "secure",
+        "options": ["trygg", "tryggt", "trygga"],
+        "translation": "A secure home"
+      },
+      {
+        "id": 149,
+        "group": "trygg",
+        "sentence": "Barnen känner sig ______ (trygg)",
+        "answer": "trygga",
+        "englishAnswer": "safe",
+        "options": ["trygg", "tryggt", "trygga"],
+        "translation": "The children feel safe"
+      },
+      {
+        "id": 150,
+        "group": "gul",
+        "sentence": "Ett ______ hus (gul)",
+        "answer": "gult",
+        "englishAnswer": "yellow",
+        "options": ["gul", "gult", "gula"],
+        "translation": "A yellow house"
+      }
+]

@@ -1,0 +1,2005 @@
+{
+  "topic": "Noun Gender",
+  "instruction": "Choose the correct gender (en or ett) for each Swedish noun.",
+  "nouns": [
+    {
+      "id": 1,
+      "swedish": "bil",
+      "english": "Car",
+      "gender": "en",
+      "example": {
+        "sv": "Jag kör en bil.",
+        "en": "I drive a car."
+      }
+    },
+    {
+      "id": 2,
+      "swedish": "hus",
+      "english": "House",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett stort hus.",
+        "en": "It is a big house."
+      }
+    },
+    {
+      "id": 3,
+      "swedish": "katt",
+      "english": "Cat",
+      "gender": "en",
+      "example": {
+        "sv": "En katt sover.",
+        "en": "A cat is sleeping."
+      }
+    },
+    {
+      "id": 4,
+      "swedish": "äpple",
+      "english": "Apple",
+      "gender": "ett",
+      "example": {
+        "sv": "Jag äter ett äpple.",
+        "en": "I am eating an apple."
+      }
+    },
+    {
+      "id": 5,
+      "swedish": "bok",
+      "english": "Book",
+      "gender": "en",
+      "example": {
+        "sv": "Hon läser en bok.",
+        "en": "She reads a book."
+      }
+    },
+    {
+      "id": 6,
+      "swedish": "bord",
+      "english": "Table",
+      "gender": "ett",
+      "example": {
+        "sv": "Ett bord står i köket.",
+        "en": "A table stands in the kitchen."
+      }
+    },
+    {
+      "id": 7,
+      "swedish": "stol",
+      "english": "Chair",
+      "gender": "en",
+      "example": {
+        "sv": "Jag sitter på en stol.",
+        "en": "I sit on a chair."
+      }
+    },
+    {
+      "id": 8,
+      "swedish": "fönster",
+      "english": "Window",
+      "gender": "ett",
+      "example": {
+        "sv": "Öppna ett fönster.",
+        "en": "Open a window."
+      }
+    },
+    {
+      "id": 9,
+      "swedish": "skola",
+      "english": "School",
+      "gender": "en",
+      "example": {
+        "sv": "Det är en bra skola.",
+        "en": "It is a good school."
+      }
+    },
+    {
+      "id": 10,
+      "swedish": "barn",
+      "english": "Child",
+      "gender": "ett",
+      "example": {
+        "sv": "Ett barn leker.",
+        "en": "A child is playing."
+      }
+    },
+    {
+      "id": 11,
+      "swedish": "väska",
+      "english": "Bag",
+      "gender": "en",
+      "example": {
+        "sv": "Jag har en blå väska.",
+        "en": "I have a blue bag."
+      }
+    },
+    {
+      "id": 12,
+      "swedish": "land",
+      "english": "Country",
+      "gender": "ett",
+      "example": {
+        "sv": "Sverige är ett land.",
+        "en": "Sweden is a country."
+      }
+    },
+    {
+      "id": 13,
+      "swedish": "kopp",
+      "english": "Cup",
+      "gender": "en",
+      "example": {
+        "sv": "En kopp kaffe, tack.",
+        "en": "A cup of coffee, please."
+      }
+    },
+    {
+      "id": 14,
+      "swedish": "glas",
+      "english": "Glass",
+      "gender": "ett",
+      "example": {
+        "sv": "Jag vill ha ett glas vatten.",
+        "en": "I want a glass of water."
+      }
+    },
+    {
+      "id": 15,
+      "swedish": "tidning",
+      "english": "Newspaper",
+      "gender": "en",
+      "example": {
+        "sv": "Han köper en tidning.",
+        "en": "He buys a newspaper."
+      }
+    },
+    {
+      "id": 16,
+      "swedish": "namn",
+      "english": "Name",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett fint namn.",
+        "en": "It is a nice name."
+      }
+    },
+    {
+      "id": 17,
+      "swedish": "sol",
+      "english": "Sun",
+      "gender": "en",
+      "example": {
+        "sv": "Solen är en stjärna.",
+        "en": "The sun is a star."
+      }
+    },
+    {
+      "id": 18,
+      "swedish": "kök",
+      "english": "Kitchen",
+      "gender": "ett",
+      "example": {
+        "sv": "Vi har ett nytt kök.",
+        "en": "We have a new kitchen."
+      }
+    },
+    {
+      "id": 19,
+      "swedish": "vän",
+      "english": "Friend",
+      "gender": "en",
+      "example": {
+        "sv": "Du är en god vän.",
+        "en": "You are a good friend."
+      }
+    },
+    {
+      "id": 20,
+      "swedish": "år",
+      "english": "Year",
+      "gender": "ett",
+      "example": {
+        "sv": "Det tar ett år.",
+        "en": "It takes a year."
+      }
+    },
+    {
+      "id": 21,
+      "swedish": "hund",
+      "english": "Dog",
+      "gender": "en",
+      "example": {
+        "sv": "En hund skäller.",
+        "en": "A dog is barking."
+      }
+    },
+    {
+      "id": 22,
+      "swedish": "jobb",
+      "english": "Job",
+      "gender": "ett",
+      "example": {
+        "sv": "Jag söker ett jobb.",
+        "en": "I am looking for a job."
+      }
+    },
+    {
+      "id": 23,
+      "swedish": "lampa",
+      "english": "Lamp",
+      "gender": "en",
+      "example": {
+        "sv": "Tänd en lampa.",
+        "en": "Light a lamp."
+      }
+    },
+    {
+      "id": 24,
+      "swedish": "bröd",
+      "english": "Bread",
+      "gender": "ett",
+      "example": {
+        "sv": "Vill du ha ett bröd?",
+        "en": "Do you want a piece of bread?"
+      }
+    },
+    {
+      "id": 25,
+      "swedish": "dörr",
+      "english": "Door",
+      "gender": "en",
+      "example": {
+        "sv": "Stäng en dörr.",
+        "en": "Close a door."
+      }
+    },
+    {
+      "id": 26,
+      "swedish": "brev",
+      "english": "Letter",
+      "gender": "ett",
+      "example": {
+        "sv": "Jag skriver ett brev.",
+        "en": "I am writing a letter."
+      }
+    },
+    {
+      "id": 27,
+      "swedish": "kvinna",
+      "english": "Woman",
+      "gender": "en",
+      "example": {
+        "sv": "Hon är en stark kvinna.",
+        "en": "She is a strong woman."
+      }
+    },
+    {
+      "id": 28,
+      "swedish": "träd",
+      "english": "Tree",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett gammalt träd.",
+        "en": "It is an old tree."
+      }
+    },
+    {
+      "id": 29,
+      "swedish": "man",
+      "english": "Man",
+      "gender": "en",
+      "example": {
+        "sv": "En man går förbi.",
+        "en": "A man walks by."
+      }
+    },
+    {
+      "id": 30,
+      "swedish": "paket",
+      "english": "Package",
+      "gender": "ett",
+      "example": {
+        "sv": "Jag fick ett paket.",
+        "en": "I received a package."
+      }
+    },
+    {
+      "id": 31,
+      "swedish": "fågel",
+      "english": "Bird",
+      "gender": "en",
+      "example": {
+        "sv": "En fågel sjunger.",
+        "en": "A bird is singing."
+      }
+    },
+    {
+      "id": 32,
+      "swedish": "rum",
+      "english": "Room",
+      "gender": "ett",
+      "example": {
+        "sv": "Vi hyr ett rum.",
+        "en": "We are renting a room."
+      }
+    },
+    {
+      "id": 33,
+      "swedish": "blomma",
+      "english": "Flower",
+      "gender": "en",
+      "example": {
+        "sv": "Vilken vacker blomma!",
+        "en": "What a beautiful flower!"
+      }
+    },
+    {
+      "id": 34,
+      "swedish": "berg",
+      "english": "Mountain",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett högt berg.",
+        "en": "It is a high mountain."
+      }
+    },
+    {
+      "id": 35,
+      "swedish": "station",
+      "english": "Station",
+      "gender": "en",
+      "example": {
+        "sv": "Tåget stannar vid en station.",
+        "en": "The train stops at a station."
+      }
+    },
+    {
+      "id": 36,
+      "swedish": "papper",
+      "english": "Paper",
+      "gender": "ett",
+      "example": {
+        "sv": "Ge mig ett papper.",
+        "en": "Give me a piece of paper."
+      }
+    },
+    {
+      "id": 37,
+      "swedish": "gata",
+      "english": "Street",
+      "gender": "en",
+      "example": {
+        "sv": "Vi bor på en lugn gata.",
+        "en": "We live on a quiet street."
+      }
+    },
+    {
+      "id": 38,
+      "swedish": "problem",
+      "english": "Problem",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett litet problem.",
+        "en": "It is a small problem."
+      }
+    },
+    {
+      "id": 39,
+      "swedish": "stad",
+      "english": "City",
+      "gender": "en",
+      "example": {
+        "sv": "Stockholm är en stad.",
+        "en": "Stockholm is a city."
+      }
+    },
+    {
+      "id": 40,
+      "swedish": "hav",
+      "english": "Sea",
+      "gender": "ett",
+      "example": {
+        "sv": "Vi ser ett blått hav.",
+        "en": "We see a blue sea."
+      }
+    },
+    {
+      "id": 41,
+      "swedish": "sked",
+      "english": "Spoon",
+      "gender": "en",
+      "example": {
+        "sv": "Jag äter med en sked.",
+        "en": "I eat with a spoon."
+      }
+    },
+    {
+      "id": 42,
+      "swedish": "tåg",
+      "english": "Train",
+      "gender": "ett",
+      "example": {
+        "sv": "Ett tåg kommer nu.",
+        "en": "A train is coming now."
+      }
+    },
+    {
+      "id": 43,
+      "swedish": "gaffel",
+      "english": "Fork",
+      "gender": "en",
+      "example": {
+        "sv": "En gaffel ligger här.",
+        "en": "A fork is lying here."
+      }
+    },
+    {
+      "id": 44,
+      "swedish": "svar",
+      "english": "Answer",
+      "gender": "ett",
+      "example": {
+        "sv": "Ge mig ett svar.",
+        "en": "Give me an answer."
+      }
+    },
+    {
+      "id": 45,
+      "swedish": "kniv",
+      "english": "Knife",
+      "gender": "en",
+      "example": {
+        "sv": "Skär med en kniv.",
+        "en": "Cut with a knife."
+      }
+    },
+    {
+      "id": 46,
+      "swedish": "golv",
+      "english": "Floor",
+      "gender": "ett",
+      "example": {
+        "sv": "Det ligger på ett golv.",
+        "en": "It lies on a floor."
+      }
+    },
+    {
+      "id": 47,
+      "swedish": "tallrik",
+      "english": "Plate",
+      "gender": "en",
+      "example": {
+        "sv": "En tallrik är trasig.",
+        "en": "A plate is broken."
+      }
+    },
+    {
+      "id": 48,
+      "swedish": "tak",
+      "english": "Roof",
+      "gender": "ett",
+      "example": {
+        "sv": "Huset har ett tak.",
+        "en": "The house has a roof."
+      }
+    },
+    {
+      "id": 49,
+      "swedish": "soffa",
+      "english": "Sofa",
+      "gender": "en",
+      "example": {
+        "sv": "Vi köper en ny soffa.",
+        "en": "We are buying a new sofa."
+      }
+    },
+    {
+      "id": 50,
+      "swedish": "exempel",
+      "english": "Example",
+      "gender": "ett",
+      "example": {
+        "sv": "Det är ett bra exempel.",
+        "en": "It is a good example."
+      }
+    },
+    {
+        "id": 51,
+        "swedish": "cykel",
+        "english": "Bicycle",
+        "gender": "en",
+        "example": {
+          "sv": "Jag har en gammal cykel.",
+          "en": "I have an old bicycle."
+        }
+      },
+      {
+        "id": 52,
+        "swedish": "ansikte",
+        "english": "Face",
+        "gender": "ett",
+        "example": {
+          "sv": "Hon har ett glatt ansikte.",
+          "en": "She has a happy face."
+        }
+      },
+      {
+        "id": 53,
+        "swedish": "säng",
+        "english": "Bed",
+        "gender": "en",
+        "example": {
+          "sv": "En säng är mjuk.",
+          "en": "A bed is soft."
+        }
+      },
+      {
+        "id": 54,
+        "swedish": "huvud",
+        "english": "Head",
+        "gender": "ett",
+        "example": {
+          "sv": "Ett huvud gör ont.",
+          "en": "A head hurts."
+        }
+      },
+      {
+        "id": 55,
+        "swedish": "klocka",
+        "english": "Clock",
+        "gender": "en",
+        "example": {
+          "sv": "Jag ser en klocka.",
+          "en": "I see a clock."
+        }
+      },
+      {
+        "id": 56,
+        "swedish": "hjärta",
+        "english": "Heart",
+        "gender": "ett",
+        "example": {
+          "sv": "Ett hjärta slår.",
+          "en": "A heart beats."
+        }
+      },
+      {
+        "id": 57,
+        "swedish": "dator",
+        "english": "Computer",
+        "gender": "en",
+        "example": {
+          "sv": "Jag använder en dator.",
+          "en": "I use a computer."
+        }
+      },
+      {
+        "id": 58,
+        "swedish": "system",
+        "english": "System",
+        "gender": "ett",
+        "example": {
+          "sv": "Det är ett nytt system.",
+          "en": "It is a new system."
+        }
+      },
+      {
+        "id": 59,
+        "swedish": "lärare",
+        "english": "Teacher",
+        "gender": "en",
+        "example": {
+          "sv": "Hon är en lärare.",
+          "en": "She is a teacher."
+        }
+      },
+      {
+        "id": 60,
+        "swedish": "foto",
+        "english": "Photo",
+        "gender": "ett",
+        "example": {
+          "sv": "Visa mig ett foto.",
+          "en": "Show me a photo."
+        }
+      },
+      {
+        "id": 61,
+        "swedish": "elev",
+        "english": "Student",
+        "gender": "en",
+        "example": {
+          "sv": "En elev skriver prov.",
+          "en": "A student takes a test."
+        }
+      },
+      {
+        "id": 62,
+        "swedish": "kvitto",
+        "english": "Receipt",
+        "gender": "ett",
+        "example": {
+          "sv": "Tappa inte ett kvitto.",
+          "en": "Don't lose a receipt."
+        }
+      },
+      {
+        "id": 63,
+        "swedish": "lägenhet",
+        "english": "Apartment",
+        "gender": "en",
+        "example": {
+          "sv": "Vi bor i en lägenhet.",
+          "en": "We live in an apartment."
+        }
+      },
+      {
+        "id": 64,
+        "swedish": "besök",
+        "english": "Visit",
+        "gender": "ett",
+        "example": {
+          "sv": "Vi fick ett kort besök.",
+          "en": "We had a short visit."
+        }
+      },
+      {
+        "id": 65,
+        "swedish": "trädgård",
+        "english": "Garden",
+        "gender": "en",
+        "example": {
+          "sv": "En trädgård är grön.",
+          "en": "A garden is green."
+        }
+      },
+      {
+        "id": 66,
+        "swedish": "meddelande",
+        "english": "Message",
+        "gender": "ett",
+        "example": {
+          "sv": "Skicka ett meddelande.",
+          "en": "Send a message."
+        }
+      },
+      {
+        "id": 67,
+        "swedish": "morgon",
+        "english": "Morning",
+        "gender": "en",
+        "example": {
+          "sv": "Det är en solig morgon.",
+          "en": "It is a sunny morning."
+        }
+      },
+      {
+        "id": 68,
+        "swedish": "område",
+        "english": "Area",
+        "gender": "ett",
+        "example": {
+          "sv": "Det är ett lugnt område.",
+          "en": "It is a quiet area."
+        }
+      },
+      {
+        "id": 69,
+        "swedish": "natt",
+        "english": "Night",
+        "gender": "en",
+        "example": {
+          "sv": "En natt är mörk.",
+          "en": "A night is dark."
+        }
+      },
+      {
+        "id": 70,
+        "swedish": "försök",
+        "english": "Attempt",
+        "gender": "ett",
+        "example": {
+          "sv": "Gör ett nytt försök.",
+          "en": "Make a new attempt."
+        }
+      },
+      {
+        "id": 71,
+        "swedish": "vecka",
+        "english": "Week",
+        "gender": "en",
+        "example": {
+          "sv": "En vecka går snabbt.",
+          "en": "A week goes fast."
+        }
+      },
+      {
+        "id": 72,
+        "swedish": "flygplan",
+        "english": "Airplane",
+        "gender": "ett",
+        "example": {
+          "sv": "Ett flygplan lyfter.",
+          "en": "An airplane takes off."
+        }
+      },
+      {
+        "id": 73,
+        "swedish": "fika",
+        "english": "Coffee break",
+        "gender": "en",
+        "example": {
+          "sv": "Ska vi ta en fika?",
+          "en": "Should we have a coffee break?"
+        }
+      },
+      {
+        "id": 74,
+        "swedish": "program",
+        "english": "Program",
+        "gender": "ett",
+        "example": {
+          "sv": "Jag ser ett program.",
+          "en": "I am watching a program."
+        }
+      },
+      {
+        "id": 75,
+        "swedish": "butik",
+        "english": "Shop",
+        "gender": "en",
+        "example": {
+          "sv": "Jag går till en butik.",
+          "en": "I go to a shop."
+        }
+      },
+      {
+        "id": 76,
+        "swedish": "universitet",
+        "english": "University",
+        "gender": "ett",
+        "example": {
+          "sv": "Det är ett universitet.",
+          "en": "It is a university."
+        }
+      },
+      {
+        "id": 77,
+        "swedish": "restaurang",
+        "english": "Restaurant",
+        "gender": "en",
+        "example": {
+          "sv": "Vi äter på en restaurang.",
+          "en": "We eat at a restaurant."
+        }
+      },
+      {
+        "id": 78,
+        "swedish": "kort",
+        "english": "Card",
+        "gender": "ett",
+        "example": {
+          "sv": "Här är ett kort.",
+          "en": "Here is a card."
+        }
+      },
+      {
+        "id": 79,
+        "swedish": "skjorta",
+        "english": "Shirt",
+        "gender": "en",
+        "example": {
+          "sv": "Han bär en skjorta.",
+          "en": "He wears a shirt."
+        }
+      },
+      {
+        "id": 80,
+        "swedish": "samtal",
+        "english": "Conversation",
+        "gender": "ett",
+        "example": {
+          "sv": "Vi har ett samtal.",
+          "en": "We are having a conversation."
+        }
+      },
+      {
+        "id": 81,
+        "swedish": "sko",
+        "english": "Shoe",
+        "gender": "en",
+        "example": {
+          "sv": "Jag hittade en sko.",
+          "en": "I found a shoe."
+        }
+      },
+      {
+        "id": 82,
+        "swedish": "län",
+        "english": "County",
+        "gender": "ett",
+        "example": {
+          "sv": "Det är ett litet län.",
+          "en": "It is a small county."
+        }
+      },
+      {
+        "id": 83,
+        "swedish": "byxa",
+        "english": "Pant",
+        "gender": "en",
+        "example": {
+          "sv": "En byxa hänger där.",
+          "en": "A pair of pants is hanging there."
+        }
+      },
+      {
+        "id": 84,
+        "swedish": "par",
+        "english": "Pair",
+        "gender": "ett",
+        "example": {
+          "sv": "Ett par skor.",
+          "en": "A pair of shoes."
+        }
+      },
+      {
+        "id": 85,
+        "swedish": "mössa",
+        "english": "Beanie",
+        "gender": "en",
+        "example": {
+          "sv": "Ta på dig en mössa.",
+          "en": "Put on a beanie."
+        }
+      },
+      {
+        "id": 86,
+        "swedish": "skåp",
+        "english": "Cabinet",
+        "gender": "ett",
+        "example": {
+          "sv": "Det står i ett skåp.",
+          "en": "It is in a cabinet."
+        }
+      },
+      {
+        "id": 87,
+        "swedish": "penna",
+        "english": "Pen",
+        "gender": "en",
+        "example": {
+          "sv": "Har du en penna?",
+          "en": "Do you have a pen?"
+        }
+      },
+      {
+        "id": 88,
+        "swedish": "bibliotek",
+        "english": "Library",
+        "gender": "ett",
+        "example": {
+          "sv": "Ett bibliotek är tyst.",
+          "en": "A library is quiet."
+        }
+      },
+      {
+        "id": 89,
+        "swedish": "linjal",
+        "english": "Ruler",
+        "gender": "en",
+        "example": {
+          "sv": "Mät med en linjal.",
+          "en": "Measure with a ruler."
+        }
+      },
+      {
+        "id": 90,
+        "swedish": "gym",
+        "english": "Gym",
+        "gender": "ett",
+        "example": {
+          "sv": "Jag går till ett gym.",
+          "en": "I go to a gym."
+        }
+      },
+      {
+        "id": 91,
+        "swedish": "karta",
+        "english": "Map",
+        "gender": "en",
+        "example": {
+          "sv": "Titta på en karta.",
+          "en": "Look at a map."
+        }
+      },
+      {
+        "id": 92,
+        "swedish": "museum",
+        "english": "Museum",
+        "gender": "ett",
+        "example": {
+          "sv": "Vi besöker ett museum.",
+          "en": "We visit a museum."
+        }
+      },
+      {
+        "id": 93, "swedish": "bro",
+        "english": "Bridge",
+        "gender": "en",
+        "example": {
+          "sv": "Bilen åker över en bro.",
+          "en": "The car goes over a bridge."
+        }
+      },
+      {
+        "id": 94,
+        "swedish": "torg",
+        "english": "Square",
+        "gender": "ett",
+        "example": {
+          "sv": "Vi möts på ett torg.",
+          "en": "We meet at a square."
+        }
+      },
+      {
+        "id": 95,
+        "swedish": "flaska",
+        "english": "Bottle",
+        "gender": "en",
+        "example": {
+          "sv": "En flaska med vatten.",
+          "en": "A bottle of water."
+        }
+      },
+      {
+        "id": 96,
+        "swedish": "sjukhus",
+        "english": "Hospital",
+        "gender": "ett",
+        "example": {
+          "sv": "Han åker till ett sjukhus.",
+          "en": "He goes to a hospital."
+        }
+      },
+      {
+        "id": 97,
+        "swedish": "tall",
+        "english": "Pine tree",
+        "gender": "en",
+        "example": {
+          "sv": "En tall växer här.",
+          "en": "A pine tree grows here."
+        }
+      },
+      {
+        "id": 98,
+        "swedish": "apotek",
+        "english": "Pharmacy",
+        "gender": "ett",
+        "example": {
+          "sv": "Hitta ett apotek.",
+          "en": "Find a pharmacy."
+        }
+      },
+      {
+        "id": 99,
+        "swedish": "skog",
+        "english": "Forest",
+        "gender": "en",
+        "example": {
+          "sv": "Vi går i en skog.",
+          "en": "We walk in a forest."
+        }
+      },
+      {
+        "id": 100,
+        "swedish": "café",
+        "english": "Café",
+        "gender": "ett",
+        "example": {
+          "sv": "Vi sitter på ett café.",
+          "en": "We are sitting at a café."
+        }
+      },
+      {
+          "id": 101,
+          "swedish": "människa",
+          "english": "Human/Person",
+          "gender": "en",
+          "example": {
+            "sv": "Varje människa är unik.",
+            "en": "Every human is unique."
+          }
+        },
+        {
+          "id": 102,
+          "swedish": "ansvar",
+          "english": "Responsibility",
+          "gender": "ett",
+          "example": {
+            "sv": "Det är ett stort ansvar.",
+            "en": "It is a big responsibility."
+          }
+        },
+        {
+          "id": 103,
+          "swedish": "resa",
+          "english": "Trip/Journey",
+          "gender": "en",
+          "example": {
+            "sv": "Vi planerar en resa.",
+            "en": "We are planning a trip."
+          }
+        },
+        {
+          "id": 104,
+          "swedish": "beslut",
+          "english": "Decision",
+          "gender": "ett",
+          "example": {
+            "sv": "Jag har fattat ett beslut.",
+            "en": "I have made a decision."
+          }
+        },
+        {
+          "id": 105,
+          "swedish": "vinter",
+          "english": "Winter",
+          "gender": "en",
+          "example": {
+            "sv": "Det är en kall vinter.",
+            "en": "It is a cold winter."
+          }
+        },
+        {
+          "id": 106,
+          "swedish": "papper",
+          "english": "Paper",
+          "gender": "ett",
+          "example": {
+            "sv": "Skriv på ett papper.",
+            "en": "Write on a paper."
+          }
+        },
+        {
+          "id": 107,
+          "swedish": "sommar",
+          "english": "Summer",
+          "gender": "en",
+          "example": {
+            "sv": "En varm sommar är skön.",
+            "en": "A warm summer is nice."
+          }
+        },
+        {
+          "id": 108,
+          "swedish": "kök",
+          "english": "Kitchen",
+          "gender": "ett",
+          "example": {
+            "sv": "Vi renoverar ett kök.",
+            "en": "We are renovating a kitchen."
+          }
+        },
+        {
+          "id": 109,
+          "swedish": "fråga",
+          "english": "Question",
+          "gender": "en",
+          "example": {
+            "sv": "Får jag ställa en fråga?",
+            "en": "May I ask a question?"
+          }
+        },
+        {
+          "id": 110,
+          "swedish": "samtal",
+          "english": "Call/Conversation",
+          "gender": "ett",
+          "example": {
+            "sv": "Jag väntar på ett samtal.",
+            "en": "I am waiting for a call."
+          }
+        },
+        {
+          "id": 111,
+          "swedish": "grupp",
+          "english": "Group",
+          "gender": "en",
+          "example": {
+            "sv": "Vi arbetar i en grupp.",
+            "en": "We work in a group."
+          }
+        },
+        {
+          "id": 112,
+          "swedish": "företag",
+          "english": "Company",
+          "gender": "ett",
+          "example": {
+            "sv": "Han startade ett företag.",
+            "en": "He started a company."
+          }
+        },
+        {
+          "id": 113,
+          "swedish": "nyckel",
+          "english": "Key",
+          "gender": "en",
+          "example": {
+            "sv": "Här är en nyckel.",
+            "en": "Here is a key."
+          }
+        },
+        {
+          "id": 114,
+          "swedish": "intresse",
+          "english": "Interest",
+          "gender": "ett",
+          "example": {
+            "sv": "Det är ett gemensamt intresse.",
+            "en": "It is a common interest."
+          }
+        },
+        {
+          "id": 115,
+          "swedish": "tanke",
+          "english": "Thought",
+          "gender": "en",
+          "example": {
+            "sv": "Det var en god tanke.",
+            "en": "It was a good thought."
+          }
+        },
+        {
+          "id": 116,
+          "swedish": "pris",
+          "english": "Price/Award",
+          "gender": "ett",
+          "example": {
+            "sv": "Varan har ett högt pris.",
+            "en": "The item has a high price."
+          }
+        },
+        {
+          "id": 117,
+          "swedish": "berättelse",
+          "english": "Story",
+          "gender": "en",
+          "example": {
+            "sv": "Läs en berättelse.",
+            "en": "Read a story."
+          }
+        },
+        {
+          "id": 118,
+          "swedish": "kort",
+          "english": "Card/Map",
+          "gender": "ett",
+          "example": {
+            "sv": "Jag drar ett kort.",
+            "en": "I pull a card."
+          }
+        },
+        {
+          "id": 119,
+          "swedish": "möjlighet",
+          "english": "Opportunity",
+          "gender": "en",
+          "example": {
+            "sv": "Det är en stor möjlighet.",
+            "en": "It is a great opportunity."
+          }
+        },
+        {
+          "id": 120,
+          "swedish": "läge",
+          "english": "Situation/Location",
+          "gender": "ett",
+          "example": {
+            "sv": "Det är ett svårt läge.",
+            "en": "It is a difficult situation."
+          }
+        },
+        {
+          "id": 121,
+          "swedish": "väg",
+          "english": "Way/Road",
+          "gender": "en",
+          "example": {
+            "sv": "Visa mig en väg.",
+            "en": "Show me a way."
+          }
+        },
+        {
+          "id": 122,
+          "swedish": "problem",
+          "english": "Problem",
+          "gender": "ett",
+          "example": {
+            "sv": "Vi löste ett problem.",
+            "en": "We solved a problem."
+          }
+        },
+        {
+          "id": 123,
+          "swedish": "skärm",
+          "english": "Screen",
+          "gender": "en",
+          "example": {
+            "sv": "Titta på en skärm.",
+            "en": "Look at a screen."
+          }
+        },
+        {
+          "id": 124,
+          "swedish": "medlemskap",
+          "english": "Membership",
+          "gender": "ett",
+          "example": {
+            "sv": "Jag köpte ett medlemskap.",
+            "en": "I bought a membership."
+          }
+        },
+        {
+          "id": 125,
+          "swedish": "lägenhet",
+          "english": "Apartment",
+          "gender": "en",
+          "example": {
+            "sv": "Vi letar efter en lägenhet.",
+            "en": "We are looking for an apartment."
+          }
+        },
+        {
+          "id": 126,
+          "swedish": "område",
+          "english": "Area/District",
+          "gender": "ett",
+          "example": {
+            "sv": "Vi bor i ett fint område.",
+            "en": "We live in a nice area."
+          }
+        },
+        {
+          "id": 127,
+          "swedish": "stjärna",
+          "english": "Star",
+          "gender": "en",
+          "example": {
+            "sv": "Jag ser en stjärna.",
+            "en": "I see a star."
+          }
+        },
+        {
+          "id": 128,
+          "swedish": "jobb",
+          "english": "Job",
+          "gender": "ett",
+          "example": {
+            "sv": "Sök ett jobb.",
+            "en": "Apply for a job."
+          }
+        },
+        {
+          "id": 129,
+          "swedish": "känsla",
+          "english": "Feeling",
+          "gender": "en",
+          "example": {
+            "sv": "Det är en konstig känsla.",
+            "en": "It is a strange feeling."
+          }
+        },
+        {
+          "id": 130,
+          "swedish": "ämne",
+          "english": "Subject/Topic",
+          "gender": "ett",
+          "example": {
+            "sv": "Det är ett intressant ämne.",
+            "en": "It is an interesting subject."
+          }
+        },
+        {
+          "id": 131,
+          "swedish": "butik",
+          "english": "Shop/Store",
+          "gender": "en",
+          "example": {
+            "sv": "Gå in i en butik.",
+            "en": "Go into a shop."
+          }
+        },
+        {
+          "id": 132,
+          "swedish": "behov",
+          "english": "Need",
+          "gender": "ett",
+          "example": {
+            "sv": "Det finns ett behov.",
+            "en": "There is a need."
+          }
+        },
+        {
+          "id": 133,
+          "swedish": "idé",
+          "english": "Idea",
+          "gender": "en",
+          "example": {
+            "sv": "Jag fick en idé.",
+            "en": "I got an idea."
+          }
+        },
+        {
+          "id": 134,
+          "swedish": "namn",
+          "english": "Name",
+          "gender": "ett",
+          "example": {
+            "sv": "Välj ett namn.",
+            "en": "Choose a name."
+          }
+        },
+        {
+          "id": 135,
+          "swedish": "vän",
+          "english": "Friend",
+          "gender": "en",
+          "example": {
+            "sv": "Du är en sann vän.",
+            "en": "You are a true friend."
+          }
+        },
+        {
+          "id": 136,
+          "swedish": "exempel",
+          "english": "Example",
+          "gender": "ett",
+          "example": {
+            "sv": "Här är ett exempel.",
+            "en": "Here is an example."
+          }
+        },
+        {
+          "id": 137,
+          "swedish": "möbel",
+          "english": "Furniture",
+          "gender": "en",
+          "example": {
+            "sv": "Köp en ny möbel.",
+            "en": "Buy a new piece of furniture."
+          }
+        },
+        {
+          "id": 138,
+          "swedish": "paket",
+          "english": "Package",
+          "gender": "ett",
+          "example": {
+            "sv": "Hämta ett paket.",
+            "en": "Pick up a package."
+          }
+        },
+        {
+          "id": 139,
+          "swedish": "väska",
+          "english": "Bag",
+          "gender": "en",
+          "example": {
+            "sv": "Packa en väska.",
+            "en": "Pack a bag."
+          }
+        },
+        {
+          "id": 140,
+          "swedish": "nummer",
+          "english": "Number",
+          "gender": "ett",
+          "example": {
+            "sv": "Slå ett nummer.",
+            "en": "Dial a number."
+          }
+        },
+        {
+          "id": 141,
+          "swedish": "plats",
+          "english": "Place",
+          "gender": "en",
+          "example": {
+            "sv": "Det är en vacker plats.",
+            "en": "It is a beautiful place."
+          }
+        },
+        {
+          "id": 142,
+          "swedish": "land",
+          "english": "Country",
+          "gender": "ett",
+          "example": {
+            "sv": "Ett land i Europa.",
+            "en": "A country in Europe."
+          }
+        },
+        {
+          "id": 143,
+          "swedish": "regel",
+          "english": "Rule",
+          "gender": "en",
+          "example": {
+            "sv": "Följ en regel.",
+            "en": "Follow a rule."
+          }
+        },
+        {
+          "id": 144,
+          "swedish": "hus",
+          "english": "House",
+          "gender": "ett",
+          "example": {
+            "sv": "Vi bor i ett rött hus.",
+            "en": "We live in a red house."
+          }
+        },
+        {
+          "id": 145,
+          "swedish": "timme",
+          "english": "Hour",
+          "gender": "en",
+          "example": {
+            "sv": "Det tar en timme.",
+            "en": "It takes an hour."
+          }
+        },
+        {
+          "id": 146,
+          "swedish": "år",
+          "english": "Year",
+          "gender": "ett",
+          "example": {
+            "sv": "Gott nytt år!",
+            "en": "Happy new year!"
+          }
+        },
+        {
+          "id": 147,
+          "swedish": "vecka",
+          "english": "Week",
+          "gender": "en",
+          "example": {
+            "sv": "En vecka till semester.",
+            "en": "One week until vacation."
+          }
+        },
+        {
+          "id": 148,
+          "swedish": "fönster",
+          "english": "Window",
+          "gender": "ett",
+          "example": {
+            "sv": "Titta ut genom ett fönster.",
+            "en": "Look out through a window."
+          }
+        },
+        {
+          "id": 149,
+          "swedish": "månad",
+          "english": "Month",
+          "gender": "en",
+          "example": {
+            "sv": "En månad har fyra veckor.",
+            "en": "A month has four weeks."
+          }
+        },
+        {
+          "id": 150,
+          "swedish": "tåg",
+          "english": "Train",
+          "gender": "ett",
+          "example": {
+            "sv": "Vi åker med ett tåg.",
+            "en": "We are traveling by train."
+          }
+        },
+        {
+            "id": 151,
+            "swedish": "människa",
+            "english": "Human",
+            "gender": "en",
+            "example": {
+              "sv": "Varje människa är viktig.",
+              "en": "Every human is important."
+            }
+          },
+          {
+            "id": 152,
+            "swedish": "universitet",
+            "english": "University",
+            "gender": "ett",
+            "example": {
+              "sv": "Det är ett stort universitet.",
+              "en": "It is a large university."
+            }
+          },
+          {
+            "id": 153,
+            "swedish": "kropp",
+            "english": "Body",
+            "gender": "en",
+            "example": {
+              "sv": "Träna din kropp.",
+              "en": "Exercise your body."
+            }
+          },
+          {
+            "id": 154,
+            "swedish": "museum",
+            "english": "Museum",
+            "gender": "ett",
+            "example": {
+              "sv": "Vi går på ett museum.",
+              "en": "We are going to a museum."
+            }
+          },
+          {
+            "id": 155,
+            "swedish": "själ",
+            "english": "Soul",
+            "gender": "en",
+            "example": {
+              "sv": "Musik är bra för en själ.",
+              "en": "Music is good for a soul."
+            }
+          },
+          {
+            "id": 156,
+            "swedish": "gym",
+            "english": "Gym",
+            "gender": "ett",
+            "example": {
+              "sv": "Jag tränar på ett gym.",
+              "en": "I exercise at a gym."
+            }
+          },
+          {
+            "id": 157,
+            "swedish": "historia",
+            "english": "History/Story",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en lång historia.",
+              "en": "It is a long story."
+            }
+          },
+          {
+            "id": 158,
+            "swedish": "faktum",
+            "english": "Fact",
+            "gender": "ett",
+            "example": {
+              "sv": "Det är ett känt faktum.",
+              "en": "It is a known fact."
+            }
+          },
+          {
+            "id": 159,
+            "swedish": "maskin",
+            "english": "Machine",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en gammal maskin.",
+              "en": "It is an old machine."
+            }
+          },
+          {
+            "id": 160,
+            "swedish": "besök",
+            "english": "Visit",
+            "gender": "ett",
+            "example": {
+              "sv": "Tack för ett trevligt besök.",
+              "en": "Thanks for a nice visit."
+            }
+          },
+          {
+            "id": 161,
+            "swedish": "resa",
+            "english": "Trip",
+            "gender": "en",
+            "example": {
+              "sv": "Vi ska på en resa.",
+              "en": "We are going on a trip."
+            }
+          },
+          {
+            "id": 162,
+            "swedish": "val",
+            "english": "Choice/Election",
+            "gender": "ett",
+            "example": {
+              "sv": "Du har ett val.",
+              "en": "You have a choice."
+            }
+          },
+          {
+            "id": 163,
+            "swedish": "ordning",
+            "english": "Order",
+            "gender": "en",
+            "example": {
+              "sv": "Håll en god ordning.",
+              "en": "Maintain a good order."
+            }
+          },
+          {
+            "id": 164,
+            "swedish": "skåp",
+            "english": "Locker/Cabinet",
+            "gender": "ett",
+            "example": {
+              "sv": "Ställ det i ett skåp.",
+              "en": "Put it in a cabinet."
+            }
+          },
+          {
+            "id": 165,
+            "swedish": "upplevelse",
+            "english": "Experience",
+            "gender": "en",
+            "example": {
+              "sv": "Det var en unik upplevelse.",
+              "en": "It was a unique experience."
+            }
+          },
+          {
+            "id": 166,
+            "swedish": "bevis",
+            "english": "Proof",
+            "gender": "ett",
+            "example": {
+              "sv": "Här är ett bevis.",
+              "en": "Here is a proof."
+            }
+          },
+          {
+            "id": 167,
+            "swedish": "dröm",
+            "english": "Dream",
+            "gender": "en",
+            "example": {
+              "sv": "Jag hade en vacker dröm.",
+              "en": "I had a beautiful dream."
+            }
+          },
+          {
+            "id": 168,
+            "swedish": "löfte",
+            "english": "Promise",
+            "gender": "ett",
+            "example": {
+              "sv": "Håll ett löfte.",
+              "en": "Keep a promise."
+            }
+          },
+          {
+            "id": 169,
+            "swedish": "framtid",
+            "english": "Future",
+            "gender": "en",
+            "example": {
+              "sv": "Vi ser en ljus framtid.",
+              "en": "We see a bright future."
+            }
+          },
+          {
+            "id": 170,
+            "swedish": "hopp",
+            "english": "Hope",
+            "gender": "ett",
+            "example": {
+              "sv": "Det finns ett hopp.",
+              "en": "There is a hope."
+            }
+          },
+          {
+            "id": 171,
+            "swedish": "utmaning",
+            "english": "Challenge",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en stor utmaning.",
+              "en": "It is a big challenge."
+            }
+          },
+          {
+            "id": 172,
+            "swedish": "mål",
+            "english": "Goal",
+            "gender": "ett",
+            "example": {
+              "sv": "Sätt upp ett mål.",
+              "en": "Set a goal."
+            }
+          },
+          {
+            "id": 173,
+            "swedish": "skillnad",
+            "english": "Difference",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en stor skillnad.",
+              "en": "It is a big difference."
+            }
+          },
+          {
+            "id": 174,
+            "swedish": "intryck",
+            "english": "Impression",
+            "gender": "ett",
+            "example": {
+              "sv": "Du gjorde ett bra intryck.",
+              "en": "You made a good impression."
+            }
+          },
+          {
+            "id": 175,
+            "swedish": "sanning",
+            "english": "Truth",
+            "gender": "en",
+            "example": {
+              "sv": "Säg en sanning.",
+              "en": "Tell a truth."
+            }
+          },
+          {
+            "id": 176,
+            "swedish": "förslag",
+            "english": "Suggestion",
+            "gender": "ett",
+            "example": {
+              "sv": "Ge mig ett förslag.",
+              "en": "Give me a suggestion."
+            }
+          },
+          {
+            "id": 177,
+            "swedish": "situation",
+            "english": "Situation",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en svår situation.",
+              "en": "It is a difficult situation."
+            }
+          },
+          {
+            "id": 178,
+            "swedish": "bidrag",
+            "english": "Contribution",
+            "gender": "ett",
+            "example": {
+              "sv": "Det är ett viktigt bidrag.",
+              "en": "It is an important contribution."
+            }
+          },
+          {
+            "id": 179,
+            "swedish": "kultur",
+            "english": "Culture",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en rik kultur.",
+              "en": "It is a rich culture."
+            }
+          },
+          {
+            "id": 180,
+            "swedish": "verktyg",
+            "english": "Tool",
+            "gender": "ett",
+            "example": {
+              "sv": "Använd ett verktyg.",
+              "en": "Use a tool."
+            }
+          },
+          {
+            "id": 181,
+            "swedish": "tjänst",
+            "english": "Service/Favor",
+            "gender": "en",
+            "example": {
+              "sv": "Gör mig en tjänst.",
+              "en": "Do me a favor."
+            }
+          },
+          {
+            "id": 182,
+            "swedish": "fika",
+            "english": "Coffee break",
+            "gender": "ett",
+            "example": {
+              "sv": "Ska vi ta ett fika?",
+              "en": "Shall we have a coffee break?"
+            }
+          },
+          {
+            "id": 183,
+            "swedish": "färg",
+            "english": "Color",
+            "gender": "en",
+            "example": {
+              "sv": "Välj en färg.",
+              "en": "Choose a color."
+            }
+          },
+          {
+            "id": 184,
+            "swedish": "sällskap",
+            "english": "Company/Society",
+            "gender": "ett",
+            "example": {
+              "sv": "Tack för ett gott sällskap.",
+              "en": "Thanks for good company."
+            }
+          },
+          {
+            "id": 185,
+            "swedish": "doft",
+            "english": "Scent",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en ljuvlig doft.",
+              "en": "It is a lovely scent."
+            }
+          },
+          {
+            "id": 186,
+            "swedish": "äventyr",
+            "english": "Adventure",
+            "gender": "ett",
+            "example": {
+              "sv": "Livet är ett äventyr.",
+              "en": "Life is an adventure."
+            }
+          },
+          {
+            "id": 187,
+            "swedish": "röst",
+            "english": "Voice",
+            "gender": "en",
+            "example": {
+              "sv": "Hon har en vacker röst.",
+              "en": "She has a beautiful voice."
+            }
+          },
+          {
+            "id": 188,
+            "swedish": "moln",
+            "english": "Cloud",
+            "gender": "ett",
+            "example": {
+              "sv": "Jag ser ett vitt moln.",
+              "en": "I see a white cloud."
+            }
+          },
+          {
+            "id": 189,
+            "swedish": "tid",
+            "english": "Time",
+            "gender": "en",
+            "example": {
+              "sv": "Det tar en viss tid.",
+              "en": "It takes a certain time."
+            }
+          },
+          {
+            "id": 190,
+            "swedish": "skämt",
+            "english": "Joke",
+            "gender": "ett",
+            "example": {
+              "sv": "Berätta ett skämt.",
+              "en": "Tell a joke."
+            }
+          },
+          {
+            "id": 191,
+            "swedish": "plats",
+            "english": "Place",
+            "gender": "en",
+            "example": {
+              "sv": "Hitta en ledig plats.",
+              "en": "Find a free place."
+            }
+          },
+          {
+            "id": 192,
+            "swedish": "sätt",
+            "english": "Way/Manner",
+            "gender": "ett",
+            "example": {
+              "sv": "Gör det på ett bra sätt.",
+              "en": "Do it in a good way."
+            }
+          },
+          {
+            "id": 193,
+            "swedish": "kraft",
+            "english": "Power/Force",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en stark kraft.",
+              "en": "It is a strong force."
+            }
+          },
+          {
+            "id": 194,
+            "swedish": "medlemskap",
+            "english": "Membership",
+            "gender": "ett",
+            "example": {
+              "sv": "Jag har ett medlemskap här.",
+              "en": "I have a membership here."
+            }
+          },
+          {
+            "id": 195,
+            "swedish": "miljö",
+            "english": "Environment",
+            "gender": "en",
+            "example": {
+              "sv": "Tänk på vår miljö.",
+              "en": "Think of our environment."
+            }
+          },
+          {
+            "id": 196,
+            "swedish": "möte",
+            "english": "Meeting",
+            "gender": "ett",
+            "example": {
+              "sv": "Jag ska på ett möte.",
+              "en": "I am going to a meeting."
+            }
+          },
+          {
+            "id": 197,
+            "swedish": "stämning",
+            "english": "Atmosphere/Mood",
+            "gender": "en",
+            "example": {
+              "sv": "Det är en god stämning.",
+              "en": "There is a good atmosphere."
+            }
+          },
+          {
+            "id": 198,
+            "swedish": "leende",
+            "english": "Smile",
+            "gender": "ett",
+            "example": {
+              "sv": "Ge mig ett leende.",
+              "en": "Give me a smile."
+            }
+          },
+          {
+            "id": 199,
+            "swedish": "uppgift",
+            "english": "Task",
+            "gender": "en",
+            "example": {
+              "sv": "Lös en svår uppgift.",
+              "en": "Solve a difficult task."
+            }
+          },
+          {
+            "id": 200,
+            "swedish": "område",
+            "english": "Area",
+            "gender": "ett",
+            "example": {
+              "sv": "Ett lugnt område.",
+              "en": "A quiet area."
+            }
+          }
+  ]
+}

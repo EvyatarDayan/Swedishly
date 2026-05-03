@@ -1,0 +1,2762 @@
+[
+    {
+        "id": 1,
+        "group": "v2_rule",
+        "sentence_blocks": ["idag", "solen", "skiner"],
+        "answer": "Idag skiner solen",
+        "answerTranslation": "Today the sun is shining",
+        "tip": "V2 Rule: The verb 'skiner' must be the second element."
+      },
+      {
+        "id": 2,
+        "group": "v2_rule",
+        "sentence_blocks": ["nu", "hem", "går", "jag"],
+        "answer": "Nu går jag hem",
+        "answerTranslation": "Now I am going home",
+        "tip": "Even with 'Nu' at the start, the verb 'går' stays in second place."
+      },
+      {
+        "id": 3,
+        "group": "negation",
+        "sentence_blocks": ["inte", "jag", "äter", "kött"],
+        "answer": "Jag äter inte kött",
+        "answerTranslation": "I do not eat meat",
+        "tip": "In main clauses, 'inte' comes after the verb."
+      },
+      {
+        "id": 4,
+        "group": "auxiliary",
+        "sentence_blocks": ["ska", "vi", "fika", "snart"],
+        "answer": "Vi ska fika snart",
+        "answerTranslation": "We are going to have coffee soon",
+        "tip": "The auxiliary verb 'ska' takes the second position."
+      },
+      {
+        "id": 5,
+        "group": "v2_rule",
+        "sentence_blocks": ["igår", "roligt", "hade", "vi"],
+        "answer": "Igår hade vi roligt",
+        "answerTranslation": "Yesterday we had fun",
+        "tip": "Notice how the subject 'vi' moves after the verb."
+      },
+      {
+        "id": 6,
+        "group": "question",
+        "sentence_blocks": ["bor", "var", "du"],
+        "answer": "Var bor du",
+        "answerTranslation": "Where do you live",
+        "tip": "In questions, the question word is first, verb is second."
+      },
+      {
+        "id": 7,
+        "group": "negation",
+        "sentence_blocks": ["han", "inte", "nu", "kommer"],
+        "answer": "Nu kommer han inte",
+        "answerTranslation": "Now he is not coming",
+        "tip": "Adverbs like 'nu' push the subject after the verb."
+      },
+      {
+        "id": 8,
+        "group": "v2_rule",
+        "sentence_blocks": ["dricker", "kaffe", "alltid", "hon"],
+        "answer": "Hon dricker alltid kaffe",
+        "answerTranslation": "She always drinks coffee",
+        "tip": "Frequency adverbs like 'alltid' come after the verb."
+      },
+      {
+        "id": 9,
+        "group": "auxiliary",
+        "sentence_blocks": ["kan", "svenska", "tala", "jag"],
+        "answer": "Jag kan tala svenska",
+        "answerTranslation": "I can speak Swedish",
+        "tip": "Verb 1 (kan) is in position 2; Verb 2 (tala) comes later."
+      },
+      {
+        "id": 10,
+        "group": "v2_rule",
+        "sentence_blocks": ["i morgon", "tränar", "jag"],
+        "answer": "I morgon tränar jag",
+        "answerTranslation": "Tomorrow I will exercise",
+        "tip": "Time phrases often start the sentence in Swedish."
+      },
+      {
+        "id": 11,
+        "group": "place",
+        "sentence_blocks": ["här", "vi", "bor"],
+        "answer": "Här bor vi",
+        "answerTranslation": "Here we live",
+        "tip": "Place can start the sentence, but the verb must follow immediately."
+      },
+      {
+        "id": 12,
+        "group": "negation",
+        "sentence_blocks": ["vill", "inte", "sova", "barnet"],
+        "answer": "Barnet vill inte sova",
+        "answerTranslation": "The child does not want to sleep",
+        "tip": "Negation goes between the auxiliary and the main verb."
+      },
+      {
+        "id": 13,
+        "group": "v2_rule",
+        "sentence_blocks": ["ofta", "läser", "tidningen", "han"],
+        "answer": "Han läser ofta tidningen",
+        "answerTranslation": "He often reads the newspaper",
+        "tip": "Position: Subject + Verb + Adverb."
+      },
+      {
+        "id": 14,
+        "group": "question",
+        "sentence_blocks": ["gör", "vad", "ikväll", "du"],
+        "answer": "Vad gör du ikväll",
+        "answerTranslation": "What are you doing tonight",
+        "tip": "Verb is second, subject is third."
+      },
+      {
+        "id": 15,
+        "group": "auxiliary",
+        "sentence_blocks": ["måste", "nu", "springa", "jag"],
+        "answer": "Nu måste jag springa",
+        "answerTranslation": "Now I must run",
+        "tip": "Start with Time -> Verb -> Subject -> Verb 2."
+      },
+      {
+        "id": 16,
+        "group": "v2_rule",
+        "sentence_blocks": ["kanske", "regnar", "det"],
+        "answer": "Kanske regnar det",
+        "answerTranslation": "Maybe it's raining",
+        "tip": "'Kanske' is an exception, but it often triggers the V2 rule."
+      },
+      {
+        "id": 17,
+        "group": "negation",
+        "sentence_blocks": ["aldrig", "tittar", "på TV", "hon"],
+        "answer": "Hon tittar aldrig på TV",
+        "answerTranslation": "She never watches TV",
+        "tip": "'Aldrig' follows the same rule as 'inte'."
+      },
+      {
+        "id": 18,
+        "group": "v2_rule",
+        "sentence_blocks": ["ibland", "trött", "är", "jag"],
+        "answer": "Ibland är jag trött",
+        "answerTranslation": "Sometimes I am tired",
+        "tip": "Time (Ibland) + Verb (är) + Subject (jag)."
+      },
+      {
+        "id": 19,
+        "group": "auxiliary",
+        "sentence_blocks": ["får", "här", "inte", "man", "röka"],
+        "answer": "Här får man inte röka",
+        "answerTranslation": "One is not allowed to smoke here",
+        "tip": "Notice the sequence: Place + Verb + Subject + Negation + Verb 2."
+      },
+      {
+        "id": 20,
+        "group": "v2_rule",
+        "sentence_blocks": ["först", "vi", "äter", "lite"],
+        "answer": "Först äter vi lite",
+        "answerTranslation": "First we eat a little",
+        "tip": "The verb 'äter' must be second."
+      },
+      {
+          "id": 21,
+          "group": "v2_rule",
+          "sentence_blocks": ["i eftermiddag", "kaffe", "dricker", "vi"],
+          "answer": "I eftermiddag dricker vi kaffe",
+          "answerTranslation": "This afternoon we are drinking coffee",
+          "tip": "Longer time phrases like 'i eftermiddag' still count as one element in position 1."
+        },
+        {
+          "id": 22,
+          "group": "auxiliary",
+          "sentence_blocks": ["måste", "läxan", "göra", "du", "nu"],
+          "answer": "Nu måste du göra läxan",
+          "answerTranslation": "Now you must do the homework",
+          "tip": "Time + Verb 1 + Subject + Verb 2 + Object."
+        },
+        {
+          "id": 23,
+          "group": "negation",
+          "sentence_blocks": ["inte", "han", "förstår", "frågan"],
+          "answer": "Han förstår inte frågan",
+          "answerTranslation": "He does not understand the question",
+          "tip": "Put 'inte' directly after the main verb."
+        },
+        {
+          "id": 24,
+          "group": "v2_rule",
+          "sentence_blocks": ["hemma", "är", "jag", "ofta"],
+          "answer": "Jag är ofta hemma",
+          "answerTranslation": "I am often at home",
+          "tip": "Subject + Verb + Adverb of frequency."
+        },
+        {
+          "id": 25,
+          "group": "v2_rule",
+          "sentence_blocks": ["ofta", "hemma", "är", "jag"],
+          "answer": "Ofta är jag hemma",
+          "answerTranslation": "Often I am at home",
+          "tip": "If you start with 'Ofta', the verb 'är' must follow immediately."
+        },
+        {
+          "id": 26,
+          "group": "bisats",
+          "sentence_blocks": ["att", "han", "inte", "säger", "kommer"],
+          "answer": "Han säger att han inte kommer",
+          "answerTranslation": "He says that he is not coming",
+          "tip": "BIFF Rule: In a subordinate clause (after 'att'), 'inte' comes BEFORE the verb."
+        },
+        {
+          "id": 27,
+          "group": "bisats",
+          "sentence_blocks": ["Jag", "är", "inne", "eftersom", "det", "regnar", "ute"],
+          "answer": "Jag är inne eftersom det regnar ute",
+          "answerTranslation": "I am inside because it is raining outside",
+          "tip": "'Eftersom' starts a subordinate clause; the order is usually Subject + Verb."
+        },
+        {
+          "id": 28,
+          "group": "v2_rule",
+          "sentence_blocks": ["på måndag", "skolan", "börjar"],
+          "answer": "På måndag börjar skolan",
+          "answerTranslation": "On Monday school starts",
+          "tip": "Time + Verb + Subject."
+        },
+        {
+          "id": 29,
+          "group": "auxiliary",
+          "sentence_blocks": ["brukar", "frukost", "äta", "klockan sju", "jag"],
+          "answer": "Jag brukar äta frukost klockan sju",
+          "answerTranslation": "I usually eat breakfast at seven o'clock",
+          "tip": "Subject + Verb 1 + Verb 2 + Object + Time."
+        },
+        {
+          "id": 30,
+          "group": "negation",
+          "sentence_blocks": ["tyvärr", "kan", "jag", "inte", "komma"],
+          "answer": "Tyvärr kan jag inte komma",
+          "answerTranslation": "Unfortunately I cannot come",
+          "tip": "Sentence adverb (Tyvärr) + Verb 1 + Subject + Negation + Verb 2."
+        },
+        {
+          "id": 31,
+          "group": "v2_rule",
+          "sentence_blocks": ["ute", "leker", "barnen", "nu"],
+          "answer": "Nu leker barnen ute",
+          "answerTranslation": "Now the children are playing outside",
+          "tip": "Time + Verb + Subject + Place."
+        },
+        {
+          "id": 32,
+          "group": "question",
+          "sentence_blocks": ["talar", "du", "svenska", "varför"],
+          "answer": "Varför talar du svenska",
+          "answerTranslation": "Why do you speak Swedish",
+          "tip": "Question word + Verb + Subject + Object."
+        },
+        {
+          "id": 33,
+          "group": "bisats",
+          "sentence_blocks": ["om", "solen", "skiner", "vi", "badar"],
+          "answer": "Vi badar om solen skiner",
+          "answerTranslation": "We swim if the sun shines",
+          "tip": "'Om' introduces a condition (subordinate clause)."
+        },
+        {
+          "id": 34,
+          "group": "v2_rule",
+          "sentence_blocks": ["kanske", "kommer", "bussen", "snart"],
+          "answer": "Kanske kommer bussen snart",
+          "answerTranslation": "Maybe the bus is coming soon",
+          "tip": "'Kanske' at the start triggers the V2 rule."
+        },
+        {
+          "id": 35,
+          "group": "negation",
+          "sentence_blocks": ["aldrig", "kött", "äter", "min syster"],
+          "answer": "Min syster äter aldrig kött",
+          "answerTranslation": "My sister never eats meat",
+          "tip": "Adverbs like 'aldrig' follow the main verb."
+        },
+        {
+          "id": 36,
+          "group": "auxiliary",
+          "sentence_blocks": ["tänker", "resa", "nästa år", "vi"],
+          "answer": "Vi tänker resa nästa år",
+          "answerTranslation": "We intend to travel next year",
+          "tip": "Verb 1 (tänker) + Verb 2 (resa)."
+        },
+        {
+          "id": 37,
+          "group": "v2_rule",
+          "sentence_blocks": ["i Sverige", "många", "bor", "människor"],
+          "answer": "I Sverige bor många människor",
+          "answerTranslation": "In Sweden many people live",
+          "tip": "Place + Verb + Subject."
+        },
+        {
+          "id": 38,
+          "group": "bisats",
+          "sentence_blocks": ["tror", "att", "är", "klockan", "tolv", "jag"],
+          "answer": "Jag tror att klockan är tolv",
+          "answerTranslation": "I think that the time is twelve",
+          "tip": "Standard order in the 'att'-clause: Subject + Verb."
+        },
+        {
+          "id": 39,
+          "group": "negation",
+          "sentence_blocks": ["inte", "idag", "mår", "bra", "jag"],
+          "answer": "Idag mår jag inte bra",
+          "answerTranslation": "Today I don't feel well",
+          "tip": "Time + Verb + Subject + Negation + Adjective."
+        },
+        {
+          "id": 40,
+          "group": "v2_rule",
+          "sentence_blocks": ["ibland", "bio", "går", "på", "vi"],
+          "answer": "Ibland går vi på bio",
+          "answerTranslation": "Sometimes we go to the cinema",
+          "tip": "Time + Verb + Subject + Place."
+        },
+        {
+          "id": 41,
+          "group": "question",
+          "sentence_blocks": ["du", "är", "varför", "arg"],
+          "answer": "Varför är du arg",
+          "answerTranslation": "Why are you angry",
+          "tip": "Question word + Verb + Subject."
+        },
+        {
+          "id": 42,
+          "group": "auxiliary",
+          "sentence_blocks": ["skriva", "ett brev", "vill", "jag"],
+          "answer": "Jag vill skriva ett brev",
+          "answerTranslation": "I want to write a letter",
+          "tip": "Subject + Verb 1 + Verb 2 + Object."
+        },
+        {
+          "id": 43,
+          "group": "bisats",
+          "sentence_blocks": ["fastän", "är", "trött", "hon", "arbetar"],
+          "answer": "Hon arbetar fastän hon är trött",
+          "answerTranslation": "She works although she is tired",
+          "tip": "'Fastän' (although) starts a subordinate clause."
+        },
+        {
+          "id": 44,
+          "group": "negation",
+          "sentence_blocks": ["alltid", "inte", "regnar", "det"],
+          "answer": "Det regnar inte alltid",
+          "answerTranslation": "It doesn't always rain",
+          "tip": "The verb 'regnar' is second, then negation 'inte', then frequency 'alltid'."
+        },
+        {
+          "id": 45,
+          "group": "v2_rule",
+          "sentence_blocks": ["snart", "vinter", "är", "det"],
+          "answer": "Snart är det vinter",
+          "answerTranslation": "Soon it is winter",
+          "tip": "Time + Verb + Subject."
+        },
+        {
+          "id": 46,
+          "group": "auxiliary",
+          "sentence_blocks": ["måste", "vi", "vänta", "här"],
+          "answer": "Här måste vi vänta",
+          "answerTranslation": "Here we must wait",
+          "tip": "Place + Verb 1 + Subject + Verb 2."
+        },
+        {
+          "id": 47,
+          "group": "bisats",
+          "sentence_blocks": ["att", "inte", "hon", "vet", "bor", "han", "där"],
+          "answer": "Hon vet att han inte bor där",
+          "answerTranslation": "She knows that he doesn't live there",
+          "tip": "BIFF Rule again: 'inte' before 'bor' in the sub-clause."
+        },
+        {
+          "id": 48,
+          "group": "question",
+          "sentence_blocks": ["kommer", "när", "tåget"],
+          "answer": "När kommer tåget",
+          "answerTranslation": "When is the train coming",
+          "tip": "Question word + Verb + Subject."
+        },
+        {
+          "id": 49,
+          "group": "v2_rule",
+          "sentence_blocks": ["nu", "läser", "vi", "en bok"],
+          "answer": "Nu läser vi en bok",
+          "answerTranslation": "Now we are reading a book",
+          "tip": "Simple V2 order: Time + Verb + Subject + Object."
+        },
+        {
+          "id": 50,
+          "group": "auxiliary",
+          "sentence_blocks": ["ska", "vad", "du", "göra"],
+          "answer": "Vad ska du göra",
+          "answerTranslation": "What are you going to do",
+          "tip": "Question word + Verb 1 + Subject + Verb 2."
+        },
+        {
+            "id": 51,
+            "group": "basic",
+            "sentence_blocks": ["jag", "dig", "älskar"],
+            "answer": "Jag älskar dig",
+            "answerTranslation": "I love you",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 52,
+            "group": "basic",
+            "sentence_blocks": ["sover", "barnet"],
+            "answer": "Barnet sover",
+            "answerTranslation": "The child is sleeping",
+            "tip": "A simple sentence with just a subject and a verb."
+          },
+          {
+            "id": 53,
+            "group": "basic",
+            "sentence_blocks": ["dricker", "vatten", "han"],
+            "answer": "Han dricker vatten",
+            "answerTranslation": "He drinks water",
+            "tip": "Subject (Han) comes first in a basic statement."
+          },
+          {
+            "id": 54,
+            "group": "basic",
+            "sentence_blocks": ["en bok", "läser", "hon"],
+            "answer": "Hon läser en bok",
+            "answerTranslation": "She is reading a book",
+            "tip": "Who is doing the action? Put them first."
+          },
+          {
+            "id": 55,
+            "group": "basic",
+            "sentence_blocks": ["vi", "glada", "är"],
+            "answer": "Vi är glada",
+            "answerTranslation": "We are happy",
+            "tip": "Subject + Verb (är) + Adjective."
+          },
+          {
+            "id": 56,
+            "group": "basic",
+            "sentence_blocks": ["hunden", "springer"],
+            "answer": "Hunden springer",
+            "answerTranslation": "The dog is running",
+            "tip": "Simple Subject + Verb."
+          },
+          {
+            "id": 57,
+            "group": "basic",
+            "sentence_blocks": ["kaffe", "vill ha", "jag"],
+            "answer": "Jag vill ha kaffe",
+            "answerTranslation": "I want coffee",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 58,
+            "group": "basic",
+            "sentence_blocks": ["du", "snäll", "är"],
+            "answer": "Du är snäll",
+            "answerTranslation": "You are kind",
+            "tip": "Direct description of a person."
+          },
+          {
+            "id": 59,
+            "group": "basic",
+            "sentence_blocks": ["äter", "äpplet", "flickan"],
+            "answer": "Flickan äter äpplet",
+            "answerTranslation": "The girl eats the apple",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 60,
+            "group": "basic",
+            "sentence_blocks": ["pappa", "sover", "nu"],
+            "answer": "Pappa sover nu",
+            "answerTranslation": "Dad is sleeping now",
+            "tip": "You can put 'now' at the very end."
+          },
+          {
+            "id": 61,
+            "group": "basic",
+            "sentence_blocks": ["bilen", "blå", "är"],
+            "answer": "Bilen är blå",
+            "answerTranslation": "The car is blue",
+            "tip": "Describing an object."
+          },
+          {
+            "id": 62,
+            "group": "basic",
+            "sentence_blocks": ["vi", "svenska", "talar"],
+            "answer": "Vi talar svenska",
+            "answerTranslation": "We speak Swedish",
+            "tip": "A classic Subject-Verb-Language pattern."
+          },
+          {
+            "id": 63,
+            "group": "basic",
+            "sentence_blocks": ["ser", "jag", "dig"],
+            "answer": "Jag ser dig",
+            "answerTranslation": "I see you",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 64,
+            "group": "basic",
+            "sentence_blocks": ["solen", "lyser"],
+            "answer": "Solen lyser",
+            "answerTranslation": "The sun is shining",
+            "tip": "Subject + Verb."
+          },
+          {
+            "id": 65,
+            "group": "basic",
+            "sentence_blocks": ["mamma", "mat", "lagar"],
+            "answer": "Mamma lagar mat",
+            "answerTranslation": "Mom is cooking food",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 66,
+            "group": "basic",
+            "sentence_blocks": ["skolan", "är", "här"],
+            "answer": "Skolan är här",
+            "answerTranslation": "The school is here",
+            "tip": "Subject + Verb + Place."
+          },
+          {
+            "id": 67,
+            "group": "basic",
+            "sentence_blocks": ["jag", "hungrig", "är"],
+            "answer": "Jag är hungrig",
+            "answerTranslation": "I am hungry",
+            "tip": "Subject + Verb + State."
+          },
+          {
+            "id": 68,
+            "group": "basic",
+            "sentence_blocks": ["varmt", "är", "det"],
+            "answer": "Det är varmt",
+            "answerTranslation": "It is warm",
+            "tip": "Using 'det' (it) as a subject for weather."
+          },
+          {
+            "id": 69,
+            "group": "basic",
+            "sentence_blocks": ["en glass", "köper", "pojken"],
+            "answer": "Pojken köper en glass",
+            "answerTranslation": "The boy buys an ice cream",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 70,
+            "group": "basic",
+            "sentence_blocks": ["tåget", "nu", "går"],
+            "answer": "Tåget går nu",
+            "answerTranslation": "The train leaves now",
+            "tip": "Subject + Verb + Time."
+          },
+          {
+            "id": 71,
+            "group": "basic",
+            "sentence_blocks": ["fågeln", "sjunger"],
+            "answer": "Fågeln sjunger",
+            "answerTranslation": "The bird sings",
+            "tip": "Short and simple."
+          },
+          {
+            "id": 72,
+            "group": "basic",
+            "sentence_blocks": ["vi", "hemma", "är"],
+            "answer": "Vi är hemma",
+            "answerTranslation": "We are at home",
+            "tip": "Subject + Verb + Location."
+          },
+          {
+            "id": 73,
+            "group": "basic",
+            "sentence_blocks": ["mjölk", "dricker", "katten"],
+            "answer": "Katten dricker mjölk",
+            "answerTranslation": "The cat drinks milk",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 74,
+            "group": "basic",
+            "sentence_blocks": ["han", "skriver"],
+            "answer": "Han skriver",
+            "answerTranslation": "He writes",
+            "tip": "Just two blocks."
+          },
+          {
+            "id": 75,
+            "group": "basic",
+            "sentence_blocks": ["stort", "huset", "är"],
+            "answer": "Huset är stort",
+            "answerTranslation": "The house is big",
+            "tip": "Noun + Verb + Adjective."
+          },
+          {
+            "id": 76,
+            "group": "basic",
+            "sentence_blocks": ["jag", "dig", "hör"],
+            "answer": "Jag hör dig",
+            "answerTranslation": "I hear you",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 77,
+            "group": "basic",
+            "sentence_blocks": ["regnar", "det"],
+            "answer": "Det regnar",
+            "answerTranslation": "It is raining",
+            "tip": "A very common two-word sentence."
+          },
+          {
+            "id": 78,
+            "group": "basic",
+            "sentence_blocks": ["vi", "bröd", "bakar"],
+            "answer": "Vi bakar bröd",
+            "answerTranslation": "We bake bread",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 79,
+            "group": "basic",
+            "sentence_blocks": ["trött", "hon", "är"],
+            "answer": "Hon är trött",
+            "answerTranslation": "She is tired",
+            "tip": "Subject + Verb + Adjective."
+          },
+          {
+            "id": 80,
+            "group": "basic",
+            "sentence_blocks": ["de", "skrattar"],
+            "answer": "De skrattar",
+            "answerTranslation": "They are laughing",
+            "tip": "Subject + Verb."
+          },
+          {
+            "id": 81,
+            "group": "basic",
+            "sentence_blocks": ["ett brev", "han", "skickar"],
+            "answer": "Han skickar ett brev",
+            "answerTranslation": "He sends a letter",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 82,
+            "group": "basic",
+            "sentence_blocks": ["här", "bor", "jag"],
+            "answer": "Jag bor här",
+            "answerTranslation": "I live here",
+            "tip": "Subject + Verb + Place."
+          },
+          {
+            "id": 83,
+            "group": "basic",
+            "sentence_blocks": ["vi", "tv", "tittar på"],
+            "answer": "Vi tittar på tv",
+            "answerTranslation": "We watch TV",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 84,
+            "group": "basic",
+            "sentence_blocks": ["fint", "det", "är"],
+            "answer": "Det är fint",
+            "answerTranslation": "It is nice",
+            "tip": "Subject + Verb + Adjective."
+          },
+          {
+            "id": 85,
+            "group": "basic",
+            "sentence_blocks": ["hon", "springer", "fort"],
+            "answer": "Hon springer fort",
+            "answerTranslation": "She runs fast",
+            "tip": "Subject + Verb + Adverb."
+          },
+          {
+            "id": 86,
+            "group": "basic",
+            "sentence_blocks": ["jag", "förstår"],
+            "answer": "Jag förstår",
+            "answerTranslation": "I understand",
+            "tip": "Simple Subject + Verb."
+          },
+          {
+            "id": 87,
+            "group": "basic",
+            "sentence_blocks": ["vi", "nu", "äter"],
+            "answer": "Vi äter nu",
+            "answerTranslation": "We are eating now",
+            "tip": "Subject + Verb + Time."
+          },
+          {
+            "id": 88,
+            "group": "basic",
+            "sentence_blocks": ["mörk", "natten", "är"],
+            "answer": "Natten är mörk",
+            "answerTranslation": "The night is dark",
+            "tip": "Noun + Verb + Adjective."
+          },
+          {
+            "id": 89,
+            "group": "basic",
+            "sentence_blocks": ["en bil", "han", "har"],
+            "answer": "Han har en bil",
+            "answerTranslation": "He has a car",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 90,
+            "group": "basic",
+            "sentence_blocks": ["snöar", "det", "ute"],
+            "answer": "Det snöar ute",
+            "answerTranslation": "It is snowing outside",
+            "tip": "Subject + Verb + Place."
+          },
+          {
+            "id": 91,
+            "group": "basic",
+            "sentence_blocks": ["frukost", "äter", "jag"],
+            "answer": "Jag äter frukost",
+            "answerTranslation": "I am eating breakfast",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 92,
+            "group": "basic",
+            "sentence_blocks": ["barnen", "leker"],
+            "answer": "Barnen leker",
+            "answerTranslation": "The children are playing",
+            "tip": "Subject + Verb."
+          },
+          {
+            "id": 93,
+            "group": "basic",
+            "sentence_blocks": ["du", "läser"],
+            "answer": "Du läser",
+            "answerTranslation": "You read",
+            "tip": "Subject + Verb."
+          },
+          {
+            "id": 94,
+            "group": "basic",
+            "sentence_blocks": ["vi", "saft", "dricker"],
+            "answer": "Vi dricker saft",
+            "answerTranslation": "We drink juice",
+            "tip": "Subject + Verb + Object."
+          },
+          {
+            "id": 95,
+            "group": "basic",
+            "sentence_blocks": ["öppen", "dörren", "är"],
+            "answer": "Dörren är öppen",
+            "answerTranslation": "The door is open",
+            "tip": "Noun + Verb + Adjective."
+          },
+          {
+            "id": 96,
+            "group": "basic",
+            "sentence_blocks": ["hon", "sjunger", "bra"],
+            "answer": "Hon sjunger bra",
+            "answerTranslation": "She sings well",
+            "tip": "Subject + Verb + Adverb."
+          },
+          {
+            "id": 97,
+            "group": "basic",
+            "sentence_blocks": ["pennan", "här", "ligger"],
+            "answer": "Pennan ligger här",
+            "answerTranslation": "The pen is here",
+            "tip": "Subject + Verb + Place."
+          },
+          {
+            "id": 98,
+            "group": "basic",
+            "sentence_blocks": ["vi", "väntar"],
+            "answer": "Vi väntar",
+            "answerTranslation": "We are waiting",
+            "tip": "Subject + Verb."
+          },
+          {
+            "id": 99,
+            "group": "basic",
+            "sentence_blocks": ["kallt", "vattnet", "är"],
+            "answer": "Vattnet är kallt",
+            "answerTranslation": "The water is cold",
+            "tip": "Noun + Verb + Adjective."
+          },
+          {
+            "id": 100,
+            "group": "basic",
+            "sentence_blocks": ["jag", "nu", "går"],
+            "answer": "Jag går nu",
+            "answerTranslation": "I am leaving now",
+            "tip": "Subject + Verb + Time."
+          },
+          {
+              "id": 101,
+              "group": "basic",
+              "sentence_blocks": ["han", "glad", "är"],
+              "answer": "Han är glad",
+              "answerTranslation": "He is happy",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 102,
+              "group": "basic",
+              "sentence_blocks": ["vi", "te", "dricker"],
+              "answer": "Vi dricker te",
+              "answerTranslation": "We are drinking tea",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 103,
+              "group": "basic",
+              "sentence_blocks": ["boken", "här", "är"],
+              "answer": "Boken är här",
+              "answerTranslation": "The book is here",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 104,
+              "group": "basic",
+              "sentence_blocks": ["jag", "ser", "en katt"],
+              "answer": "Jag ser en katt",
+              "answerTranslation": "I see a cat",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 105,
+              "group": "basic",
+              "sentence_blocks": ["hon", "äter", "nu"],
+              "answer": "Hon äter nu",
+              "answerTranslation": "She is eating now",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 106,
+              "group": "basic",
+              "sentence_blocks": ["vi", "skolan", "ser"],
+              "answer": "Vi ser skolan",
+              "answerTranslation": "We see the school",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 107,
+              "group": "basic",
+              "sentence_blocks": ["det", "snöar"],
+              "answer": "Det snöar",
+              "answerTranslation": "It is snowing",
+              "tip": "Simple weather sentence."
+            },
+            {
+              "id": 108,
+              "group": "basic",
+              "sentence_blocks": ["huset", "vitt", "är"],
+              "answer": "Huset är vitt",
+              "answerTranslation": "The house is white",
+              "tip": "Describing a color."
+            },
+            {
+              "id": 109,
+              "group": "basic",
+              "sentence_blocks": ["du", "snabb", "är"],
+              "answer": "Du är snabb",
+              "answerTranslation": "You are fast",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 110,
+              "group": "basic",
+              "sentence_blocks": ["de", "smörgås", "äter"],
+              "answer": "De äter smörgås",
+              "answerTranslation": "They are eating a sandwich",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 111,
+              "group": "basic",
+              "sentence_blocks": ["solen", "varm", "är"],
+              "answer": "Solen är varm",
+              "answerTranslation": "The sun is warm",
+              "tip": "Describing the weather."
+            },
+            {
+              "id": 112,
+              "group": "basic",
+              "sentence_blocks": ["jag", "hungrig", "är"],
+              "answer": "Jag är hungrig",
+              "answerTranslation": "I am hungry",
+              "tip": "State of being."
+            },
+            {
+              "id": 113,
+              "group": "basic",
+              "sentence_blocks": ["vi", "hem", "går"],
+              "answer": "Vi går hem",
+              "answerTranslation": "We are going home",
+              "tip": "Subject + Verb + Direction."
+            },
+            {
+              "id": 114,
+              "group": "basic",
+              "sentence_blocks": ["hon", "talar", "nu"],
+              "answer": "Hon talar nu",
+              "answerTranslation": "She is speaking now",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 115,
+              "group": "basic",
+              "sentence_blocks": ["barnet", "gråter"],
+              "answer": "Barnet gråter",
+              "answerTranslation": "The child is crying",
+              "tip": "Subject + Verb."
+            },
+            {
+              "id": 116,
+              "group": "basic",
+              "sentence_blocks": ["pappa", "tidningen", "läser"],
+              "answer": "Pappa läser tidningen",
+              "answerTranslation": "Dad is reading the newspaper",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 117,
+              "group": "basic",
+              "sentence_blocks": ["mamma", "här", "är"],
+              "answer": "Mamma är här",
+              "answerTranslation": "Mom is here",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 118,
+              "group": "basic",
+              "sentence_blocks": ["hunden", "glad", "är"],
+              "answer": "Hunden är glad",
+              "answerTranslation": "The dog is happy",
+              "tip": "Describing an animal."
+            },
+            {
+              "id": 119,
+              "group": "basic",
+              "sentence_blocks": ["vi", "juice", "köper"],
+              "answer": "Vi köper juice",
+              "answerTranslation": "We are buying juice",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 120,
+              "group": "basic",
+              "sentence_blocks": ["tåget", "senare", "kommer"],
+              "answer": "Tåget kommer senare",
+              "answerTranslation": "The train comes later",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 121,
+              "group": "basic",
+              "sentence_blocks": ["jag", "dig", "ser"],
+              "answer": "Jag ser dig",
+              "answerTranslation": "I see you",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 122,
+              "group": "basic",
+              "sentence_blocks": ["vattnet", "blått", "är"],
+              "answer": "Vattnet är blått",
+              "answerTranslation": "The water is blue",
+              "tip": "Note: Vattnet (ett) needs 'blått'."
+            },
+            {
+              "id": 123,
+              "group": "basic",
+              "sentence_blocks": ["du", "ett äpple", "har"],
+              "answer": "Du har ett äpple",
+              "answerTranslation": "You have an apple",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 124,
+              "group": "basic",
+              "sentence_blocks": ["bilen", "där", "står"],
+              "answer": "Bilen står där",
+              "answerTranslation": "The car is standing there",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 125,
+              "group": "basic",
+              "sentence_blocks": ["vi", "musik", "hör"],
+              "answer": "Vi hör musik",
+              "answerTranslation": "We hear music",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 126,
+              "group": "basic",
+              "sentence_blocks": ["fågeln", "flyger"],
+              "answer": "Fågeln flyger",
+              "answerTranslation": "The bird is flying",
+              "tip": "Subject + Verb."
+            },
+            {
+              "id": 127,
+              "group": "basic",
+              "sentence_blocks": ["maten", "god", "är"],
+              "answer": "Maten är god",
+              "answerTranslation": "The food is good",
+              "tip": "Describing quality."
+            },
+            {
+              "id": 128,
+              "group": "basic",
+              "sentence_blocks": ["han", "springer", "nu"],
+              "answer": "Han springer nu",
+              "answerTranslation": "He is running now",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 129,
+              "group": "basic",
+              "sentence_blocks": ["hon", "här", "bor"],
+              "answer": "Hon bor här",
+              "answerTranslation": "She lives here",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 130,
+              "group": "basic",
+              "sentence_blocks": ["vi", "kaffe", "dricker"],
+              "answer": "Vi dricker kaffe",
+              "answerTranslation": "We drink coffee",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 131,
+              "group": "basic",
+              "sentence_blocks": ["jag", "hemma", "är"],
+              "answer": "Jag är hemma",
+              "answerTranslation": "I am at home",
+              "tip": "Subject + Verb + State."
+            },
+            {
+              "id": 132,
+              "group": "basic",
+              "sentence_blocks": ["de", "tillsammans", "leker"],
+              "answer": "De leker tillsammans",
+              "answerTranslation": "They are playing together",
+              "tip": "Subject + Verb + Adverb."
+            },
+            {
+              "id": 133,
+              "group": "basic",
+              "sentence_blocks": ["pojken", "cyklar"],
+              "answer": "Pojken cyklar",
+              "answerTranslation": "The boy is cycling",
+              "tip": "Subject + Verb."
+            },
+            {
+              "id": 134,
+              "group": "basic",
+              "sentence_blocks": ["rummet", "litet", "är"],
+              "answer": "Rummet är litet",
+              "answerTranslation": "The room is small",
+              "tip": "Describing size."
+            },
+            {
+              "id": 135,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en film", "ser"],
+              "answer": "Vi ser en film",
+              "answerTranslation": "We are watching a movie",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 136,
+              "group": "basic",
+              "sentence_blocks": ["katten", "mjölk", "vill ha"],
+              "answer": "Katten vill ha mjölk",
+              "answerTranslation": "The cat wants milk",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 137,
+              "group": "basic",
+              "sentence_blocks": ["solen", "ned", "går"],
+              "answer": "Solen går ned",
+              "answerTranslation": "The sun is going down",
+              "tip": "Subject + Particle verb."
+            },
+            {
+              "id": 138,
+              "group": "basic",
+              "sentence_blocks": ["jag", "pennan", "tar"],
+              "answer": "Jag tar pennan",
+              "answerTranslation": "I take the pen",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 139,
+              "group": "basic",
+              "sentence_blocks": ["hon", "idag", "kommer"],
+              "answer": "Hon kommer idag",
+              "answerTranslation": "She is coming today",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 140,
+              "group": "basic",
+              "sentence_blocks": ["vi", "fisk", "äter"],
+              "answer": "Vi äter fisk",
+              "answerTranslation": "We are eating fish",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 141,
+              "group": "basic",
+              "sentence_blocks": ["bilen", "snabb", "är"],
+              "answer": "Bilen är snabb",
+              "answerTranslation": "The car is fast",
+              "tip": "Describing speed."
+            },
+            {
+              "id": 142,
+              "group": "basic",
+              "sentence_blocks": ["du", "en bok", "läser"],
+              "answer": "Du läser en bok",
+              "answerTranslation": "You are reading a book",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 143,
+              "group": "basic",
+              "sentence_blocks": ["dagen", "lång", "är"],
+              "answer": "Dagen är lång",
+              "answerTranslation": "The day is long",
+              "tip": "Describing duration."
+            },
+            {
+              "id": 144,
+              "group": "basic",
+              "sentence_blocks": ["mamma", "ringer", "nu"],
+              "answer": "Mamma ringer nu",
+              "answerTranslation": "Mom is calling now",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 145,
+              "group": "basic",
+              "sentence_blocks": ["huset", "gammalt", "är"],
+              "answer": "Huset är gammalt",
+              "answerTranslation": "The house is old",
+              "tip": "Huset (ett) needs 'gammalt'."
+            },
+            {
+              "id": 146,
+              "group": "basic",
+              "sentence_blocks": ["vi", "bröd", "har"],
+              "answer": "Vi har bröd",
+              "answerTranslation": "We have bread",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 147,
+              "group": "basic",
+              "sentence_blocks": ["pojken", "skrattar", "ofta"],
+              "answer": "Pojken skrattar ofta",
+              "answerTranslation": "The boy laughs often",
+              "tip": "Subject + Verb + Frequency."
+            },
+            {
+              "id": 148,
+              "group": "basic",
+              "sentence_blocks": ["jag", "dig", "hjälper"],
+              "answer": "Jag hjälper dig",
+              "answerTranslation": "I am helping you",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 149,
+              "group": "basic",
+              "sentence_blocks": ["det", "blåser", "ute"],
+              "answer": "Det blåser ute",
+              "answerTranslation": "It is windy outside",
+              "tip": "Weather description."
+            },
+            {
+              "id": 150,
+              "group": "basic",
+              "sentence_blocks": ["flickan", "en glass", "äter"],
+              "answer": "Flickan äter en glass",
+              "answerTranslation": "The girl is eating an ice cream",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 151,
+              "group": "basic",
+              "sentence_blocks": ["frukosten", "klar", "är"],
+              "answer": "Frukosten är klar",
+              "answerTranslation": "Breakfast is ready",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 152,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en gåva", "ger"],
+              "answer": "Vi ger en gåva",
+              "answerTranslation": "We give a gift",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 153,
+              "group": "basic",
+              "sentence_blocks": ["jag", "idag", "jobbar"],
+              "answer": "Jag jobbar idag",
+              "answerTranslation": "I am working today",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 154,
+              "group": "basic",
+              "sentence_blocks": ["skogen", "grön", "är"],
+              "answer": "Skogen är grön",
+              "answerTranslation": "The forest is green",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 155,
+              "group": "basic",
+              "sentence_blocks": ["han", "dörren", "stänger"],
+              "answer": "Han stänger dörren",
+              "answerTranslation": "He closes the door",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 156,
+              "group": "basic",
+              "sentence_blocks": ["vinter", "snart", "det är"],
+              "answer": "Snart är det vinter",
+              "answerTranslation": "Soon it is winter",
+              "tip": "Time (Snart) + Verb (är) + Subject (det)."
+            },
+            {
+              "id": 157,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en sång", "sjunger"],
+              "answer": "Vi sjunger en sång",
+              "answerTranslation": "We are singing a song",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 158,
+              "group": "basic",
+              "sentence_blocks": ["hon", "tidigt", "vaknar"],
+              "answer": "Hon vaknar tidigt",
+              "answerTranslation": "She wakes up early",
+              "tip": "Subject + Verb + Adverb."
+            },
+            {
+              "id": 159,
+              "group": "basic",
+              "sentence_blocks": ["väskan", "tung", "är"],
+              "answer": "Väskan är tung",
+              "answerTranslation": "The bag is heavy",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 160,
+              "group": "basic",
+              "sentence_blocks": ["jag", "alltid", "tränar"],
+              "answer": "Jag tränar alltid",
+              "answerTranslation": "I always exercise",
+              "tip": "Subject + Verb + Frequency."
+            },
+            {
+              "id": 161,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en bil", "kör"],
+              "answer": "Vi kör en bil",
+              "answerTranslation": "We are driving a car",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 162,
+              "group": "basic",
+              "sentence_blocks": ["här", "du", "sitter"],
+              "answer": "Här sitter du",
+              "answerTranslation": "Here you are sitting",
+              "tip": "Place (Här) + Verb (sitter) + Subject (du)."
+            },
+            {
+              "id": 163,
+              "group": "basic",
+              "sentence_blocks": ["blomman", "vacker", "är"],
+              "answer": "Blomman är vacker",
+              "answerTranslation": "The flower is beautiful",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 164,
+              "group": "basic",
+              "sentence_blocks": ["hon", "brev", "skriver"],
+              "answer": "Hon skriver brev",
+              "answerTranslation": "She writes letters",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 165,
+              "group": "basic",
+              "sentence_blocks": ["nu", "vi", "börjar"],
+              "answer": "Nu börjar vi",
+              "answerTranslation": "Now we begin",
+              "tip": "Time (Nu) + Verb (börjar) + Subject (vi)."
+            },
+            {
+              "id": 166,
+              "group": "basic",
+              "sentence_blocks": ["fönstret", "öppet", "är"],
+              "answer": "Fönstret är öppet",
+              "answerTranslation": "The window is open",
+              "tip": "Fönstret (ett) needs 'öppet'."
+            },
+            {
+              "id": 167,
+              "group": "basic",
+              "sentence_blocks": ["jag", "vatten", "hämtar"],
+              "answer": "Jag hämtar vatten",
+              "answerTranslation": "I am fetching water",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 168,
+              "group": "basic",
+              "sentence_blocks": ["de", "ute", "springer"],
+              "answer": "De springer ute",
+              "answerTranslation": "They are running outside",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 169,
+              "group": "basic",
+              "sentence_blocks": ["pappa", "glad", "blir"],
+              "answer": "Pappa blir glad",
+              "answerTranslation": "Dad becomes happy",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 170,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en hund", "ser"],
+              "answer": "Vi ser en hund",
+              "answerTranslation": "We see a dog",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 171,
+              "group": "basic",
+              "sentence_blocks": ["idag", "soligt", "det är"],
+              "answer": "Idag är det soligt",
+              "answerTranslation": "Today it is sunny",
+              "tip": "Time + Verb + Subject + Adjective."
+            },
+            {
+              "id": 172,
+              "group": "basic",
+              "sentence_blocks": ["pojken", "bollen", "kastar"],
+              "answer": "Pojken kastar bollen",
+              "answerTranslation": "The boy throws the ball",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 173,
+              "group": "basic",
+              "sentence_blocks": ["hon", "kaffe", "beställer"],
+              "answer": "Hon beställer kaffe",
+              "answerTranslation": "She orders coffee",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 174,
+              "group": "basic",
+              "sentence_blocks": ["jag", "boken", "glömmer"],
+              "answer": "Jag glömmer boken",
+              "answerTranslation": "I forget the book",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 175,
+              "group": "basic",
+              "sentence_blocks": ["vi", "här", "väntar"],
+              "answer": "Vi väntar här",
+              "answerTranslation": "We are waiting here",
+              "tip": "Subject + Verb + Place."
+            },
+            {
+              "id": 176,
+              "group": "basic",
+              "sentence_blocks": ["det", "mörkt", "blir"],
+              "answer": "Det blir mörkt",
+              "answerTranslation": "It is getting dark",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 177,
+              "group": "basic",
+              "sentence_blocks": ["barnen", "äpplen", "plockar"],
+              "answer": "Barnen plockar äpplen",
+              "answerTranslation": "The children pick apples",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 178,
+              "group": "basic",
+              "sentence_blocks": ["huset", "gult", "är"],
+              "answer": "Huset är gult",
+              "answerTranslation": "The house is yellow",
+              "tip": "Huset (ett) needs 'gult'."
+            },
+            {
+              "id": 179,
+              "group": "basic",
+              "sentence_blocks": ["du", "svenska", "lär dig"],
+              "answer": "Du lär dig svenska",
+              "answerTranslation": "You are learning Swedish",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 180,
+              "group": "basic",
+              "sentence_blocks": ["vi", "mjölk", "dricker"],
+              "answer": "Vi dricker mjölk",
+              "answerTranslation": "We drink milk",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 181,
+              "group": "basic",
+              "sentence_blocks": ["jag", "tittar", "nu"],
+              "answer": "Jag tittar nu",
+              "answerTranslation": "I am looking now",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 182,
+              "group": "basic",
+              "sentence_blocks": ["hon", "mat", "lagar"],
+              "answer": "Hon lagar mat",
+              "answerTranslation": "She is cooking food",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 183,
+              "group": "basic",
+              "sentence_blocks": ["där", "ligger", "katten"],
+              "answer": "Där ligger katten",
+              "answerTranslation": "There lies the cat",
+              "tip": "Place (Där) + Verb (ligger) + Subject (katten)."
+            },
+            {
+              "id": 184,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en kaka", "bakar"],
+              "answer": "Vi bakar en kaka",
+              "answerTranslation": "We are baking a cake",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 185,
+              "group": "basic",
+              "sentence_blocks": ["han", "pennan", "hittar"],
+              "answer": "Han hittar pennan",
+              "answerTranslation": "He finds the pen",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 186,
+              "group": "basic",
+              "sentence_blocks": ["nu", "slutar", "vi"],
+              "answer": "Nu slutar vi",
+              "answerTranslation": "Now we stop",
+              "tip": "Time (Nu) + Verb (slutar) + Subject (vi)."
+            },
+            {
+              "id": 187,
+              "group": "basic",
+              "sentence_blocks": ["fågeln", "liten", "är"],
+              "answer": "Fågeln är liten",
+              "answerTranslation": "The bird is small",
+              "tip": "Subject + Verb + Adjective."
+            },
+            {
+              "id": 188,
+              "group": "basic",
+              "sentence_blocks": ["jag", "tidningen", "hämtar"],
+              "answer": "Jag hämtar tidningen",
+              "answerTranslation": "I fetch the newspaper",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 189,
+              "group": "basic",
+              "sentence_blocks": ["vi", "snart", "vilar"],
+              "answer": "Vi vilar snart",
+              "answerTranslation": "We are resting soon",
+              "tip": "Subject + Verb + Time."
+            },
+            {
+              "id": 190,
+              "group": "basic",
+              "sentence_blocks": ["mamma", "mig", "ser"],
+              "answer": "Mamma ser mig",
+              "answerTranslation": "Mom sees me",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 191,
+              "group": "basic",
+              "sentence_blocks": ["vattnet", "varmt", "är"],
+              "answer": "Vattnet är varmt",
+              "answerTranslation": "The water is warm",
+              "tip": "Vattnet (ett) needs 'varmt'."
+            },
+            {
+              "id": 192,
+              "group": "basic",
+              "sentence_blocks": ["vi", "en saga", "läser"],
+              "answer": "Vi läser en saga",
+              "answerTranslation": "We are reading a fairy tale",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 193,
+              "group": "basic",
+              "sentence_blocks": ["solen", "idag", "lyser"],
+              "answer": "Idag lyser solen",
+              "answerTranslation": "Today the sun is shining",
+              "tip": "Time (Idag) + Verb (lyser) + Subject (solen)."
+            },
+            {
+              "id": 194,
+              "group": "basic",
+              "sentence_blocks": ["hunden", "bollen", "tar"],
+              "answer": "Hunden tar bollen",
+              "answerTranslation": "The dog takes the ball",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+              "id": 195,
+              "group": "basic",
+              "sentence_blocks": ["vi", "kaffe", "kokar"],
+              "answer": "Vi kokar kaffe",
+              "answerTranslation": "We are brewing coffee",
+              "tip": "Subject + Verb + Object."
+            },
+            {
+                "id": 201,
+                "group": "v2_practice",
+                "sentence_blocks": ["idag", "vi", "äter", "fisk"],
+                "answer": "Idag äter vi fisk",
+                "answerTranslation": "Today we are eating fish",
+                "tip": "V2 Rule: Since 'Idag' is first, the verb 'äter' must come second!"
+              },
+              {
+                "id": 202,
+                "group": "v2_practice",
+                "sentence_blocks": ["nu", "kaffe", "dricker", "jag"],
+                "answer": "Nu dricker jag kaffe",
+                "answerTranslation": "Now I am drinking coffee",
+                "tip": "Even with 'Nu' at the start, the verb stays in position 2."
+              },
+              {
+                "id": 203,
+                "group": "v2_practice",
+                "sentence_blocks": ["här", "barnen", "leker"],
+                "answer": "Här leker barnen",
+                "answerTranslation": "Here the children are playing",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 204,
+                "group": "v2_practice",
+                "sentence_blocks": ["imorgon", "jobbar", "hon"],
+                "answer": "Imorgon jobbar hon",
+                "answerTranslation": "Tomorrow she is working",
+                "tip": "Time always pushes the subject to the third spot."
+              },
+              {
+                "id": 205,
+                "group": "v2_practice",
+                "sentence_blocks": ["på måndag", "vi", "ses"],
+                "answer": "På måndag ses vi",
+                "answerTranslation": "On Monday we will see each other",
+                "tip": "Longer time phrases still count as one 'block' at the start."
+              },
+              {
+                "id": 206,
+                "group": "v2_practice",
+                "sentence_blocks": ["ibland", "trött", "jag", "är"],
+                "answer": "Ibland är jag trött",
+                "answerTranslation": "Sometimes I am tired",
+                "tip": "Adverbs of time trigger the V2 swap."
+              },
+              {
+                "id": 207,
+                "group": "v2_practice",
+                "sentence_blocks": ["ute", "regnar", "det"],
+                "answer": "Ute regnar det",
+                "answerTranslation": "Outside it is raining",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 208,
+                "group": "v2_practice",
+                "sentence_blocks": ["ofta", "han", "skrattar"],
+                "answer": "Ofta skrattar han",
+                "answerTranslation": "Often he laughs",
+                "tip": "Frequency words at the start require V2."
+              },
+              {
+                "id": 209,
+                "group": "v2_practice",
+                "sentence_blocks": ["nu", "vi", "börjar"],
+                "answer": "Nu börjar vi",
+                "answerTranslation": "Now we begin",
+                "tip": "Keep the verb in the second position."
+              },
+              {
+                "id": 210,
+                "group": "v2_practice",
+                "sentence_blocks": ["i kväll", "film", "ser", "vi"],
+                "answer": "I kväll ser vi film",
+                "answerTranslation": "Tonight we are watching a movie",
+                "tip": "Time + Verb + Subject + Object."
+              },
+              {
+                "id": 211,
+                "group": "v2_practice",
+                "sentence_blocks": ["hemma", "mamma", "är"],
+                "answer": "Hemma är mamma",
+                "answerTranslation": "At home is mom",
+                "tip": "Starting with location moves the subject."
+              },
+              {
+                "id": 212,
+                "group": "v2_practice",
+                "sentence_blocks": ["snart", "tåget", "går"],
+                "answer": "Snart går tåget",
+                "answerTranslation": "Soon the train leaves",
+                "tip": "Time + Verb + Subject."
+              },
+              {
+                "id": 213,
+                "group": "v2_practice",
+                "sentence_blocks": ["där", "hunden", "ligger"],
+                "answer": "Där ligger hunden",
+                "answerTranslation": "There lies the dog",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 214,
+                "group": "v2_practice",
+                "sentence_blocks": ["på lördag", "fest", "det är"],
+                "answer": "På lördag är det fest",
+                "answerTranslation": "On Saturday there is a party",
+                "tip": "Time + Verb + Subject."
+              },
+              {
+                "id": 215,
+                "group": "v2_practice",
+                "sentence_blocks": ["varje dag", "springer", "han"],
+                "answer": "Varje dag springer han",
+                "answerTranslation": "Every day he runs",
+                "tip": "Frequency phrase + Verb + Subject."
+              },
+              {
+                "id": 216,
+                "group": "v2_practice",
+                "sentence_blocks": ["i Sverige", "vi", "bor"],
+                "answer": "I Sverige bor vi",
+                "answerTranslation": "In Sweden we live",
+                "tip": "Location + Verb + Subject."
+              },
+              {
+                "id": 217,
+                "group": "v2_practice",
+                "sentence_blocks": ["kanske", "regnar", "det"],
+                "answer": "Kanske regnar det",
+                "answerTranslation": "Maybe it's raining",
+                "tip": "'Kanske' usually triggers the V2 inversion."
+              },
+              {
+                "id": 218,
+                "group": "v2_practice",
+                "sentence_blocks": ["först", "vi", "äter"],
+                "answer": "Först äter vi",
+                "answerTranslation": "First we eat",
+                "tip": "Sequence word + Verb + Subject."
+              },
+              {
+                "id": 219,
+                "group": "v2_practice",
+                "sentence_blocks": ["sedan", "kaffe", "dricker", "vi"],
+                "answer": "Sedan dricker vi kaffe",
+                "answerTranslation": "Then we drink coffee",
+                "tip": "'Sedan' (Then) counts as position 1."
+              },
+              {
+                "id": 220,
+                "group": "v2_practice",
+                "sentence_blocks": ["äntligen", "solen", "skiner"],
+                "answer": "Äntligen skiner solen",
+                "answerTranslation": "Finally the sun is shining",
+                "tip": "Adverb + Verb + Subject."
+              },
+              {
+                "id": 221,
+                "group": "v2_practice",
+                "sentence_blocks": ["ikväll", "jag", "trött", "är"],
+                "answer": "Ikväll är jag trött",
+                "answerTranslation": "Tonight I am tired",
+                "tip": "Time + Verb + Subject + Adjective."
+              },
+              {
+                "id": 222,
+                "group": "v2_practice",
+                "sentence_blocks": ["ute", "vi", "springer"],
+                "answer": "Ute springer vi",
+                "answerTranslation": "Outside we run",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 223,
+                "group": "v2_practice",
+                "sentence_blocks": ["nu", "klar", "är", "jag"],
+                "answer": "Nu är jag klar",
+                "answerTranslation": "Now I am ready",
+                "tip": "Time + Verb + Subject + Adjective."
+              },
+              {
+                "id": 224,
+                "group": "v2_practice",
+                "sentence_blocks": ["här", "pennan", "ligger"],
+                "answer": "Här ligger pennan",
+                "answerTranslation": "Here lies the pen",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 225,
+                "group": "v2_practice",
+                "sentence_blocks": ["ofta", "tidningen", "läser", "hon"],
+                "answer": "Ofta läser hon tidningen",
+                "answerTranslation": "Often she reads the newspaper",
+                "tip": "Adverb + Verb + Subject + Object."
+              },
+              {
+                "id": 226,
+                "group": "v2_practice",
+                "sentence_blocks": ["idag", "vi", "vilar"],
+                "answer": "Idag vilar vi",
+                "answerTranslation": "Today we rest",
+                "tip": "Time + Verb + Subject."
+              },
+              {
+                "id": 227,
+                "group": "v2_practice",
+                "sentence_blocks": ["ibland", "te", "dricker", "han"],
+                "answer": "Ibland dricker han te",
+                "answerTranslation": "Sometimes he drinks tea",
+                "tip": "Time adverb + Verb + Subject + Object."
+              },
+              {
+                "id": 228,
+                "group": "v2_practice",
+                "sentence_blocks": ["i morgon", "vi", "reser"],
+                "answer": "I morgon reser vi",
+                "answerTranslation": "Tomorrow we travel",
+                "tip": "Time phrase + Verb + Subject."
+              },
+              {
+                "id": 229,
+                "group": "v2_practice",
+                "sentence_blocks": ["där", "bor", "mina vänner"],
+                "answer": "Där bor mina vänner",
+                "answerTranslation": "There live my friends",
+                "tip": "Place + Verb + Subject."
+              },
+              {
+                "id": 230,
+                "group": "v2_practice",
+                "sentence_blocks": ["just nu", "barnet", "sover"],
+                "answer": "Just nu sover barnet",
+                "answerTranslation": "Right now the child is sleeping",
+                "tip": "'Just nu' is one unit in position 1."
+              },
+              {
+                  "id": 231,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["på morgonen", "kaffe", "dricker", "jag"],
+                  "answer": "På morgonen dricker jag kaffe",
+                  "answerTranslation": "In the morning I drink coffee",
+                  "tip": "Time phrase + Verb + Subject."
+                },
+                {
+                  "id": 232,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "vi", "en glass", "köper"],
+                  "answer": "Idag köper vi en glass",
+                  "answerTranslation": "Today we are buying an ice cream",
+                  "tip": "V2 Rule: Verb must be second."
+                },
+                {
+                  "id": 233,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "bor", "min mormor"],
+                  "answer": "Här bor min mormor",
+                  "answerTranslation": "Here lives my grandmother",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 234,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "filmen", "börjar"],
+                  "answer": "Nu börjar filmen",
+                  "answerTranslation": "Now the movie begins",
+                  "tip": "Subject moves to the end."
+                },
+                {
+                  "id": 235,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "regnar", "det", "här"],
+                  "answer": "Ibland regnar det här",
+                  "answerTranslation": "Sometimes it rains here",
+                  "tip": "Time + Verb + Subject + Place."
+                },
+                {
+                  "id": 236,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i morgon", "jag", "rinner"],
+                  "answer": "I morgon rinner jag",
+                  "answerTranslation": "Tomorrow I run",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 237,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["där", "ligger", "min hund"],
+                  "answer": "Där ligger min hund",
+                  "answerTranslation": "There lies my dog",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 238,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "vi", "hemma", "är"],
+                  "answer": "Nu är vi hemma",
+                  "answerTranslation": "Now we are home",
+                  "tip": "Verb stays in position 2."
+                },
+                {
+                  "id": 239,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["på kvällen", "tidningen", "läser", "hon"],
+                  "answer": "På kvällen läser hon tidningen",
+                  "answerTranslation": "In the evening she reads the newspaper",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 240,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "varmt", "det blir"],
+                  "answer": "Snart blir det varmt",
+                  "answerTranslation": "Soon it will be warm",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 241,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "vi", "fika", "ska"],
+                  "answer": "Här ska vi fika",
+                  "answerTranslation": "Here we shall have coffee",
+                  "tip": "Place + Aux Verb + Subject + Main Verb."
+                },
+                {
+                  "id": 242,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ofta", "kaffe", "dricker", "han"],
+                  "answer": "Ofta dricker han kaffe",
+                  "answerTranslation": "Often he drinks coffee",
+                  "tip": "Frequency + Verb + Subject."
+                },
+                {
+                  "id": 243,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["just nu", "jobbar", "jag"],
+                  "answer": "Just nu jobbar jag",
+                  "answerTranslation": "Right now I am working",
+                  "tip": "Compound time unit + Verb + Subject."
+                },
+                {
+                  "id": 244,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i sommar", "vi", "badar"],
+                  "answer": "I sommar badar vi",
+                  "answerTranslation": "In the summer we swim",
+                  "tip": "Time phrase + Verb + Subject."
+                },
+                {
+                  "id": 245,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["där", "bor", "familjen"],
+                  "answer": "Där bor familjen",
+                  "answerTranslation": "There the family lives",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 246,
+                  "group": "r",
+                  "sentence_blocks": ["ikväll", "jag", "lagar", "mat"],
+                  "answer": "Ikväll lagar jag mat",
+                  "answerTranslation": "Tonight I am cooking food",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 247,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ute", "barnen", "leker"],
+                  "answer": "Ute leker barnen",
+                  "answerTranslation": "Outside the children are playing",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 248,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["först", "vi", "dricker", "te"],
+                  "answer": "Först dricker vi te",
+                  "answerTranslation": "First we drink tea",
+                  "tip": "Sequence + Verb + Subject."
+                },
+                {
+                  "id": 249,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["sedan", "vi", "sover"],
+                  "answer": "Sedan sover vi",
+                  "answerTranslation": "Then we sleep",
+                  "tip": "'Sedan' is position 1."
+                },
+                {
+                  "id": 250,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "glad", "är", "jag"],
+                  "answer": "Nu är jag glad",
+                  "answerTranslation": "Now I am happy",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 251,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["varje morgon", "han", "springer"],
+                  "answer": "Varje morgon springer han",
+                  "answerTranslation": "Every morning he runs",
+                  "tip": "Time unit + Verb + Subject."
+                },
+                {
+                  "id": 252,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "vi", "mat", "äter"],
+                  "answer": "Här äter vi mat",
+                  "answerTranslation": "Here we eat food",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 253,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "inte", "solen", "skiner"],
+                  "answer": "Idag skiner inte solen",
+                  "answerTranslation": "Today the sun is not shining",
+                  "tip": "V2 + Negation placement."
+                },
+                {
+                  "id": 254,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "vi", "bio", "går på"],
+                  "answer": "Ibland går vi på bio",
+                  "answerTranslation": "Sometimes we go to the cinema",
+                  "tip": "Time + Verb + Subject + Place."
+                },
+                {
+                  "id": 255,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i morgon", "jag", "ledig", "är"],
+                  "answer": "I morgon är jag ledig",
+                  "answerTranslation": "Tomorrow I am off work",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 256,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "vi", "svenska", "talar"],
+                  "answer": "Nu talar vi svenska",
+                  "answerTranslation": "Now we speak Swedish",
+                  "tip": "Verb is always 2nd."
+                },
+                {
+                  "id": 257,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ute", "kallt", "det är"],
+                  "answer": "Ute är det kallt",
+                  "answerTranslation": "Outside it is cold",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 258,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "frukost", "vi", "äter"],
+                  "answer": "Snart äter vi frukost",
+                  "answerTranslation": "Soon we eat breakfast",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 259,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "bor", "mina föräldrar"],
+                  "answer": "Här bor mina föräldrar",
+                  "answerTranslation": "Here live my parents",
+                  "tip": "Subject follows the verb."
+                },
+                {
+                  "id": 260,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ikväll", "en bok", "läser", "jag"],
+                  "answer": "Ikväll läser jag en bok",
+                  "answerTranslation": "Tonight I am reading a book",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 261,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["på söndag", "vi", "vilar"],
+                  "answer": "På söndag vilar vi",
+                  "answerTranslation": "On Sunday we rest",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 262,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "kaffe", "vill", "han ha"],
+                  "answer": "Nu vill han ha kaffe",
+                  "answerTranslation": "Now he wants coffee",
+                  "tip": "Verb 1 is position 2."
+                },
+                {
+                  "id": 263,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "jag", "väntar"],
+                  "answer": "Här väntar jag",
+                  "answerTranslation": "Here I am waiting",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 264,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "hon", "sjunger"],
+                  "answer": "Ibland sjunger hon",
+                  "answerTranslation": "Sometimes she sings",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 265,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i sommar", "vi", "badar", "ofta"],
+                  "answer": "I sommar badar vi ofta",
+                  "answerTranslation": "In the summer we swim often",
+                  "tip": "Time + Verb + Subject + Adverb."
+                },
+                {
+                  "id": 266,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "vi", "går"],
+                  "answer": "Nu går vi",
+                  "answerTranslation": "Now we go",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 267,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["där", "vi", "ser", "en katt"],
+                  "answer": "Där ser vi en katt",
+                  "answerTranslation": "There we see a cat",
+                  "tip": "Place + Verb + Subject + Object."
+                },
+                {
+                  "id": 268,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["just nu", "han", "läser"],
+                  "answer": "Just nu läser han",
+                  "answerTranslation": "Right now he is reading",
+                  "tip": "Compound Time + Verb + Subject."
+                },
+                {
+                  "id": 269,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "jag", "glad", "är"],
+                  "answer": "Idag är jag glad",
+                  "answerTranslation": "Today I am happy",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 270,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["på kvällen", "vi", "te", "dricker"],
+                  "answer": "På kvällen dricker vi te",
+                  "answerTranslation": "In the evening we drink tea",
+                  "tip": "Time phrase + Verb + Subject."
+                },
+                {
+                  "id": 271,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "frukost", "klar", "är"],
+                  "answer": "Snart är frukosten klar",
+                  "answerTranslation": "Soon breakfast is ready",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 272,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "vi", "stannar"],
+                  "answer": "Här stannar vi",
+                  "answerTranslation": "Here we stop",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 273,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i morgon", "vi", "kaffe", "dricker"],
+                  "answer": "I morgon dricker vi kaffe",
+                  "answerTranslation": "Tomorrow we drink coffee",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 274,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ofta", "fisk", "äter", "vi"],
+                  "answer": "Ofta äter vi fisk",
+                  "answerTranslation": "Often we eat fish",
+                  "tip": "Frequency + Verb + Subject."
+                },
+                {
+                  "id": 275,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "brevet", "skriver", "jag"],
+                  "answer": "Nu skriver jag brevet",
+                  "answerTranslation": "Now I am writing the letter",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 276,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "ligger", "pennan"],
+                  "answer": "Här ligger pennan",
+                  "answerTranslation": "Here lies the pen",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 277,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ikväll", "vi", "en film", "ser"],
+                  "answer": "Ikväll ser vi en film",
+                  "answerTranslation": "Tonight we watch a movie",
+                  "tip": "Time + Verb + Subject + Object."
+                },
+                {
+                  "id": 278,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "jag", "sent", "jobbar"],
+                  "answer": "Ibland jobbar jag sent",
+                  "answerTranslation": "Sometimes I work late",
+                  "tip": "Time + Verb + Subject + Adverb."
+                },
+                {
+                  "id": 279,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["i Sverige", "bor", "familjen"],
+                  "answer": "I Sverige bor familjen",
+                  "answerTranslation": "In Sweden the family lives",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 280,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "vi", "glada", "är"],
+                  "answer": "Idag är vi glada",
+                  "answerTranslation": "Today we are happy",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 281,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ute", "inte", "solen", "lyser"],
+                  "answer": "Ute lyser inte solen",
+                  "answerTranslation": "Outside the sun is not shining",
+                  "tip": "Place + Verb + Negation + Subject."
+                },
+                {
+                  "id": 282,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "kaffe", "vi", "dricker"],
+                  "answer": "Nu dricker vi kaffe",
+                  "answerTranslation": "Now we drink coffee",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 283,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "bor", "våra vänner"],
+                  "answer": "Här bor våra vänner",
+                  "answerTranslation": "Here live our friends",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 284,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "vi", "vilar"],
+                  "answer": "Snart vilar vi",
+                  "answerTranslation": "Soon we rest",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 285,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "det", "snöar", "ute"],
+                  "answer": "Idag snöar det ute",
+                  "answerTranslation": "Today it is snowing outside",
+                  "tip": "Time + Verb + Subject + Place."
+                },
+                {
+                  "id": 286,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["på kvällen", "vi", "vilar"],
+                  "answer": "På kvällen vilar vi",
+                  "answerTranslation": "In the evening we rest",
+                  "tip": "Time phrase + Verb + Subject."
+                },
+                {
+                  "id": 287,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "vi", "är", "nu"],
+                  "answer": "Här är vi nu",
+                  "answerTranslation": "Here we are now",
+                  "tip": "Place + Verb + Subject + Time."
+                },
+                {
+                  "id": 288,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "trött", "han", "är"],
+                  "answer": "Ibland är han trött",
+                  "answerTranslation": "Sometimes he is tired",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 289,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "vi", "mat", "köper"],
+                  "answer": "Idag köper vi mat",
+                  "answerTranslation": "Today we are buying food",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 290,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "flickan", "kommer"],
+                  "answer": "Snart kommer flickan",
+                  "answerTranslation": "Soon the girl is coming",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 291,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["nu", "filmen", "slutar"],
+                  "answer": "Nu slutar filmen",
+                  "answerTranslation": "Now the movie ends",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 292,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "pappan", "bor"],
+                  "answer": "Här bor pappan",
+                  "answerTranslation": "Here lives the dad",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 293,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ikväll", "vi", "te", "dricker"],
+                  "answer": "Ikväll dricker vi te",
+                  "answerTranslation": "Tonight we drink tea",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 294,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ibland", "vi", "fika", "äter"],
+                  "answer": "Ibland äter vi fika",
+                  "answerTranslation": "Sometimes we eat fika",
+                  "tip": "Time + Verb + Subject."
+                },
+                {
+                  "id": 295,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["just nu", "vi", "tränar"],
+                  "answer": "Just nu tränar vi",
+                  "answerTranslation": "Right now we exercise",
+                  "tip": "Compound Time + Verb + Subject."
+                },
+                {
+                  "id": 296,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["där", "vi", "står"],
+                  "answer": "Där står vi",
+                  "answerTranslation": "There we stand",
+                  "tip": "Place + Verb + Subject."
+                },
+                {
+                  "id": 297,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["snart", "jag", "klar", "är"],
+                  "answer": "Snart är jag klar",
+                  "answerTranslation": "Soon I am ready",
+                  "tip": "Time + Verb + Subject + Adjective."
+                },
+                {
+                  "id": 298,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["ikväll", "inte", "han", "kommer"],
+                  "answer": "Ikväll kommer inte han",
+                  "answerTranslation": "Tonight he is not coming",
+                  "tip": "Time + Verb + Negation + Subject."
+                },
+                {
+                  "id": 299,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["här", "vi", "väntar", "nu"],
+                  "answer": "Här väntar vi nu",
+                  "answerTranslation": "Here we are waiting now",
+                  "tip": "Place + Verb + Subject + Time."
+                },
+                {
+                  "id": 300,
+                  "group": "v2_pro",
+                  "sentence_blocks": ["idag", "vi", "svenska", "lär oss"],
+                  "answer": "Idag lär vi oss svenska",
+                  "answerTranslation": "Today we learn Swedish",
+                  "tip": "Time + Verb + Subject + Reflexive + Object."
+                },
+                {
+                    "id": 301,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "han", "inte", "kommer"],
+                    "answer": "att han inte kommer",
+                    "answerTranslation": "that he is not coming",
+                    "tip": "BIFF Rule: In a bisats, 'inte' comes BEFORE the verb."
+                  },
+                  {
+                    "id": 302,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "det", "inte", "regnar"],
+                    "answer": "eftersom det inte regnar",
+                    "answerTranslation": "because it is not raining",
+                    "tip": "The word 'eftersom' starts a subordinate clause (bisats)."
+                  },
+                  {
+                    "id": 303,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "vi", "inte", "äter"],
+                    "answer": "om vi inte äter",
+                    "answerTranslation": "if we do not eat",
+                    "tip": "In an 'if' (om) clause, 'inte' stays before the verb."
+                  },
+                  {
+                    "id": 304,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "hon", "inte", "sover"],
+                    "answer": "när hon inte sover",
+                    "answerTranslation": "when she is not sleeping",
+                    "tip": "When (när) clauses follow the BIFF rule."
+                  },
+                  {
+                    "id": 305,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "du", "inte", "förstår"],
+                    "answer": "att du inte förstår",
+                    "answerTranslation": "that you do not understand",
+                    "tip": "Subject + inte + verb in this clause type."
+                  },
+                  {
+                    "id": 306,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "jag", "inte", "kan"],
+                    "answer": "eftersom jag inte kan",
+                    "answerTranslation": "because I cannot",
+                    "tip": "'Inte' before the helping verb 'kan'."
+                  },
+                  {
+                    "id": 307,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["fastän", "vi", "inte", "vill"],
+                    "answer": "fastän vi inte vill",
+                    "answerTranslation": "although we do not want to",
+                    "tip": "Fastän (although) is a bisats-connector."
+                  },
+                  {
+                    "id": 308,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "det", "inte", "snöar"],
+                    "answer": "om det inte snöar",
+                    "answerTranslation": "if it does not snow",
+                    "tip": "Check the placement of 'inte'."
+                  },
+                  {
+                    "id": 309,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["för", "att", "han", "inte", "ser"],
+                    "answer": "för att han inte ser",
+                    "answerTranslation": "so that he does not see",
+                    "tip": "'För att' is a common connector for bisats."
+                  },
+                  {
+                    "id": 310,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["tills", "de", "inte", "jobbar"],
+                    "answer": "tills de inte jobbar",
+                    "answerTranslation": "until they are not working",
+                    "tip": "Tills (until) triggers the BIFF rule."
+                  },
+                  {
+                    "id": 311,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "vi", "inte", "vinner"],
+                    "answer": "att vi inte vinner",
+                    "answerTranslation": "that we do not win",
+                    "tip": "Notice 'inte' comes before 'vinner'."
+                  },
+                  {
+                    "id": 312,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "jag", "inte", "läser"],
+                    "answer": "när jag inte läser",
+                    "answerTranslation": "when I am not reading",
+                    "tip": "Time-connectors like 'när' create a bisats."
+                  },
+                  {
+                    "id": 313,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "du", "inte", "lyssnar"],
+                    "answer": "om du inte lyssnar",
+                    "answerTranslation": "if you do not listen",
+                    "tip": "Subject + 'inte' + verb."
+                  },
+                  {
+                    "id": 314,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "hon", "inte", "bor här"],
+                    "answer": "eftersom hon inte bor här",
+                    "answerTranslation": "because she does not live here",
+                    "tip": "Keep 'inte' before 'bor'."
+                  },
+                  {
+                    "id": 315,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["fast", "vi", "inte", "talar"],
+                    "answer": "fast vi inte talar",
+                    "answerTranslation": "even though we do not speak",
+                    "tip": "Fast (though) + Subject + inte + verb."
+                  },
+                  {
+                    "id": 316,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "maten", "inte", "smakar"],
+                    "answer": "att maten inte smakar",
+                    "answerTranslation": "that the food does not taste [good]",
+                    "tip": "The subject 'maten' is followed by 'inte'."
+                  },
+                  {
+                    "id": 317,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "det", "inte", "blåser"],
+                    "answer": "när det inte blåser",
+                    "answerTranslation": "when it is not windy",
+                    "tip": "Place 'inte' before the verb 'blåser'."
+                  },
+                  {
+                    "id": 318,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "vi", "inte", "hjälper"],
+                    "answer": "om vi inte hjälper",
+                    "answerTranslation": "if we do not help",
+                    "tip": "BIFF rule applies here too."
+                  },
+                  {
+                    "id": 319,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "du", "inte", "tränar"],
+                    "answer": "eftersom du inte tränar",
+                    "answerTranslation": "because you do not exercise",
+                    "tip": "Bisats word + Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 320,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "vattnet", "inte", "fryser"],
+                    "answer": "att vattnet inte fryser",
+                    "answerTranslation": "that the water does not freeze",
+                    "tip": "Place 'inte' before the verb 'fryser'."
+                  },
+                  {
+                    "id": 321,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "vi", "inte", "springer"],
+                    "answer": "när vi inte springer",
+                    "answerTranslation": "when we are not running",
+                    "tip": "När + Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 322,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "hon", "inte", "ringer"],
+                    "answer": "om hon inte ringer",
+                    "answerTranslation": "if she does not call",
+                    "tip": "If (om) clauses need BIFF."
+                  },
+                  {
+                    "id": 323,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "tåget", "inte", "går"],
+                    "answer": "eftersom tåget inte går",
+                    "answerTranslation": "because the train does not run",
+                    "tip": "Subject (tåget) + 'inte' + Verb."
+                  },
+                  {
+                    "id": 324,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "de", "inte", "skrattar"],
+                    "answer": "att de inte skrattar",
+                    "answerTranslation": "that they are not laughing",
+                    "tip": "Verb comes last in this group."
+                  },
+                  {
+                    "id": 325,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "barnet", "inte", "leker"],
+                    "answer": "när barnet inte leker",
+                    "answerTranslation": "when the child is not playing",
+                    "tip": "När + Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 326,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "pappa", "inte", "sover"],
+                    "answer": "om pappa inte sover",
+                    "answerTranslation": "if dad is not sleeping",
+                    "tip": "Keep the order: Subject, then 'inte'."
+                  },
+                  {
+                    "id": 327,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "vi", "inte", "ser"],
+                    "answer": "eftersom vi inte ser",
+                    "answerTranslation": "because we do not see",
+                    "tip": "Bisats logic."
+                  },
+                  {
+                    "id": 328,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "bilen", "inte", "stannar"],
+                    "answer": "att bilen inte stannar",
+                    "answerTranslation": "that the car does not stop",
+                    "tip": "Another BIFF rule example."
+                  },
+                  {
+                    "id": 329,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "vi", "inte", "tittar"],
+                    "answer": "när vi inte tittar",
+                    "answerTranslation": "when we are not looking",
+                    "tip": "Subject + 'inte' + verb."
+                  },
+                  {
+                    "id": 330,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "jag", "inte", "frågar"],
+                    "answer": "om jag inte frågar",
+                    "answerTranslation": "if I do not ask",
+                    "tip": "'Inte' comes before 'frågar'."
+                  },
+                  {
+                    "id": 331,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "du", "inte", "svarar"],
+                    "answer": "eftersom du inte svarar",
+                    "answerTranslation": "because you do not answer",
+                    "tip": "Follow the BIFF order."
+                  },
+                  {
+                    "id": 332,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "hunden", "inte", "skäller"],
+                    "answer": "att hunden inte skäller",
+                    "answerTranslation": "that the dog is not barking",
+                    "tip": "Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 333,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "det", "inte", "snöar"],
+                    "answer": "när det inte snöar",
+                    "answerTranslation": "when it is not snowing",
+                    "tip": "Keep 'inte' before the verb."
+                  },
+                  {
+                    "id": 334,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "vi", "inte", "bakar"],
+                    "answer": "om vi inte bakar",
+                    "answerTranslation": "if we do not bake",
+                    "tip": "The verb 'bakar' comes after 'inte'."
+                  },
+                  {
+                    "id": 335,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "hon", "inte", "dricker"],
+                    "answer": "eftersom hon inte dricker",
+                    "answerTranslation": "because she does not drink",
+                    "tip": "Bisats connector + BIFF rule."
+                  },
+                  {
+                    "id": 336,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "vi", "inte", "glömmer"],
+                    "answer": "att vi inte glömmer",
+                    "answerTranslation": "that we do not forget",
+                    "tip": "Don't let the verb jump ahead of 'inte'!"
+                  },
+                  {
+                    "id": 337,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "det", "inte", "regnar"],
+                    "answer": "när det inte regnar",
+                    "answerTranslation": "when it is not raining",
+                    "tip": "Standard bisats word order."
+                  },
+                  {
+                    "id": 338,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "de", "inte", "stannar"],
+                    "answer": "om de inte stannar",
+                    "answerTranslation": "if they do not stay",
+                    "tip": "Check 'inte' placement."
+                  },
+                  {
+                    "id": 339,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "jag", "inte", "ser"],
+                    "answer": "eftersom jag inte ser",
+                    "answerTranslation": "because I do not see",
+                    "tip": "Bisats + Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 340,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "du", "inte", "vill"],
+                    "answer": "att du inte vill",
+                    "answerTranslation": "that you do not want to",
+                    "tip": "Verb 'vill' stays at the end."
+                  },
+                  {
+                    "id": 341,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "mamma", "inte", "jobbar"],
+                    "answer": "när mamma inte jobbar",
+                    "answerTranslation": "when mom is not working",
+                    "tip": "Time clause + BIFF."
+                  },
+                  {
+                    "id": 342,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "barnen", "inte", "leker"],
+                    "answer": "om barnen inte leker",
+                    "answerTranslation": "if the children are not playing",
+                    "tip": "Keep 'inte' before 'leker'."
+                  },
+                  {
+                    "id": 343,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "solen", "inte", "lyser"],
+                    "answer": "eftersom solen inte lyser",
+                    "answerTranslation": "because the sun is not shining",
+                    "tip": "Subject (solen) + 'inte' + Verb."
+                  },
+                  {
+                    "id": 344,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "vi", "inte", "bor här"],
+                    "answer": "att vi inte bor här",
+                    "answerTranslation": "that we do not live here",
+                    "tip": "Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 345,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "pappa", "inte", "ringer"],
+                    "answer": "när pappa inte ringer",
+                    "answerTranslation": "when dad does not call",
+                    "tip": "Follow the BIFF order."
+                  },
+                  {
+                    "id": 346,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "du", "inte", "går"],
+                    "answer": "om du inte går",
+                    "answerTranslation": "if you do not go",
+                    "tip": "BIFF: Inte before the verb."
+                  },
+                  {
+                    "id": 347,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["eftersom", "vi", "inte", "vilar"],
+                    "answer": "eftersom vi inte vilar",
+                    "answerTranslation": "because we do not rest",
+                    "tip": "Bisats word + Subject + 'inte' + Verb."
+                  },
+                  {
+                    "id": 348,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["att", "han", "inte", "hjälper"],
+                    "answer": "att han inte hjälper",
+                    "answerTranslation": "that he does not help",
+                    "tip": "Place 'inte' before the verb 'hjälper'."
+                  },
+                  {
+                    "id": 349,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["när", "det", "inte", "töar"],
+                    "answer": "när det inte töar",
+                    "answerTranslation": "when it is not thawing",
+                    "tip": "Common weather bisats."
+                  },
+                  {
+                    "id": 350,
+                    "group": "bisats_biff",
+                    "sentence_blocks": ["om", "de", "inte", "talar"],
+                    "answer": "om de inte talar",
+                    "answerTranslation": "if they do not speak",
+                    "tip": "Final BIFF practice for this batch!"
+                  }
+]

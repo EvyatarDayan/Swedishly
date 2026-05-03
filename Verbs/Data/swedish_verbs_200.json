@@ -1,0 +1,4428 @@
+{
+  "metadata": {
+    "language": "sv",
+    "translation": "en",
+    "verbCount": 200,
+    "offline": true,
+    "license": "Free verb list, corrected translations"
+  },
+  "verbs": [
+    {
+      "infinitive": "att vara",
+      "base": "vara",
+      "english": [
+        "to be"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag är varje dag.",
+          "en": "I be every day."
+        },
+        "past": {
+          "sv": "Jag var igår.",
+          "en": "I was yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har varit klart.",
+          "en": "I have been already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ha",
+      "base": "ha",
+      "english": [
+        "to have"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag har varje dag.",
+          "en": "I have every day."
+        },
+        "past": {
+          "sv": "Jag hade igår.",
+          "en": "I had yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har haft klart.",
+          "en": "I have had already."
+        }
+      }
+    },
+    {
+      "infinitive": "att göra",
+      "base": "göra",
+      "english": [
+        "to do"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag gör varje dag.",
+          "en": "I do every day."
+        },
+        "past": {
+          "sv": "Jag gjorde igår.",
+          "en": "I did yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har gjort klart.",
+          "en": "I have done already."
+        }
+      }
+    },
+    {
+      "infinitive": "att säga",
+      "base": "säga",
+      "english": [
+        "to say"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag säger varje dag.",
+          "en": "I say every day."
+        },
+        "past": {
+          "sv": "Jag sade igår.",
+          "en": "I said yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sagt klart.",
+          "en": "I have said already."
+        }
+      }
+    },
+    {
+      "infinitive": "att gå",
+      "base": "gå",
+      "english": [
+        "to go"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag går varje dag.",
+          "en": "I go every day."
+        },
+        "past": {
+          "sv": "Jag gick igår.",
+          "en": "I went yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har gått klart.",
+          "en": "I have gone already."
+        }
+      }
+    },
+    {
+      "infinitive": "att komma",
+      "base": "komma",
+      "english": [
+        "to come"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kommer varje dag.",
+          "en": "I come every day."
+        },
+        "past": {
+          "sv": "Jag kom igår.",
+          "en": "I came yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kommit klart.",
+          "en": "I have come already."
+        }
+      }
+    },
+    {
+      "infinitive": "att se",
+      "base": "se",
+      "english": [
+        "to see"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ser varje dag.",
+          "en": "I see every day."
+        },
+        "past": {
+          "sv": "Jag såg igår.",
+          "en": "I saw yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sett klart.",
+          "en": "I have seen already."
+        }
+      }
+    },
+    {
+      "infinitive": "att veta",
+      "base": "veta",
+      "english": [
+        "to know"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag vet varje dag.",
+          "en": "I know every day."
+        },
+        "past": {
+          "sv": "Jag visste igår.",
+          "en": "I knew yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har vetat klart.",
+          "en": "I have known already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ge",
+      "base": "ge",
+      "english": [
+        "to give"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ger varje dag.",
+          "en": "I give every day."
+        },
+        "past": {
+          "sv": "Jag gav igår.",
+          "en": "I gave yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har gett klart.",
+          "en": "I have given already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ta",
+      "base": "ta",
+      "english": [
+        "to take"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tar varje dag.",
+          "en": "I take every day."
+        },
+        "past": {
+          "sv": "Jag tog igår.",
+          "en": "I took yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tagit klart.",
+          "en": "I have taken already."
+        }
+      }
+    },
+    {
+      "infinitive": "att arbeta",
+      "base": "arbeta",
+      "english": [
+        "to work"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag arbetar varje dag.",
+          "en": "I work every day."
+        },
+        "past": {
+          "sv": "Jag arbetade igår.",
+          "en": "I worked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har arbetat klart.",
+          "en": "I have worked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att äta",
+      "base": "äta",
+      "english": [
+        "to eat"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag äter varje dag.",
+          "en": "I eat every day."
+        },
+        "past": {
+          "sv": "Jag åt igår.",
+          "en": "I ate yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ätit klart.",
+          "en": "I have eaten already."
+        }
+      }
+    },
+    {
+      "infinitive": "att dricka",
+      "base": "dricka",
+      "english": [
+        "to drink"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag dricker varje dag.",
+          "en": "I drink every day."
+        },
+        "past": {
+          "sv": "Jag drack igår.",
+          "en": "I drank yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har druckit klart.",
+          "en": "I have drunk already."
+        }
+      }
+    },
+    {
+      "infinitive": "att sova",
+      "base": "sova",
+      "english": [
+        "to sleep"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag sover varje dag.",
+          "en": "I sleep every day."
+        },
+        "past": {
+          "sv": "Jag sov igår.",
+          "en": "I slept yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sovit klart.",
+          "en": "I have slept already."
+        }
+      }
+    },
+    {
+      "infinitive": "att springa",
+      "base": "springa",
+      "english": [
+        "to run"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag springer varje dag.",
+          "en": "I run every day."
+        },
+        "past": {
+          "sv": "Jag sprang igår.",
+          "en": "I ran yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sprungit klart.",
+          "en": "I have run already."
+        }
+      }
+    },
+    {
+      "infinitive": "att köra",
+      "base": "köra",
+      "english": [
+        "to drive"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kör varje dag.",
+          "en": "I drive every day."
+        },
+        "past": {
+          "sv": "Jag körde igår.",
+          "en": "I drove yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kört klart.",
+          "en": "I have driven already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bo",
+      "base": "bo",
+      "english": [
+        "to live"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bor varje dag.",
+          "en": "I live every day."
+        },
+        "past": {
+          "sv": "Jag bodde igår.",
+          "en": "I lived yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bott klart.",
+          "en": "I have lived already."
+        }
+      }
+    },
+    {
+      "infinitive": "att leva",
+      "base": "leva",
+      "english": [
+        "to live"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lever varje dag.",
+          "en": "I live every day."
+        },
+        "past": {
+          "sv": "Jag levde igår.",
+          "en": "I lived yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har levt klart.",
+          "en": "I have lived already."
+        }
+      }
+    },
+    {
+      "infinitive": "att lära",
+      "base": "lära",
+      "english": [
+        "to learn"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lär varje dag.",
+          "en": "I learn every day."
+        },
+        "past": {
+          "sv": "Jag lärde igår.",
+          "en": "I learned yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lärt klart.",
+          "en": "I have learned already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förstå",
+      "base": "förstå",
+      "english": [
+        "to understand"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förstår varje dag.",
+          "en": "I understand every day."
+        },
+        "past": {
+          "sv": "Jag förstod igår.",
+          "en": "I understood yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förstått klart.",
+          "en": "I have understood already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tala",
+      "base": "tala",
+      "english": [
+        "to speak"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag talar varje dag.",
+          "en": "I speak every day."
+        },
+        "past": {
+          "sv": "Jag talade igår.",
+          "en": "I spoke yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har talat klart.",
+          "en": "I have spoken already."
+        }
+      }
+    },
+    {
+      "infinitive": "att prata",
+      "base": "prata",
+      "english": [
+        "to talk"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag pratar varje dag.",
+          "en": "I talk every day."
+        },
+        "past": {
+          "sv": "Jag pratade igår.",
+          "en": "I talked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har pratat klart.",
+          "en": "I have talked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att fråga",
+      "base": "fråga",
+      "english": [
+        "to ask"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag frågar varje dag.",
+          "en": "I ask every day."
+        },
+        "past": {
+          "sv": "Jag frågade igår.",
+          "en": "I asked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har frågat klart.",
+          "en": "I have asked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att svara",
+      "base": "svara",
+      "english": [
+        "to answer"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag svarar varje dag.",
+          "en": "I answer every day."
+        },
+        "past": {
+          "sv": "Jag svarade igår.",
+          "en": "I answered yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har svarat klart.",
+          "en": "I have answered already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hjälpa",
+      "base": "hjälpa",
+      "english": [
+        "to help"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hjälper varje dag.",
+          "en": "I help every day."
+        },
+        "past": {
+          "sv": "Jag hjälpte igår.",
+          "en": "I helped yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hjälpt klart.",
+          "en": "I have helped already."
+        }
+      }
+    },
+    {
+      "infinitive": "att behöva",
+      "base": "behöva",
+      "english": [
+        "to need"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag behöver varje dag.",
+          "en": "I need every day."
+        },
+        "past": {
+          "sv": "Jag behövde igår.",
+          "en": "I needed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har behövt klart.",
+          "en": "I have needed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att vilja",
+      "base": "vilja",
+      "english": [
+        "to want"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag vill varje dag.",
+          "en": "I want every day."
+        },
+        "past": {
+          "sv": "Jag ville igår.",
+          "en": "I wanted yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har velat klart.",
+          "en": "I have wanted already."
+        }
+      }
+    },
+    {
+      "infinitive": "att kunna",
+      "base": "kunna",
+      "english": [
+        "to can"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kan varje dag.",
+          "en": "I can every day."
+        },
+        "past": {
+          "sv": "Jag kunde igår.",
+          "en": "I could yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kunnat klart.",
+          "en": "I have been able to already."
+        }
+      }
+    },
+    {
+      "infinitive": "att måste",
+      "base": "måste",
+      "english": [
+        "to must"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag måste varje dag.",
+          "en": "I must every day."
+        },
+        "past": {
+          "sv": "Jag måste igår.",
+          "en": "I had to yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har måst klart.",
+          "en": "I have had to already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bör",
+      "base": "bör",
+      "english": [
+        "to should"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bör varje dag.",
+          "en": "I should every day."
+        },
+        "past": {
+          "sv": "Jag borde igår.",
+          "en": "I should have yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bort klart.",
+          "en": "I have should have already."
+        }
+      }
+    },
+    {
+      "infinitive": "att stanna",
+      "base": "stanna",
+      "english": [
+        "to stay"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag stannar varje dag.",
+          "en": "I stay every day."
+        },
+        "past": {
+          "sv": "Jag stannade igår.",
+          "en": "I stayed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har stannat klart.",
+          "en": "I have stayed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att resa",
+      "base": "resa",
+      "english": [
+        "to travel"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag reser varje dag.",
+          "en": "I travel every day."
+        },
+        "past": {
+          "sv": "Jag reste igår.",
+          "en": "I traveled yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har rest klart.",
+          "en": "I have traveled already."
+        }
+      }
+    },
+    {
+      "infinitive": "att flytta",
+      "base": "flytta",
+      "english": [
+        "to move"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag flyttar varje dag.",
+          "en": "I move every day."
+        },
+        "past": {
+          "sv": "Jag flyttade igår.",
+          "en": "I moved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har flyttat klart.",
+          "en": "I have moved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att öppna",
+      "base": "öppna",
+      "english": [
+        "to open"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag öppnar varje dag.",
+          "en": "I open every day."
+        },
+        "past": {
+          "sv": "Jag öppnade igår.",
+          "en": "I opened yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har öppnat klart.",
+          "en": "I have opened already."
+        }
+      }
+    },
+    {
+      "infinitive": "att stänga",
+      "base": "stänga",
+      "english": [
+        "to close"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag stänger varje dag.",
+          "en": "I close every day."
+        },
+        "past": {
+          "sv": "Jag stängde igår.",
+          "en": "I closed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har stängt klart.",
+          "en": "I have closed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att börja",
+      "base": "börja",
+      "english": [
+        "to start"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag börjar varje dag.",
+          "en": "I start every day."
+        },
+        "past": {
+          "sv": "Jag började igår.",
+          "en": "I started yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har börjat klart.",
+          "en": "I have started already."
+        }
+      }
+    },
+    {
+      "infinitive": "att sluta",
+      "base": "sluta",
+      "english": [
+        "to stop"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag slutar varje dag.",
+          "en": "I stop every day."
+        },
+        "past": {
+          "sv": "Jag slutade igår.",
+          "en": "I stopped yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har slutat klart.",
+          "en": "I have stopped already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hitta",
+      "base": "hitta",
+      "english": [
+        "to find"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hittar varje dag.",
+          "en": "I find every day."
+        },
+        "past": {
+          "sv": "Jag hittade igår.",
+          "en": "I found yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hittat klart.",
+          "en": "I have found already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tänka",
+      "base": "tänka",
+      "english": [
+        "to think"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tänker varje dag.",
+          "en": "I think every day."
+        },
+        "past": {
+          "sv": "Jag tänkte igår.",
+          "en": "I thought yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tänkt klart.",
+          "en": "I have thought already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tro",
+      "base": "tro",
+      "english": [
+        "to believe"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tror varje dag.",
+          "en": "I believe every day."
+        },
+        "past": {
+          "sv": "Jag trodde igår.",
+          "en": "I believed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har trott klart.",
+          "en": "I have believed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hoppas",
+      "base": "hoppas",
+      "english": [
+        "to hope"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hoppas varje dag.",
+          "en": "I hope every day."
+        },
+        "past": {
+          "sv": "Jag hoppades igår.",
+          "en": "I hoped yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hoppats klart.",
+          "en": "I have hoped already."
+        }
+      }
+    },
+    {
+      "infinitive": "att älska",
+      "base": "älska",
+      "english": [
+        "to love"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag älskar varje dag.",
+          "en": "I love every day."
+        },
+        "past": {
+          "sv": "Jag älskade igår.",
+          "en": "I loved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har älskat klart.",
+          "en": "I have loved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hata",
+      "base": "hata",
+      "english": [
+        "to hate"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hatar varje dag.",
+          "en": "I hate every day."
+        },
+        "past": {
+          "sv": "Jag hatade igår.",
+          "en": "I hated yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hatat klart.",
+          "en": "I have hated already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tycka",
+      "base": "tycka",
+      "english": [
+        "to like"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tycker varje dag.",
+          "en": "I like every day."
+        },
+        "past": {
+          "sv": "Jag tyckte igår.",
+          "en": "I liked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tyckt klart.",
+          "en": "I have liked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att använda",
+      "base": "använda",
+      "english": [
+        "to use"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag använder varje dag.",
+          "en": "I use every day."
+        },
+        "past": {
+          "sv": "Jag använde igår.",
+          "en": "I used yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har använt klart.",
+          "en": "I have used already."
+        }
+      }
+    },
+    {
+      "infinitive": "att fungera",
+      "base": "fungera",
+      "english": [
+        "to work"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag fungerar varje dag.",
+          "en": "I work every day."
+        },
+        "past": {
+          "sv": "Jag fungerade igår.",
+          "en": "I worked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har fungerat klart.",
+          "en": "I have worked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att försöka",
+      "base": "försöka",
+      "english": [
+        "to try"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag försöker varje dag.",
+          "en": "I try every day."
+        },
+        "past": {
+          "sv": "Jag försökte igår.",
+          "en": "I tried yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har försökt klart.",
+          "en": "I have tried already."
+        }
+      }
+    },
+    {
+      "infinitive": "att lyckas",
+      "base": "lyckas",
+      "english": [
+        "to succeed"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lyckas varje dag.",
+          "en": "I succeed every day."
+        },
+        "past": {
+          "sv": "Jag lyckades igår.",
+          "en": "I succeeded yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lyckats klart.",
+          "en": "I have succeeded already."
+        }
+      }
+    },
+    {
+      "infinitive": "att misslyckas",
+      "base": "misslyckas",
+      "english": [
+        "to fail"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag misslyckas varje dag.",
+          "en": "I fail every day."
+        },
+        "past": {
+          "sv": "Jag misslyckades igår.",
+          "en": "I failed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har misslyckats klart.",
+          "en": "I have failed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att planera",
+      "base": "planera",
+      "english": [
+        "to plan"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag planerar varje dag.",
+          "en": "I plan every day."
+        },
+        "past": {
+          "sv": "Jag planerade igår.",
+          "en": "I planned yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har planerat klart.",
+          "en": "I have planned already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bestämma",
+      "base": "bestämma",
+      "english": [
+        "to decide"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bestämmer varje dag.",
+          "en": "I decide every day."
+        },
+        "past": {
+          "sv": "Jag bestämde igår.",
+          "en": "I decided yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bestämt klart.",
+          "en": "I have decided already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förklara",
+      "base": "förklara",
+      "english": [
+        "to explain"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förklarar varje dag.",
+          "en": "I explain every day."
+        },
+        "past": {
+          "sv": "Jag förklarade igår.",
+          "en": "I explained yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förklarat klart.",
+          "en": "I have explained already."
+        }
+      }
+    },
+    {
+      "infinitive": "att acceptera",
+      "base": "acceptera",
+      "english": [
+        "to accept"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag accepterar varje dag.",
+          "en": "I accept every day."
+        },
+        "past": {
+          "sv": "Jag accepterade igår.",
+          "en": "I accepted yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har accepterat klart.",
+          "en": "I have accepted already."
+        }
+      }
+    },
+    {
+      "infinitive": "att växa",
+      "base": "växa",
+      "english": [
+        "to grow"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag växer varje dag.",
+          "en": "I grow every day."
+        },
+        "past": {
+          "sv": "Jag växte igår.",
+          "en": "I grew yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har växt klart.",
+          "en": "I have grown already."
+        }
+      }
+    },
+    {
+      "infinitive": "att minska",
+      "base": "minska",
+      "english": [
+        "to reduce"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag minskar varje dag.",
+          "en": "I reduce every day."
+        },
+        "past": {
+          "sv": "Jag minskade igår.",
+          "en": "I reduced yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har minskat klart.",
+          "en": "I have reduced already."
+        }
+      }
+    },
+    {
+      "infinitive": "att köpa",
+      "base": "köpa",
+      "english": [
+        "to buy"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag köper varje dag.",
+          "en": "I buy every day."
+        },
+        "past": {
+          "sv": "Jag köpte igår.",
+          "en": "I bought yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har köpt klart.",
+          "en": "I have bought already."
+        }
+      }
+    },
+    {
+      "infinitive": "att sälja",
+      "base": "sälja",
+      "english": [
+        "to sell"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag säljer varje dag.",
+          "en": "I sell every day."
+        },
+        "past": {
+          "sv": "Jag sålde igår.",
+          "en": "I sold yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sålt klart.",
+          "en": "I have sold already."
+        }
+      }
+    },
+    {
+      "infinitive": "att betala",
+      "base": "betala",
+      "english": [
+        "to pay"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag betalar varje dag.",
+          "en": "I pay every day."
+        },
+        "past": {
+          "sv": "Jag betalade igår.",
+          "en": "I paid yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har betalat klart.",
+          "en": "I have paid already."
+        }
+      }
+    },
+    {
+      "infinitive": "att få",
+      "base": "få",
+      "english": [
+        "to get"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag får varje dag.",
+          "en": "I get every day."
+        },
+        "past": {
+          "sv": "Jag fick igår.",
+          "en": "I got yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har fått klart.",
+          "en": "I have got already."
+        }
+      }
+    },
+    {
+      "infinitive": "att välja",
+      "base": "välja",
+      "english": [
+        "to choose"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag väljer varje dag.",
+          "en": "I choose every day."
+        },
+        "past": {
+          "sv": "Jag valde igår.",
+          "en": "I chose yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har valt klart.",
+          "en": "I have chosen already."
+        }
+      }
+    },
+    {
+      "infinitive": "att studera",
+      "base": "studera",
+      "english": [
+        "to study"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag studerar varje dag.",
+          "en": "I study every day."
+        },
+        "past": {
+          "sv": "Jag studerade igår.",
+          "en": "I studied yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har studerat klart.",
+          "en": "I have studied already."
+        }
+      }
+    },
+    {
+      "infinitive": "att läsa",
+      "base": "läsa",
+      "english": [
+        "to read"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag läser varje dag.",
+          "en": "I read every day."
+        },
+        "past": {
+          "sv": "Jag läste igår.",
+          "en": "I read yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har läst klart.",
+          "en": "I have read already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skriva",
+      "base": "skriva",
+      "english": [
+        "to write"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skriver varje dag.",
+          "en": "I write every day."
+        },
+        "past": {
+          "sv": "Jag skrev igår.",
+          "en": "I wrote yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skrivit klart.",
+          "en": "I have written already."
+        }
+      }
+    },
+    {
+      "infinitive": "att lyssna",
+      "base": "lyssna",
+      "english": [
+        "to listen"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lyssnar varje dag.",
+          "en": "I listen every day."
+        },
+        "past": {
+          "sv": "Jag lyssnade igår.",
+          "en": "I listened yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lyssnat klart.",
+          "en": "I have listened already."
+        }
+      }
+    },
+    {
+      "infinitive": "att titta",
+      "base": "titta",
+      "english": [
+        "to watch"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tittar varje dag.",
+          "en": "I watch every day."
+        },
+        "past": {
+          "sv": "Jag tittade igår.",
+          "en": "I watched yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tittat klart.",
+          "en": "I have watched already."
+        }
+      }
+    },
+    {
+      "infinitive": "att höra",
+      "base": "höra",
+      "english": [
+        "to hear"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hör varje dag.",
+          "en": "I hear every day."
+        },
+        "past": {
+          "sv": "Jag hörde igår.",
+          "en": "I heard yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hört klart.",
+          "en": "I have heard already."
+        }
+      }
+    },
+    {
+      "infinitive": "att känna",
+      "base": "känna",
+      "english": [
+        "to feel"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag känner varje dag.",
+          "en": "I feel every day."
+        },
+        "past": {
+          "sv": "Jag kände igår.",
+          "en": "I felt yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har känt klart.",
+          "en": "I have felt already."
+        }
+      }
+    },
+    {
+      "infinitive": "att möta",
+      "base": "möta",
+      "english": [
+        "to meet"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag möter varje dag.",
+          "en": "I meet every day."
+        },
+        "past": {
+          "sv": "Jag mötte igår.",
+          "en": "I met yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har mött klart.",
+          "en": "I have met already."
+        }
+      }
+    },
+    {
+      "infinitive": "att besöka",
+      "base": "besöka",
+      "english": [
+        "to visit"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag besöker varje dag.",
+          "en": "I visit every day."
+        },
+        "past": {
+          "sv": "Jag besökte igår.",
+          "en": "I visited yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har besökt klart.",
+          "en": "I have visited already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ringa",
+      "base": "ringa",
+      "english": [
+        "to call"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ringer varje dag.",
+          "en": "I call every day."
+        },
+        "past": {
+          "sv": "Jag ringde igår.",
+          "en": "I called yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ringt klart.",
+          "en": "I have called already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skicka",
+      "base": "skicka",
+      "english": [
+        "to send"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skickar varje dag.",
+          "en": "I send every day."
+        },
+        "past": {
+          "sv": "Jag skickade igår.",
+          "en": "I sent yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skickat klart.",
+          "en": "I have sent already."
+        }
+      }
+    },
+    {
+      "infinitive": "att lämna",
+      "base": "lämna",
+      "english": [
+        "to leave"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lämnar varje dag.",
+          "en": "I leave every day."
+        },
+        "past": {
+          "sv": "Jag lämnade igår.",
+          "en": "I left yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lämnat klart.",
+          "en": "I have left already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bygga",
+      "base": "bygga",
+      "english": [
+        "to build"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bygger varje dag.",
+          "en": "I build every day."
+        },
+        "past": {
+          "sv": "Jag byggde igår.",
+          "en": "I built yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har byggt klart.",
+          "en": "I have built already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förstöra",
+      "base": "förstöra",
+      "english": [
+        "to destroy"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förstör varje dag.",
+          "en": "I destroy every day."
+        },
+        "past": {
+          "sv": "Jag förstörde igår.",
+          "en": "I destroyed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förstört klart.",
+          "en": "I have destroyed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skapa",
+      "base": "skapa",
+      "english": [
+        "to create"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skapar varje dag.",
+          "en": "I create every day."
+        },
+        "past": {
+          "sv": "Jag skapade igår.",
+          "en": "I created yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skapat klart.",
+          "en": "I have created already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förbättra",
+      "base": "förbättra",
+      "english": [
+        "to improve"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förbättrar varje dag.",
+          "en": "I improve every day."
+        },
+        "past": {
+          "sv": "Jag förbättrade igår.",
+          "en": "I improved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förbättrat klart.",
+          "en": "I have improved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ändra",
+      "base": "ändra",
+      "english": [
+        "to change"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ändrar varje dag.",
+          "en": "I change every day."
+        },
+        "past": {
+          "sv": "Jag ändrade igår.",
+          "en": "I changed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ändrat klart.",
+          "en": "I have changed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att fixa",
+      "base": "fixa",
+      "english": [
+        "to fix"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag fixar varje dag.",
+          "en": "I fix every day."
+        },
+        "past": {
+          "sv": "Jag fixade igår.",
+          "en": "I fixed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har fixat klart.",
+          "en": "I have fixed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att vänta",
+      "base": "vänta",
+      "english": [
+        "to wait"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag väntar varje dag.",
+          "en": "I wait every day."
+        },
+        "past": {
+          "sv": "Jag väntade igår.",
+          "en": "I waited yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har väntat klart.",
+          "en": "I have waited already."
+        }
+      }
+    },
+    {
+      "infinitive": "att fortsätta",
+      "base": "fortsätta",
+      "english": [
+        "to continue"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag fortsätter varje dag.",
+          "en": "I continue every day."
+        },
+        "past": {
+          "sv": "Jag fortsatte igår.",
+          "en": "I continued yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har fortsatt klart.",
+          "en": "I have continued already."
+        }
+      }
+    },
+    {
+      "infinitive": "att vinna",
+      "base": "vinna",
+      "english": [
+        "to win"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag vinner varje dag.",
+          "en": "I win every day."
+        },
+        "past": {
+          "sv": "Jag vann igår.",
+          "en": "I won yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har vunnit klart.",
+          "en": "I have won already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förlora",
+      "base": "förlora",
+      "english": [
+        "to lose"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förlorar varje dag.",
+          "en": "I lose every day."
+        },
+        "past": {
+          "sv": "Jag förlorade igår.",
+          "en": "I lost yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förlorat klart.",
+          "en": "I have lost already."
+        }
+      }
+    },
+    {
+      "infinitive": "att spela",
+      "base": "spela",
+      "english": [
+        "to play"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag spelar varje dag.",
+          "en": "I play every day."
+        },
+        "past": {
+          "sv": "Jag spelade igår.",
+          "en": "I played yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har spelat klart.",
+          "en": "I have played already."
+        }
+      }
+    },
+    {
+      "infinitive": "att träna",
+      "base": "träna",
+      "english": [
+        "to train"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tränar varje dag.",
+          "en": "I train every day."
+        },
+        "past": {
+          "sv": "Jag tränade igår.",
+          "en": "I trained yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tränat klart.",
+          "en": "I have trained already."
+        }
+      }
+    },
+    {
+      "infinitive": "att vila",
+      "base": "vila",
+      "english": [
+        "to rest"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag vilar varje dag.",
+          "en": "I rest every day."
+        },
+        "past": {
+          "sv": "Jag vilade igår.",
+          "en": "I rested yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har vilat klart.",
+          "en": "I have rested already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tvätta",
+      "base": "tvätta",
+      "english": [
+        "to wash"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tvättar varje dag.",
+          "en": "I wash every day."
+        },
+        "past": {
+          "sv": "Jag tvättade igår.",
+          "en": "I washed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tvättat klart.",
+          "en": "I have washed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att städa",
+      "base": "städa",
+      "english": [
+        "to clean"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag städar varje dag.",
+          "en": "I clean every day."
+        },
+        "past": {
+          "sv": "Jag städade igår.",
+          "en": "I cleaned yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har städat klart.",
+          "en": "I have cleaned already."
+        }
+      }
+    },
+    {
+      "infinitive": "att laga",
+      "base": "laga",
+      "english": [
+        "to cook"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lagar varje dag.",
+          "en": "I cook every day."
+        },
+        "past": {
+          "sv": "Jag lagade igår.",
+          "en": "I cooked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lagat klart.",
+          "en": "I have cooked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att baka",
+      "base": "baka",
+      "english": [
+        "to bake"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bakar varje dag.",
+          "en": "I bake every day."
+        },
+        "past": {
+          "sv": "Jag bakade igår.",
+          "en": "I baked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bakat klart.",
+          "en": "I have baked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att handla",
+      "base": "handla",
+      "english": [
+        "to shop"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag handlar varje dag.",
+          "en": "I shop every day."
+        },
+        "past": {
+          "sv": "Jag handlade igår.",
+          "en": "I shopped yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har handlat klart.",
+          "en": "I have shopped already."
+        }
+      }
+    },
+    {
+      "infinitive": "att packa",
+      "base": "packa",
+      "english": [
+        "to pack"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag packar varje dag.",
+          "en": "I pack every day."
+        },
+        "past": {
+          "sv": "Jag packade igår.",
+          "en": "I packed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har packat klart.",
+          "en": "I have packed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bära",
+      "base": "bära",
+      "english": [
+        "to carry"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bär varje dag.",
+          "en": "I carry every day."
+        },
+        "past": {
+          "sv": "Jag bar igår.",
+          "en": "I carried yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har burit klart.",
+          "en": "I have carried already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hålla",
+      "base": "hålla",
+      "english": [
+        "to hold"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag håller varje dag.",
+          "en": "I hold every day."
+        },
+        "past": {
+          "sv": "Jag höll igår.",
+          "en": "I held yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hållit klart.",
+          "en": "I have held already."
+        }
+      }
+    },
+    {
+      "infinitive": "att släppa",
+      "base": "släppa",
+      "english": [
+        "to release"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag släpper varje dag.",
+          "en": "I release every day."
+        },
+        "past": {
+          "sv": "Jag släppte igår.",
+          "en": "I released yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har släppt klart.",
+          "en": "I have released already."
+        }
+      }
+    },
+    {
+      "infinitive": "att följa",
+      "base": "följa",
+      "english": [
+        "to follow"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag följer varje dag.",
+          "en": "I follow every day."
+        },
+        "past": {
+          "sv": "Jag följde igår.",
+          "en": "I followed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har följt klart.",
+          "en": "I have followed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att leda",
+      "base": "leda",
+      "english": [
+        "to lead"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag leder varje dag.",
+          "en": "I lead every day."
+        },
+        "past": {
+          "sv": "Jag ledde igår.",
+          "en": "I led yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lett klart.",
+          "en": "I have led already."
+        }
+      }
+    },
+    {
+      "infinitive": "att cykla",
+      "base": "cykla",
+      "english": [
+        "to cycle"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag cyklar varje dag.",
+          "en": "I cycle every day."
+        },
+        "past": {
+          "sv": "Jag cyklade igår.",
+          "en": "I cycled yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har cyklat klart.",
+          "en": "I have cycled already."
+        }
+      }
+    },
+    {
+      "infinitive": "att promenera",
+      "base": "promenera",
+      "english": [
+        "to walk"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag promenerar varje dag.",
+          "en": "I walk every day."
+        },
+        "past": {
+          "sv": "Jag promenerade igår.",
+          "en": "I walked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har promenerat klart.",
+          "en": "I have walked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att simma",
+      "base": "simma",
+      "english": [
+        "to swim"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag simmar varje dag.",
+          "en": "I swim every day."
+        },
+        "past": {
+          "sv": "Jag simmade igår.",
+          "en": "I swam yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har simmat klart.",
+          "en": "I have swum already."
+        }
+      }
+    },
+    {
+      "infinitive": "att flyga",
+      "base": "flyga",
+      "english": [
+        "to fly"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag flyger varje dag.",
+          "en": "I fly every day."
+        },
+        "past": {
+          "sv": "Jag flög igår.",
+          "en": "I flew yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har flugit klart.",
+          "en": "I have flown already."
+        }
+      }
+    },
+    {
+      "infinitive": "att landa",
+      "base": "landa",
+      "english": [
+        "to land"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lander varje dag.",
+          "en": "I land every day."
+        },
+        "past": {
+          "sv": "Jag landade igår.",
+          "en": "I landed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har landat klart.",
+          "en": "I have landed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att klättra",
+      "base": "klättra",
+      "english": [
+        "to climb"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag klättrar varje dag.",
+          "en": "I climb every day."
+        },
+        "past": {
+          "sv": "Jag klättrade igår.",
+          "en": "I climbed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har klättrat klart.",
+          "en": "I have climbed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ramla",
+      "base": "ramla",
+      "english": [
+        "to fall"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ramlar varje dag.",
+          "en": "I fall every day."
+        },
+        "past": {
+          "sv": "Jag ramlade igår.",
+          "en": "I fell yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ramlat klart.",
+          "en": "I have fallen already."
+        }
+      }
+    },
+    {
+      "infinitive": "att stå",
+      "base": "stå",
+      "english": [
+        "to stand"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag står varje dag.",
+          "en": "I stand every day."
+        },
+        "past": {
+          "sv": "Jag stod igår.",
+          "en": "I stood yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har stått klart.",
+          "en": "I have stood already."
+        }
+      }
+    },
+    {
+      "infinitive": "att sitta",
+      "base": "sitta",
+      "english": [
+        "to sit"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag sitter varje dag.",
+          "en": "I sit every day."
+        },
+        "past": {
+          "sv": "Jag satt igår.",
+          "en": "I sat yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har suttit klart.",
+          "en": "I have sat already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ligga",
+      "base": "ligga",
+      "english": [
+        "to lie"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ligger varje dag.",
+          "en": "I lie every day."
+        },
+        "past": {
+          "sv": "Jag låg igår.",
+          "en": "I lay yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har legat klart.",
+          "en": "I have lain already."
+        }
+      }
+    },
+    {
+      "infinitive": "att vakna",
+      "base": "vakna",
+      "english": [
+        "to wake"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag vaknar varje dag.",
+          "en": "I wake every day."
+        },
+        "past": {
+          "sv": "Jag vaknade igår.",
+          "en": "I woke yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har vaknat klart.",
+          "en": "I have woken already."
+        }
+      }
+    },
+    {
+      "infinitive": "att somna",
+      "base": "somna",
+      "english": [
+        "to fall asleep"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag somnar varje dag.",
+          "en": "I fall asleep every day."
+        },
+        "past": {
+          "sv": "Jag somnade igår.",
+          "en": "I fell asleep yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har somat klart.",
+          "en": "I have fallen asleep already."
+        }
+      }
+    },
+    {
+      "infinitive": "att andas",
+      "base": "andas",
+      "english": [
+        "to breathe"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag andas varje dag.",
+          "en": "I breathe every day."
+        },
+        "past": {
+          "sv": "Jag andades igår.",
+          "en": "I breathed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har andats klart.",
+          "en": "I have breathed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att le",
+      "base": "le",
+      "english": [
+        "to smile"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ler varje dag.",
+          "en": "I smile every day."
+        },
+        "past": {
+          "sv": "Jag log igår.",
+          "en": "I smiled yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lett klart.",
+          "en": "I have smiled already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skratta",
+      "base": "skratta",
+      "english": [
+        "to laugh"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skrattar varje dag.",
+          "en": "I laugh every day."
+        },
+        "past": {
+          "sv": "Jag skrattade igår.",
+          "en": "I laughed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skrattat klart.",
+          "en": "I have laughed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att gråta",
+      "base": "gråta",
+      "english": [
+        "to cry"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag gråter varje dag.",
+          "en": "I cry every day."
+        },
+        "past": {
+          "sv": "Jag grät igår.",
+          "en": "I cried yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har gråtit klart.",
+          "en": "I have cried already."
+        }
+      }
+    },
+    {
+      "infinitive": "att oroa",
+      "base": "oroa",
+      "english": [
+        "to worry"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag oroa varje dag.",
+          "en": "I worry every day."
+        },
+        "past": {
+          "sv": "Jag oroad igår.",
+          "en": "I worried yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har oroat klart.",
+          "en": "I have worried already."
+        }
+      }
+    },
+    {
+      "infinitive": "att lugna",
+      "base": "lugna",
+      "english": [
+        "to calm"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lugnar varje dag.",
+          "en": "I calm every day."
+        },
+        "past": {
+          "sv": "Jag lugnade igår.",
+          "en": "I calmed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lugnat klart.",
+          "en": "I have calmed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att tacka",
+      "base": "tacka",
+      "english": [
+        "to thank"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag tackar varje dag.",
+          "en": "I thank every day."
+        },
+        "past": {
+          "sv": "Jag tackade igår.",
+          "en": "I thanked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har tackat klart.",
+          "en": "I have thanked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hälsa",
+      "base": "hälsa",
+      "english": [
+        "to greet"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hälsar varje dag.",
+          "en": "I greet every day."
+        },
+        "past": {
+          "sv": "Jag hälsade igår.",
+          "en": "I greeted yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hälsat klart.",
+          "en": "I have greeted already."
+        }
+      }
+    },
+    {
+      "infinitive": "att välkomna",
+      "base": "välkomna",
+      "english": [
+        "to welcome"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag välkomnar varje dag.",
+          "en": "I welcome every day."
+        },
+        "past": {
+          "sv": "Jag välkomnade igår.",
+          "en": "I welcomed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har välkomnat klart.",
+          "en": "I have welcomed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att presentera",
+      "base": "presentera",
+      "english": [
+        "to present"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag presenterar varje dag.",
+          "en": "I present every day."
+        },
+        "past": {
+          "sv": "Jag presenterade igår.",
+          "en": "I presented yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har presenterat klart.",
+          "en": "I have presented already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förlåta",
+      "base": "förlåta",
+      "english": [
+        "to forgive"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förlåter varje dag.",
+          "en": "I forgive every day."
+        },
+        "past": {
+          "sv": "Jag förlät igår.",
+          "en": "I forgave yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förlåtit klart.",
+          "en": "I have forgiven already."
+        }
+      }
+    },
+    {
+      "infinitive": "att glömma",
+      "base": "glömma",
+      "english": [
+        "to forget"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag glömmer varje dag.",
+          "en": "I forget every day."
+        },
+        "past": {
+          "sv": "Jag glömde igår.",
+          "en": "I forgot yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har glömt klart.",
+          "en": "I have forgotten already."
+        }
+      }
+    },
+    {
+      "infinitive": "att minnas",
+      "base": "minnas",
+      "english": [
+        "to remember"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag minns varje dag.",
+          "en": "I remember every day."
+        },
+        "past": {
+          "sv": "Jag minde igår.",
+          "en": "I remembered yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har mint klart.",
+          "en": "I have remembered already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ljuga",
+      "base": "ljuga",
+      "english": [
+        "to lie"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ljuger varje dag.",
+          "en": "I lie every day."
+        },
+        "past": {
+          "sv": "Jag ljög igår.",
+          "en": "I lay yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ljugit klart.",
+          "en": "I have lain already."
+        }
+      }
+    },
+    {
+      "infinitive": "att spara",
+      "base": "spara",
+      "english": [
+        "to save"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag sparar varje dag.",
+          "en": "I save every day."
+        },
+        "past": {
+          "sv": "Jag sparade igår.",
+          "en": "I saved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sparat klart.",
+          "en": "I have saved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att spendera",
+      "base": "spendera",
+      "english": [
+        "to spend"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag spenderar varje dag.",
+          "en": "I spend every day."
+        },
+        "past": {
+          "sv": "Jag spenderade igår.",
+          "en": "I spent yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har spenderat klart.",
+          "en": "I have spent already."
+        }
+      }
+    },
+    {
+      "infinitive": "att räkna",
+      "base": "räkna",
+      "english": [
+        "to count"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag räknar varje dag.",
+          "en": "I count every day."
+        },
+        "past": {
+          "sv": "Jag räknade igår.",
+          "en": "I counted yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har räknat klart.",
+          "en": "I have counted already."
+        }
+      }
+    },
+    {
+      "infinitive": "att mäta",
+      "base": "mäta",
+      "english": [
+        "to measure"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag mäter varje dag.",
+          "en": "I measure every day."
+        },
+        "past": {
+          "sv": "Jag mätte igår.",
+          "en": "I measured yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har mätt klart.",
+          "en": "I have measured already."
+        }
+      }
+    },
+    {
+      "infinitive": "att jämföra",
+      "base": "jämföra",
+      "english": [
+        "to compare"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag jämför varje dag.",
+          "en": "I compare every day."
+        },
+        "past": {
+          "sv": "Jag jämförde igår.",
+          "en": "I compared yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har jämfört klart.",
+          "en": "I have compared already."
+        }
+      }
+    },
+    {
+      "infinitive": "att kontrollera",
+      "base": "kontrollera",
+      "english": [
+        "to check"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kontrollerar varje dag.",
+          "en": "I check every day."
+        },
+        "past": {
+          "sv": "Jag kontrollerade igår.",
+          "en": "I checked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kontrollerat klart.",
+          "en": "I have checked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att testa",
+      "base": "testa",
+      "english": [
+        "to test"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag testar varje dag.",
+          "en": "I test every day."
+        },
+        "past": {
+          "sv": "Jag testade igår.",
+          "en": "I tested yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har testat klart.",
+          "en": "I have tested already."
+        }
+      }
+    },
+    {
+      "infinitive": "att godkänna",
+      "base": "godkänna",
+      "english": [
+        "to approve"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag godkänner varje dag.",
+          "en": "I approve every day."
+        },
+        "past": {
+          "sv": "Jag godkände igår.",
+          "en": "I approved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har godkänt klart.",
+          "en": "I have approved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att neka",
+      "base": "neka",
+      "english": [
+        "to deny"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag nekar varje dag.",
+          "en": "I deny every day."
+        },
+        "past": {
+          "sv": "Jag nekade igår.",
+          "en": "I denied yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har nekat klart.",
+          "en": "I have denied already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skydda",
+      "base": "skydda",
+      "english": [
+        "to protect"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skyddar varje dag.",
+          "en": "I protect every day."
+        },
+        "past": {
+          "sv": "Jag skyddade igår.",
+          "en": "I protected yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skyddat klart.",
+          "en": "I have protected already."
+        }
+      }
+    },
+    {
+      "infinitive": "att riskera",
+      "base": "riskera",
+      "english": [
+        "to risk"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag riskerar varje dag.",
+          "en": "I risk every day."
+        },
+        "past": {
+          "sv": "Jag riskerade igår.",
+          "en": "I risked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har riskerat klart.",
+          "en": "I have risked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att starta",
+      "base": "starta",
+      "english": [
+        "to start"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag startar varje dag.",
+          "en": "I start every day."
+        },
+        "past": {
+          "sv": "Jag startade igår.",
+          "en": "I started yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har startat klart.",
+          "en": "I have started already."
+        }
+      }
+    },
+    {
+      "infinitive": "att stoppa",
+      "base": "stoppa",
+      "english": [
+        "to stop"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag stoppar varje dag.",
+          "en": "I stop every day."
+        },
+        "past": {
+          "sv": "Jag stoppade igår.",
+          "en": "I stopped yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har stoppat klart.",
+          "en": "I have stopped already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ladda",
+      "base": "ladda",
+      "english": [
+        "to charge"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag laddar varje dag.",
+          "en": "I charge every day."
+        },
+        "past": {
+          "sv": "Jag laddade igår.",
+          "en": "I charged yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har laddat klart.",
+          "en": "I have charged already."
+        }
+      }
+    },
+    {
+      "infinitive": "att installera",
+      "base": "installera",
+      "english": [
+        "to install"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag installerar varje dag.",
+          "en": "I install every day."
+        },
+        "past": {
+          "sv": "Jag installerade igår.",
+          "en": "I installed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har installerat klart.",
+          "en": "I have installed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att uppdatera",
+      "base": "uppdatera",
+      "english": [
+        "to update"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag uppdaterar varje dag.",
+          "en": "I update every day."
+        },
+        "past": {
+          "sv": "Jag uppdaterade igår.",
+          "en": "I updated yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har uppdaterat klart.",
+          "en": "I have updated already."
+        }
+      }
+    },
+    {
+      "infinitive": "att logga",
+      "base": "logga",
+      "english": [
+        "to log in"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag loggar varje dag.",
+          "en": "I log in every day."
+        },
+        "past": {
+          "sv": "Jag loggade igår.",
+          "en": "I logged in yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har loggat klart.",
+          "en": "I have logged in already."
+        }
+      }
+    },
+    {
+      "infinitive": "att söka",
+      "base": "söka",
+      "english": [
+        "to search"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag söker varje dag.",
+          "en": "I search every day."
+        },
+        "past": {
+          "sv": "Jag sökte igår.",
+          "en": "I searched yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har sökt klart.",
+          "en": "I have searched already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bekräfta",
+      "base": "bekräfta",
+      "english": [
+        "to confirm"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bekräftar varje dag.",
+          "en": "I confirm every day."
+        },
+        "past": {
+          "sv": "Jag bekräftade igår.",
+          "en": "I confirmed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bekräftat klart.",
+          "en": "I have confirmed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att avbryta",
+      "base": "avbryta",
+      "english": [
+        "to cancel"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag avbryter varje dag.",
+          "en": "I cancel every day."
+        },
+        "past": {
+          "sv": "Jag avbröt igår.",
+          "en": "I canceled yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har avbrutit klart.",
+          "en": "I have canceled already."
+        }
+      }
+    },
+    {
+      "infinitive": "att rapportera",
+      "base": "rapportera",
+      "english": [
+        "to report"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag rapporterar varje dag.",
+          "en": "I report every day."
+        },
+        "past": {
+          "sv": "Jag rapporterade igår.",
+          "en": "I reported yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har rapporterat klart.",
+          "en": "I have reported already."
+        }
+      }
+    },
+    {
+      "infinitive": "att beskriva",
+      "base": "beskriva",
+      "english": [
+        "to describe"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag beskriver varje dag.",
+          "en": "I describe every day."
+        },
+        "past": {
+          "sv": "Jag beskrev igår.",
+          "en": "I described yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har beskrivit klart.",
+          "en": "I have described already."
+        }
+      }
+    },
+    {
+      "infinitive": "att visa",
+      "base": "visa",
+      "english": [
+        "to show"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag visar varje dag.",
+          "en": "I show every day."
+        },
+        "past": {
+          "sv": "Jag visade igår.",
+          "en": "I showed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har visat klart.",
+          "en": "I have shown already."
+        }
+      }
+    },
+    {
+      "infinitive": "att dölja",
+      "base": "dölja",
+      "english": [
+        "to hide"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag döljer varje dag.",
+          "en": "I hide every day."
+        },
+        "past": {
+          "sv": "Jag döljde igår.",
+          "en": "I hid yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har döljt klart.",
+          "en": "I have hidden already."
+        }
+      }
+    },
+    {
+      "infinitive": "att upptäcka",
+      "base": "upptäcka",
+      "english": [
+        "to discover"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag upptäcker varje dag.",
+          "en": "I discover every day."
+        },
+        "past": {
+          "sv": "Jag upptäckte igår.",
+          "en": "I discovered yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har upptäckt klart.",
+          "en": "I have discovered already."
+        }
+      }
+    },
+    {
+      "infinitive": "att undersöka",
+      "base": "undersöka",
+      "english": [
+        "to investigate"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag undersöker varje dag.",
+          "en": "I investigate every day."
+        },
+        "past": {
+          "sv": "Jag undersökte igår.",
+          "en": "I investigated yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har undersökt klart.",
+          "en": "I have investigated already."
+        }
+      }
+    },
+    {
+      "infinitive": "att reparera",
+      "base": "reparera",
+      "english": [
+        "to repair"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag reparerar varje dag.",
+          "en": "I repair every day."
+        },
+        "past": {
+          "sv": "Jag reparerade igår.",
+          "en": "I repaired yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har reparerat klart.",
+          "en": "I have repaired already."
+        }
+      }
+    },
+    {
+      "infinitive": "att öva",
+      "base": "öva",
+      "english": [
+        "to practice"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag övar varje dag.",
+          "en": "I practice every day."
+        },
+        "past": {
+          "sv": "Jag övade igår.",
+          "en": "I practiced yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har övat klart.",
+          "en": "I have practiced already."
+        }
+      }
+    },
+    {
+      "infinitive": "att undervisa",
+      "base": "undervisa",
+      "english": [
+        "to teach"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag undervisar varje dag.",
+          "en": "I teach every day."
+        },
+        "past": {
+          "sv": "Jag undervisade igår.",
+          "en": "I taught yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har undervisat klart.",
+          "en": "I have taught already."
+        }
+      }
+    },
+    {
+      "infinitive": "att examinera",
+      "base": "examinera",
+      "english": [
+        "to examine"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag examinerar varje dag.",
+          "en": "I examine every day."
+        },
+        "past": {
+          "sv": "Jag examinerade igår.",
+          "en": "I examined yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har examinerat klart.",
+          "en": "I have examined already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bedöma",
+      "base": "bedöma",
+      "english": [
+        "to assess"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bedömer varje dag.",
+          "en": "I assess every day."
+        },
+        "past": {
+          "sv": "Jag bedömde igår.",
+          "en": "I assessed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bedömt klart.",
+          "en": "I have assessed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att utveckla",
+      "base": "utveckla",
+      "english": [
+        "to develop"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag utvecklar varje dag.",
+          "en": "I develop every day."
+        },
+        "past": {
+          "sv": "Jag utvecklade igår.",
+          "en": "I developed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har utvecklat klart.",
+          "en": "I have developed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att designa",
+      "base": "designa",
+      "english": [
+        "to design"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag designar varje dag.",
+          "en": "I design every day."
+        },
+        "past": {
+          "sv": "Jag designade igår.",
+          "en": "I designed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har designat klart.",
+          "en": "I have designed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att ansöka",
+      "base": "ansöka",
+      "english": [
+        "to apply"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag ansöker varje dag.",
+          "en": "I apply every day."
+        },
+        "past": {
+          "sv": "Jag ansökte igår.",
+          "en": "I applyd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har ansökt klart.",
+          "en": "I have applyd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att besluta",
+      "base": "besluta",
+      "english": [
+        "to decide"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag beslutar varje dag.",
+          "en": "I decide every day."
+        },
+        "past": {
+          "sv": "Jag beslutade igår.",
+          "en": "I decided yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har beslutat klart.",
+          "en": "I have decided already."
+        }
+      }
+    },
+    {
+      "infinitive": "att betrakta",
+      "base": "betrakta",
+      "english": [
+        "to regard",
+        "to view"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag betraktar varje dag.",
+          "en": "I regard every day."
+        },
+        "past": {
+          "sv": "Jag betraktade igår.",
+          "en": "I regardd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har betraktat klart.",
+          "en": "I have regardd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bevara",
+      "base": "bevara",
+      "english": [
+        "to preserve",
+        "to keep"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag bevarar varje dag.",
+          "en": "I preserve every day."
+        },
+        "past": {
+          "sv": "Jag bevarade igår.",
+          "en": "I preserved yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har bevarat klart.",
+          "en": "I have preserved already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bli",
+      "base": "bli",
+      "english": [
+        "to become"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag blir varje dag.",
+          "en": "I become every day."
+        },
+        "past": {
+          "sv": "Jag blev igår.",
+          "en": "I become yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har blivit klart.",
+          "en": "I have become already."
+        }
+      }
+    },
+    {
+      "infinitive": "att brinna",
+      "base": "brinna",
+      "english": [
+        "to burn"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag brinner varje dag.",
+          "en": "I burn every day."
+        },
+        "past": {
+          "sv": "Jag brann igår.",
+          "en": "I burn yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har brunnit klart.",
+          "en": "I have burn already."
+        }
+      }
+    },
+    {
+      "infinitive": "att bryta",
+      "base": "bryta",
+      "english": [
+        "to break"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag bryter varje dag.",
+          "en": "I break every day."
+        },
+        "past": {
+          "sv": "Jag bröt igår.",
+          "en": "I break yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har brutit klart.",
+          "en": "I have break already."
+        }
+      }
+    },
+    {
+      "infinitive": "att dela",
+      "base": "dela",
+      "english": [
+        "to share",
+        "to divide"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag delar varje dag.",
+          "en": "I share every day."
+        },
+        "past": {
+          "sv": "Jag delade igår.",
+          "en": "I shared yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har delat klart.",
+          "en": "I have shared already."
+        }
+      }
+    },
+    {
+      "infinitive": "att dra",
+      "base": "dra",
+      "english": [
+        "to pull",
+        "to draw"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag drar varje dag.",
+          "en": "I pull every day."
+        },
+        "past": {
+          "sv": "Jag drog igår.",
+          "en": "I pull yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har dragit klart.",
+          "en": "I have pull already."
+        }
+      }
+    },
+    {
+      "infinitive": "att dö",
+      "base": "dö",
+      "english": [
+        "to die"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag dör varje dag.",
+          "en": "I die every day."
+        },
+        "past": {
+          "sv": "Jag dog igår.",
+          "en": "I die yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har dött klart.",
+          "en": "I have die already."
+        }
+      }
+    },
+    {
+      "infinitive": "att döda",
+      "base": "döda",
+      "english": [
+        "to kill"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag dödar varje dag.",
+          "en": "I kill every day."
+        },
+        "past": {
+          "sv": "Jag dödade igår.",
+          "en": "I killd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har dödat klart.",
+          "en": "I have killd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att efterfråga",
+      "base": "efterfråga",
+      "english": [
+        "to demand",
+        "to request"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag efterfrågar varje dag.",
+          "en": "I demand every day."
+        },
+        "past": {
+          "sv": "Jag efterfrågade igår.",
+          "en": "I demandd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har efterfrågat klart.",
+          "en": "I have demandd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att erövra",
+      "base": "erövra",
+      "english": [
+        "to conquer"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag erövrar varje dag.",
+          "en": "I conquer every day."
+        },
+        "past": {
+          "sv": "Jag erövrade igår.",
+          "en": "I conquerd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har erövrat klart.",
+          "en": "I have conquerd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att falla",
+      "base": "falla",
+      "english": [
+        "to fall"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag faller varje dag.",
+          "en": "I fall every day."
+        },
+        "past": {
+          "sv": "Jag föll igår.",
+          "en": "I fall yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har fallit klart.",
+          "en": "I have fall already."
+        }
+      }
+    },
+    {
+      "infinitive": "att fira",
+      "base": "fira",
+      "english": [
+        "to celebrate"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag firar varje dag.",
+          "en": "I celebrate every day."
+        },
+        "past": {
+          "sv": "Jag firade igår.",
+          "en": "I celebrated yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har firat klart.",
+          "en": "I have celebrated already."
+        }
+      }
+    },
+    {
+      "infinitive": "att försvara",
+      "base": "försvara",
+      "english": [
+        "to defend"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag försvarar varje dag.",
+          "en": "I defend every day."
+        },
+        "past": {
+          "sv": "Jag försvarade igår.",
+          "en": "I defendd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har försvarat klart.",
+          "en": "I have defendd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förstärka",
+      "base": "förstärka",
+      "english": [
+        "to strengthen",
+        "to reinforce"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förstärker varje dag.",
+          "en": "I strengthen every day."
+        },
+        "past": {
+          "sv": "Jag förstärkte igår.",
+          "en": "I strengthend yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förstärkt klart.",
+          "en": "I have strengthend already."
+        }
+      }
+    },
+    {
+      "infinitive": "att gilla",
+      "base": "gilla",
+      "english": [
+        "to like"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag gillar varje dag.",
+          "en": "I like every day."
+        },
+        "past": {
+          "sv": "Jag gillade igår.",
+          "en": "I liked yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har gillat klart.",
+          "en": "I have liked already."
+        }
+      }
+    },
+    {
+      "infinitive": "att gräva",
+      "base": "gräva",
+      "english": [
+        "to dig"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag gräver varje dag.",
+          "en": "I dig every day."
+        },
+        "past": {
+          "sv": "Jag grävde igår.",
+          "en": "I dig yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har grävt klart.",
+          "en": "I have dig already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hända",
+      "base": "hända",
+      "english": [
+        "to happen"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag händer varje dag.",
+          "en": "I happen every day."
+        },
+        "past": {
+          "sv": "Jag hände igår.",
+          "en": "I happen yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hänt klart.",
+          "en": "I have happen already."
+        }
+      }
+    },
+    {
+      "infinitive": "att hämta",
+      "base": "hämta",
+      "english": [
+        "to fetch",
+        "to pick up"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag hämtar varje dag.",
+          "en": "I fetch every day."
+        },
+        "past": {
+          "sv": "Jag hämtade igår.",
+          "en": "I fetchd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har hämtat klart.",
+          "en": "I have fetchd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att invända",
+      "base": "invända",
+      "english": [
+        "to object"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag invänder varje dag.",
+          "en": "I object every day."
+        },
+        "past": {
+          "sv": "Jag invände igår.",
+          "en": "I objectd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har invänd klart.",
+          "en": "I have objectd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att kasta",
+      "base": "kasta",
+      "english": [
+        "to throw"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kastar varje dag.",
+          "en": "I throw every day."
+        },
+        "past": {
+          "sv": "Jag kastade igår.",
+          "en": "I throwd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kastat klart.",
+          "en": "I have throwd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att klaga",
+      "base": "klaga",
+      "english": [
+        "to complain"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag klagar varje dag.",
+          "en": "I complain every day."
+        },
+        "past": {
+          "sv": "Jag klagade igår.",
+          "en": "I complaind yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har klagat klart.",
+          "en": "I have complaind already."
+        }
+      }
+    },
+    {
+      "infinitive": "att klara",
+      "base": "klara",
+      "english": [
+        "to manage",
+        "to handle"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag klarar varje dag.",
+          "en": "I manage every day."
+        },
+        "past": {
+          "sv": "Jag klarade igår.",
+          "en": "I managed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har klarat klart.",
+          "en": "I have managed already."
+        }
+      }
+    },
+    {
+      "infinitive": "att klippa",
+      "base": "klippa",
+      "english": [
+        "to cut"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag klipper varje dag.",
+          "en": "I cut every day."
+        },
+        "past": {
+          "sv": "Jag klippte igår.",
+          "en": "I cutd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har klippt klart.",
+          "en": "I have cutd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att klä",
+      "base": "klä",
+      "english": [
+        "to dress"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag klär varje dag.",
+          "en": "I dress every day."
+        },
+        "past": {
+          "sv": "Jag klädde igår.",
+          "en": "I dress yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har klätt klart.",
+          "en": "I have dress already."
+        }
+      }
+    },
+    {
+      "infinitive": "att knäppa",
+      "base": "knäppa",
+      "english": [
+        "to snap",
+        "to fasten"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag knäpper varje dag.",
+          "en": "I snap every day."
+        },
+        "past": {
+          "sv": "Jag knäppte igår.",
+          "en": "I snapd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har knäppt klart.",
+          "en": "I have snapd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att koka",
+      "base": "koka",
+      "english": [
+        "to cook",
+        "to boil"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag kokar varje dag.",
+          "en": "I cook every day."
+        },
+        "past": {
+          "sv": "Jag kokade igår.",
+          "en": "I cookd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har kokat klart.",
+          "en": "I have cookd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att krossa",
+      "base": "krossa",
+      "english": [
+        "to crush"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag krossar varje dag.",
+          "en": "I crush every day."
+        },
+        "past": {
+          "sv": "Jag krossade igår.",
+          "en": "I crushd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har krossat klart.",
+          "en": "I have crushd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att krypa",
+      "base": "krypa",
+      "english": [
+        "to crawl"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag kryper varje dag.",
+          "en": "I crawl every day."
+        },
+        "past": {
+          "sv": "Jag kröp igår.",
+          "en": "I crawl yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har krupit klart.",
+          "en": "I have crawl already."
+        }
+      }
+    },
+    {
+      "infinitive": "att låna",
+      "base": "låna",
+      "english": [
+        "to borrow",
+        "to lend"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag lånar varje dag.",
+          "en": "I borrow every day."
+        },
+        "past": {
+          "sv": "Jag lånade igår.",
+          "en": "I borrowd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har lånat klart.",
+          "en": "I have borrowd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att löpa",
+      "base": "löpa",
+      "english": [
+        "to run"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag löper varje dag.",
+          "en": "I run every day."
+        },
+        "past": {
+          "sv": "Jag löpte igår.",
+          "en": "I run yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har löpt klart.",
+          "en": "I have run already."
+        }
+      }
+    },
+    {
+      "infinitive": "att nå",
+      "base": "nå",
+      "english": [
+        "to reach"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag når varje dag.",
+          "en": "I reach every day."
+        },
+        "past": {
+          "sv": "Jag nådde igår.",
+          "en": "I reach yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har nått klart.",
+          "en": "I have reach already."
+        }
+      }
+    },
+    {
+      "infinitive": "att nämna",
+      "base": "nämna",
+      "english": [
+        "to mention"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag nämner varje dag.",
+          "en": "I mention every day."
+        },
+        "past": {
+          "sv": "Jag nämnde igår.",
+          "en": "I mention yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har nämnt klart.",
+          "en": "I have mention already."
+        }
+      }
+    },
+    {
+      "infinitive": "att påminna",
+      "base": "påminna",
+      "english": [
+        "to remind"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag påminner varje dag.",
+          "en": "I remind every day."
+        },
+        "past": {
+          "sv": "Jag påminde igår.",
+          "en": "I remind yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har påmint klart.",
+          "en": "I have remind already."
+        }
+      }
+    },
+    {
+      "infinitive": "att rekommendera",
+      "base": "rekommendera",
+      "english": [
+        "to recommend"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag rekommenderar varje dag.",
+          "en": "I recommend every day."
+        },
+        "past": {
+          "sv": "Jag rekommenderade igår.",
+          "en": "I recommendd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har rekommenderat klart.",
+          "en": "I have recommendd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att röra",
+      "base": "röra",
+      "english": [
+        "to touch",
+        "to move"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag rör varje dag.",
+          "en": "I touch every day."
+        },
+        "past": {
+          "sv": "Jag rörde igår.",
+          "en": "I touch yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har rört klart.",
+          "en": "I have touch already."
+        }
+      }
+    },
+    {
+      "infinitive": "att samla",
+      "base": "samla",
+      "english": [
+        "to collect",
+        "to gather"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag samlar varje dag.",
+          "en": "I collect every day."
+        },
+        "past": {
+          "sv": "Jag samlade igår.",
+          "en": "I collectd yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har samlat klart.",
+          "en": "I have collectd already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skada",
+      "base": "skada",
+      "english": [
+        "to damage",
+        "to harm"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag skadar varje dag.",
+          "en": "I damage every day."
+        },
+        "past": {
+          "sv": "Jag skadade igår.",
+          "en": "I damaged yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skadat klart.",
+          "en": "I have damaged already."
+        }
+      }
+    },
+    {
+      "infinitive": "att skjuta",
+      "base": "skjuta",
+      "english": [
+        "to shoot",
+        "to push"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag skjuter varje dag.",
+          "en": "I shoot every day."
+        },
+        "past": {
+          "sv": "Jag sköt igår.",
+          "en": "I shoot yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har skjutit klart.",
+          "en": "I have shoot already."
+        }
+      }
+    },
+    {
+      "infinitive": "att slå",
+      "base": "slå",
+      "english": [
+        "to hit",
+        "to strike"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag slår varje dag.",
+          "en": "I hit every day."
+        },
+        "past": {
+          "sv": "Jag slog igår.",
+          "en": "I hit yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har slagit klart.",
+          "en": "I have hit already."
+        }
+      }
+    },
+    {
+      "infinitive": "att smaka",
+      "base": "smaka",
+      "english": [
+        "to taste"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag smakar varje dag.",
+          "en": "I taste every day."
+        },
+        "past": {
+          "sv": "Jag smakade igår.",
+          "en": "I tasted yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har smakat klart.",
+          "en": "I have tasted already."
+        }
+      }
+    },
+    {
+      "infinitive": "att smyga",
+      "base": "smyga",
+      "english": [
+        "to sneak"
+      ],
+      "regular": false,
+      "examples": {
+        "present": {
+          "sv": "Jag smyger varje dag.",
+          "en": "I sneak every day."
+        },
+        "past": {
+          "sv": "Jag smög igår.",
+          "en": "I sneak yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har smugit klart.",
+          "en": "I have sneak already."
+        }
+      }
+    },
+    {
+      "infinitive": "att förändra",
+      "base": "förändra",
+      "english": [
+        "to change",
+        "to transform"
+      ],
+      "regular": true,
+      "examples": {
+        "present": {
+          "sv": "Jag förändrar varje dag.",
+          "en": "I change every day."
+        },
+        "past": {
+          "sv": "Jag förändrade igår.",
+          "en": "I changed yesterday."
+        },
+        "perfect": {
+          "sv": "Jag har förändrat klart.",
+          "en": "I have changed already."
+        }
+      }
+    }
+  ]
+}
