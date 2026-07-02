@@ -1,101 +1,98 @@
 //
 //  LogoView.swift
-//  SWVocabulary
+//  Swedishly
 //
 //  Created by EVYATAR DAYAN on 2026-01-28.
 //
 
 import SwiftUI
-import Pow
-import AVFoundation
+
+enum WelcomeStorage {
+    static let skipWelcomeKey = "skipWelcomeScreen"
+}
 
 struct LogoView: View {
-    @State private var showLogo = false
-    @State private var startExit = false
-    @State private var opacity = 1.0
-    @State private var backgroundOpacity = 1.0
-    @State private var audioPlayer: AVAudioPlayer?
-    let onAnimationComplete: () -> Void
-    
-    private var isIPhone: Bool {
-        UIDevice.current.userInterfaceIdiom == .phone
-    }
-    
-    private func playLogoSound() {
-        if let path = Bundle.main.path(forResource: "logo3", ofType: "mp3") {   // 7, 9, 10
-            do {
-                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-                audioPlayer?.play()
-            } catch {
-                print("Could not play sound file: \(error)")
-            }
-        }
-    }
-    
+    var onStart: () -> Void
+    @AppStorage("darkModeEnabled") private var darkModeEnabled = false
+    @AppStorage(WelcomeStorage.skipWelcomeKey) private var skipWelcomeScreen = false
+    @State private var dontShowAgain = false
+
     var body: some View {
         ZStack {
-            // Background - now with its own opacity
-            Color.white
+            (darkModeEnabled ? Color.black : Color(.systemGroupedBackground))
                 .ignoresSafeArea()
-                .opacity(backgroundOpacity)
-            
-            // Logo text
-            if showLogo {
-                Image("AbaShelAriLogo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: isIPhone ? 350 : 700)
-                    .background(
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(Color.white.opacity(0.1))
-                    )
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .foregroundColor(.white)
-                    .transition(
-                        .identity
-                            .animation(.linear(duration: 2.5).delay(2.5))
-                            .combined(
-                                with: .movingParts.glare
-                            )
-                    )
-                    .opacity(opacity)
-            }
-        }
-        
-        .onAppear {
-            // Delay the start of the logo animation
-            DispatchQueue.main.asyncAfter(deadline: .now()) {
-                withAnimation {
-                    showLogo = true
-                    // Play logo sound when the logo appears
-                    playLogoSound()
-                }
-            }
-            
-            // Duration of logo display
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                // First fade out the logo
-                withAnimation(.easeOut(duration: 1)) {
-                    opacity = 0
-                }
-                
-                // Start fading out the background and trigger main view
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    // Trigger main view to appear
-                    onAnimationComplete()
-                    
-                    // Fade out background slowly
-                    withAnimation(.easeOut(duration: 1)) {
-                        backgroundOpacity = 0
+
+            VStack(spacing: 0) {
+                Spacer()
+
+                VStack(spacing: 20) {
+                    logoView
+
+                    SplitTitleView("Swedishly", splitIndex: 5, fontSize: 34)
+
+                    Text("Practice vocabulary, grammar, verbs, adjectives, and word order -  everything you need to learn Swedish, all in one app.")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.center)
+                        .lineSpacing(4)
+                        .padding(.horizontal, 4)
+
+                    Button(action: startApp) {
+                        Text("Get Started")
+                            .font(.headline)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(Color.blue)
+                            .clipShape(Capsule())
                     }
+                    .padding(.top, 70)
                 }
+                .padding(.horizontal, 32)
+
+                Spacer()
+
+                Button {
+                    dontShowAgain.toggle()
+                } label: {
+                    HStack(spacing: 10) {
+                        Image(systemName: dontShowAgain ? "checkmark.square.fill" : "square")
+                            .font(.title3)
+                            .foregroundStyle(dontShowAgain ? Color.blue : Color.gray)
+
+                        Text("Don't show this again")
+                            .font(.subheadline)
+                            .foregroundStyle(.gray)
+
+                        Spacer(minLength: 0)
+                    }
+                    .padding(.bottom, 20)
+                    .padding(.leading, 20)
+                }
+                .buttonStyle(.plain)
+                .padding(.horizontal, 32)
+                .padding(.bottom, 32)
             }
         }
+        .preferredColorScheme(darkModeEnabled ? .dark : .light)
+    }
+
+    private func startApp() {
+        if dontShowAgain {
+            skipWelcomeScreen = true
+        }
+        onStart()
+    }
+
+    private var logoView: some View {
+        Image("Talking")
+            .resizable()
+            .scaledToFit()
+            .frame(width: 160, height: 160)
     }
 }
 
 #Preview {
-    LogoView {
-        print("Animation complete")
-    }
+    LogoView(onStart: {})
 }

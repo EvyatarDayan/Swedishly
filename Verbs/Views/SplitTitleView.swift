@@ -10,9 +10,11 @@ import SwiftUI
 struct SplitTitleView: View {
     let title: String
     let splitIndex: Int
-    
-    init(_ title: String, splitIndex: Int? = nil) {
+    let fontSize: CGFloat
+
+    init(_ title: String, splitIndex: Int? = nil, fontSize: CGFloat = 28) {
         self.title = title
+        self.fontSize = fontSize
         // If splitIndex not provided, split roughly in half
         if let splitIndex = splitIndex {
             self.splitIndex = splitIndex
@@ -32,10 +34,10 @@ struct SplitTitleView: View {
     var body: some View {
         HStack(spacing: 0) {
             Text(firstPart)
-                .font(.system(size: 28, weight: .bold, design: .rounded))
+                .font(.system(size: fontSize, weight: .bold, design: .rounded))
                 .foregroundColor(.blue)
             Text(secondPart)
-                .font(.system(size: 28, weight: .bold, design: .rounded))
+                .font(.system(size: fontSize, weight: .bold, design: .rounded))
                 .foregroundColor(.green)
         }
     }

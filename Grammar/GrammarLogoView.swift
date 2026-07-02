@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Pow
 import AVFoundation
 
 struct GrammarLogoView: View {
@@ -80,9 +79,7 @@ struct GrammarLogoView: View {
                     .transition(
                         .identity
                             .animation(.linear(duration: 2.5).delay(2.5))
-                            .combined(
-                                with: .movingParts.glare
-                            )
+                            .combined(with: .opacity)
                     )
                     .opacity(opacity)
             }

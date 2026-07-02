@@ -575,6 +575,7 @@ struct ContentView: View {
     @State private var showVerbsView = false
     @State private var showAdjectivesView = false
     @State private var showWorderView = false
+    @State private var topicsAppeared = false
 
     // Menu height constant - adjust this to change menu height
     private let menuHeight: CGFloat = 40
@@ -690,10 +691,10 @@ struct ContentView: View {
                     // Talking image (add "Talking" to Assets.xcassets to display)
                     Image("Talking")
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: UIDevice.current.userInterfaceIdiom == .pad ? 250 : 200, height: UIDevice.current.userInterfaceIdiom == .pad ? 250 : 200)
-                        .padding(.bottom, 5)
-                        .padding(.top, -20)
+                        .scaledToFit()
+                        .frame(width: 160, height: 160)
+                        .padding(.bottom, 20)
+                        .padding(.top, 5)
 
                     // Subtitle: black in light mode, gray in dark mode
                     Text("What would you like to learn today?")
@@ -711,7 +712,7 @@ struct ContentView: View {
                     GridItem(.flexible(minimum: 160)),
                     GridItem(.flexible(minimum: 160))
                 ], spacing: 8) {
-                    ForEach(topics, id: \.self) { topic in
+                    ForEach(Array(topics.enumerated()), id: \.element) { index, topic in
                         TopicCard(
                             topic: topic,
                             isPopular: false,
@@ -729,10 +730,24 @@ struct ContentView: View {
                                 showWorderView = true
                             }
                         }
+                        .opacity(topicsAppeared ? 1 : 0)
+                        .scaleEffect(topicsAppeared ? 1 : 0.85)
+                        .offset(y: topicsAppeared ? 0 : 24)
+                        .animation(
+                            .spring(response: 0.5, dampingFraction: 0.75)
+                                .delay(Double(index) * 0.08),
+                            value: topicsAppeared
+                        )
                     }
                 }
                 .padding(.horizontal, UIDevice.current.userInterfaceIdiom == .pad ? 40 : 20)
                 .padding(.bottom, 20)
+                .onAppear {
+                    topicsAppeared = false
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                        topicsAppeared = true
+                    }
+                }
 
                 Spacer(minLength: 0)
             }

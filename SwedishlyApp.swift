@@ -9,19 +9,23 @@ import SwiftUI
 
 @main
 struct SwedishlyApp: App {
-    /// Shown on cold launch; dismissed after `LogoView` finishes (see delay for background fade).
-    @State private var showLogoSplash = true
+    @AppStorage(WelcomeStorage.skipWelcomeKey) private var skipWelcomeScreen = false
+    @State private var showWelcome = true
+
+    private var shouldShowWelcome: Bool {
+        !skipWelcomeScreen && showWelcome
+    }
 
     var body: some Scene {
         WindowGroup {
             ZStack {
-                ContentView()
-                if showLogoSplash {
+                if !shouldShowWelcome {
+                    ContentView()
+                }
+
+                if shouldShowWelcome {
                     LogoView {
-                        // `LogoView` calls this, then fades the white background over ~1s — keep splash until that finishes.
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.05) {
-                            showLogoSplash = false
-                        }
+                        showWelcome = false
                     }
                     .ignoresSafeArea()
                     .zIndex(1)
