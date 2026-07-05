@@ -47,7 +47,7 @@ struct PracticeView: View {
                     Spacer()
                     Text("Practice")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
                 
@@ -60,7 +60,7 @@ struct PracticeView: View {
                             Text("Back")
                                 .font(.body)
                         }
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     }
                     if currentWord != nil {
                         MyListButton(word: currentWord!)

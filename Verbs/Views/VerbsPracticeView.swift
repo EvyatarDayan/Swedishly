@@ -36,7 +36,7 @@ struct VerbsPracticeView: View {
                         Text("Back")
                             .font(.body)
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
                 .padding(.leading, 4)

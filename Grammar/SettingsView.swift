@@ -34,7 +34,7 @@ struct GrammarSettingsView: View {
                 Section {
                     SettingsRow(
                         icon: "moon.fill",
-                        iconColor: .purple,
+                        iconColor: .appRed,
                         title: "Dark Mode",
                         subtitle: "Enable dark mode",
                         trailing: {
@@ -51,7 +51,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showReminderModal = true }) {
                         SettingsRow(
                             icon: "bell.fill",
-                            iconColor: .orange,
+                            iconColor: .appRed,
                             title: "Daily Reminder",
                             subtitle: dailyReminder ? "Notification set to \(formatTime(selectedTime))" : "Set learning reminder",
                             trailing: {
@@ -77,7 +77,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showLearningTips = true }) {
                         SettingsRow(
                             icon: "lightbulb.fill",
-                            iconColor: .yellow,
+                            iconColor: .appRed,
                             title: "Learning Tips",
                             subtitle: "Effective learning strategies",
                             trailing: {
@@ -97,7 +97,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showClearHistory = true }) {
                         SettingsRow(
                             icon: "trash.fill",
-                            iconColor: .red,
+                            iconColor: .appRed,
                             title: "Clear History",
                             subtitle: "Delete all saved tests",
                             trailing: {
@@ -117,7 +117,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showHelp = true }) {
                         SettingsRow(
                             icon: "questionmark.circle.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "Help & Support",
                             subtitle: "Get help and contact support",
                             trailing: {
@@ -132,7 +132,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showPrivacy = true }) {
                         SettingsRow(
                             icon: "doc.text.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "Terms and Privacy",
                             subtitle: "Privacy policy and terms",
                             trailing: {
@@ -147,7 +147,7 @@ struct GrammarSettingsView: View {
                     Button(action: { showAbout = true }) {
                         SettingsRow(
                             icon: "info.circle.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "About",
                             subtitle: "App version and information",
                             trailing: {

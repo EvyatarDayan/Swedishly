@@ -38,7 +38,7 @@ struct HistoryView: View {
         case vocabulary = "Vocabulary"
         case grammar = "Grammar"
         case adjectives = "Adjectives"
-        case worder = "Worder"
+        case worder = "Word Order"
     }
     
     private var allHistoryItems: [UnifiedHistoryItem] {
@@ -154,7 +154,7 @@ struct HistoryView: View {
                                     .padding(.vertical, 6)
                                     .background(
                                         Capsule()
-                                            .fill(selectedFilter == option ? Color.blue : Color(.systemGray5))
+                                            .fill(selectedFilter == option ? Color.appRed : Color(.systemGray5))
                                     )
                             }
                             .buttonStyle(.plain)
@@ -316,12 +316,12 @@ struct HistoryResultRow: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 16, height: 16)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                             .accessibilityHidden(true)
                         Text(item.displayTitle)
                             .font(.body)
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                 }
 

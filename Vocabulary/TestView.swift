@@ -81,7 +81,7 @@ struct SWVocabularyTestView: View {
                     Spacer()
                     Text("Test")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
                 
@@ -94,7 +94,7 @@ struct SWVocabularyTestView: View {
                             Text("Back")
                                 .font(.body)
                         }
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     }
                     if isHistoricalTest && !testWords.isEmpty {
                         Button(action: {
@@ -1245,7 +1245,7 @@ struct TestHistoryView: View {
                     Spacer()
                     Text("Test History")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
                 

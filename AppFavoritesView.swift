@@ -21,7 +21,7 @@ struct AppFavoritesView: View {
     enum FavoritesFilterOption: String, CaseIterable {
         case all = "All"
         case vocabulary = "Vocabulary"
-        case worder = "Worder"
+        case worder = "Word Order"
         case verbs = "Verbs"
     }
 
@@ -69,7 +69,7 @@ struct AppFavoritesView: View {
                                     .padding(.vertical, 6)
                                     .background(
                                         Capsule()
-                                            .fill(selectedFilter == option ? Color.blue : Color(.systemGray5))
+                                            .fill(selectedFilter == option ? Color.appRed : Color(.systemGray5))
                                     )
                             }
                             .buttonStyle(.plain)
@@ -174,7 +174,7 @@ struct AppFavoritesView: View {
             if showVerbsSection {
                 Section {
                     ForEach(verbFavoritesList) { verb in
-                        VerbRow(verb: verb, onOpen: { selectedVerb = verb })
+                        VerbRow(verb: verb, useAppRedStyle: true, onOpen: { selectedVerb = verb })
                             .contentShape(Rectangle())
                             .onTapGesture { selectedVerb = verb }
                             .listRowInsets(EdgeInsets(top: 6, leading: 20, bottom: 6, trailing: 20))
@@ -227,7 +227,7 @@ private struct AppFavoriteVocabularyRow: View {
                     .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 28, height: 28)
-                    .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                    .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                     .opacity(audioManager.isPlaying ? 0.5 : 1.0)
             }
             .disabled(!audioManager.isAudioReady || audioManager.isPlaying)
@@ -239,7 +239,7 @@ private struct AppFavoriteVocabularyRow: View {
                 Text(word.swedish)
                     .font(.title2)
                     .fontWeight(.medium)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     .lineLimit(1)
                     .truncationMode(.tail)
                 Text(word.english)
@@ -252,9 +252,10 @@ private struct AppFavoriteVocabularyRow: View {
             Button(action: onPlayTap) {
                 Image("play-button")
                     .resizable()
+                    .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 37, height: 37)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
             }
             .buttonStyle(.plain)
         }
@@ -298,7 +299,7 @@ private struct AppFavoriteWorderRow: View {
                     .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 28, height: 28)
-                    .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                    .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                     .opacity(audioManager.isPlaying ? 0.5 : 1.0)
             }
             .disabled(!audioManager.isAudioReady || audioManager.isPlaying)
@@ -310,7 +311,7 @@ private struct AppFavoriteWorderRow: View {
                 Text(singleSpaced)
                     .font(.title2)
                     .fontWeight(.medium)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     .multilineTextAlignment(.center)
                     .lineLimit(1)
                     .truncationMode(.tail)
@@ -326,9 +327,10 @@ private struct AppFavoriteWorderRow: View {
             Button(action: onPlayTap) {
                 Image("play-button")
                     .resizable()
+                    .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 37, height: 37)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
             }
             .buttonStyle(.plain)
         }

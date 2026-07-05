@@ -298,7 +298,7 @@ struct WorderSettingsView: View {
                     Spacer()
                     Text("Settings")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
             }
@@ -311,7 +311,7 @@ struct WorderSettingsView: View {
                     WorderSettingsSection(header: "MODE") {
                         WorderSettingsRow(
                             icon: "moon.fill",
-                            iconColor: .purple,
+                            iconColor: .appRed,
                             title: "Dark Mode",
                             subtitle: "Enable/Disable dark mode",
                             accessory: .toggle(isOn: $darkModeEnabled)
@@ -321,7 +321,7 @@ struct WorderSettingsView: View {
                     WorderSettingsSection(header: "SCHEDULE") {
                         WorderSettingsRow(
                             icon: "clock",
-                            iconColor: .orange,
+                            iconColor: .appRed,
                             title: "Schedule Notifications",
                             subtitle: notificationSubtitle,
                             accessory: .chevron(action: {
@@ -333,7 +333,7 @@ struct WorderSettingsView: View {
                     WorderSettingsSection(header: "LEARNING") {
                         WorderSettingsRow(
                             icon: "lightbulb.fill",
-                            iconColor: .yellow,
+                            iconColor: .appRed,
                             title: "Learning Tips",
                             subtitle: "Effective learning strategies",
                             accessory: .chevron(action: {
@@ -345,7 +345,7 @@ struct WorderSettingsView: View {
                     WorderSettingsSection(header: "SUPPORT") {
                         WorderSettingsRow(
                             icon: "questionmark.circle.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "Help & Support",
                             subtitle: "Get help and contact support",
                             accessory: .chevron(action: {
@@ -355,7 +355,7 @@ struct WorderSettingsView: View {
                         
                         WorderSettingsRow(
                             icon: "doc.text.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "Terms & Privacy",
                             subtitle: "View terms and privacy policy",
                             accessory: .chevron(action: {
@@ -365,7 +365,7 @@ struct WorderSettingsView: View {
                         
                         WorderSettingsRow(
                             icon: "info.circle.fill",
-                            iconColor: .blue,
+                            iconColor: .appRed,
                             title: "About",
                             subtitle: "App version and information",
                             accessory: .chevron(action: {
@@ -377,7 +377,7 @@ struct WorderSettingsView: View {
                     WorderSettingsSection(header: "CACHE") {
                         WorderSettingsRow(
                             icon: "clock.arrow.circlepath",
-                            iconColor: .red,
+                            iconColor: .appRed,
                             title: "Clear History",
                             subtitle: "Delete all history records",
                             accessory: .button(

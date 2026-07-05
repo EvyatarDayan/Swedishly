@@ -445,14 +445,14 @@ struct WorderHistoryDetailModal: View {
                                 myListManager.addToMyList(swedish: example.answer, english: example.answerTranslation)
                             }
                         }) {
-                            Image("starPlus")
-                                .resizable()
-                                .renderingMode(.template)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 24, height: 24)
-                                .foregroundColor(myListManager.isInMyList(swedish: example.answer, english: example.answerTranslation) ? .green : .gray)
-                                .padding(.top, 20)
-                                .padding(.leading, 10)
+                            MyListFavoriteIcon(
+                                isInList: myListManager.isInMyList(
+                                    swedish: example.answer,
+                                    english: example.answerTranslation
+                                )
+                            )
+                            .padding(.top, 20)
+                            .padding(.leading, 10)
                         }
                         Spacer()
                         Button(action: { dismiss() }) {
@@ -503,7 +503,7 @@ struct WorderHistoryDetailModal: View {
 
                                                 Text(token)
                                                     .font(.system(size: 28, weight: .bold))
-                                                    .foregroundColor(.blue)
+                                                    .foregroundColor(.appRed)
                                                     .multilineTextAlignment(.center)
                                             }
                                             .padding(.horizontal, 2)

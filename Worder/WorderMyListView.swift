@@ -35,7 +35,7 @@ struct WorderMyListView: View {
                     Spacer()
                     Text("My list")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
             }
@@ -215,7 +215,7 @@ struct WorderMyListWordDetailModal: View {
                         Spacer()
                         Text("More info")
                             .font(.system(size: 28, weight: .bold, design: .rounded))
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                             .padding(.bottom, 30)
                         Spacer()
                     }
@@ -247,7 +247,7 @@ struct WorderMyListWordDetailModal: View {
                                                 .multilineTextAlignment(.center)
                                             Text(token)
                                                 .font(.system(size: 28, weight: .bold))
-                                                .foregroundColor(.blue)
+                                                .foregroundColor(.appRed)
                                                 .multilineTextAlignment(.center)
                                         }
                                         .padding(.horizontal, 2)
@@ -316,12 +316,12 @@ struct WorderMyListWordDetailModal: View {
                             }
                         }
                     }) {
-                        Image("starPlus")
-                            .resizable()
-                            .renderingMode(.template)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 24, height: 24)
-                            .foregroundColor((example != nil && myListManager.isInMyList(swedish: example!.answer, english: example!.answerTranslation)) ? .green : .gray)
+                        MyListFavoriteIcon(
+                            isInList: example != nil && myListManager.isInMyList(
+                                swedish: example!.answer,
+                                english: example!.answerTranslation
+                            )
+                        )
                     }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {

@@ -24,7 +24,7 @@ struct SWVocabularySettingsView: View {
         VStack(spacing: 0) {
             Text("Settings")
                 .font(.system(size: 28, weight: .bold, design: .rounded))
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
                 .padding(.top, 20)
                 .padding(.bottom, 20)
 

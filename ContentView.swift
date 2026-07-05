@@ -25,15 +25,15 @@ struct TabBarButton: View {
                         .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 20, height: 20)
-                        .foregroundColor(isSelected ? .blue : .secondary)
+                        .foregroundColor(isSelected ? .appRed : .secondary)
                 } else {
                     Image(systemName: icon)
                         .font(.system(size: 20, weight: isSelected ? .semibold : .regular))
-                        .foregroundColor(isSelected ? .blue : .secondary)
+                        .foregroundColor(isSelected ? .appRed : .secondary)
                 }
                 Text(label)
                     .font(.system(size: 10, weight: isSelected ? .semibold : .regular))
-                    .foregroundColor(isSelected ? .blue : .secondary)
+                    .foregroundColor(isSelected ? .appRed : .secondary)
                     .lineLimit(1)
             }
             .frame(maxWidth: .infinity)
@@ -320,7 +320,7 @@ struct WorderView: View {
     }
 }
 
-// Reusable blue Back button row (Vocabulary, Grammar, and all future pushed views)
+// Reusable Back button row (Vocabulary, Grammar, and all future pushed views)
 struct BackButtonRow: View {
     var onBack: () -> Void
 
@@ -333,7 +333,7 @@ struct BackButtonRow: View {
                     Text("Back")
                         .font(.body)
                 }
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
             }
             .padding(.top, 8)
             .padding(.leading, 4)
@@ -393,7 +393,7 @@ struct VocabularyOptionButtonLabel: View {
                 VStack(spacing: titleSubtitleStackSpacing) {
                     Text(title)
                         .font(.system(size: isPad ? 35 : 25, weight: .semibold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                         .multilineTextAlignment(.center)
                         .lineLimit(1)
                     Text(subtitle)
@@ -406,7 +406,7 @@ struct VocabularyOptionButtonLabel: View {
             } else {
                 Text(title)
                     .font(.system(size: isPad ? 35 : 25, weight: .semibold, design: .rounded))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     .multilineTextAlignment(.center)
                     .lineLimit(1)
             }
@@ -456,7 +456,7 @@ struct TopicCard: View {
         if isDisabled {
             return colorScheme == .dark ? Color(.systemGray2) : Color(.systemGray)
         }
-        return .blue
+        return .appRed
     }
 
     private var cardBackground: Color {
@@ -473,7 +473,7 @@ struct TopicCard: View {
         return colorScheme == .dark ? Color(.systemGray4).opacity(0.5) : Color.black.opacity(0.06)
     }
 
-    /// SF Symbol name for each home topic (blue when active, gray when disabled).
+    /// SF Symbol name for each home topic (appRed when active, gray when disabled).
     private var topicIconName: String {
         switch topic {
         case "Vocabulary": return "character.book.closed.fill"
@@ -489,7 +489,7 @@ struct TopicCard: View {
     /// Uniform square so every topic glyph matches in footprint (Verbs stays square like the others).
     private var topicIconFrame: CGFloat { isPad ? 36 : 25 }
 
-    /// Blue + green split (like the “Swedish” + “ly” title); same gray when disabled.
+    /// Split title styling (like the “Swedi” + “shly” title); same gray when disabled.
     private static func topicSplitParts(for topic: String) -> (String, String) {
         switch topic {
         case "Vocabulary": return ("Vocab", "ulary")
@@ -511,7 +511,7 @@ struct TopicCard: View {
         if isDisabled {
             return Text(full).foregroundColor(titleColor)
         }
-        return (Text(prefix).foregroundColor(.blue) + Text(suffix).foregroundColor(.green))
+        return (Text(prefix).foregroundColor(.appRed) + Text(suffix).foregroundColor(.appRed))
     }
 
     var body: some View {
@@ -522,7 +522,7 @@ struct TopicCard: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: topicIconFrame, height: topicIconFrame)
-                        .foregroundColor(titleColor)
+                        .foregroundColor(isDisabled ? titleColor : .appRed)
                     topicTitleText
                         .font(.system(size: isPad ? 35 : 20, weight: .semibold, design: .rounded))
                         .multilineTextAlignment(.center)
@@ -579,6 +579,8 @@ struct ContentView: View {
 
     // Menu height constant - adjust this to change menu height
     private let menuHeight: CGFloat = 40
+    // Matched top (above logo) and bottom (below topic grid) inset on home screen
+    private let homeEdgePadding: CGFloat = 20
     // Menu button spacing - adjust this to change spacing between buttons (negative values bring them closer)
     private let menuButtonSpacing: CGFloat = -40
 
@@ -674,27 +676,26 @@ struct ContentView: View {
     private var homeView: some View {
         NavigationStack {
             VStack(spacing: 0) {
+                Spacer(minLength: homeEdgePadding)
+
                 // Fixed header section
                 VStack(spacing: 0) {
                     // Title
                     HStack(spacing: 0) {
                         Text("Swedi")
                             .font(.system(size: 40, weight: .bold, design: .rounded))
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                         Text("shly")
                             .font(.system(size: 40, weight: .bold, design: .rounded))
-                            .foregroundColor(.green)
+                            .foregroundColor(.appRed)
                     }
-                    .padding(.top, 20)
-//                    .padding(.bottom, 2)
 
-                    // Talking image (add "Talking" to Assets.xcassets to display)
-                    Image("Talking")
+                    Image("SwedishLogo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 160, height: 160)
+                        .frame(width: 130, height: 130)
+                        .padding(.top, homeEdgePadding)
                         .padding(.bottom, 20)
-                        .padding(.top, 5)
 
                     // Subtitle: black in light mode, gray in dark mode
                     Text("What would you like to learn today?")
@@ -741,15 +742,15 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, UIDevice.current.userInterfaceIdiom == .pad ? 40 : 20)
-                .padding(.bottom, 20)
+                .padding(.bottom, homeEdgePadding)
                 .onAppear {
-                    topicsAppeared = false
+                    guard !topicsAppeared else { return }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
                         topicsAppeared = true
                     }
                 }
 
-                Spacer(minLength: 0)
+                Spacer(minLength: homeEdgePadding)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color(.systemGroupedBackground).ignoresSafeArea())

@@ -44,7 +44,7 @@ struct LogoView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Color.blue)
+                            .background(Color.appRed)
                             .clipShape(Capsule())
                     }
                     .padding(.top, 70)
@@ -86,7 +86,7 @@ struct LogoView: View {
     }
 
     private var logoView: some View {
-        Image("Talking")
+        Image("SwedishLogo")
             .resizable()
             .scaledToFit()
             .frame(width: 160, height: 160)

@@ -259,12 +259,7 @@ struct VerbDetailView: View {
                     Button(action: {
                         favoriteManager.toggleFavorite(verb)
                     }) {
-                        Image("starPlus")
-                            .resizable()
-                            .renderingMode(.template)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 24, height: 24)
-                            .foregroundColor(isFavorite ? .green : .gray)
+                        MyListFavoriteIcon(isInList: isFavorite)
                     }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {

@@ -34,7 +34,7 @@ struct VerbsSettingsView: View {
                                 Circle()
                                     .fill(
                                         LinearGradient(
-                                            gradient: Gradient(colors: [Color.purple, Color.purple.opacity(0.7)]),
+                                            gradient: Gradient(colors: [Color.appRed, Color.appRed.opacity(0.7)]),
                                             startPoint: .topLeading,
                                             endPoint: .bottomTrailing
                                         )
@@ -74,7 +74,7 @@ struct VerbsSettingsView: View {
                                 Circle()
                                     .fill(
                                         LinearGradient(
-                                            gradient: Gradient(colors: [Color.orange, Color.orange.opacity(0.7)]),
+                                            gradient: Gradient(colors: [Color.appRed, Color.appRed.opacity(0.7)]),
                                             startPoint: .topLeading,
                                             endPoint: .bottomTrailing
                                         )
@@ -132,7 +132,7 @@ struct VerbsSettingsView: View {
                 Section(header: Text("LEARNING")) {
                     VerbsSettingsRow(
                         icon: "lightbulb.fill",
-                        iconColor: .yellow,
+                        iconColor: .appRed,
                         title: "Learning Tips",
                         description: "Effective learning strategies"
                     ) { showingLearningTips = true }
@@ -142,14 +142,14 @@ struct VerbsSettingsView: View {
                 Section(header: Text("CLEAR DATA")) {
                     VerbsSettingsRow(
                         icon: "trash.fill",
-                        iconColor: .red,
+                        iconColor: .appRed,
                         title: "Clear Tests",
                         description: "Delete all saved tests"
                     ) { showingClearTestsAlert = true }
 
                     VerbsSettingsRow(
                         icon: "heart.slash.fill",
-                        iconColor: .red,
+                        iconColor: .appRed,
                         title: "Clear Favorites",
                         description: "Remove all favorited verbs"
                     ) { showingClearFavoritesAlert = true }
@@ -159,21 +159,21 @@ struct VerbsSettingsView: View {
                 Section(header: Text("SUPPORT")) {
                     VerbsSettingsRow(
                         icon: "questionmark.circle.fill",
-                        iconColor: .blue,
+                        iconColor: .appRed,
                         title: "Help & Support",
                         description: "Get help and contact support"
                     ) { showingHelpSupport = true }
 
                     VerbsSettingsRow(
                         icon: "lock.fill",
-                        iconColor: .green,
+                        iconColor: .appRed,
                         title: "Terms & Privacy",
                         description: "View terms and privacy policy"
                     ) { showingTermsPrivacy = true }
 
                     VerbsSettingsRow(
                         icon: "info.circle.fill",
-                        iconColor: .blue,
+                        iconColor: .appRed,
                         title: "About",
                         description: "App version and information"
                     ) { showingAbout = true }

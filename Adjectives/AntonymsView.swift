@@ -99,7 +99,7 @@ struct AntonymsView: View {
                         Text("Back")
                             .font(.body)
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
                 .padding(.leading, 4)
@@ -119,7 +119,7 @@ struct AntonymsView: View {
                 Spacer()
                 Text("Antonyms")
                     .font(.system(size: 28, weight: .bold, design: .rounded))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 Spacer()
             }
             .padding(.horizontal, 20)

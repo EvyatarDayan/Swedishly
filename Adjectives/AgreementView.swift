@@ -99,7 +99,7 @@ struct AgreementView: View {
                         Text("Back")
                             .font(.body)
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
                 .padding(.leading, 4)
@@ -119,7 +119,7 @@ struct AgreementView: View {
                 Spacer()
                 Text("Agreement")
                     .font(.system(size: 28, weight: .bold, design: .rounded))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 Spacer()
             }
             .padding(.horizontal, 20)

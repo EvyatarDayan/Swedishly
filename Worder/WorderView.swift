@@ -342,7 +342,7 @@ struct WorderPracticeView: View {
                 Spacer()
                 Text(customTitle)
                     .font(.system(size: 28, weight: .bold, design: .rounded))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 Spacer()
             }
             HStack {
@@ -731,7 +731,7 @@ struct WorderPracticeView: View {
                             .font(.body)
                     }
                     .padding(.top, currentExample == nil ? 60 : 0)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
                 .padding(.leading, 4)

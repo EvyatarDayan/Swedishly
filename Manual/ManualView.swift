@@ -56,7 +56,7 @@ struct ManualView: View {
     private var titleSection: some View {
         Text("My list")
             .font(.system(size: 28, weight: .bold, design: .rounded))
-            .foregroundColor(.blue)
+            .foregroundColor(.appRed)
             .padding(.top, 8)
             .padding(.bottom, UIDevice.current.userInterfaceIdiom == .pad ? 20 : 22)
     }
@@ -119,7 +119,7 @@ struct ManualView: View {
             Button(action: { showingAddModal = true }) {
                 Image(systemName: "plus")
                     .font(.title2)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
             }
         }
         .padding(.horizontal, 30)
@@ -160,7 +160,7 @@ struct ManualView: View {
             Button(action: { showingAddModal = true }) {
                 Image(systemName: "plus.circle")
                     .font(.system(size: 60))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
             }
             Text("No items")
                 .font(.title2)

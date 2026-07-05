@@ -36,7 +36,7 @@ struct PronounTestView: View {
                     }
                     // Extra top offset needed only on the initial screen state.
                     .padding(.top, viewModel.testQuestions.isEmpty ? 60 : 0)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
                 .padding(.leading, 4)
@@ -57,7 +57,7 @@ struct PronounTestView: View {
                     Spacer()
                     Text("Pronouns")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
                 .padding(.horizontal, 20)
@@ -85,7 +85,7 @@ struct PronounTestView: View {
                             Spacer()
                             Text("Pronouns")
                                 .font(.system(size: 28, weight: .bold, design: .rounded))
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                             Spacer()
                         }
                         .padding(.horizontal, 20)

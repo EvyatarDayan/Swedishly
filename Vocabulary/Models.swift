@@ -210,7 +210,7 @@ struct UnifiedHistoryItem: Identifiable, Equatable {
             case .none: return "Adjective"
             }
         case .worder:
-            return worderItem?.effectiveType == .test ? "Worder Test" : "Worder Practice"
+            return worderItem?.effectiveType == .test ? "Word Order Test" : "Word Order Practice"
         }
     }
 

@@ -37,7 +37,7 @@ struct AdjectivesSettingsView: View {
                     Spacer()
                     Text("Settings")
                         .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                     Spacer()
                 }
             }
@@ -50,7 +50,7 @@ struct AdjectivesSettingsView: View {
                 AdjectivesSettingsSection(header: "MODE") {
                     AdjectivesSettingsRow(
                         icon: "moon.fill",
-                        iconColor: .purple,
+                        iconColor: .appRed,
                         title: "Dark Mode",
                         subtitle: "Enable/Disable dark mode",
                         accessory: .toggle(isOn: $darkModeEnabled)
@@ -59,7 +59,7 @@ struct AdjectivesSettingsView: View {
                 AdjectivesSettingsSection(header: "SCHEDULE") {
                     AdjectivesSettingsRow(
                         icon: "clock",
-                        iconColor: .orange,
+                        iconColor: .appRed,
                         title: "Schedule Notifications",
                         subtitle: notificationSubtitle,
                         accessory: .chevron(action: { showingNotificationSettings = true })
@@ -68,7 +68,7 @@ struct AdjectivesSettingsView: View {
                 AdjectivesSettingsSection(header: "LEARNING") {
                     AdjectivesSettingsRow(
                         icon: "lightbulb.fill",
-                        iconColor: .yellow,
+                        iconColor: .appRed,
                         title: "Learning Tips",
                         subtitle: "Effective learning strategies",
                         accessory: .chevron(action: { showingLearningTips = true })
@@ -77,21 +77,21 @@ struct AdjectivesSettingsView: View {
                 AdjectivesSettingsSection(header: "SUPPORT") {
                     AdjectivesSettingsRow(
                         icon: "questionmark.circle.fill",
-                        iconColor: .blue,
+                        iconColor: .appRed,
                         title: "Help & Support",
                         subtitle: "Get help and contact support",
                         accessory: .chevron(action: { showingHelpSupport = true })
                     )
                     AdjectivesSettingsRow(
                         icon: "doc.text.fill",
-                        iconColor: .blue,
+                        iconColor: .appRed,
                         title: "Terms & Privacy",
                         subtitle: "View terms and privacy policy",
                         accessory: .chevron(action: { showingTermsPrivacy = true })
                     )
                     AdjectivesSettingsRow(
                         icon: "info.circle.fill",
-                        iconColor: .blue,
+                        iconColor: .appRed,
                         title: "About",
                         subtitle: "App version and information",
                         accessory: .chevron(action: { showingAbout = true })
@@ -100,7 +100,7 @@ struct AdjectivesSettingsView: View {
                 AdjectivesSettingsSection(header: "CACHE") {
                     AdjectivesSettingsRow(
                         icon: "clock.arrow.circlepath",
-                        iconColor: .red,
+                        iconColor: .appRed,
                         title: "Clear History",
                         subtitle: "Delete all history records",
                         accessory: .button(badge: nil, action: { showingClearHistoryAlert = true })
