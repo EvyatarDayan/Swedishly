@@ -99,7 +99,7 @@ struct AppFavoritesView: View {
             WorderMyListWordDetailModal(word: word)
         }
         .sheet(item: $selectedVerb) { verb in
-            VerbDetailView(verb: verb)
+            VerbDetailView(verb: verb, useAppRedMoreInfoStyle: true)
         }
     }
 

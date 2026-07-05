@@ -290,7 +290,7 @@ struct WorderMyListWordDetailModal: View {
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
                                     .padding(.vertical, 14)
-                                    .background(Color.blue)
+                                    .background(Color.appRed)
                                     .cornerRadius(12)
                             }
                             .padding(.horizontal, 100)
@@ -322,13 +322,6 @@ struct WorderMyListWordDetailModal: View {
                                 english: example!.answerTranslation
                             )
                         )
-                    }
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: { dismiss() }) {
-                        Text("Close")
-                            .font(.body)
-                            .foregroundColor(.blue)
                     }
                 }
             }

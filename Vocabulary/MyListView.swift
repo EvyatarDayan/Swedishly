@@ -339,7 +339,7 @@ struct MyListWordDetailModal: View {
                                         .renderingMode(.template)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 40, height: 40)
-                                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                                         .opacity(audioManager.isPlaying ? 0.5 : 1.0)
                                 }
                                 .disabled(audioManager.isPlaying || !audioManager.isAudioReady)
@@ -403,7 +403,7 @@ struct MyListWordDetailModal: View {
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 14)
-                                .background(Color.blue)
+                                .background(Color.appRed)
                                 .cornerRadius(12)
                         }
                         .padding(.horizontal, 100)
@@ -432,15 +432,6 @@ struct MyListWordDetailModal: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 24, height: 24)
                             .foregroundColor(myListManager.isInMyList(swedish: word.swedish, english: word.english) ? .green : .gray)
-                    }
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        dismiss()
-                    }) {
-                        Text("Close")
-                            .font(.body)
-                            .foregroundColor(.blue)
                     }
                 }
             }

@@ -14,6 +14,7 @@ struct VerbDetailView: View {
     let isPracticeMode: Bool
     let isTestMode: Bool
     let testId: String?
+    let useAppRedMoreInfoStyle: Bool
     @Environment(\.dismiss) var dismiss
     @StateObject private var speechSynthesizer = SpeechSynthesizer()
     @StateObject private var favoriteManager = FavoriteManager.shared
@@ -30,11 +31,12 @@ struct VerbDetailView: View {
         return true
     }
     
-    init(verb: Verb, isPracticeMode: Bool = false, isTestMode: Bool = false, testId: String? = nil) {
+    init(verb: Verb, isPracticeMode: Bool = false, isTestMode: Bool = false, testId: String? = nil, useAppRedMoreInfoStyle: Bool = false) {
         self.verb = verb
         self.isPracticeMode = isPracticeMode
         self.isTestMode = isTestMode
         self.testId = testId
+        self.useAppRedMoreInfoStyle = useAppRedMoreInfoStyle
         _isFavorite = State(initialValue: FavoriteManager.shared.isFavorite(verb))
         
         // Load saved answers if in test mode
@@ -44,6 +46,8 @@ struct VerbDetailView: View {
             _testResults = State(initialValue: savedResults)
         }
     }
+    
+    private var accentColor: Color { useAppRedMoreInfoStyle ? .appRed : .blue }
     
     var body: some View {
         NavigationView {
@@ -83,6 +87,7 @@ struct VerbDetailView: View {
                             }) {
                                 Image("audio-headphone")
                                     .resizable()
+                                    .renderingMode(.template)
                                     .scaledToFit()
                                     .frame(width: 28, height: 28)
                                     .opacity(isPlayingInfinitive ? 0.5 : 1.0)
@@ -90,7 +95,7 @@ struct VerbDetailView: View {
                                         isPlayingInfinitive ? Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: true) : .default,
                                         value: isPlayingInfinitive
                                     )
-                                    .foregroundColor((isTestMode || isPracticeMode) && !hasAnyAnswer ? .gray : .blue)
+                                    .foregroundColor((isTestMode || isPracticeMode) && !hasAnyAnswer ? .gray : accentColor)
                             }
                             .buttonStyle(.plain)
                             .disabled((isTestMode || isPracticeMode) && !hasAnyAnswer)
@@ -147,7 +152,8 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing
+                            isAnswerInputShowing: $isAnswerInputShowing,
+                            useAppRedAccent: useAppRedMoreInfoStyle
                         )
                         
                         // Past Tense
@@ -183,7 +189,8 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing
+                            isAnswerInputShowing: $isAnswerInputShowing,
+                            useAppRedAccent: useAppRedMoreInfoStyle
                         )
                         
                         // Perfect Tense
@@ -219,7 +226,8 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing
+                            isAnswerInputShowing: $isAnswerInputShowing,
+                            useAppRedAccent: useAppRedMoreInfoStyle
                         )
                     }
                     .padding(.top, 8)
@@ -241,7 +249,7 @@ struct VerbDetailView: View {
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 14)
-                                .background(Color.blue)
+                                .background(useAppRedMoreInfoStyle ? Color.appRed : Color.blue)
                                 .cornerRadius(12)
                         }
                         .padding(.horizontal, 100)
@@ -262,11 +270,13 @@ struct VerbDetailView: View {
                         MyListFavoriteIcon(isInList: isFavorite)
                     }
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: { dismiss() }) {
-                        Text("Close")
-                            .font(.body)
-                            .foregroundColor(.blue)
+                if !useAppRedMoreInfoStyle {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: { dismiss() }) {
+                            Text("Close")
+                                .font(.body)
+                                .foregroundColor(.blue)
+                        }
                     }
                 }
             }
@@ -294,12 +304,15 @@ struct ExampleCard: View {
     @Binding var answer: String
     @Binding var isCorrect: Bool
     @Binding var isAnswerInputShowing: Bool
+    var useAppRedAccent: Bool = false
     @State private var isPlayingSwedish = false
     @State private var isPlayingEnglish = false
     @State private var revealedVerbs: Set<String> = []
     @State private var showAnswerInput = false
     @State private var inputText = ""
     @Environment(\.colorScheme) var colorScheme
+    
+    private var accentColor: Color { useAppRedAccent ? .appRed : .blue }
     
     private var isAudioDisabled: Bool {
         if isTestMode {
@@ -511,6 +524,7 @@ struct ExampleCard: View {
                     }) {
                         Image("audio-headphone")
                             .resizable()
+                            .renderingMode(.template)
                             .scaledToFit()
                             .frame(width: 28, height: 28)
                             .opacity(isPlayingSwedish ? 0.5 : 1.0)
@@ -518,7 +532,7 @@ struct ExampleCard: View {
                                 isPlayingSwedish ? Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: true) : .default,
                                 value: isPlayingSwedish
                             )
-                            .foregroundColor(isAudioDisabled ? .gray : .blue)
+                            .foregroundColor(isAudioDisabled ? .gray : accentColor)
                     }
                     .buttonStyle(.plain)
                     .disabled(isAudioDisabled)
