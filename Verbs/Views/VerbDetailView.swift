@@ -47,7 +47,7 @@ struct VerbDetailView: View {
         }
     }
     
-    private var accentColor: Color { useAppRedMoreInfoStyle ? .appRed : .blue }
+    private var accentColor: Color { .appRed }
     
     var body: some View {
         NavigationView {
@@ -66,7 +66,7 @@ struct VerbDetailView: View {
                             Text(verb.infinitive)
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                                 .multilineTextAlignment(.center)
                             
                             Button(action: {
@@ -152,8 +152,7 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing,
-                            useAppRedAccent: useAppRedMoreInfoStyle
+                            isAnswerInputShowing: $isAnswerInputShowing
                         )
                         
                         // Past Tense
@@ -189,8 +188,7 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing,
-                            useAppRedAccent: useAppRedMoreInfoStyle
+                            isAnswerInputShowing: $isAnswerInputShowing
                         )
                         
                         // Perfect Tense
@@ -226,8 +224,7 @@ struct VerbDetailView: View {
                                     }
                                 }
                             ),
-                            isAnswerInputShowing: $isAnswerInputShowing,
-                            useAppRedAccent: useAppRedMoreInfoStyle
+                            isAnswerInputShowing: $isAnswerInputShowing
                         )
                     }
                     .padding(.top, 8)
@@ -249,7 +246,7 @@ struct VerbDetailView: View {
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 14)
-                                .background(useAppRedMoreInfoStyle ? Color.appRed : Color.blue)
+                                .background(Color.appRed)
                                 .cornerRadius(12)
                         }
                         .padding(.horizontal, 100)
@@ -275,8 +272,9 @@ struct VerbDetailView: View {
                         Button(action: { dismiss() }) {
                             Text("Close")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
+                        .buttonStyle(.plain)
                     }
                 }
             }
@@ -304,7 +302,6 @@ struct ExampleCard: View {
     @Binding var answer: String
     @Binding var isCorrect: Bool
     @Binding var isAnswerInputShowing: Bool
-    var useAppRedAccent: Bool = false
     @State private var isPlayingSwedish = false
     @State private var isPlayingEnglish = false
     @State private var revealedVerbs: Set<String> = []
@@ -312,7 +309,7 @@ struct ExampleCard: View {
     @State private var inputText = ""
     @Environment(\.colorScheme) var colorScheme
     
-    private var accentColor: Color { useAppRedAccent ? .appRed : .blue }
+    private var accentColor: Color { .appRed }
     
     private var isAudioDisabled: Bool {
         if isTestMode {

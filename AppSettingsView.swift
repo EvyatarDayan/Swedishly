@@ -184,7 +184,7 @@ struct AppSettingsSection<Content: View>: View {
         VStack(alignment: .leading, spacing: 8) {
             Text(header)
                 .font(.system(size: 13, weight: .semibold))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appRed)
                 .textCase(.uppercase)
                 .padding(.horizontal, 20)
                 .padding(.top, 20)
@@ -226,7 +226,7 @@ struct AppSettingsRow: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
                     .font(.system(size: 17, weight: .semibold))
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
 
                 Text(subtitle)
                     .font(.system(size: 13))
@@ -239,10 +239,11 @@ struct AppSettingsRow: View {
             case .toggle(let isOn):
                 Toggle("", isOn: isOn)
                     .labelsHidden()
+                    .tint(.appRed)
             case .chevron:
                 Image(systemName: "chevron.right")
                     .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appRed)
                     .opacity(0.7)
             case .button(let badge, _):
                 HStack(spacing: 8) {

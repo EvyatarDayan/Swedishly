@@ -37,6 +37,7 @@ struct AboutView: View {
                         Text("About Swedishly")
                             .font(.title2)
                             .fontWeight(.bold)
+                            .foregroundColor(.appRed)
                         
                         Text("Swedishly is a comprehensive Swedish learning app that brings together vocabulary, grammar, verbs, adjectives, and word order into a single, unified experience. Practice with multiple-choice questions, translation exercises, and structured tests across all topics, and track your progress over time. Learn Swedish words with accurate English translations and example sentences, build strong grammar foundations, and master sentence structure step by step.")
                             .font(.body)
@@ -51,6 +52,7 @@ struct AboutView: View {
                         Text("About ABASHELARI")
                             .font(.title2)
                             .fontWeight(.bold)
+                            .foregroundColor(.appRed)
                         
                         Text("At ABASHELARI, we believe in creating software that makes everyday life simpler, smarter, and more enjoyable. Our mission is to develop innovative digital solutions that blend creativity with technology, offering users tools that are intuitive, reliable, and engaging.")
                             .font(.body)
@@ -74,11 +76,10 @@ struct AboutView: View {
                     Text("About")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

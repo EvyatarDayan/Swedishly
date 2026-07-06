@@ -455,11 +455,11 @@ struct GrammarLearningTipsView: View {
                 ToolbarItem(placement: .principal) {
                     Text("Learning Tips")
                         .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -487,7 +487,7 @@ struct GrammarTipSection: View {
             Text(number)
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
                 .frame(width: 30)
             
             VStack(alignment: .leading, spacing: 8) {
@@ -689,13 +689,6 @@ struct GrammarHelpSupportView: View {
                         }
                         .listRowBackground(Color.clear)
                     }
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Contact us")
-                                .font(.headline)
-                        }
-                    }
                 } else {
                     VStack {
                         Spacer(minLength: 0)
@@ -761,28 +754,23 @@ struct GrammarHelpSupportView: View {
                     }
                     .frame(maxHeight: .infinity, alignment: .top)
                     .padding(.vertical, 32)
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Help and support")
-                                .font(.headline)
-                        }
-                    }
                 }
             }
             .background(Color(.systemGroupedBackground).ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
                     if showForm {
-                        Button("Cancel") {
-                            showForm = false
-                        }
+                        SettingsModalPlainButton(title: "Cancel", action: { showForm = false })
                     } else {
-                        Button("Close") {
-                            dismiss()
-                        }
+                        SettingsModalPlainButton(title: "Done", action: { dismiss() })
                     }
+                }
+                ToolbarItem(placement: .principal) {
+                    Text(showForm ? "Contact us" : "Help and support")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
             }
             .alert(isPresented: Binding(
@@ -888,11 +876,11 @@ struct GrammarAboutView: View {
                 ToolbarItem(placement: .principal) {
                     Text("About")
                         .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -935,11 +923,11 @@ struct GrammarTermsPrivacyView: View {
                 ToolbarItem(placement: .principal) {
                     Text("Terms & Privacy")
                         .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -1132,32 +1120,33 @@ struct ReminderSettingsView: View {
                     }
                 }
             }
-            .navigationTitle("Daily Reminder")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarLeading) {
+                    SettingsModalPlainButton(title: "Cancel", action: { dismiss() })
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Save") {
-                        // Update the bindings
+                ToolbarItem(placement: .principal) {
+                    Text("Daily Reminder")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Save", action: {
                         let calendar = Calendar.current
                         reminderHour = calendar.component(.hour, from: localSelectedTime)
                         reminderMinute = calendar.component(.minute, from: localSelectedTime)
                         selectedTime = localSelectedTime
-                        
-                        // Request notification permission if enabling
+
                         if isEnabled {
                             requestNotificationPermission()
                         } else {
                             cancelNotifications()
                         }
-                        
+
                         onSave()
                         dismiss()
-                    }
+                    })
                 }
             }
         }

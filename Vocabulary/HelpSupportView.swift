@@ -101,20 +101,12 @@ struct HelpSupportView: View {
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
                                     .frame(height: 50)
-                                    .background(allFieldsFilled ? Color.green : Color.gray)
+                                    .background(allFieldsFilled ? Color.appRed : Color.gray)
                                     .cornerRadius(12)
                             }
                             .disabled(!allFieldsFilled)
                         }
                         .listRowBackground(Color.clear)
-                    }
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Contact us")
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                        }
                     }
                 } else {
                     VStack {
@@ -124,6 +116,7 @@ struct HelpSupportView: View {
                                 Text("We'd love to hear from you!")
                                     .font(.title3)
                                     .fontWeight(.bold)
+                                    .foregroundColor(.appRed)
                                 
                                 Text("Whether you have questions,")
                                     .font(.body)
@@ -167,7 +160,7 @@ struct HelpSupportView: View {
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
                                     .frame(height: 50)
-                                    .background(Color.green)
+                                    .background(Color.appRed)
                                     .cornerRadius(12)
                                     .padding(.horizontal, 32)
                             }
@@ -181,29 +174,23 @@ struct HelpSupportView: View {
                     }
                     .frame(maxHeight: .infinity, alignment: .top)
                     .padding(.vertical, 32)
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Help and support")
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                        }
-                    }
                 }
             }
             .background(Color(.systemGroupedBackground).ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
                     if showForm {
-                        Button("Cancel") {
-                            showForm = false
-                        }
+                        SettingsModalPlainButton(title: "Cancel", action: { showForm = false })
                     } else {
-                        Button("Close") {
-                            dismiss()
-                        }
+                        SettingsModalPlainButton(title: "Done", action: { dismiss() })
                     }
+                }
+                ToolbarItem(placement: .principal) {
+                    Text(showForm ? "Contact us" : "Help and support")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
             }
             .alert(isPresented: Binding(

@@ -285,7 +285,7 @@ struct ManualWelcomePopupView: View {
             
             Text("Tap + to start.")
                 .font(.system(size: 22, weight: .bold))
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
             
@@ -295,7 +295,7 @@ struct ManualWelcomePopupView: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
-                    .background(Color.blue)
+                    .background(Color.appRed)
                     .cornerRadius(12)
             }
             .padding(.horizontal, 80)
@@ -342,7 +342,7 @@ struct ManualSentenceCard: View {
                     Text(sentence.swedish)
                         .font(.title3)
                         .fontWeight(.medium)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                         .lineLimit(1)
                         .truncationMode(.tail)
                     Text(sentence.english)
@@ -366,14 +366,14 @@ struct ManualSentenceCard: View {
                 }) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 6)
-                            .fill(Color.blue.opacity(0.1))
+                            .fill(Color.appRed.opacity(0.1))
                             .frame(width: 32, height: 32)
                         Image("audio-headphone")
                             .resizable()
                             .renderingMode(.template)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 20, height: 20)
-                            .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                            .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                             .opacity(audioManager.isPlaying ? 0.5 : 1.0)
                     }
                 }

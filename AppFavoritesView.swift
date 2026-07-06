@@ -174,7 +174,7 @@ struct AppFavoritesView: View {
             if showVerbsSection {
                 Section {
                     ForEach(verbFavoritesList) { verb in
-                        VerbRow(verb: verb, useAppRedStyle: true, onOpen: { selectedVerb = verb })
+                        VerbRow(verb: verb, onOpen: { selectedVerb = verb })
                             .contentShape(Rectangle())
                             .onTapGesture { selectedVerb = verb }
                             .listRowInsets(EdgeInsets(top: 6, leading: 20, bottom: 6, trailing: 20))

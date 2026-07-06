@@ -127,13 +127,13 @@ struct TestDetailModal: View {
                         retakeTest()
                     }
                     .disabled(!canRetake)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Close") {
                         isPresented = false
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
             }
         }

@@ -95,12 +95,6 @@ struct VerbsHelpSupportView: View {
                         }
                         .listRowBackground(Color.clear)
                     }
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            SplitTitleView("Contact us", splitIndex: 7)
-                        }
-                    }
                 } else {
                     VStack {
                         Spacer(minLength: 0)
@@ -154,22 +148,23 @@ struct VerbsHelpSupportView: View {
                     }
                     .frame(maxHeight: .infinity, alignment: .top)
                     .padding(.vertical, 32)
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            SplitTitleView("Help and support", splitIndex: 9)
-                        }
-                    }
                 }
             }
             .background(Color(.systemGroupedBackground).ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
                     if showForm {
-                        Button("Cancel") { showForm = false }
+                        SettingsModalPlainButton(title: "Cancel", action: { showForm = false })
                     } else {
-                        Button("Close") { dismiss() }
+                        SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                    }
+                }
+                ToolbarItem(placement: .principal) {
+                    if showForm {
+                        SplitTitleView("Contact us", splitIndex: 7)
+                    } else {
+                        SplitTitleView("Help and support", splitIndex: 9)
                     }
                 }
             }

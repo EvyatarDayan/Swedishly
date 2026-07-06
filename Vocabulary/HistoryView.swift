@@ -130,7 +130,7 @@ struct HistoryView: View {
                         }) {
                             Text("Close")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                     }
                     .padding(.horizontal, 25)
@@ -193,7 +193,7 @@ struct HistoryView: View {
         VStack(spacing: 20) {
             Image(systemName: "chart.bar.doc.horizontal")
                 .font(.system(size: 60))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appRed)
             Text("No History Yet")
                 .font(.title2)
                 .fontWeight(.semibold)
@@ -571,7 +571,7 @@ struct HistoryItemDetailModal: View {
                         onDismiss()
                         dismiss()
                     }
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                 }
             }
         }

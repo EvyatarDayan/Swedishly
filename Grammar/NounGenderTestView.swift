@@ -45,7 +45,7 @@ struct NounGenderTestView: View {
                     Button(action: { showingResetConfirmation = true }) {
                         Text("Reset")
                             .font(.body)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                 }
             }
@@ -155,7 +155,7 @@ struct NounGenderTestView: View {
                                                 .renderingMode(.template)
                                                 .aspectRatio(contentMode: .fit)
                                                 .frame(width: 28, height: 28)
-                                                .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                                                .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                                                 .padding(8)
                                         }
                                         .disabled(!audioManager.isAudioReady || audioManager.isPlaying)
@@ -183,7 +183,7 @@ struct NounGenderTestView: View {
                                     }) {
                                         Text("English here")
                                             .font(.system(size: 14, weight: .medium))
-                                            .foregroundColor(.blue)
+                                            .foregroundColor(.appRed)
                                     }
                                     .frame(maxWidth: .infinity)
                                     .frame(minHeight: 24)
@@ -273,7 +273,7 @@ struct NounGenderTestView: View {
                                         }) {
                                             Text("Why?")
                                                 .font(.headline)
-                                                .foregroundColor(.blue)
+                                                .foregroundColor(.appRed)
                                                 .padding(.horizontal, 12)
                                                 .padding(.vertical, 6)
                                                 .cornerRadius(8)
@@ -314,7 +314,7 @@ struct NounGenderTestView: View {
                                             .foregroundColor(.white)
                                             .padding()
                                             .frame(maxWidth: .infinity)
-                                            .background(Color.blue)
+                                            .background(Color.appRed)
                                             .cornerRadius(12)
                                     }
                                 }
@@ -345,7 +345,7 @@ struct NounGenderTestView: View {
                                         .foregroundColor(.white)
                                         .padding()
                                         .frame(maxWidth: .infinity)
-                                        .background(viewModel.showFeedback ? Color.blue : Color.gray)
+                                        .background(viewModel.showFeedback ? Color.appRed : Color.gray)
                                         .cornerRadius(12)
                                 }
                                 .disabled(!viewModel.showFeedback)

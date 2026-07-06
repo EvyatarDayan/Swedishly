@@ -18,7 +18,7 @@ struct NotificationSettingsModal: View {
                 VStack(alignment: .leading, spacing: 16) {
                     Text("Notifications")
                         .font(.system(size: 20, weight: .bold))
-                        .foregroundColor(.primary)
+                        .foregroundColor(.appRed)
                     
                     Toggle("Enable Daily Reminders", isOn: Binding(
                         get: { notificationManager.notificationsEnabled },
@@ -27,6 +27,7 @@ struct NotificationSettingsModal: View {
                         }
                     ))
                     .font(.system(size: 17))
+                    .tint(.appRed)
                     
                     if notificationManager.notificationsEnabled {
                         Text("You'll receive a daily reminder to practice your Swedish vocabulary.")
@@ -42,7 +43,7 @@ struct NotificationSettingsModal: View {
                     VStack(alignment: .leading, spacing: 16) {
                         Text("Daily Reminder Time")
                             .font(.system(size: 20, weight: .bold))
-                            .foregroundColor(.primary)
+                            .foregroundColor(.appRed)
                         
                         DatePicker(
                             "Time",
@@ -67,13 +68,17 @@ struct NotificationSettingsModal: View {
                 
                 Spacer()
             }
-            .navigationTitle("Notification Settings")
+            .background(Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                ToolbarItem(placement: .principal) {
+                    Text("Notification Settings")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

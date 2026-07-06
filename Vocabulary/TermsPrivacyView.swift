@@ -21,6 +21,7 @@ struct TermsPrivacyView: View {
                     Text("Disclaimer").tag(2)
                 }
                 .pickerStyle(.segmented)
+                .tint(.appRed)
                 .padding(.horizontal)
                 .padding(.top, 8)
                 
@@ -43,11 +44,10 @@ struct TermsPrivacyView: View {
                     Text("Terms & Privacy")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

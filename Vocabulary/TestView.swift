@@ -113,7 +113,7 @@ struct SWVocabularyTestView: View {
                         }) {
                             Text("History")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                     }
                     Spacer()
@@ -142,7 +142,7 @@ struct SWVocabularyTestView: View {
                             retakeTest()
                         }) {
                             Text("Retake")
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                     } else if !testWords.isEmpty && !isHistoricalTest {
                         // Reset button for test in progress (styled like Practice reset)
@@ -151,7 +151,7 @@ struct SWVocabularyTestView: View {
                         }) {
                             Text("Reset")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                     }
                 }
@@ -168,8 +168,10 @@ struct SWVocabularyTestView: View {
                     
                     Image("Test")
                         .resizable()
+                        .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 80, height: 80)
+                        .foregroundColor(.appRed)
                     
                     Text("Translate 10 random words. Use hints if you’re stuck. Lycka till!")
                         .font(.body)
@@ -188,7 +190,7 @@ struct SWVocabularyTestView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Color.blue)
+                            .background(Color.appRed)
                             .cornerRadius(12)
                     }
                     .padding(.horizontal, 40)
@@ -198,10 +200,10 @@ struct SWVocabularyTestView: View {
                     }) {
                         Text("Previous tests")
                             .font(.headline)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Color.blue.opacity(0.1))
+                            .background(Color.appRed.opacity(0.1))
                             .cornerRadius(12)
                     }
                     .padding(.horizontal, 60)
@@ -599,7 +601,7 @@ struct TestWordCard: View {
                 Text(wordItem.word.swedish)
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 
                 // Vertical divider in the center
@@ -629,7 +631,7 @@ struct TestWordCard: View {
                         .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 24, height: 24)
-                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                         .opacity(audioManager.isPlaying ? 0.5 : 1.0)
                 }
                 .disabled(!audioManager.isAudioReady || audioManager.isPlaying)
@@ -639,7 +641,7 @@ struct TestWordCard: View {
                 Text(wordItem.word.swedish)
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
                     .frame(maxWidth: .infinity)
                 
                 // Play button icon on the right
@@ -648,7 +650,7 @@ struct TestWordCard: View {
                     .renderingMode(.template)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 35, height: 35)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     .padding(.leading, 12)
             }
         }
@@ -791,7 +793,7 @@ struct TranslationInputModal: View {
             HStack(spacing: 12) {
                 Text(word.swedish)
                     .font(.system(size: swedishWordFontSize, weight: .bold))
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
                     .lineLimit(1)
                     .fixedSize(horizontal: false, vertical: true)
                     .layoutPriority(1)
@@ -815,7 +817,7 @@ struct TranslationInputModal: View {
                         .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 48, height: 48)
-                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                         .opacity(audioManager.isPlaying ? 0.5 : 1.0)
                         .scaleEffect(isAudioButtonPressed ? 0.9 : 1.0)
                 }
@@ -921,7 +923,7 @@ struct TranslationInputModal: View {
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 12)
-                        .stroke(showingFeedback ? (isCorrect ? Color.green : Color.red) : (isTextFieldFocused ? Color.blue : Color(.separator)), lineWidth: showingFeedback ? 2 : (isTextFieldFocused ? 2 : 1))
+                        .stroke(showingFeedback ? (isCorrect ? Color.green : Color.red) : (isTextFieldFocused ? Color.appRed : Color(.separator)), lineWidth: showingFeedback ? 2 : (isTextFieldFocused ? 2 : 1))
                 )
                 .animation(.easeInOut(duration: 0.2), value: showingFeedback)
                 
@@ -944,7 +946,7 @@ struct TranslationInputModal: View {
                         .padding(.horizontal, 20)
                         .padding(.vertical, 16)
                         .frame(height: 56)
-                        .background(showingFeedback ? (isCorrect ? Color.green : Color.red) : (translation.trimmingCharacters(in: .whitespaces).isEmpty ? Color.gray : Color.blue))
+                        .background(showingFeedback ? (isCorrect ? Color.green : Color.red) : (translation.trimmingCharacters(in: .whitespaces).isEmpty ? Color.gray : Color.appRed))
                         .cornerRadius(12)
                 }
                 .disabled(translation.trimmingCharacters(in: .whitespaces).isEmpty)
@@ -997,7 +999,7 @@ struct TranslationInputModal: View {
                         .padding(.vertical, 12)
                         .padding(.horizontal, 8)
                         .background(
-                            Color.blue.opacity(0.1)
+                            Color.appRed.opacity(0.1)
                         )
                         .cornerRadius(8)
                 }
@@ -1015,7 +1017,7 @@ struct TranslationInputModal: View {
                         .padding(.vertical, 12)
                         .padding(.horizontal, 8)
                         .background(
-                            Color.blue.opacity(0.1)
+                            Color.appRed.opacity(0.1)
                         )
                         .cornerRadius(8)
                 }
@@ -1093,10 +1095,10 @@ struct TranslationInputModal: View {
                         Text(helpButtonText)
                             .font(.headline)
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                             .padding(.horizontal, 20)
                             .padding(.vertical, 12)
-                            .background(Color.blue.opacity(0.1))
+                            .background(Color.appRed.opacity(0.1))
                             .cornerRadius(10)
                     }
                     Spacer()
@@ -1141,7 +1143,7 @@ struct TranslationInputModal: View {
                     }) {
                         Text("Close")
                             .font(.body)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                 }
                 
@@ -1257,7 +1259,7 @@ struct TestHistoryView: View {
                     }) {
                         Text("Close")
                             .font(.body)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                 }
             }

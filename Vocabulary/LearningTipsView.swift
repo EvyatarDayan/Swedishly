@@ -71,7 +71,7 @@ struct LearningTipsView: View {
                         Text("What NOT to do")
                             .font(.title3)
                             .fontWeight(.bold)
-                            .foregroundColor(.red)
+                            .foregroundColor(.appRed)
                         
                         VStack(alignment: .leading, spacing: 8) {
                             Text("• Don't memorize long word lists")
@@ -95,7 +95,7 @@ struct LearningTipsView: View {
                         Text("The simplest winning routine (5 minutes)")
                             .font(.title3)
                             .fontWeight(.bold)
-                            .foregroundColor(.green)
+                            .foregroundColor(.appRed)
                         
                         VStack(alignment: .leading, spacing: 8) {
                             Text("• Pick 5 words")
@@ -125,11 +125,10 @@ struct LearningTipsView: View {
                     Text("Learning Tips")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -157,14 +156,14 @@ struct TipSection: View {
             Text(number)
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
                 .frame(width: 30)
             
             VStack(alignment: .leading, spacing: 8) {
                 Text(title)
                     .font(.headline)
                     .fontWeight(.semibold)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
                 
                 Text(description)
                     .font(.body)

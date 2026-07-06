@@ -133,7 +133,7 @@ struct AdjectivesHistoryView: View {
                         Button(action: { dismiss() }) {
                             Text("Close")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                     }
                     .padding(.horizontal, 25)
@@ -244,7 +244,7 @@ struct AdjectivesHistoryResultRow: View {
                     }
                     .font(isLargeScreen ? .subheadline : .body)
                     .fontWeight(.medium)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     Text("•")
                         .foregroundColor(.secondary)
                 }

@@ -159,9 +159,10 @@ struct MyListView: View {
         VStack(spacing: 20) {
             Image("My list")
                 .resizable()
+                .renderingMode(.template)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 80, height: 80)
-                .foregroundColor(.secondary)
+                .foregroundColor(.appRed)
             
             Text("No words in your list")
                 .font(.title2)
@@ -215,7 +216,7 @@ struct MyListWordRow: View {
                         .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 24, height: 24)
-                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                         .opacity(audioManager.isPlaying ? 0.5 : 1.0)
                 }
                 .disabled(!audioManager.isAudioReady || audioManager.isPlaying)
@@ -225,7 +226,7 @@ struct MyListWordRow: View {
                 Text(word.swedish)
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.appRed)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 
                 // Divider
@@ -242,7 +243,7 @@ struct MyListWordRow: View {
                 // Info icon (visual indicator)
                 Image(systemName: "info.circle.fill")
                     .font(.system(size: 20))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
             }
             .frame(height: 30)
             .padding(16)

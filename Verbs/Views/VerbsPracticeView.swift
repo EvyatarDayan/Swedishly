@@ -14,10 +14,10 @@ struct VerbsPracticeView: View {
     @State private var selectedVerb: Verb?
     @State private var showTestAddedAlert = false
     @State private var newTestName: String = ""
-    @State private var newTestId: String = ""
     @State private var hasSetAsTest = false
     @State private var showVerbs = false
     @State private var isFirstAppearance = true
+    @State private var testAddedAlertDismissTask: Task<Void, Never>?
     @Binding var selectedTab: Int
     @Binding var testToAnimate: String?
 
@@ -43,11 +43,11 @@ struct VerbsPracticeView: View {
                 Spacer()
                 Button(action: refreshPractice) {
                     Image(systemName: "arrow.clockwise")
-                        .font(.system(size: 18))
-                        .foregroundColor(.blue)
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundColor(.appRed)
                 }
                 .padding(.top, 8)
-                .padding(.trailing, 20)
+                .padding(.trailing, 10)
             }
             .padding(.horizontal, 20)
             .padding(.top, 8)
@@ -123,7 +123,6 @@ struct VerbsPracticeView: View {
                                     testManager.addTest(verbs: practiceVerbs)
                                     if testManager.tests.count > testCountBefore, let newTest = testManager.tests.first {
                                         newTestName = newTest.name
-                                        newTestId = newTest.id
                                         showTestAddedAlert = true
                                     }
                                     hasSetAsTest = true
@@ -134,7 +133,7 @@ struct VerbsPracticeView: View {
                                         .foregroundColor(.white)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 14)
-                                        .background(hasSetAsTest ? Color.gray : Color.blue)
+                                        .background(hasSetAsTest ? Color.gray : Color.appRed)
                                         .cornerRadius(12)
                                 }
                                 .disabled(hasSetAsTest)
@@ -148,11 +147,16 @@ struct VerbsPracticeView: View {
                         VerbDetailView(verb: verb, isPracticeMode: true)
                     }
                     .alert("New test added as \"\(newTestName)\"", isPresented: $showTestAddedAlert) {
-                        Button("OK") { showTestAddedAlert = false }
-                        Button("Open test") {
-                            showTestAddedAlert = false
-                            testToAnimate = newTestId
-                            selectedTab = 0
+                        Button("OK") {
+                            dismissTestAddedAlert()
+                        }
+                    }
+                    .onChange(of: showTestAddedAlert) { _, isShowing in
+                        if isShowing {
+                            scheduleTestAddedAlertAutoDismiss()
+                        } else {
+                            testAddedAlertDismissTask?.cancel()
+                            testAddedAlertDismissTask = nil
                         }
                     }
             }
@@ -161,6 +165,23 @@ struct VerbsPracticeView: View {
         .background(Color(.systemGroupedBackground).ignoresSafeArea())
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
+    }
+
+    private func dismissTestAddedAlert() {
+        testAddedAlertDismissTask?.cancel()
+        testAddedAlertDismissTask = nil
+        showTestAddedAlert = false
+    }
+
+    private func scheduleTestAddedAlertAutoDismiss() {
+        testAddedAlertDismissTask?.cancel()
+        testAddedAlertDismissTask = Task {
+            try? await Task.sleep(for: .seconds(5))
+            guard !Task.isCancelled else { return }
+            await MainActor.run {
+                showTestAddedAlert = false
+            }
+        }
     }
 
     private func startPractice(count: Int) {

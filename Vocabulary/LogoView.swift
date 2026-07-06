@@ -28,14 +28,15 @@ struct LogoView: View {
                 VStack(spacing: 20) {
                     logoView
 
-                    SplitTitleView("Swedishly", splitIndex: 5, fontSize: 34)
+                    SplitTitleView("Welcome to Swedishly", splitIndex: 5, fontSize: 28)
 
-                    Text("Practice vocabulary, grammar, verbs, adjectives, and word order -  everything you need to learn Swedish, all in one app.")
-                        .font(.title2)
-                        .foregroundColor(.gray)
+                    Text("Master vocabulary, grammar, verbs, adjectives, and word order. Everything you need to speak Swedish with confidence, all in one friendly app.")
+                        .font(.body)
+                        .foregroundColor(darkModeEnabled ? .white : .black)
                         .multilineTextAlignment(.center)
                         .lineSpacing(4)
                         .padding(.horizontal, 4)
+                        .padding(.top, 15)
 
                     Button(action: startApp) {
                         Text("Get Started")
@@ -47,7 +48,7 @@ struct LogoView: View {
                             .background(Color.appRed)
                             .clipShape(Capsule())
                     }
-                    .padding(.top, 70)
+                    .padding(.top, 40)
                 }
                 .padding(.horizontal, 32)
 
@@ -59,7 +60,7 @@ struct LogoView: View {
                     HStack(spacing: 10) {
                         Image(systemName: dontShowAgain ? "checkmark.square.fill" : "square")
                             .font(.title3)
-                            .foregroundStyle(dontShowAgain ? Color.blue : Color.gray)
+                            .foregroundStyle(dontShowAgain ? Color.appRed : Color.gray)
 
                         Text("Don't show this again")
                             .font(.subheadline)

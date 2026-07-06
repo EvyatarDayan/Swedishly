@@ -571,13 +571,16 @@ struct WorderNotificationSettingsModal: View {
                     }
                 }
             }
-            .navigationTitle("Notifications")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                ToolbarItem(placement: .principal) {
+                    Text("Notifications")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -623,7 +626,7 @@ struct WorderLearningTipsView: View {
                         Text("Subject + VERB + Rest")
                             .font(.system(.body, design: .monospaced))
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                         Text("Jag + läser + en bok. (I am reading a book.)")
                             .font(.body)
                             .foregroundColor(.primary)
@@ -648,7 +651,7 @@ struct WorderLearningTipsView: View {
                         Text("Time/Place + VERB + Subject + Rest")
                             .font(.system(.body, design: .monospaced))
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                         Text("Nu + läser + jag + en bok. (Now am reading I a book.)")
                             .font(.body)
                             .foregroundColor(.primary)
@@ -673,7 +676,7 @@ struct WorderLearningTipsView: View {
                         Text("Subject + VERB + inte")
                             .font(.system(.body, design: .monospaced))
                             .fontWeight(.medium)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                         Text("Jag + läser + inte. (I do not read.)")
                             .font(.body)
                             .foregroundColor(.primary)
@@ -799,11 +802,10 @@ struct WorderLearningTipsView: View {
                     Text("Learning Tips")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -832,7 +834,7 @@ struct WorderTipSection: View {
             Text(number)
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundColor(.blue)
+                .foregroundColor(.appRed)
                 .frame(width: 30)
             
             VStack(alignment: .leading, spacing: 8) {
@@ -968,11 +970,10 @@ struct WorderTermsPrivacyView: View {
                     Text("Terms & Privacy")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
@@ -1211,14 +1212,6 @@ struct WorderHelpSupportView: View {
                         }
                         .listRowBackground(Color.clear)
                     }
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Contact us")
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                        }
-                    }
                 } else {
                     VStack {
                         Spacer(minLength: 0)
@@ -1284,29 +1277,23 @@ struct WorderHelpSupportView: View {
                     }
                     .frame(maxHeight: .infinity, alignment: .top)
                     .padding(.vertical, 32)
-                    .navigationBarTitleDisplayMode(.inline)
-                    .toolbar {
-                        ToolbarItem(placement: .principal) {
-                            Text("Help & Support")
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                        }
-                    }
                 }
             }
             .background(Color(.systemGroupedBackground).ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
                     if showForm {
-                        Button("Cancel") {
-                            showForm = false
-                        }
+                        SettingsModalPlainButton(title: "Cancel", action: { showForm = false })
                     } else {
-                        Button("Close") {
-                            dismiss()
-                        }
+                        SettingsModalPlainButton(title: "Done", action: { dismiss() })
                     }
+                }
+                ToolbarItem(placement: .principal) {
+                    Text(showForm ? "Contact us" : "Help & Support")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
             }
             .alert(isPresented: Binding(
@@ -1395,11 +1382,10 @@ struct WorderAboutView: View {
                     Text("About")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                    }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

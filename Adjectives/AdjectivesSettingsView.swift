@@ -240,8 +240,18 @@ struct AdjectivesNotificationSettingsModal: View {
                     } header: { Text("Notification time") }
                 }
             }
-            .navigationTitle("Notifications").navigationBarTitleDisplayMode(.inline)
-            .toolbar { ToolbarItem(placement: .navigationBarTrailing) { Button("Done") { dismiss() } } }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Notifications")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                }
+            }
         }
     }
 }
@@ -287,8 +297,15 @@ struct AdjectivesLearningTipsView: View {
             .background(colorScheme == .dark ? Color.black : Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .principal) { Text("Learning Tips").font(.headline).fontWeight(.semibold) }
-                ToolbarItem(placement: .navigationBarTrailing) { Button("Done") { dismiss() } }
+                ToolbarItem(placement: .principal) {
+                    Text("Learning Tips")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                }
             }
         }
     }
@@ -310,7 +327,7 @@ struct AdjectivesTipSection: View {
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Text(number).font(.title2).fontWeight(.bold).foregroundColor(.blue).frame(width: 30)
+            Text(number).font(.title2).fontWeight(.bold).foregroundColor(.appRed).frame(width: 30)
             VStack(alignment: .leading, spacing: 8) {
                 Text(title).font(.headline).fontWeight(.semibold).foregroundColor(.primary)
                 Text(description).font(.body).foregroundColor(.secondary)
@@ -368,8 +385,15 @@ struct AdjectivesTermsPrivacyView: View {
             }.background(Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .principal) { Text("Terms & Privacy").font(.headline).fontWeight(.semibold) }
-                ToolbarItem(placement: .navigationBarTrailing) { Button("Done") { dismiss() } }
+                ToolbarItem(placement: .principal) {
+                    Text("Terms & Privacy")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                }
             }
         }
     }
@@ -428,7 +452,7 @@ struct AdjectivesHelpSupportView: View {
                                     .background(allFieldsFilled ? Color.green : Color.gray).cornerRadius(12)
                             }.disabled(!allFieldsFilled)
                         }.listRowBackground(Color.clear)
-                    }.toolbar { ToolbarItem(placement: .principal) { Text("Contact us").font(.headline).fontWeight(.semibold) } }
+                    }
                 } else {
                     VStack(spacing: 32) {
                         Text("We'd love to hear from you!").font(.title3).fontWeight(.bold)
@@ -437,12 +461,23 @@ struct AdjectivesHelpSupportView: View {
                         Button(action: { showForm = true }) {
                             Text("Contact form").font(.headline).foregroundColor(.white).frame(maxWidth: .infinity).frame(height: 50).background(Color.green).cornerRadius(12).padding(.horizontal, 32)
                         }
-                    }.padding(.vertical, 32).toolbar { ToolbarItem(placement: .principal) { Text("Help & Support").font(.headline).fontWeight(.semibold) } }
+                    }.padding(.vertical, 32)
                 }
             }.background(Color(.systemGroupedBackground).ignoresSafeArea())
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    if showForm { Button("Cancel") { showForm = false } } else { Button("Close") { dismiss() } }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    if showForm {
+                        SettingsModalPlainButton(title: "Cancel", action: { showForm = false })
+                    } else {
+                        SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                    }
+                }
+                ToolbarItem(placement: .principal) {
+                    Text(showForm ? "Contact us" : "Help & Support")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
                 }
             }
             .alert(isPresented: Binding(get: { alertType != .none }, set: { if !$0 { alertType = .none } })) {
@@ -476,8 +511,15 @@ struct AdjectivesAboutView: View {
             }.background(Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .principal) { Text("About").font(.headline).fontWeight(.semibold) }
-                ToolbarItem(placement: .navigationBarTrailing) { Button("Done") { dismiss() } }
+                ToolbarItem(placement: .principal) {
+                    Text("About")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.appRed)
+                }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
+                }
             }
         }
     }

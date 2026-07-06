@@ -360,13 +360,13 @@ struct WorderHistoryDetailModal: View {
                     }) {
                         Text("Retake")
                             .font(.body)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                     Spacer()
                     Button(action: { dismiss() }) {
                         Text("Close")
                             .font(.body)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                     }
                 }
                 .buttonStyle(PlainButtonStyle())
@@ -458,7 +458,7 @@ struct WorderHistoryDetailModal: View {
                         Button(action: { dismiss() }) {
                             Text("Close")
                                 .font(.body)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                         }
                         .padding(.top, 20)
                         .padding(.trailing, 10)
@@ -546,7 +546,7 @@ struct WorderHistoryDetailModal: View {
                                         .foregroundColor(.white)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 16)
-                                        .background(Color.blue)
+                                        .background(Color.appRed)
                                         .cornerRadius(12)
                                 }
                                 .padding(.horizontal, 20)
@@ -601,7 +601,7 @@ struct WorderHistoryResultRow: View {
                             Text(typeLabel)
                                 .font(.system(size: isLargePhone ? 20 : 18))
                                 .fontWeight(.medium)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.appRed)
                             Text("•")
                                 .foregroundColor(.secondary)
                         }

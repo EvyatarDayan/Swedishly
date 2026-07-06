@@ -81,7 +81,7 @@ struct TestResultsView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(Color.blue)
+                            .background(Color.appRed)
                             .cornerRadius(12)
                     }
                     
@@ -91,7 +91,7 @@ struct TestResultsView: View {
                     }) {
                         Text("Close")
                             .font(.headline)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.appRed)
                             .frame(maxWidth: .infinity)
                             .padding()
                             .background(Color(.systemGray6))

@@ -25,10 +25,30 @@ struct AddManualSentenceModal: View {
     @State private var speechErrorText: String?
     @FocusState private var isSwedishFieldFocused: Bool
     @FocusState private var isEnglishFieldFocused: Bool
+
+    private var canSave: Bool {
+        !swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
+        !englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+
+    private func saveSentence() {
+        guard canSave else { return }
+        speechRecognizer.stopRecording()
+        let sw = swedishText.trimmingCharacters(in: .whitespacesAndNewlines)
+        let en = englishText.trimmingCharacters(in: .whitespacesAndNewlines)
+        manualManager.addManualSentence(Sentence(swedish: sw, english: en))
+        dismiss()
+    }
+
+    private func cancelAdd() {
+        speechRecognizer.stopRecording()
+        dismiss()
+    }
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            ZStack {
+                ScrollView {
                 VStack(spacing: 0) {
                     VStack(spacing: 20) {
                         Text("Swedish")
@@ -72,7 +92,7 @@ struct AddManualSentenceModal: View {
                                 }) {
                                     Image(systemName: isRecordingSwedish ? "stop.circle.fill" : "mic.fill")
                                         .font(.system(size: 40))
-                                        .foregroundColor(isRecordingSwedish ? .red : .blue)
+                                        .foregroundColor(isRecordingSwedish ? .red : .appRed)
                                 }
                                 .disabled(isRecordingEnglish)
                             }
@@ -155,7 +175,7 @@ struct AddManualSentenceModal: View {
                                 }) {
                                     Image(systemName: isRecordingEnglish ? "stop.circle.fill" : "mic.fill")
                                         .font(.system(size: 40))
-                                        .foregroundColor(isRecordingEnglish ? .red : .blue)
+                                        .foregroundColor(isRecordingEnglish ? .red : .appRed)
                                 }
                                 .disabled(isRecordingSwedish)
                             }
@@ -194,41 +214,37 @@ struct AddManualSentenceModal: View {
                     .padding(.bottom, 40)
                 }
             }
-            .navigationTitle("Add Sentence")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: {
-                        speechRecognizer.stopRecording()
-                        let sw = swedishText.trimmingCharacters(in: .whitespacesAndNewlines)
-                        let en = englishText.trimmingCharacters(in: .whitespacesAndNewlines)
-                        if !sw.isEmpty && !en.isEmpty {
-                            manualManager.addManualSentence(Sentence(swedish: sw, english: en))
-                            dismiss()
-                        }
-                    }) {
+
+                VStack(spacing: 0) {
+                    HStack {
                         Text("Save")
-                            .font(.headline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.green)
+                            .font(.body)
+                            .foregroundColor(canSave ? .appRed : .gray)
+                            .contentShape(Rectangle())
+                            .onTapGesture { saveSentence() }
+
+                        Spacer()
+
+                        Text("Cancel")
+                            .font(.body)
+                            .foregroundColor(.appRed)
+                            .contentShape(Rectangle())
+                            .onTapGesture { cancelAdd() }
                     }
-                    .disabled(swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
-                             englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                }
-                ToolbarItem(placement: .principal) {
+                    .padding(.horizontal, 30)
+                    .padding(.top, 30)
+
                     Image("Talking")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: UIDevice.current.userInterfaceIdiom == .pad ? 150 : 100, height: UIDevice.current.userInterfaceIdiom == .pad ? 150 : 100)
-                        .padding(.top, 140)
+                        .padding(.top, 8)
+
+                    Spacer()
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Cancel") {
-                        speechRecognizer.stopRecording()
-                        dismiss()
-                    }
-                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
+            .toolbar(.hidden, for: .navigationBar)
         }
         .onAppear {
             speechRecognizer.setOnRecordingStopped {
@@ -398,7 +414,7 @@ struct EditManualSentenceModal: View {
                                 }) {
                                     Image(systemName: isRecordingSwedish ? "stop.circle.fill" : "mic.fill")
                                         .font(.system(size: 40))
-                                        .foregroundColor(isRecordingSwedish ? .red : .blue)
+                                        .foregroundColor(isRecordingSwedish ? .red : .appRed)
                                 }
                                 .disabled(isRecordingEnglish)
                             }
@@ -479,7 +495,7 @@ struct EditManualSentenceModal: View {
                                 }) {
                                     Image(systemName: isRecordingEnglish ? "stop.circle.fill" : "mic.fill")
                                         .font(.system(size: 40))
-                                        .foregroundColor(isRecordingEnglish ? .red : .blue)
+                                        .foregroundColor(isRecordingEnglish ? .red : .appRed)
                                 }
                                 .disabled(isRecordingSwedish)
                             }
@@ -711,7 +727,7 @@ struct ManualSentenceModalView: View {
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 50)
-                                .background(Color.green)
+                                .background(Color.appRed)
                                 .cornerRadius(12)
                             }
                             .padding(.horizontal, 20)
@@ -757,14 +773,14 @@ struct ManualSentenceModalView: View {
                                 if audioManager.isPlaying {
                                     Image(systemName: "pause.circle.fill")
                                         .font(.system(size: 40, weight: .medium))
-                                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                                 } else {
                                     Image("audio-headphone")
                                         .resizable()
                                         .renderingMode(.template)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 40, height: 40)
-                                        .foregroundColor(audioManager.isAudioReady ? .blue : .gray)
+                                        .foregroundColor(audioManager.isAudioReady ? .appRed : .gray)
                                 }
                             }
                             .frame(width: 60, height: 60)
@@ -824,7 +840,7 @@ struct ManualSentenceModalView: View {
                             Text(currentSentence.english)
                                 .font(.title)
                                 .fontWeight(.medium)
-                                .foregroundColor(.green)
+                                .foregroundColor(.appRed)
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 20)
                                 .scaleEffect(isRefreshing ? 0.85 : 1.0)
@@ -841,17 +857,29 @@ struct ManualSentenceModalView: View {
                     }
                     .zIndex(1)
                 }
-            }
-            .navigationTitle("My list")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: { showingEditModal = true }) {
+
+                VStack(spacing: 0) {
+                    HStack {
                         Text("Edit")
-                            .foregroundColor(.blue)
+                            .font(.body)
+                            .foregroundColor(.appRed)
+                            .contentShape(Rectangle())
+                            .onTapGesture { showingEditModal = true }
+
+                        Spacer()
+
+                        Text("Close")
+                            .font(.body)
+                            .foregroundColor(.appRed)
+                            .contentShape(Rectangle())
+                            .onTapGesture { onDismiss() }
+                            .scaleEffect(isRefreshing ? 0.9 : 1.0)
+                            .opacity(isRefreshing ? 0.5 : 1.0)
+                            .animation(.easeInOut(duration: 0.3), value: isRefreshing)
                     }
-                }
-                ToolbarItem(placement: .principal) {
+                    .padding(.horizontal, 30)
+                    .padding(.top, 30)
+
                     Image("Talking")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -859,20 +887,13 @@ struct ManualSentenceModalView: View {
                         .scaleEffect(isRefreshing ? 0.9 : 1.0)
                         .opacity(isRefreshing ? 0.5 : 1.0)
                         .animation(.easeInOut(duration: 0.3), value: isRefreshing)
-                        .padding(.top, 150)
+                        .padding(.top, 8)
+
+                    Spacer()
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: { onDismiss() }) {
-                        Text("Close")
-                            .font(.body)
-                            .foregroundColor(.blue)
-                    }
-                    .padding(.top, 8)
-                    .scaleEffect(isRefreshing ? 0.9 : 1.0)
-                    .opacity(isRefreshing ? 0.5 : 1.0)
-                    .animation(.easeInOut(duration: 0.3), value: isRefreshing)
-                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
+            .toolbar(.hidden, for: .navigationBar)
             .sheet(isPresented: $showingEditModal) {
                 EditManualSentenceModal(sentence: currentSentence) { updatedSentence in
                     manualManager.updateManualSentence(updatedSentence)

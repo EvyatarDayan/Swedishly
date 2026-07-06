@@ -37,10 +37,8 @@ struct VerbsTermsPrivacyView: View {
                 ToolbarItem(placement: .principal) {
                     SplitTitleView("Terms & Privacy", splitIndex: 10)
                 }
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

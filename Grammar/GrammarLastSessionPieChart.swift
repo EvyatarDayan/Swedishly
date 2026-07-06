@@ -160,7 +160,7 @@ struct GrammarInitialScreenView: View {
                     Image(imageName)
                         .resizable()
                         .renderingMode(.template)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.appRed)
                 } else {
                     Image(imageName)
                         .resizable()
@@ -184,7 +184,7 @@ struct GrammarInitialScreenView: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .background(Color.blue)
+                    .background(Color.appRed)
                     .cornerRadius(12)
             }
             .padding(.horizontal, 40)
@@ -194,10 +194,10 @@ struct GrammarInitialScreenView: View {
             }) {
                 Text("My previous tests")
                     .font(.headline)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.appRed)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .background(Color.blue.opacity(0.1))
+                    .background(Color.appRed.opacity(0.1))
                     .cornerRadius(12)
             }
             .padding(.horizontal, 60)

@@ -128,12 +128,9 @@ struct SearchBar: View {
 struct VerbRow: View {
     @Environment(\.colorScheme) var colorScheme
     let verb: Verb
-    var useAppRedStyle: Bool = false
     var onOpen: (() -> Void)? = nil
     @StateObject private var speechSynthesizer = SpeechSynthesizer()
     @State private var isPlaying = false
-
-    private var accentColor: Color { useAppRedStyle ? .appRed : .blue }
     
     var body: some View {
         HStack {
@@ -151,6 +148,7 @@ struct VerbRow: View {
             }) {
                 Image("audio-headphone")
                     .resizable()
+                    .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 28, height: 28)
                     .opacity(isPlaying ? 0.5 : 1.0)
@@ -158,7 +156,7 @@ struct VerbRow: View {
                         isPlaying ? Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: true) : .default,
                         value: isPlaying
                     )
-                    .foregroundColor(accentColor)
+                    .foregroundColor(.appRed)
             }
             .buttonStyle(.plain)
             
@@ -168,7 +166,7 @@ struct VerbRow: View {
                 Text(verb.infinitive)
                     .font(.title2)
                     .fontWeight(.medium)
-                    .foregroundColor(accentColor)
+                    .foregroundColor(.appRed)
                     .lineLimit(1)
                     .truncationMode(.tail)
                 
@@ -190,7 +188,7 @@ struct VerbRow: View {
                     .renderingMode(.template)
                     .scaledToFit()
                     .frame(width: 37, height: 37)
-                    .foregroundColor(accentColor)
+                    .foregroundColor(.appRed)
             }
             .buttonStyle(.plain)
         }

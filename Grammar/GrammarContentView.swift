@@ -127,7 +127,7 @@ struct GrammarContentView: View {
                                     .foregroundColor(.white)
                                     .padding()
                                     .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
+                                    .background(Color.appRed)
                                     .cornerRadius(12)
                             }
                             .padding(.top, 8)

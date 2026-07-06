@@ -45,10 +45,8 @@ struct VerbsAboutView: View {
                 ToolbarItem(placement: .principal) {
                     SplitTitleView("About", splitIndex: 2)
                 }
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }

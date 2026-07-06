@@ -30,7 +30,7 @@ enum GrammarSentenceStyle {
         attributedString[fullRange].setAttributes(fullContainer)
         if let range = attributedString.range(of: blankOrAnswer) {
             var blueContainer = AttributeContainer()
-            blueContainer.foregroundColor = .blue
+            blueContainer.foregroundColor = .appRed
             blueContainer.font = .system(size: 20, weight: .bold)
             attributedString[range].setAttributes(blueContainer)
         }
@@ -82,7 +82,7 @@ struct GrammarOptionButton: View {
             .cornerRadius(12)
             .overlay(
                 RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color.blue, lineWidth: 1)
+                    .stroke(Color.appRed, lineWidth: 1)
             )
             .shadow(color: Color.black.opacity(0.1), radius: 2, x: 0, y: 1)
             .scaleEffect(isAnimating ? 1.10 : 1.0)
@@ -97,7 +97,7 @@ struct GrammarOptionButton: View {
         } else if isIncorrect {
             return Color.red.opacity(0.15)
         } else if isSelected {
-            return Color.blue.opacity(0.1)
+            return Color.appRed.opacity(0.1)
         } else {
             return colorScheme == .dark ? Color(.systemGray6) : Color(.systemBackground)
         }

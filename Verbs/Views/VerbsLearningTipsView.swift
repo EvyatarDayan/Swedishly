@@ -101,8 +101,8 @@ struct VerbsLearningTipsView: View {
                 ToolbarItem(placement: .principal) {
                     SplitTitleView("Learning Tips", splitIndex: 9)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                SettingsModalToolbarItem(placement: .navigationBarTrailing) {
+                    SettingsModalPlainButton(title: "Done", action: { dismiss() })
                 }
             }
         }
